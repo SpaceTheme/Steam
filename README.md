@@ -1,5 +1,20 @@
-![Logo](https://media.discordapp.net/attachments/1051825367008153620/1107094789960253460/image.png?width=2023&height=897)
+![Logo](https://media.discordapp.net/attachments/1051825367008153620/1107094789960253460/image.png)
 # SpaceTheme for Steam | v1.0.0 (alpha)
-[Join Discord Server for more News and Updates](https://discord.gg/7Zv8Xz3Vzn)
+[Join Discord Server for Support, News and Updates](https://discord.gg/7Zv8Xz3Vzn)
 
 ## Installation
+**1.** Firstly, ensure that you are in the Steam Beta. To do this, go to Steam Settings, then select Interface, and choose Steam Beta under the Client Beta Participation section. Without this, you won't be able to use the SpaceTheme.
+
+**2.** Next, download the Millennium Steam Patcher from [GitHub](https://github.com/ShadowMonster99/millennium-steam-patcher). Follow the instructions provided to install the patcher.
+
+**3.** After that, download the SpaceTheme.zip file from [Discord](https://discord.com/channels/1104516050537685144/1104552443221655603) or [GitHub](https://github.com/SkyEnergy0/SpaceTheme-Steam/releases).
+
+**4.** Once you have downloaded the `SpaceTheme.zip` file, go to `C:\Program Files (x86)\Steam\steamui\skins` and paste the .zip file there.
+
+**5.** Next, extract the .zip file, and you will see a folder named `Steam SpaceTheme`. Delete the .zip file from the skins folder.
+
+**6.** Go back to Steam Settings, select Interface, and choose the SpaceTheme from the dropdown menu under the Select the skin you wish Steam to use section.
+
+**7.** Finally, restart Steam, and you should have the SpaceTheme installed. Enjoy your new skin!
+
+Voila! You have successfully installed and activated SpaceTheme. Enjoy the new look of your Steam!
