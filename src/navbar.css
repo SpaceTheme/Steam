@@ -1,0 +1,32 @@
+.steamdesktop_TopBar_3Z7VQ {
+  box-shadow: none !important;
+  background: var(--background-color) !important;
+}
+.steamdesktop_URLBarReplacement_2Cmrn {
+  box-shadow: none !important;
+  background: var(--background-color) !important;
+}
+
+/* Logo */
+.rootmenu_RootMenuButton_2UyOB {
+  display: flex;
+}
+.rootmenu_SteamButton_bSKGl {
+  font-size: 0px;
+}
+.rootmenu_SteamButton_bSKGl::after {
+  display: flex;
+  align-items: center;
+  margin-left: -4px;
+  content: "Space" !important;
+  font-weight: 500;
+  font-size: 12px !important;
+  color: var(--Space-logo-text);
+}
+.rootmenu_RootMenuButton_2UyOB:nth-of-type(1)::after {
+  display: flex;
+  align-items: center;
+  content: "Theme" !important;
+  font-weight: 900;
+  color: var(--Theme-logo-text);
+}

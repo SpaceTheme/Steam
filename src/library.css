@@ -1,0 +1,113 @@
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Side Game List
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Base
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+.library_LeftListSizableContainer_9sPoV {
+	margin: 0 0 15px;
+}
+.gamelistbar_Container_3x1Hk {
+	margin: 0 15px 15px;
+	background-image: none;
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Home
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+/* Base */
+.gamelistbar_GameListHomeAndSearch_2TKEa {
+	height: unset;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: var(--2th-color);
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Dropdown
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+/* Base */
+.gamelistdropdown_Bar_1ZS_x {
+	background: var(--2th-color);
+	border-radius: 8px 8px 0 0;
+	margin-top: 15px;
+}
+
+/* Dropdown */
+.gamelistdropdown_Bar_1ZS_x
+.gamelistdropdown_MenuHeader_2PF_m {
+	border-radius: 8px;
+	background-color: var(--3th-color);
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Search
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+/* Base */
+.gamelistsearchbar_Container_20QAC {
+	background: var(--2th-color);
+}
+
+/* Search */
+.gamelistsearchbar_SearchInput_12vo5 {
+	border-radius: 8px 0 0 8px !important;
+}
+.gamelistsearchbar_SearchInput_12vo5 input {
+	background-color: var(--3th-color) !important;
+}
+/* Filter Icon */
+.gamelistsearchbar_AdvancedSearchContainer_vCCmY {
+	border-radius: 0 8px 8px 0 !important;
+	background-color: var(--3th-color) !important;
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?List
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+/* Base */
+.gamelist_Container_1ijTa {
+	background-color: var(--2th-color);
+	border-radius: 0 0 8px 8px;
+}
+
+/* Collections */
+.gamelistsectionheader_Container_2sYIg {
+	background: none;
+}
