@@ -1,6 +1,4 @@
-<a href="https://github.com/SkyEnergy0/SpaceTheme-Discord">
-    <img src="https://media.discordapp.net/attachments/1107274994288959510/1107656085583708240/image.png">
-</a>
+[![Banner](https://media.discordapp.net/attachments/1107274994288959510/1107656085583708240/image.png)](https://github.com/SkyEnergy0/SpaceTheme-Discord)
 
 ![Logo](https://media.discordapp.net/attachments/1107274994288959510/1107276526757617684/image.png)
 # SpaceTheme for Steam | v1.0.0 (alpha)
