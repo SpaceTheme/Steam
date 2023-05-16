@@ -4,6 +4,10 @@
 # SpaceTheme for Steam | v1.0.0 (alpha)
 [Join Discord Server for Support, News and Updates](https://discord.gg/7Zv8Xz3Vzn)
 
+<a href="https://ko-fi.com/spaceenergy">
+  <img src="https://cdn.discordapp.com/attachments/1104518841092034631/1108133244198723656/kofi_bg_tag_dark.png" height="60">
+</a>
+  
 ## Installation
 **1.** Firstly, ensure that you are in the Steam Beta. To do this, go to Steam Settings, then select Interface, and choose Steam Beta under the Client Beta Participation section. Without this, you won't be able to use the SpaceTheme.
 
