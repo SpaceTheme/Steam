@@ -15,7 +15,7 @@
 
 **5.** Next, extract the .zip file, and you will see a folder named `Steam SpaceTheme`. Delete the .zip file from the skins folder.
 
-**6.** Go back to Steam Settings, select Interface, and choose the SpaceTheme from the dropdown menu under the Select the skin you wish Steam to use section.
+**6.** Go back to Steam Settings, select Interface, and choose the SpaceTheme from the dropdown menu.
 
 **7.** Finally, restart Steam, and you should have the SpaceTheme installed. Enjoy your new skin!
 
