@@ -1,10 +1,13 @@
 [![Banner](https://media.discordapp.net/attachments/1107274994288959510/1107656085583708240/image.png)](https://github.com/SkyEnergy0/SpaceTheme-Discord)
 
 ![Logo](https://media.discordapp.net/attachments/1107274994288959510/1107276526757617684/image.png)
-# SpaceTheme for Steam | v1.0.0 (alpha)
+# SpaceTheme for Steam | v1.0.1 (alpha)
 [Join Discord Server for Support, News and Updates](https://discord.gg/7Zv8Xz3Vzn)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/spaceenergy)
+
+## Preview (v1.0.1 (alpha))
+![Preview](https://cdn.discordapp.com/attachments/1104518841092034631/1112151798027919410/image.png)
   
 ## Installation
 **1.** Firstly, ensure that you are in the Steam Beta. To do this, go to Steam Settings, then select Interface, and choose Steam Beta under the Client Beta Participation section. Without this, you won't be able to use the SpaceTheme.
