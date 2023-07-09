@@ -1,4 +1,5 @@
 [![Banner](https://media.discordapp.net/attachments/1107274994288959510/1107656085583708240/image.png)](https://github.com/SkyEnergy0/SpaceTheme-Discord)
+![Banner](https://cdn.discordapp.com/attachments/1107274994288959510/1127615213647171684/image.png)
 
 ![Logo](https://media.discordapp.net/attachments/1107274994288959510/1107276526757617684/image.png)
 # SpaceTheme for Steam | v1.0.1 (alpha)
