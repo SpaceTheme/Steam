@@ -1,0 +1,27 @@
+.bottombar_BottomBar_3vCzS {
+    flex: 0 0 60px;
+    margin: 15px;
+    border-radius: 8px;
+    background: var(--color-2);
+    box-shadow: none !important;
+}
+.bottombar_DownloadStatus_2EQ7g {
+    align-items: start;
+}
+.bottombar_DownloadStatusContent_ip-YZ {
+    width: -webkit-fill-available;
+    max-width: 100%;
+}
+.bottombar_ProgressBarWrapper_2_Fom .bottombar_ProgressBar_wi0pD {
+    height: 5px;
+    background-color: var(--color-1);
+}
+.bottombar_ProgressBarWrapper_2_Fom .bottombar_ProgressBar_wi0pD::after {
+    border-radius: 10px;
+    background-color: var(--accent-2);
+}
+
+.bottombar_AddGameButton_2foCk,
+.bottombar_FriendsButton_1TdaA {
+    display: none;
+}

@@ -1,0 +1,130 @@
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Main Game List
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Base
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+.library_MainPanel_3BFcm {
+    margin: 0 15px 0 0;
+    border-radius: 8px;
+}
+.library_AppDetailsTransitionGroup_2Dd4T {
+    border-radius: 8px;
+}
+.library_AppDetailsTransitionGroup_2Dd4T,
+.libraryhome_Container_2gSXC,
+.libraryhome_LibraryHome_3Sb2o {
+    background: none;
+    background-image: none;
+}
+.libraryhome_Container_2gSXC {
+    background: var(--color-3);
+}
+.libraryhome_UpdatesContainer_17uEB {
+    margin: 15px;
+    border-radius: 8px;
+    background: var(--color-2);
+}
+
+
+
+
+/*
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?
+?Download Page
+?
+?
+!=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Base
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+.downloads_DownloadsPage_1bq4x {
+    width: -webkit-fill-available;
+    margin: 0 0 0 15px;
+    border-radius: 8px;
+    background: var(--color-3);
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Banner
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+.downloadgraph_GraphAndStats_3KDkL {
+	width: auto;
+	margin: 15px;
+	border-radius: 8px;
+    background: var(--color-2);
+}
+.downloadgraph_HeroAndLogo_3mZ2r {
+	border-radius: 8px;
+    background: none !important;
+}
+
+
+/*
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+?
+?Main
+?
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*/
+
+
+.downloads_TopBar_SEmVp {
+    display: none;
+}
+
+.downloads_Section_3Mbhn {
+    margin-top: 0;
+    margin-bottom: 12px;
+    padding-bottom: 0;
+}
+.downloads_Section_3Mbhn:nth-child(n+2) {
+    margin-top: 0;
+}
+
+/* Items */
+.downloads_Active_IbePL .downloads_SectionList_OINnO {
+    border: none;
+}
+
+.downloads_SectionItem_1VNuY {
+    padding: 8px 0px 8px 24px;
+    border-radius: 8px !important;
+}
+.downloads_SectionItem_1VNuY:hover {
+    background-color: #252525;
+}
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+    margin: 0 15px;
+}

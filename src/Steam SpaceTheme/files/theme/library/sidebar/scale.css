@@ -1,0 +1,16 @@
+/* Scale Base */
+.library_LibraryWindowDivider_276E6 {
+    margin: auto;
+    margin-left: -10.5px;
+    margin-right: 5.5px;
+    height: 200px;
+    background-color: var(--accent);
+    border-radius: 8px;
+    width: 5px;
+}
+/* Scale :hover:focus:active */
+.library_LibraryWindowDivider_276E6:hover,
+.library_LibraryWindowDivider_276E6:focus,
+.library_LibraryWindowDivider_276E6:active {
+    background-color: var(--accent-2) !important;
+}

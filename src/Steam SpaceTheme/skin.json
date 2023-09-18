@@ -1,0 +1,15 @@
+{
+	"Patches": [
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "main.css"
+        }
+    ],
+    "UseDefaultPatches": true,
+
+    "author": "SpaceEnergy",
+    "description": "Dark Modular Design",
+    "name": "SpaceTheme for Steam",
+    "source": "https://github.com/SpaceEnergy/SpaceTheme-Steam",
+    "version": "v1.0.2.1 (alpha)"
+}
