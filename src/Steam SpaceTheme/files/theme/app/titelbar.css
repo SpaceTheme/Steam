@@ -2,12 +2,15 @@
   box-shadow: none !important;
   background: var(--background) !important;
 }
+.steamdesktop_TitleBar_39oUC {
+  height: 46px;
+}
+.steamdesktop_URLBar_UkR3s,
 .steamdesktop_URLBarReplacement_2Cmrn {
-  box-shadow: none !important;
-  background: var(--background) !important;
+  display: none !important;
 }
 
-/* Logo */
+
 .rootmenu_RootMenuButton_2UyOB {
   display: flex;
 }
@@ -29,4 +32,85 @@
   content: "Theme" !important;
   font-weight: 900;
   color: var(--accent-2);
+}
+
+.rootmenu_RootMenuBar_1Ky59 {
+  margin-top: 0 !important;
+  gap: unset;
+}
+.rootmenu_RootMenuBar_1Ky59
+.menu_MenuWrapper_2Lu3d {
+  padding: 6px 7px;
+  color: transparent;
+}
+.rootmenu_RootMenuBar_1Ky59
+.menu_MenuWrapper_2Lu3d:nth-of-type(1) {
+  padding: 6px 7px 6px 4px;
+  color: #8b929a;
+}
+.rootmenu_RootMenuBar_1Ky59:hover
+.menu_MenuWrapper_2Lu3d {
+  color: #8b929a;
+}
+.rootmenu_RootMenuBar_1Ky59
+.menu_MenuWrapper_2Lu3d:hover {
+  color: #fff;
+}
+
+
+.steamdesktop_SuperNavBar_3Z3oh {
+  position: absolute;
+  top: 23.5px;
+  left: 50%;
+  width: fit-content;
+  height: 46px;
+  padding: 0px;
+  transform: translate(-50%, -50%);
+}
+.steamdesktop_SuperNavBar_3Z3oh
+.supernav_SuperNavMenu_7AlhC {
+  font-size: unset;
+}
+.steamdesktop_SuperNavBar_3Z3oh
+.supernav_SuperNav_2D64j svg {
+  display: none;
+}
+.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK {
+  color: var(--accent-2);
+  text-shadow: 0px 0px 1px var(--accent-2);
+}
+.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK::after {
+  background: var(--accent-2);
+}
+.steamdesktop_SuperNavBar_3Z3oh
+.supernav_SuperNavMenu_7AlhC {
+  height: unset;
+}
+
+
+.titlebarcontrols_TitleBarControls_3cykd {
+  margin: 0 10px;
+}
+
+
+.steamdesktop_WindowControls_qP17e .title-area .title-bar-actions {
+  max-height: unset;
+  height: 46px !important;
+}
+.steamdesktop_WindowControls_qP17e .title-area .windowControlButton {
+  height: 46px;
+}
+.steamdesktop_WindowControls_qP17e .title-area .windowControlButton .SVGIcon_Button line,
+.steamdesktop_WindowControls_qP17e .title-area .windowControlButton .SVGIcon_Button rect,
+.steamdesktop_WindowControls_qP17e .title-area .windowControlButton .SVGIcon_Button polyline {
+  stroke: var(--accent-2);
+}
+.steamdesktop_WindowControls_qP17e .title-area .windowControlButton:hover {
+  background: var(--color-2);
+}
+.steamdesktop_WindowControls_qP17e .title-area .windowControlButton.closeButton:hover {
+  background: var(--accent-2);
+}
+.steamdesktop_WindowControls_qP17e .title-area .windowControlButton.closeButton:hover .SVGIcon_Button line {
+  stroke: var(--color-2);
 }

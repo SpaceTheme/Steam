@@ -128,3 +128,56 @@
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
     margin: 0 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.appdetailsspotlight_ReviewContainer_3LE-6 {
+    padding: 0;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(102, 108, 255, 0.00) 0%, rgba(102, 108, 255, 0.15) 100%), linear-gradient(270deg, rgba(135, 140, 255, 0.00) 0%, rgba(135, 140, 255, 0.15) 100%), #1E1E1E;
+}
+.appdetailsspotlight_ReviewContainer_3LE-6 .appdetailsspotlight_Inner_2z8Na {
+    width: 100%;
+}
+.writereview_RatingContainer_2SAb6.appdetailsspotlight_RatingContainer_1E_EN {
+    border-radius: 8px;
+    background: unset;
+}
+
+.writereview_LeftContainer_2aeAn {
+    display: grid;
+}
+.writereview_LeftContainer_2aeAn .writereview_Playtime_qX4kN {
+    order: 2;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--accent-2);
+}
+.writereview_LeftContainer_2aeAn .writereview_RecommendGame_My1be {
+    order: 1;
+    font-weight: 400;
+    color: #D2D2D2;
+}
+
+.writereview_ReviewThumbButton_1kCN0 {
+    height: 100%;
+    margin: 0 5px;
+    padding: 10px 15px 10px 30px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    color: #666CFF;
+    background: rgba(102, 108, 255, 0.20);
+}
+.writereview_ReviewThumbButton_1kCN0 .writereview_ThumbIcon_2Jkk- {
+    fill: #666CFF;
+}
