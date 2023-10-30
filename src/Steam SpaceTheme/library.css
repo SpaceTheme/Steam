@@ -160,7 +160,7 @@
     order: 2;
     font-size: 12px;
     font-weight: 400;
-    color: var(--accent-2);
+    color: var(--accent-2) !important;
 }
 .writereview_LeftContainer_2aeAn .writereview_RecommendGame_My1be {
     order: 1;
