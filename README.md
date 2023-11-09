@@ -2,7 +2,7 @@
 ![Banner](https://cdn.discordapp.com/attachments/1107274994288959510/1145274547277402203/image.png)
 
 ![Logo](https://cdn.discordapp.com/attachments/1107274994288959510/1145273484990234654/Group_165.png)
-# SpaceTheme for Steam | v1.0.2.1 (alpha)
+# SpaceTheme for Steam | v1.0.3 (alpha)
 [Join Discord Server for Support, News and Updates](https://discord.gg/7Zv8Xz3Vzn)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/spaceenergy)
