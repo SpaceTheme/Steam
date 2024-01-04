@@ -1,4 +1,3 @@
-test
 [![Banner](https://media.discordapp.net/attachments/1107274994288959510/1107656085583708240/image.png)](https://github.com/SkyEnergy0/SpaceTheme-Discord)
 ![Banner](https://cdn.discordapp.com/attachments/1107274994288959510/1145274547277402203/image.png)
 
