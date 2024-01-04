@@ -1,4 +1,4 @@
-[![Banner](https://i.imgur.com/6L2KOaR.png)](https://github.com/SkyEnergy0/SpaceTheme-Discord)
+[![Banner](https://i.imgur.com/6L2KOaR.png)](https://github.com/SpaceEnergy/SpaceTheme-Discord)
 ![Banner](https://i.imgur.com/x79vVYl.png)
 
 ![Logo](https://i.imgur.com/oo9MNQb.png)
@@ -24,7 +24,7 @@
 
 **2.** Next, download the Millennium Steam Patcher from [GitHub](https://github.com/ShadowMonster99/millennium-steam-patcher). Follow the instructions provided to install the patcher.
 
-**3.** After that, download the SpaceTheme.zip file from [Discord](https://discord.com/channels/1104516050537685144/1104552443221655603) or [GitHub](https://github.com/SkyEnergy0/SpaceTheme-Steam/releases).
+**3.** After that, download the SpaceTheme.zip file from [Discord](https://discord.com/channels/1104516050537685144/1104552443221655603) or [GitHub](https://github.com/SpaceEnergy/SpaceTheme-Steam/releases).
 
 **4.** Once you have downloaded the `SpaceTheme.zip` file, go to `C:\Program Files (x86)\Steam\steamui\skins` and paste the .zip file there.
 
