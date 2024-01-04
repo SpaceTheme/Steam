@@ -9,6 +9,15 @@
 
 ## Preview (v1.0.1 (alpha))
 ![Preview](https://cdn.discordapp.com/attachments/1104518841092034631/1112151798027919410/image.png)
+<details>
+  <summary>More images (Concepts)</summary>
+  <h3>Library home</h3>
+  <img src="https://i.imgur.com/Wr0S4Go.png">
+  <h3>Library gamepage</h3>
+  <img src="https://i.imgur.com/s9bQdOK.png">
+  <h3>Store</h3>
+  <img src="https://i.imgur.com/DC2u3hh.png">
+</details>
   
 ## Installation
 **1.** Firstly, ensure that you are in the Steam Beta. To do this, go to Steam Settings, then select Interface, and choose Steam Beta under the Client Beta Participation section. Without this, you won't be able to use the SpaceTheme.
