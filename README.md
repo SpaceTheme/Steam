@@ -7,8 +7,8 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/spaceenergy)
 
-## Preview (v1.0.1 (alpha))
-![Preview](https://cdn.discordapp.com/attachments/1104518841092034631/1112151798027919410/image.png)
+## Preview (v1.0.3 (alpha))
+![Preview](https://i.imgur.com/ote9jBz.png)
 <details>
   <summary>More images (Concepts)</summary>
   <h3>Library home</h3>
