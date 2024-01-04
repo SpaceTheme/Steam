@@ -1,7 +1,7 @@
-[![Banner](https://media.discordapp.net/attachments/1107274994288959510/1107656085583708240/image.png)](https://github.com/SkyEnergy0/SpaceTheme-Discord)
-![Banner](https://cdn.discordapp.com/attachments/1107274994288959510/1145274547277402203/image.png)
+[![Banner](https://i.imgur.com/6L2KOaR.png)](https://github.com/SkyEnergy0/SpaceTheme-Discord)
+![Banner](https://i.imgur.com/x79vVYl.png)
 
-![Logo](https://cdn.discordapp.com/attachments/1107274994288959510/1145273484990234654/Group_165.png)
+![Logo](https://i.imgur.com/oo9MNQb.png)
 # SpaceTheme for Steam | v1.0.3 (alpha)
 [Join Discord Server for Support, News and Updates](https://discord.gg/7Zv8Xz3Vzn)
 
