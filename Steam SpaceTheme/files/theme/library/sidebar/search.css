@@ -1,5 +1,8 @@
 /* Base */
 .gamelistsearchbar_Container_20QAC {
+	margin: 0;
+	padding: 6px 6px 10px 6px;
+	border-radius: 0;
 	background: var(--color-2);
 }
 
@@ -8,6 +11,7 @@
 	border-radius: 8px 0 0 8px !important;
 }
 .gamelistsearchbar_SearchInput_12vo5 input {
+	border: none;
 	background-color: var(--color-3) !important;
 }
 /* Filter Icon */

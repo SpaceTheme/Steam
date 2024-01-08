@@ -2,7 +2,63 @@
 	"Patches": [
         {
             "MatchRegexString": "^Steam$",
-            "TargetCss": "main.css"
+            "TargetCss": "Steam SpaceTheme/main.css"
+        }
+    ],
+    "GlobalsColors": [
+        {
+            "ColorName": "--color-1",
+            "Description": "Color 1",
+            "HexColorCode": "#111111",
+            "OriginalColorCode": "#111111"
+        },
+        {
+            "ColorName": "--color-2",
+            "Description": "Color 2",
+            "HexColorCode": "#1e1e1e",
+            "OriginalColorCode": "#1e1e1e"
+        },
+        {
+            "ColorName": "--color-3",
+            "Description": "Color 3",
+            "HexColorCode": "#141414",
+            "OriginalColorCode": "#141414"
+        },
+        {
+            "ColorName": "--color-4",
+            "Description": "Color 4",
+            "HexColorCode": "#181818",
+            "OriginalColorCode": "#181818"
+        },
+        {
+            "ColorName": "--color-5",
+            "Description": "Color 5",
+            "HexColorCode": "#26292c",
+            "OriginalColorCode": "#26292c"
+        },
+        {
+            "ColorName": "--color-6",
+            "Description": "Color 6",
+            "HexColorCode": "#262629",
+            "OriginalColorCode": "#262629"
+        },
+        {
+            "ColorName": "--accent",
+            "Description": "Accent",
+            "HexColorCode": "#878CFF",
+            "OriginalColorCode": "#878CFF"
+        },
+        {
+            "ColorName": "--accent-2",
+            "Description": "Accent 2",
+            "HexColorCode": "#6a6bff",
+            "OriginalColorCode": "#6a6bff"
+        },
+        {
+            "ColorName": "--background",
+            "Description": "Background Color",
+            "HexColorCode": "#0a0a0a",
+            "OriginalColorCode": "#0a0a0a"
         }
     ],
     "UseDefaultPatches": true,
@@ -12,7 +68,7 @@
     "author": "SpaceEnergy",
     "description": "A modular design with dark colors, which makes Steam look clearer and thus Steam can be enjoyed much better.\n\n! This theme is in alpha/pre alpha phase !\n! SteamTheme for Steam has been paused indefinitely !\nCurrently the theme only supports the title bar, library home page, download bar and download page.\n\nWhen the time comes for updates, there will be an update every 2 weeks.",
     "source": "https://api.github.com/repos/SpaceEnergy/SpaceTheme-Steam/contents/Steam%20SpaceTheme",
-    "version": "1.0.3 (alpha)",
+    "version": "1.0.3.1-alpha",
     "github": {
         "owner": "SpaceEnergy",
         "repo_name": "SpaceTheme-Steam"

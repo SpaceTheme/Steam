@@ -1,19 +1,15 @@
 /**
 * @name 🪐Steam SpaceTheme🪐
-* @author SpaceEnergy#2948
-* @version v1.0.2
+* @author @spaceenergy
+* @version v1.0.3.1-alpha
 * @description SpaceTheme for Steam
-* @donate https://www.buymeacoffee.com/SkyEnergy
+* @donate https://www.buymeacoffee.com/SpaceEnergy
 * @authorLink https://github.com/SpaceEnergy
 * @website https://spaceenergy.github.io
 **/
 
-@import url("root.css");
-@import url("scrollbar.css");
-@import url("navbar.css");
-@import url("library.css");
 @import url("base.css");
+@import url("library.css");
 @import url("files/theme/app/import.css");
 @import url("files/theme/inputs/import.css");
 @import url("files/theme/library/import.css");
-@import url("files/theme/windows/settings/import.css");

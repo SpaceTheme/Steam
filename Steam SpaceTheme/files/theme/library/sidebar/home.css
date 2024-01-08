@@ -3,4 +3,5 @@
 	padding: 10px;
 	border-radius: 8px;
 	background-color: var(--color-2);
+	box-shadow: none;
 }
