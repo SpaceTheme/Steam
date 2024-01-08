@@ -11,7 +11,7 @@
 	border-radius: 8px 0 0 8px !important;
 }
 .gamelistsearchbar_SearchInput_12vo5 input {
-	border: none;
+	border: none !important;
 	background-color: var(--color-3) !important;
 }
 /* Filter Icon */
