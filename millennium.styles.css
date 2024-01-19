@@ -1,0 +1,63 @@
+.jnpktf .addon-backdrop {
+    opacity: .30;
+}
+
+
+.jnpktf .addon-details-segment {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #1e1e1e !important;
+}
+
+.jnpktf .btn {
+    border-radius: 8px;
+}
+
+
+.jnpktf .addon-author-container {
+    border: none;
+    border-radius: 8px;
+    background-color: #111111;
+}
+.jnpktf .addon-author-container:hover {
+    border: none;
+    background-color: #141414;
+}
+.jnpktf .addon-author-container img {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+}
+.jnpktf .addon-author-container h5 {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-color: #878cff;
+    color: transparent !important;
+    background: linear-gradient(90deg,#878cff,#666cff 34%,#878cff 67%,#666cff);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    animation: pulse 2s linear infinite;
+}
+@keyframes pulse {
+    0% {
+      background-position: 100%;
+    }
+    to {
+      background-position:0;
+    }
+}
+
+
+.jnpktf #addon-server img {
+    border-radius: 16px;
+}
+.jnpktf #addon-server .btn {
+    height: 40px;
+    margin: auto 0;
+    margin-top: 0;
+    background: #248046;
+}
+.jnpktf #addon-server {
+    display: flex;
+    justify-content: space-between;
+}
