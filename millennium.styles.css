@@ -1,34 +1,34 @@
-#main-page-content .addon-backdrop {
+.addon-backdrop {
     opacity: .30;
 }
 
 
-#main-page-content .addon-details-segment {
+.addon-details-segment {
     padding: 15px;
     border-radius: 8px;
     background-color: #1e1e1e !important;
 }
 
-#main-page-content .btn {
+.btn {
     border-radius: 8px;
 }
 
 
-#main-page-content .addon-author-container {
+.addon-author-container {
     border: none;
     border-radius: 8px;
     background-color: #111111;
 }
-#main-page-content .addon-author-container:hover {
+.addon-author-container:hover {
     border: none;
     background-color: #141414;
 }
-#main-page-content .addon-author-container img {
+.addon-author-container img {
     height: 48px;
     width: 48px;
     border-radius: 100%;
 }
-#main-page-content .addon-author-container h5 {
+.addon-author-container h5 {
     font-size: 16px;
     font-weight: 700;
     text-decoration-color: #878cff;
@@ -48,16 +48,16 @@
 }
 
 
-#main-page-content #addon-server img {
+#addon-server img {
     border-radius: 16px;
 }
-#main-page-content #addon-server .btn {
+#addon-server .btn {
     height: 40px;
     margin: auto 0;
     margin-top: 0;
     background: #248046;
 }
-#main-page-content #addon-server {
+#addon-server {
     display: flex;
     justify-content: space-between;
 }
