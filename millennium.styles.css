@@ -17,7 +17,7 @@
 #addon-actions .btn-container {
     flex-direction: unset !important;
 }
-#addon-actions .btn-container .btn {
+#addon-actions .btn-container .btn-primary {
     width: 100%;
 }
 #addon-actions .btn-container .btn-secondary .btn-icon {
