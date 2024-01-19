@@ -14,13 +14,25 @@
 }
 
 
+#addon-actions .btn-container {
+    flex-direction: unset !important;
+}
+#addon-actions .btn-container .btn {
+    width: 100%;
+}
+#addon-actions .btn-container .btn-secondary .btn-icon {
+    margin-right: 0;
+}
+#addon-actions .btn-container .btn-secondary span {
+    display: none;
+}
+
 .addon-author-container {
-    border: none;
+    border: none !important;
     border-radius: 8px;
     background-color: #111111;
 }
 .addon-author-container:hover {
-    border: none;
     background-color: #141414;
 }
 .addon-author-container img {
@@ -47,7 +59,6 @@
     }
 }
 
-
 #addon-server img {
     border-radius: 16px;
 }
@@ -57,7 +68,22 @@
     margin-top: 0;
     background: #248046;
 }
+#addon-server .btn:hover {
+    background-color: #1a6334;
+}
 #addon-server {
     display: flex;
     justify-content: space-between;
+}
+
+.addon-tag {
+    margin: auto 0;
+    padding: 2px 12px;
+    border-radius: 80px !important;
+    background-color: #111111 !important;
+}
+
+
+code {
+    background-color: #111111;
 }
