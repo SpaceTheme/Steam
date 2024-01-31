@@ -1,4 +1,5 @@
 [![Banner](https://i.imgur.com/6L2KOaR.png)](https://github.com/SpaceEnergy/SpaceTheme-Discord)
+![Banner](https://i.imgur.com/x79vVYl.png)
 
 ![Logo](https://i.imgur.com/oo9MNQb.png)
 # SpaceTheme for Steam | v1.0.3.1 (alpha)
