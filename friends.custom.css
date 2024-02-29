@@ -1,0 +1,87 @@
+@import url("./src/regular.css");
+
+
+html.client_chat_frame body,
+html.web_chat_frame body {
+    background-color: var(--background);
+}
+
+.singleWindowFocusBar {
+    mask: unset;
+    -webkit-mask: unset;
+    background: unset;
+}
+
+
+.friendlist {
+    height: calc(100% - 48px);
+    margin: 32px 16px 16px;
+}
+
+
+.title-area {
+    width: calc(100% + 32px);
+    height: 32px !important;
+    margin-left: -16px;
+    top: -32px;
+}
+.title-area-highlight {
+    mask: unset;
+    -webkit-mask: unset;
+    background: unset;
+}
+.friendsui-container .title-area-icon {
+    width: 42px;
+    height: 32px;
+}
+
+
+.friendListHeaderContainer {
+    border-radius: 8px;
+    background-color: unset;
+    box-shadow: none;
+}
+.currentUserContainer {
+    margin-bottom: 16px;
+    padding-right: 0;
+    border-bottom: none;
+}
+.statusHeaderGlow {
+    display: none;
+}
+.AvatarAndUser {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--color-2);
+}
+
+.socialTabContainer .activeTab {
+    border-radius: 8px 8px 0 0;
+    background-color: var(--color-1);
+    box-shadow: none;
+}
+
+
+.friendlistListContainer {
+    border-radius: 0 0 8px 8px;
+    background: var(--color-1);
+}
+.insetshadow_FriendsListInsetShadowCtn_17ewz,
+.insetshadow_FriendListInsetShadowBottom_2hL6s {
+    display: none;
+}
+
+.FriendsListChatSection {
+    margin-top: 10px;
+}
+.FriendsListContent:has(.FriendsListChatSection.Collapsed) .friendsListSectionTitle {
+    border-radius: 8px;
+}
+.friendsListSectionTitle {
+    border-radius: 8px 8px 0 0;
+    background-color: var(--color-1);
+}
+
+.friendListFooter {
+    display: none;
+}
