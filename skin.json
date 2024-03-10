@@ -86,8 +86,10 @@
         "Dark",
         "Comfy",
         "alpha"
-    ]
-    ,
+    ],
+    "funding": {
+        "kofi": "spacetheme"
+    },
     "header_image": "https://i.imgur.com/HZsnaW7.png",
     "splash_image": "https://i.imgur.com/ote9jBz.png"
 }
