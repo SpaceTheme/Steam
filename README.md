@@ -4,7 +4,7 @@
 # SpaceTheme for Steam | v1.0.4-alpha
 [Join Discord Server for Support, News and Updates](https://discord.gg/7Zv8Xz3Vzn)
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/spaceenergy)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/spacetheme)
 
 ## Preview v1.0.3-alpha
 ![Preview](https://i.imgur.com/ote9jBz.png)
