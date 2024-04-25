@@ -71,7 +71,7 @@
     
     "name": "SpaceTheme for Steam",
     "author": "SpaceEnergy",
-    "description": "A modular design with dark colors, which makes Steam look clearer and thus Steam can be enjoyed much better.\n\n! This theme is in alpha/pre alpha phase !\n! SteamTheme for Steam has been paused indefinitely !\nCurrently the theme only supports the title bar, library home page, download bar and download page.\n\nWhen the time comes for updates, there will be an update every 2 weeks.",
+    "description": "A modular design with dark colors intended to enhance navigability, improve user experience, and remove unneeded clutter.",
     "source": "https://api.github.com/repos/SpaceEnergy/SpaceTheme-Steam/contents/Steam%20SpaceTheme",
     "version": "1.0.4-alpha",
     "github": {
