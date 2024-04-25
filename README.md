@@ -5,8 +5,8 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/spacetheme)
 
-## Preview v1.0.3-alpha
-![Preview](https://i.imgur.com/ote9jBz.png)
+## Preview v1.0.4-alpha
+![Preview](https://i.imgur.com/YYSSkBy.png)
 <details>
   <summary>More images (Concepts)</summary>
   <h3>Library home</h3>
