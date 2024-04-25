@@ -1,6 +1,6 @@
 # SpaceTheme for Steam
 
-![Preview](https://i.imgur.com/YYSSkBy.png)
+![v1.0.4-alpha preview](https://i.imgur.com/YYSSkBy.png)
 <details>
   <summary>More images (Concepts)</summary>
   <h3>Library home</h3>
@@ -18,3 +18,6 @@
 1. From there, you will see a install prompt. Now simply drop the theme
 1. Select the theme from the interface after it installs.
 Voila! You have successfully installed and activated SpaceTheme. Enjoy the new look of your Steam!
+
+## Other Themes
+[![Banner](https://i.imgur.com/2bQmNZB.png)](https://github.com/SpaceEnergy/SpaceTheme-Discord)
