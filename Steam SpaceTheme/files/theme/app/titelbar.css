@@ -1,23 +1,22 @@
-.steamdesktop_TopBar_3Z7VQ {
+._3Z7VQ1IMk4E3HsHvrkLNgo {
   box-shadow: none !important;
   background: var(--background) !important;
 }
-.steamdesktop_TitleBar_39oUC {
+._39oUCO1OuizVPwcnnv88no {
   height: 46px;
 }
-.steamdesktop_URLBar_UkR3s,
-.steamdesktop_URLBarReplacement_2Cmrn {
+.UkR3sY319PuaUNuUWks2K, ._2CmrnGY-Amtd83ScJkFvx2 {
   display: none !important;
 }
 
 
-.rootmenu_RootMenuButton_2UyOB {
+._2UyOBeiSdBayaFdRa39N2O {
   display: flex;
 }
-.rootmenu_SteamButton_bSKGl {
+.bSKGlAJG2UVWTsntEJY2v {
   font-size: 0px;
 }
-.rootmenu_SteamButton_bSKGl::after {
+.bSKGlAJG2UVWTsntEJY2v::after {
   display: flex;
   align-items: center;
   margin-left: -4px;
@@ -26,7 +25,7 @@
   font-size: 12px !important;
   color: var(--accent);
 }
-.rootmenu_RootMenuButton_2UyOB:nth-of-type(1)::after {
+._2UyOBeiSdBayaFdRa39N2O:nth-of-type(1)::after {
   display: flex;
   align-items: center;
   content: "Theme" !important;
@@ -34,31 +33,27 @@
   color: var(--accent-2);
 }
 
-.rootmenu_RootMenuBar_1Ky59 {
+._1Ky59qmywxOUtNcI1cgmkX {
   margin-top: 0 !important;
   gap: unset;
 }
-.rootmenu_RootMenuBar_1Ky59
-.menu_MenuWrapper_2Lu3d {
+._1Ky59qmywxOUtNcI1cgmkX ._2Lu3d-5qLmW4i19ysTt2jT {
   padding: 6px 7px;
   color: transparent;
 }
-.rootmenu_RootMenuBar_1Ky59
-.menu_MenuWrapper_2Lu3d:nth-of-type(1) {
+._1Ky59qmywxOUtNcI1cgmkX ._2Lu3d-5qLmW4i19ysTt2jT:nth-of-type(1) {
   padding: 6px 7px 6px 4px;
   color: #8b929a;
 }
-.rootmenu_RootMenuBar_1Ky59:hover
-.menu_MenuWrapper_2Lu3d {
+._1Ky59qmywxOUtNcI1cgmkX:hover ._2Lu3d-5qLmW4i19ysTt2jT {
   color: #8b929a;
 }
-.rootmenu_RootMenuBar_1Ky59
-.menu_MenuWrapper_2Lu3d:hover {
+._1Ky59qmywxOUtNcI1cgmkX ._2Lu3d-5qLmW4i19ysTt2jT:hover {
   color: #fff;
 }
 
 
-.steamdesktop_SuperNavBar_3Z3oh {
+._3Z3ohQ8-1NKnCZkbS6fvy {
   position: absolute;
   top: 23.5px;
   left: 50%;
@@ -67,50 +62,45 @@
   padding: 0px;
   transform: translate(-50%, -50%);
 }
-.steamdesktop_SuperNavBar_3Z3oh
-.supernav_SuperNavMenu_7AlhC {
+._3Z3ohQ8-1NKnCZkbS6fvy ._7AlhCx3XGzBeIrQaCneUD {
   font-size: unset;
 }
-.steamdesktop_SuperNavBar_3Z3oh
-.supernav_SuperNav_2D64j svg {
+._3Z3ohQ8-1NKnCZkbS6fvy ._2D64jIEK7wpUR_NlObDW76 svg {
   display: none;
 }
-.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK {
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
   color: var(--accent-2);
   text-shadow: 0px 0px 1px var(--accent-2);
 }
-.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK::after {
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
   background: var(--accent-2);
 }
-.steamdesktop_SuperNavBar_3Z3oh
-.supernav_SuperNavMenu_7AlhC {
+._3Z3ohQ8-1NKnCZkbS6fvy ._7AlhCx3XGzBeIrQaCneUD {
   height: unset;
 }
 
 
-.titlebarcontrols_TitleBarControls_3cykd {
+._3cykd-VfN_xBxf3Qxriccm {
   margin: 0 10px;
 }
 
 
-.steamdesktop_WindowControls_qP17e .title-area .title-bar-actions {
+.qP17eBPXkfezFfexZ4hC3 .title-area .title-bar-actions {
   max-height: unset;
   height: 46px !important;
 }
-.steamdesktop_WindowControls_qP17e .title-area .windowControlButton {
+.qP17eBPXkfezFfexZ4hC3 .title-area .windowControlButton {
   height: 46px;
 }
-.steamdesktop_WindowControls_qP17e .title-area .windowControlButton .SVGIcon_Button line,
-.steamdesktop_WindowControls_qP17e .title-area .windowControlButton .SVGIcon_Button rect,
-.steamdesktop_WindowControls_qP17e .title-area .windowControlButton .SVGIcon_Button polyline {
+.qP17eBPXkfezFfexZ4hC3 .title-area .windowControlButton .SVGIcon_Button line, .qP17eBPXkfezFfexZ4hC3 .title-area .windowControlButton .SVGIcon_Button rect, .qP17eBPXkfezFfexZ4hC3 .title-area .windowControlButton .SVGIcon_Button polyline {
   stroke: var(--accent-2);
 }
-.steamdesktop_WindowControls_qP17e .title-area .windowControlButton:hover {
+.qP17eBPXkfezFfexZ4hC3 .title-area .windowControlButton:hover {
   background: var(--color-2);
 }
-.steamdesktop_WindowControls_qP17e .title-area .windowControlButton.closeButton:hover {
+.qP17eBPXkfezFfexZ4hC3 .title-area .windowControlButton.closeButton:hover {
   background: var(--accent-2);
 }
-.steamdesktop_WindowControls_qP17e .title-area .windowControlButton.closeButton:hover .SVGIcon_Button line {
+.qP17eBPXkfezFfexZ4hC3 .title-area .windowControlButton.closeButton:hover .SVGIcon_Button line {
   stroke: var(--color-2);
 }

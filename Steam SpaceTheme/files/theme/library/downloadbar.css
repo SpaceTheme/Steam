@@ -1,27 +1,26 @@
-.bottombar_BottomBar_3vCzS {
+._3vCzSrrXZzZjVJFZNg9SGu {
     flex: 0 0 60px;
     margin: 15px;
     border-radius: 8px;
     background: var(--color-2);
     box-shadow: none !important;
 }
-.bottombar_DownloadStatus_2EQ7g {
+._2EQ7ghgqIdjKv9jsQC0Zq9 {
     align-items: start;
 }
-.bottombar_DownloadStatusContent_ip-YZ {
+.ip-YZhijAMZcuRoXBGiye {
     width: -webkit-fill-available;
     max-width: 100%;
 }
-.bottombar_ProgressBarWrapper_2_Fom .bottombar_ProgressBar_wi0pD {
+._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA {
     height: 5px;
     background-color: var(--color-1);
 }
-.bottombar_ProgressBarWrapper_2_Fom .bottombar_ProgressBar_wi0pD::after {
+._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA::after {
     border-radius: 10px;
     background-color: var(--accent-2);
 }
 
-.bottombar_AddGameButton_2foCk,
-.bottombar_FriendsButton_1TdaA {
+._2foCkpRXhqq0UGVE50BWqj, ._1TdaAqMFadi0UTqilrkelR {
     display: none;
 }

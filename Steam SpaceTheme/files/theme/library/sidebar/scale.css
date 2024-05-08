@@ -1,5 +1,5 @@
 /* Scale Base */
-.library_LibraryWindowDivider_276E6 {
+._276E6ijBpjMA2_iTxNhhjc {
     margin: auto;
     margin-left: -10.5px;
     margin-right: 5.5px;
@@ -9,8 +9,6 @@
     width: 5px;
 }
 /* Scale :hover:focus:active */
-.library_LibraryWindowDivider_276E6:hover,
-.library_LibraryWindowDivider_276E6:focus,
-.library_LibraryWindowDivider_276E6:active {
+._276E6ijBpjMA2_iTxNhhjc:hover, ._276E6ijBpjMA2_iTxNhhjc:focus, ._276E6ijBpjMA2_iTxNhhjc:active {
     background-color: var(--accent-2) !important;
 }

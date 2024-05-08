@@ -1,8 +1,7 @@
 @import url("./src/regular.css");
 
 
-html.client_chat_frame body,
-html.web_chat_frame body {
+html.client_chat_frame body, html.web_chat_frame body {
     background-color: var(--background);
 }
 
@@ -66,8 +65,7 @@ html.web_chat_frame body {
     border-radius: 0 0 8px 8px;
     background: var(--color-1);
 }
-.insetshadow_FriendsListInsetShadowCtn_17ewz,
-.insetshadow_FriendListInsetShadowBottom_2hL6s {
+._17ewzMiLZXQiOFFbpXAZdw, ._2hL6ssOeMwczcGsrkJWupl {
     display: none;
 }
 

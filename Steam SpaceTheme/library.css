@@ -18,23 +18,21 @@
 */
 
 
-.library_MainPanel_3BFcm {
+._3BFcmjAaMyP6GTPwc0VyWi {
     margin: 0 15px 0 0;
     border-radius: 8px;
 }
-.library_AppDetailsTransitionGroup_2Dd4T {
+._2Dd4T78PcCTUVgOtDGFY5j {
     border-radius: 8px;
 }
-.library_AppDetailsTransitionGroup_2Dd4T,
-.libraryhome_Container_2gSXC,
-.libraryhome_LibraryHome_3Sb2o {
+._2Dd4T78PcCTUVgOtDGFY5j, ._2gSXCB6PbOlMxslr8hm6dm, ._3Sb2o_mQ30IDRh0C72QUUu {
     background: none;
     background-image: none;
 }
-.libraryhome_Container_2gSXC {
+._2gSXCB6PbOlMxslr8hm6dm {
     background: var(--color-3);
 }
-.libraryhome_UpdatesContainer_17uEB {
+._17uEBe5Ri8TMsnfELvs8-N {
     margin: 15px;
     border-radius: 8px;
     background: var(--color-2);
@@ -63,7 +61,7 @@
 */
 
 
-.downloads_DownloadsPage_1bq4x {
+._1bq4x9pa4-9RLY-dXWUZTp {
     width: -webkit-fill-available;
     margin: 0 0 0 15px;
     border-radius: 8px;
@@ -79,13 +77,13 @@
 *=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 */
 
-.downloadgraph_GraphAndStats_3KDkL {
+._3KDkLoCR8OM8xfdQysKn9t {
 	width: auto;
 	margin: 15px;
 	border-radius: 8px;
     background: var(--color-2);
 }
-.downloadgraph_HeroAndLogo_3mZ2r {
+._3mZ2rKd2RECK4q4ufmsDYX {
 	border-radius: 8px;
     background: none !important;
 }
@@ -100,32 +98,32 @@
 */
 
 
-.downloads_TopBar_SEmVp {
+.SEmVpmXrYVl3OxL1sDFTg {
     display: none;
 }
 
-.downloads_Section_3Mbhn {
+._3Mbhnlk1Go2j8yCdjthzc7 {
     margin-top: 0;
     margin-bottom: 12px;
     padding-bottom: 0;
 }
-.downloads_Section_3Mbhn:nth-child(n+2) {
+._3Mbhnlk1Go2j8yCdjthzc7:nth-child(n+2) {
     margin-top: 0;
 }
 
 /* Items */
-.downloads_Active_IbePL .downloads_SectionList_OINnO {
+.IbePLaw-vSvhG1GTenYFg .OINnOU8K5HzPe2nzczpZi {
     border: none;
 }
 
-.downloads_SectionItem_1VNuY {
+._1VNuYHM6BPBOJspC6zPf5r {
     padding: 8px 0px 8px 24px;
     border-radius: 8px !important;
 }
-.downloads_SectionItem_1VNuY:hover {
+._1VNuYHM6BPBOJspC6zPf5r:hover {
     background-color: #252525;
 }
-.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg {
     margin: 0 15px;
 }
 
@@ -140,35 +138,35 @@
 
 
 
-.appdetailsspotlight_ReviewContainer_3LE-6 {
+._3LE-6w1ItIAB4CKJFCa3Od {
     padding: 0;
     border-radius: 8px;
     background: linear-gradient(90deg, rgba(102, 108, 255, 0.00) 0%, rgba(102, 108, 255, 0.15) 100%), linear-gradient(270deg, rgba(135, 140, 255, 0.00) 0%, rgba(135, 140, 255, 0.15) 100%), #1E1E1E;
 }
-.appdetailsspotlight_ReviewContainer_3LE-6 .appdetailsspotlight_Inner_2z8Na {
+._3LE-6w1ItIAB4CKJFCa3Od ._2z8Na_s9JosX48wHF4HPiA {
     width: 100%;
 }
-.writereview_RatingContainer_2SAb6.appdetailsspotlight_RatingContainer_1E_EN {
+._2SAb6geDpe6toA1GaP0GjH._1E_ENwpaym7n3ke0XFpczv {
     border-radius: 8px;
     background: unset;
 }
 
-.writereview_LeftContainer_2aeAn {
+._2aeAnRfwltWfd9Hb9M_1uE {
     display: grid;
 }
-.writereview_LeftContainer_2aeAn .writereview_Playtime_qX4kN {
+._2aeAnRfwltWfd9Hb9M_1uE .qX4kNo6O0M-mYntdErKSJ {
     order: 2;
     font-size: 12px;
     font-weight: 400;
     color: var(--accent-2) !important;
 }
-.writereview_LeftContainer_2aeAn .writereview_RecommendGame_My1be {
+._2aeAnRfwltWfd9Hb9M_1uE .My1beniJXh9pXud8rxYLK {
     order: 1;
     font-weight: 400;
     color: #D2D2D2;
 }
 
-.writereview_ReviewThumbButton_1kCN0 {
+._1kCN0pAntrcGCSmcc-vYdk {
     height: 100%;
     margin: 0 5px;
     padding: 10px 15px 10px 30px;
@@ -178,6 +176,6 @@
     color: #666CFF;
     background: rgba(102, 108, 255, 0.20);
 }
-.writereview_ReviewThumbButton_1kCN0 .writereview_ThumbIcon_2Jkk- {
+._1kCN0pAntrcGCSmcc-vYdk ._2Jkk-4RGWzhce22lSnA9Em {
     fill: #666CFF;
 }
