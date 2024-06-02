@@ -1,5 +1,4 @@
-> [!NOTE]
-> SpaceTheme for Steam is currently paused.
+![Banner](note.png)
 
 # SpaceTheme for Steam
 
