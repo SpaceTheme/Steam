@@ -1,4 +1,4 @@
-![Banner](note.png)
+![Banner](https://i.imgur.com/Zpk51nH.png)
 
 # SpaceTheme for Steam
 
