@@ -22,7 +22,7 @@
                     "If": "Wallet Visibility",
                     "Equals": true,
                     "True": {
-                        "TargetCss": "Steam SpaceTheme/files/theme/config/WalletVisibility.css"
+                        "TargetCss": "Steam SpaceTheme/files/theme/options/WalletVisibility.css"
                     },
                     "False": {}
                 },
@@ -30,7 +30,7 @@
                     "If": "Name Visibility",
                     "Equals": true,
                     "True": {
-                        "TargetCss":"Steam SpaceTheme/files/theme/config/NameVisibility.css"
+                        "TargetCss":"Steam SpaceTheme/files/theme/options/NameVisibility.css"
                     },
                     "False": {}
                 }
@@ -48,7 +48,7 @@
                     "If": "Wallet Visibility",
                     "Equals": true,
                     "True": {
-                        "TargetCss":"Steam SpaceTheme/files/theme/config/WalletVisibility.css"
+                        "TargetCss":"Steam SpaceTheme/files/theme/options/WalletVisibility.css"
                     },
                     "False": {}
                 }
