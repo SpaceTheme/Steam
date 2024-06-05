@@ -1,13 +1,58 @@
 {
+    "Configuration": [
+        {
+            "Name": "Wallet Visibility",
+            "ToolTip": "Hide wallet balance",
+            "Type": "CheckBox",
+            "Value": false
+        },
+        {
+            "Name": "Name Visibility",
+            "ToolTip": "Hide user name from top right corner",
+            "Type": "CheckBox",
+            "Value": false
+        }
+    ],
 	"Patches": [
         {
             "MatchRegexString": "^Steam$",
-            "TargetCss": "Steam SpaceTheme/main.css"
+            "TargetCss": "Steam SpaceTheme/main.css",
+            "Statement": [
+                {
+                    "If": "Wallet Visibility",
+                    "Equals": true,
+                    "True": {
+                        "TargetCss": "Steam SpaceTheme/files/theme/options/WalletVisibility.css"
+                    },
+                    "False": {}
+                },
+                {
+                    "If": "Name Visibility",
+                    "Equals": true,
+                    "True": {
+                        "TargetCss":"Steam SpaceTheme/files/theme/options/NameVisibility.css"
+                    },
+                    "False": {}
+                }
+            ]
         },
         {
             "MatchRegexString": "Friends List",
             "TargetJs": "friends.custom.js",
             "TargetCss": "friends.custom.css"
+        },
+        {
+            "MatchRegexString": "^Account",
+            "Statement": [
+                {
+                    "If": "Wallet Visibility",
+                    "Equals": true,
+                    "True": {
+                        "TargetCss":"Steam SpaceTheme/files/theme/options/WalletVisibility.css"
+                    },
+                    "False": {}
+                }
+            ]
         }
     ],
     "GlobalsColors": [
