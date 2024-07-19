@@ -1,26 +1,35 @@
-![Banner](https://i.imgur.com/Zpk51nH.png)
+<!--
+> [!NOTE]
+> SpaceTheme for Steam is currently paused.
+-->
 
-# SpaceTheme for Steam
+<div align="center">
+<h3><img height="52" src="./_assets/img/logo.png"></h3>
 
-![v1.0.4-alpha preview](https://i.imgur.com/YYSSkBy.png)
+![Endpoint Badge](https://img.shields.io/github/downloads/SpaceTheme/Steam/total?style=for-the-badge&labelColor=%23111111&color=%231e1e1e)
+![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Floc-counter.onrender.com%2F%3Frepo%3DSpaceTheme%2Fsteam%26branch%3Dmain&style=for-the-badge&label=Lines%20of%20Code&labelColor=%23111111&color=%231e1e1e)
+[![Discord](https://img.shields.io/badge/discord-black?style=for-the-badge&logo=discord&logoColor=%23ffffff&labelColor=%235865F2&color=%235865F2)](https://discord.spacetheme.de)
+[![KoFi](https://img.shields.io/badge/kofi-dark?style=for-the-badge&logo=kofi&logoColor=%23fff&labelColor=%23ff5e5b&color=%23ff5e5b)](https://kofi.spacetheme.de)
+[![Website](https://img.shields.io/badge/website-back?style=for-the-badge&logo=googlechrome&logoColor=%23ffffff&labelColor=%23111111&color=%23111111)](https://spacetheme.de)
+<hr>
+</div>
+
+![Preview](./_assets/img/preview.png)
 <details>
-  <summary>More images (Concepts)</summary>
-  <h3>Library home</h3>
-  <img src="https://i.imgur.com/Wr0S4Go.png">
-  <h3>Library gamepage</h3>
-  <img src="https://i.imgur.com/s9bQdOK.png">
-  <h3>Store</h3>
-  <img src="https://i.imgur.com/DC2u3hh.png">
+    <summary>More images (Concepts)</summary>
+
+|  Library home  |  Library gamepage  |
+|  :---:  |  :---:  |
+|  ![Preview](https://i.imgur.com/Wr0S4Go.png)  |  ![Preview](https://i.imgur.com/s9bQdOK.png)  |
+|  **Store**  |
+|  ![Preview](https://i.imgur.com/DC2u3hh.png)  |
 </details>
   
 ## Installation
-1. Download the [Millennium](https://steambrew.app/). Follow the instructions provided to install the patcher.
+1. Download [Millennium](https://steambrew.app/). Follow the instructions provided to install the patcher.
 1. Open Steam and navigate to `Steam -> Settings -> Interface -> Open Millennium`
 1. With the Millennium interface open, drag the install button overtop of the interface.
 1. From there, you will see a install prompt. Now simply drop the theme
 1. Select the theme from the interface after it installs.
 
-Voila! You have successfully installed and activated SpaceTheme. Enjoy the new look of your Steam!
-
-## Other Themes
-[![Banner](https://i.imgur.com/2bQmNZB.png)](https://github.com/SpaceEnergy/SpaceTheme-Discord)
+Voila! Enjoy the new look of your Steam!
