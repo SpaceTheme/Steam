@@ -4,7 +4,7 @@
 -->
 
 <div align="center">
-<h3><img height="52" src="./_assets/img/logo.png"></h3>
+<h3><img height="52" src="https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/logo.png"></h3>
 
 ![Endpoint Badge](https://img.shields.io/github/downloads/SpaceTheme/Steam/total?style=for-the-badge&labelColor=%23111111&color=%231e1e1e)
 ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Floc-counter.onrender.com%2F%3Frepo%3DSpaceTheme%2Fsteam%26branch%3Dmain&style=for-the-badge&label=Lines%20of%20Code&labelColor=%23111111&color=%231e1e1e)
@@ -14,7 +14,7 @@
 <hr>
 </div>
 
-![Preview](./_assets/img/preview.png)
+![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png)
 <details>
     <summary>More images (Concepts)</summary>
 
