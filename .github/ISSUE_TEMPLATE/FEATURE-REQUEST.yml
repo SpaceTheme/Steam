@@ -1,0 +1,20 @@
+name: Feature Request
+description: Suggest an idea for this project!
+title: "[Feature]"
+labels: [enhancement]
+body:
+- type: checkboxes
+  attributes:
+    label: Before Requesting
+    options:
+    - label: I found no existing issue matching my feature request
+      required: true
+- type: textarea
+  attributes:
+    label: Describe the feature!
+    description: |
+    A clear and concise description of the feature request.
+
+    Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: true
