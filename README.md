@@ -1,7 +1,4 @@
-<!--
-> [!NOTE]
-> SpaceTheme for Steam is currently paused.
--->
+[![Noti](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/noti.png)](#)
 
 <div align="center">
 <h3><img height="52px" src="https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/logo.png"></h3>
