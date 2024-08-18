@@ -1,0 +1,411 @@
+/*
+&
+&
+& Game main list header
+&
+&
+*/
+
+/*
+! Base
+*/
+._2Dd4T78PcCTUVgOtDGFY5j {
+    border-radius: 8px;
+    background-color: transparent;
+}
+._2Nq6ov7A1hGcHXVOXNt_OE {
+    border-top: none;
+}
+._15J5LL1tqeF6S9caL-2P-c,
+.u1xD3KJEgksF_J_5TLZzO {
+    background-color: rgb(var(--color-1));
+    background-image: none;
+}
+._2AUVZlzQq67qe3yhLZsPPB {
+    overflow-y: overlay;
+}
+._2AUVZlzQq67qe3yhLZsPPB::-webkit-scrollbar {
+    background: transparent;
+}
+
+
+/*
+! What's new
+*/
+._17uEBe5Ri8TMsnfELvs8-N {
+    height: unset !important;
+    margin: 16px 16px 0;
+    padding: 16px 16px 0;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+    background-image: none;
+}
+
+._11cYvnWDwOeGdlUpfGNlYt {
+    margin: 0;
+}
+
+/* List */
+._3CJctA7pLVdwHzNF5JmORE._1urF0O1V4DZOkjI28mDvRK {
+    gap: 12px;
+}
+
+/* Day text */
+._2rlKqvybYupc-uk64cdQ8D {
+    position: absolute;
+    top: -18px;
+    left: 0;
+}
+
+/* Cards */
+._3YO5BpDmZERh_G8kaWbaSJ {
+    overflow: unset !important;
+    position: relative;
+    height: auto;
+    margin: 16px 0 !important;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 25%);
+    transition: all 0.2s ease-in-out;
+}
+._3YO5BpDmZERh_G8kaWbaSJ:hover {
+    cursor: pointer;
+    background-color: rgb(var(--color-3));
+    transform: scale(1.02);
+}
+
+/* Card hover info */
+.B-vCdL38RiJlhfSRgZv78 ._3Rb_j3lgHaVVIud4Gla7_m {
+    border-radius: 8px;
+}
+
+/* Card image */
+.B-vCdL38RiJlhfSRgZv78 .SPz0ipLqfF1oAO7tdrkdY {
+    margin-bottom: 3px;
+    border-radius: 8px;
+}
+.B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5:hover ._1-W_ZQ4XyImc86SJFamGha,
+.gpfocus>.B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5 ._1-W_ZQ4XyImc86SJFamGha {
+    transform: scale(1);
+}
+
+/* Event date */
+.B-vCdL38RiJlhfSRgZv78 ._3OSZu24hLN7YKjqGi7I2Xp {
+    width: -webkit-fill-available;
+    margin: 6px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgba(1, 169, 234);
+    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 50%);
+}
+
+/* Card title */
+.aqYQCF7Ny9x3EKcjCOTRY {
+    margin-bottom: 38px;
+    padding: 0;
+}
+
+/* Card game */
+._3_xMyCJAh_Dv99KgZ54P3j {
+    position: absolute;
+    bottom: 12px;
+    margin: 0;
+    padding: 4px 12px 4px 4px;
+    border-radius: 4px;
+    background-color: rgb(var(--color-2));
+}
+._3_xMyCJAh_Dv99KgZ54P3j:hover {
+    background-color: rgb(var(--color-6));
+}
+._3tdftHFf8tvdJW34S-KwjR ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
+    border-radius: 4px !important;
+}
+
+
+/*
+! Add shelf
+*/
+._3SkuN_ykQuWGF94fclHdhJ {
+    margin: 0 !important;
+}
+._3SkuN_ykQuWGF94fclHdhJ ._2aw5aUUo3lrK6wxJb4_ms5 {
+    justify-content: center;
+    opacity: 1;
+    width: 100%;
+    margin: 0 0 16px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+._3SkuN_ykQuWGF94fclHdhJ ._1PhK8scyztOxjJwWUpkiLJ {
+    display: none;
+}
+
+/* New shelf */
+.mzPGHdgk9pc3JvhdUg0cl .UOfJ-NXoaml5lmTtRdkSo {
+    position: unset;
+}
+
+
+
+/*
+&
+&
+& Game main list
+&
+&
+*/
+
+._3Sb2o_mQ30IDRh0C72QUUu {
+    padding: 16px;
+    background-image: none;
+}
+
+._2Z9gJ6Pd7eZn-kfODcXJuR {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+/*
+! Game shelf
+*/
+._2tC_c87MH67xQM7Y0pVyXm {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+
+.V7RuDNUxhxoBRaiGWbk3B {
+    padding: 0;
+    border: none;
+}
+
+.V7RuDNUxhxoBRaiGWbk3B ._1VMQWnw-9FBp-MVXUbWfS_ {
+    margin: 0;
+}
+._23SnllqT_AqZ1C_QHcNQ4Z {
+    padding: 0;
+    margin: 0 0 6px;
+    border: none;
+}
+
+.V7RuDNUxhxoBRaiGWbk3B ._3DJLGrqzoQ5vMDI_4VG502 {
+    padding: 6px 0 0 !important;
+}
+
+._1RLnyCu6_DW-NTlpHTBhig,
+.DGRkX_HYUzbFaqRysWQVi {
+    height: unset !important;
+    margin: 0;
+}
+
+
+/*
+! Slider Shelf last item
+*/
+._1esfEVxhqNfh8fzr_kEGKa:not(:last-child) {
+    margin-right: 0;
+}
+
+
+
+/*
+! Last played first game card
+*//*todo:Fertig machen*/
+
+
+/* Image */
+._2IYf7aM4eYQ2Oh-ntmzHbm._3VOR2AeYATx3qSE0I-Pm-5 ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
+    border-radius: 8px 8px 0 0;
+}
+
+/* Info */
+._2d1hSvdpY5L2-GN1EnUb9Z {
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(var(--color-1));
+}
+
+.RhmvOTLHkomDhCTDX9hLA {
+    display: none;
+}
+
+
+
+
+/*
+! Game card
+*/
+.WYgDg9NyCcMIVuMyZ_NBC {
+    border: none;
+    border-radius: 8px;
+}
+
+._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
+    border-radius: 8px;
+}
+
+/* New to library */
+._2jj5TjFhHD1lvxMlpJYek6 {
+    top: 6px;
+}
+._2jj5TjFhHD1lvxMlpJYek6 .N8aJrSpxQ6II4CY_aFdYI {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 6px;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgba(1, 169, 234);
+}
+
+/* Playtime/Date etc. */
+._1LJqx_qFOC8199RBQO5kU8 {
+    width: -webkit-fill-available;
+    margin: 6px;
+    margin-top: -32px;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgba(var(--color-1), 80%);
+    /* backdrop-filter: blur(4px) !important; */
+    box-shadow: 0px 0px 3px 2px rgb(0 0 0 / 50%);
+}
+/* Achievements */
+._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM {
+    background-color: rgba(1, 169, 234);
+}
+/* Metacritic */
+._1LJqx_qFOC8199RBQO5kU8._1KR40mXc7Z4Dss99aBDbyN,
+._1LJqx_qFOC8199RBQO5kU8._1H3NRDhuiZh5xH5jZsiI38,
+._1LJqx_qFOC8199RBQO5kU8._3lWVD8RYypVvbk60T5Vqcs {
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+}
+._1LJqx_qFOC8199RBQO5kU8._1KR40mXc7Z4Dss99aBDbyN {
+    background-color: rgba(0, 206, 122, 1);
+}
+._1LJqx_qFOC8199RBQO5kU8._1H3NRDhuiZh5xH5jZsiI38 {
+    background-color: rgba(255, 189, 63, 1);
+}
+._1LJqx_qFOC8199RBQO5kU8._3lWVD8RYypVvbk60T5Vqcs {
+    background-color: rgba(255, 104, 116, 1);
+}
+
+
+
+/*
+! Collection cards
+*/  /*todo: add comments*/
+.u1xD3KJEgksF_J_5TLZzO {
+    padding: 16px;
+}
+
+
+
+.DGRkX_HYUzbFaqRysWQVi:has(._3IWn-2rn7x98o5fDd0rAxb) {
+    height: unset !important;
+}
+
+
+._3vHkmRShhzwd67_MtEq8-n._3DJLGrqzoQ5vMDI_4VG502:has(._3IWn-2rn7x98o5fDd0rAxb),
+.u1xD3KJEgksF_J_5TLZzO .Ma65KR7z4XhZl4vJvxf4D:has(._3IWn-2rn7x98o5fDd0rAxb) {
+    gap: 16px !important;
+    grid-auto-rows: unset !important;
+}
+
+
+
+._3IWn-2rn7x98o5fDd0rAxb {
+    flex-direction: column;
+    align-items: flex-end;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 25%);
+}
+._3IWn-2rn7x98o5fDd0rAxb:focus,
+._3IWn-2rn7x98o5fDd0rAxb:hover {
+    background: rgb(var(--color-4));
+    box-shadow: none;
+}
+
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 {
+    position: unset;
+    width: 100%;
+    height: 100%;
+}
+
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 .akZKnBQkmOCFmiD2JWwfo {
+    display: none;
+}
+
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._3n796D6GS1fdlXhRnRUfRv {
+    position: unset;
+    margin: 6px;
+    padding: 0 0 16px;
+    mask-image: none;
+    -webkit-mask-image: none;
+}
+
+
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._3vMgn8Qn1EVGWMwVbRBBUA {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    transform-origin: 0;
+    transform: rotateZ(0) rotateY(0) rotateX(0);
+}
+
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._2UWA0lTcI8lQgQsbWucD8x {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+}
+
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._2zbkblS0wKex2zlrf1kmkQ {
+    display: none;
+    width: auto !important;
+    margin: 0;
+    border: none;
+    filter: none;
+    box-shadow: none;
+    transform: unset !important;
+}
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._2zbkblS0wKex2zlrf1kmkQ:nth-child(1),
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._2zbkblS0wKex2zlrf1kmkQ:nth-child(2),
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._2zbkblS0wKex2zlrf1kmkQ:nth-child(3),
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._2zbkblS0wKex2zlrf1kmkQ:nth-child(4),
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._2zbkblS0wKex2zlrf1kmkQ:nth-child(5),
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._2zbkblS0wKex2zlrf1kmkQ:nth-child(6) {
+    display: block;
+}
+
+
+._3IWn-2rn7x98o5fDd0rAxb ._1J1LQ0vGtpM3n0xw7XwQM6 {
+    bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    width: calc(100% - 24px);
+    margin: 0 6px 6px;
+    padding: 6px;
+    letter-spacing: 0;
+    text-transform: unset;
+    text-shadow: none;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+    box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.5);
+}
+._3IWn-2rn7x98o5fDd0rAxb ._1J1LQ0vGtpM3n0xw7XwQM6 div:not(._36QQLBgXFUVTOhU9jMkCWD) {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+._3IWn-2rn7x98o5fDd0rAxb .sZaUDqkKPd-EtHyaNfoKG svg {
+    top: 8px;
+    bottom: unset;
+}

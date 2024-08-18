@@ -1,0 +1,29 @@
+@import url("./src/css/regular.css");
+@import url("./src/css/steam/titlebar.css");
+@import url("./src/css/steam/sidebar.css");
+@import url("./src/css/steam/libHome.css");
+@import url("./src/css/steam/newsModal.css");
+@import url("./src/css/steam/gamepage.css");
+@import url("./src/css/steam/downloadPage.css");
+
+
+/* Base */
+._1ENHEsrSLcTRtPQFl1F-wL {
+    background-color: rgb(var(--background)) !important;
+}
+._1rDh5rXSFZJOqCa4UpnI4z {
+    margin: 0 16px 16px;
+    border-radius: 8px;
+}
+
+/* Always show game sidebar */
+._1rDh5rXSFZJOqCa4UpnI4z:has(.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]) {
+    flex-direction: unset;
+}
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"] {
+    display: flex !important;
+    width: min-content;
+}
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"] ._3BFcmjAaMyP6GTPwc0VyWi {
+    display: none;
+}

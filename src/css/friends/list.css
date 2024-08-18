@@ -1,0 +1,92 @@
+.friendListHeaderContainer {
+    border-radius: 8px;
+    background-color: unset;
+    box-shadow: none;
+}
+
+
+/* User pannel */
+.currentUserContainer {
+    margin-bottom: 16px;
+    padding-right: 0;
+    border-bottom: none;
+}
+
+.statusHeaderGlow {
+    display: none;
+}
+
+.AvatarAndUser {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+
+
+/* Friends haeder */
+.socialTabContainer .activeTab {
+    margin-bottom: 6px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+    box-shadow: none;
+}
+
+.addFriendButton {
+    margin-right: 0;
+}
+
+
+/* List */
+.friendlistListContainer {
+    border-radius: 8px;
+    background: rgb(var(--color-1));
+}
+._17ewzMiLZXQiOFFbpXAZdw,
+._2hL6ssOeMwczcGsrkJWupl {
+    display: none;
+}
+
+.friendGroup.onlineFriends,
+.friendGroup.offlineFriends {
+    margin-top: 0 !important;
+    border-top: none !important;
+}
+
+
+/* Group Chats */
+.FriendsListChatSection {
+    margin-top: 12px;
+}
+
+.FriendsListContent:has(.FriendsListChatSection.Collapsed) .friendsListSectionTitle {
+    margin-bottom: 0;
+    border-radius: 8px;
+}
+.friendsListSectionTitle {
+    margin-bottom: 6px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+.friendsListSectionTitle:hover {
+    background-color: rgb(var(--color-4)) !important;
+}
+
+.chatRoomListContainer {
+    border-radius: 8px;
+    background: rgb(var(--color-1));
+}
+.ChatRoomList {
+    padding: 0;
+}
+
+.ChatRoomListGroupItem:hover .ChatRoomListGroupItem_header {
+    background: none !important;
+}
+
+
+/* Footer */
+.friendListFooter {
+    display: none;
+}

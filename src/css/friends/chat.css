@@ -1,0 +1,97 @@
+.titleBarContainer.ChatTabs {
+    padding: 0 !important;
+    border: none;
+    background-color: unset;
+    box-shadow: none;
+}
+.ChatTabs .title-area {
+    height: 32px;
+    min-height: unset;
+}
+
+
+/*
+! Tab bar
+*/
+.chatTabSetContainer {
+    justify-content: space-between;
+}
+.chatTabSetContainer.inclient {
+    padding: 0;
+}
+
+/* Tab */
+.HorizontalMiniSliderScroll {
+    overflow-y: hidden;
+}
+
+._19ILu15eRwfp5Tkaqhtb0a {
+    gap: 6px;
+    border: none;
+}
+
+.X2iywwN7fcdh9zXpXVsrk {
+    border-radius: 8px;
+    background-color: rgb(var(--color-4));
+}
+.X2iywwN7fcdh9zXpXVsrk:hover {
+    cursor: pointer;
+}
+.X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk {
+    background-color: rgb(var(--color-2));
+}
+.X2iywwN7fcdh9zXpXVsrk::before,
+.X2iywwN7fcdh9zXpXVsrk::after {
+    display: none;
+}
+
+/* More Tabs */
+.chatTabSelector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin-left: 12px;
+    border-radius: 8px;
+    background: rgb(var(--color-4));
+    box-shadow: none;
+}
+.chatTabSelector:hover {
+    background: rgb(var(--color-2));
+}
+.chatTabSelector .SVGIcon_DownArrowContextMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    margin: 0;
+}
+.chatTabSelector .SVGIcon_DownArrowContextMenu polygon {
+    transform: scale(1.28);
+}
+
+
+/*
+! Chat
+*/
+.chatDialogs {
+    margin-top: 6px;
+    background: unset;
+}
+
+.chatWindow {
+    border-radius: 8px;
+    background: rgb(var(--color-1));
+}
+
+.chatWindow .chatHeader {
+    display: none;
+}
+
+
+/*
+! Input
+*/
+/* soon */

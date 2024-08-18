@@ -1,0 +1,18 @@
+._2JtC3JSLKaOtdpAVEACsG1 {
+    background-color: rgb(var(--color-2)) !important;
+}
+._2JtC3JSLKaOtdpAVEACsG1::before {
+    background-color: rgb(var(--accent-1)) !important;
+    transform: translateX(-40px);
+}
+._3ld7THBuSMiFtcB_Wo165i ._2JtC3JSLKaOtdpAVEACsG1::before {
+    transform: translateX(0px) !important;
+}
+
+._3__ODLQXuoDAX41pQbgHf9 {
+    width: 16px;
+    height: 16px;
+    margin: 3px;
+    background: black;
+    transform: translateX(0px);
+}

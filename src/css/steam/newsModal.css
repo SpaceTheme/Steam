@@ -1,0 +1,70 @@
+._37MAYpIjl0IDA1xVhhsuX8 ._19eb8NMS53lqZR33su0kTr {
+    border-radius: 8px;
+    backdrop-filter: blur(12px) brightness(1) saturate(1);
+}
+
+/*
+! Side controls
+*/
+._1Wu6DIeGcXQIYmUgI1Om3q {
+    top: 58px;
+}
+
+._1Wu6DIeGcXQIYmUgI1Om3q ._2jz0pSZrOgZbg4scAWxojd {
+    width: 966px;
+}
+
+/* Buttons */
+.bIoyqcxSbys_LNwXBL-qT {
+    border: none !important;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}
+.bIoyqcxSbys_LNwXBL-qT:hover {
+    background-color: rgb(var(--color-3));
+}
+
+
+/*
+! Main
+*/
+/* Base */
+.lwprNSgEnKfVSHIzsgbFi {
+    margin: 16px auto;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+    background-image: none;
+}
+.eti5Ei5_72tAUqiU4F4n0 {
+    display: none;
+}
+
+/* Banner */
+._3X6U9WGaylaJKy73ufW34F ._3KoBGqKjY90exyHAKGbiYu {
+    top: 0;
+    width: -webkit-fill-available;
+    margin: 12px;
+    margin-bottom: 0;
+    border-radius: 8px;
+}
+
+/* Title */
+._3X6U9WGaylaJKy73ufW34F ._35gM9i287FT5Vx0nL7vX6o {
+    margin: 12px 12px 0;
+    padding: 16px;
+    border-radius: 8px;
+    background: none;
+    background-color: rgb(var(--color-2));
+}
+
+/* Footer */
+._3BVe_okecnI7b_bHj5SS42 {
+    margin: 0 12px 12px;
+    padding: 16px;
+    border-radius: 8px;
+    background-image: none;
+    background-color: rgb(var(--color-2));
+}
+
+/* Footer Buttons */

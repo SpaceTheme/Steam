@@ -1,0 +1,619 @@
+/*
+&
+&
+& Gamepage
+&
+&
+*/
+
+._3FmxxjyWNHU1PrBGnBe6tm._2l416KfEtI4CL0mCUEmOBw {
+    overflow-y: overlay;
+    padding: 16px;
+    background-image: none;
+    background-color: unset;
+}
+
+._2OOzYVWIHaKXm6_7sscT9i ._1Qa-Aq8WFiF9584yU_1xuC {
+    display: none;
+}
+
+
+/*
+! Gamepage Banner
+*/
+._2meE3N6-Wkw3yQUVtQK-i8 {
+    overflow: hidden !important;
+    margin-bottom: 12px;
+}
+._1sarAIIhbGSUQoAZkztD_F {
+    transform: none !important;
+}
+
+._3VFZBY9W_BxsLy1TbDhRYZ {
+    overflow: hidden;
+    height: 100%;
+    border-radius: 8px;
+}
+._dijeIFQK07Fymccmf6qA {
+    width: 100%;
+    max-width: unset;
+    mask-image: none;
+    -webkit-mask-image: none;
+}
+
+._dijeIFQK07Fymccmf6qA.ooM_c2DA3hF8Wg7zbpK5x,
+._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
+    display: none;
+}
+
+/* Logo align */
+
+
+/* Collection tags */
+._2b6WkTnmJxMuX1biL7aS3C {
+    overflow: visible;
+    gap: 6px;
+    max-width: 50%;
+}
+
+._1HS4twEHtDJ_8MWgJT4VBd {
+    margin: 0;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1), .65);
+    /*backdrop-filter: blur(4px);*/
+    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 50%);
+}
+._1HS4twEHtDJ_8MWgJT4VBd:hover {
+    background-color: rgb(var(--color-2), .65);
+}
+
+
+/*
+! Gamepage info bar
+*/
+._3DeO92O5aVkcdwEBCJDjWm._3fLo166MlaNqP8r8tTyRz {
+    margin-bottom: 0;
+    background: unset;
+}
+
+._3Y87YQY56ZCOqhgcZFaDc5 {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+
+/* Play/Install/... button */
+._1FnJ6dPuknQFQ2RTpKTI16 {
+    gap: 6px;
+    min-width: 180px !important;
+}
+
+._3ydigb6zZAjJ0JCDgHwSYA {
+    padding: 12px 16px;
+    border-radius: 8px !important;
+}
+._2q-gZ3XJzlvSGHSF-GvSmi {
+    margin: 0;
+    border-radius: 8px;
+}
+
+/* Achievements progressbar */
+._25YVDTaClw6Y2COPsU0UaV {
+    background-color: rgb(var(--background));
+}
+
+._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6 {
+    background-color: rgb(var(--accent-1));
+}
+
+
+/*
+! Gamepage game links bar
+*/  /*todo: add comments*/
+._2r4TK4BAuU-J4FuF_O7v_5 {
+    padding: 0;
+}
+
+._3-V8vjmrwuJM6Ws3tsjFJj>div {
+    margin: 6px 0 16px;
+    border-radius: 8px;
+    background: none !important;
+    background-color: rgb(var(--color-2)) !important;
+}
+
+._3-V8vjmrwuJM6Ws3tsjFJj ._25f0fX6qbgdB7O_lMrbhCN {
+    padding: 6px 12px;
+}
+
+._3-V8vjmrwuJM6Ws3tsjFJj .DgVQapkBmhAW6oPY5rPZo {
+    display: flex;
+    height: unset !important;
+}
+
+
+._7k4qmaN8SUMvv6u-L81uk {
+    position: unset;
+    margin-right: 6px;
+    padding: 0;
+}
+
+.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ {
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-4));
+}
+.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover {
+    background-color: rgb(var(--color-3));
+}
+
+._1bIMOmWaxKrMdVMWU21ku {
+    position: absolute;
+    right: 0;
+}
+
+
+/*
+! Gamepage main
+*/
+._27RcNu8aXKBpYkHcNNrt-X .OhSdLYuggDtBcWjYP0j_9 {
+    padding: 0;
+}
+
+
+/*
+! Recommend & post-game summary
+*/
+._27RcNu8aXKBpYkHcNNrt-X ._11kuVRYZvWXn-3rBJ_6yL8 {
+    display: flex !important;
+    flex-direction: column;
+    gap: 12px;
+    width: unset !important;
+    padding: 0 !important;
+    margin-bottom: 16px;
+}
+._27RcNu8aXKBpYkHcNNrt-X ._11kuVRYZvWXn-3rBJ_6yL8>div:last-child {
+    margin: 0;
+}
+
+
+/* Recommend */  /*todo: add comments*/
+._3LE-6w1ItIAB4CKJFCa3Od {
+    padding: 16px;
+    border-radius: 8px;
+    background: linear-gradient(45deg,rgba(var(--accent-1),0)0%,rgba(var(--accent-1),.15)100%),linear-gradient(225deg,rgba(var(--accent-2),0)0%,rgba(var(--accent-2),.15)100%),rgb(var(--color-2));
+}
+._3LE-6w1ItIAB4CKJFCa3Od ._2z8Na_s9JosX48wHF4HPiA {
+    width: unset;
+}
+._2SAb6geDpe6toA1GaP0GjH {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: unset;
+    align-items: center;
+}
+
+
+
+._2SAb6geDpe6toA1GaP0GjH ._2aeAnRfwltWfd9Hb9M_1uE .qX4kNo6O0M-mYntdErKSJ {
+    font-weight: 700;
+    color: rgb(var(--accent-1));
+}
+
+._2SAb6geDpe6toA1GaP0GjH ._2aeAnRfwltWfd9Hb9M_1uE .My1beniJXh9pXud8rxYLK {
+    font-weight: 400;
+}
+
+
+._1E6Ivnp3A4apXqQYtlQHEc {
+    display: flex;
+    gap: 6px;
+}
+
+._1kCN0pAntrcGCSmcc-vYdk {
+    margin: 0;
+    padding: 6px 16px;
+    border-radius: 8px;
+    color: rgb(var(--accent-1));
+    background-color: rgba(var(--accent-1), .2);
+}
+._1kCN0pAntrcGCSmcc-vYdk:not(.Z3L6KGVxi4ZjGUzbYUjBC):hover {
+    color: rgb(var(--accent-2)) !important;
+    background: none;
+    background-color: rgba(var(--accent-1), .2);
+}
+
+._1kCN0pAntrcGCSmcc-vYdk span {
+    display: none;
+}
+._1kCN0pAntrcGCSmcc-vYdk._2bF4k-NqETM87LmHPN-Jp3 span {
+    display: block;
+}
+
+._1kCN0pAntrcGCSmcc-vYdk ._2Jkk-4RGWzhce22lSnA9Em {
+    position: unset;
+    display: block;
+    height: 22px;
+    fill: rgb(var(--accent-1));
+    transform: scale(1.4);
+}
+._1kCN0pAntrcGCSmcc-vYdk:not(.Z3L6KGVxi4ZjGUzbYUjBC):hover ._2Jkk-4RGWzhce22lSnA9Em {
+    fill: rgb(var(--accent-2));
+}
+._1kCN0pAntrcGCSmcc-vYdk ._2Jkk-4RGWzhce22lSnA9Em._32G01cdyGED_NiCadEgWAL {
+    transform: rotate(180deg) scale(1.4);
+}
+
+/*._1kCN0pAntrcGCSmcc-vYdk._2bF4k-NqETM87LmHPN-Jp3::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 22px;
+    background: url("src/icons/xmark.svg") no-repeat;
+}*/
+
+
+/* Summary */  /*todo: add comments*/
+._1OMmVJHDgNwOt0Wqn0hrf9 {
+    width: auto !important;
+    margin: 0 !important;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+
+
+._2pAbUZVnG9Q1TYOfdvFmtX {
+    margin-bottom: 6px;
+    padding: 0 !important;
+}
+
+.P_gQ8X-yCsgXeXpP68KS0 {
+    line-height: unset ;
+}
+
+._2K2No5eH-XS6QwrXUtzo2x {
+    margin-left: 12px;
+}
+
+
+._2MKO5j24KqDdD-92hH5FXi {
+    height: unset;
+    padding: 12px;
+    border-radius: 8px;
+    background: none;
+    background-color: rgb(var(--color-1));
+}
+._2MKO5j24KqDdD-92hH5FXi:after {
+    display: none;
+}
+
+._1iO7MC6rgUjbDf49AE6hCm {
+    justify-content: flex-end;
+    height: unset !important;
+}
+._1iO7MC6rgUjbDf49AE6hCm:first-child {
+    margin: 0;
+}
+
+._3ugJ_KPVlOd9oeYm-fYC_w {
+    height: unset;
+    margin-bottom: 6px;
+}
+
+._1r3z58m4uvAtp2Nfee0kDg {
+    margin: 0;
+}
+
+
+
+/*
+&
+&
+& Gamepage main list
+&
+&
+*/
+
+._3yTl3RiWfo-Itg-xp967wP {
+    max-width: 67%;
+}
+
+
+._3yTl3RiWfo-Itg-xp967wP ._31ptFGGMZrSQc5BCX1e5lm {
+    margin: 6px 0 0;
+}
+
+/*
+! Cards
+*/
+.S2Fu9HxHCA5MaCLGrN2ib {
+    margin-bottom: 12px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+
+.S2Fu9HxHCA5MaCLGrN2ib>div:not(._19LfMT7PFWg2xHOqNjR99q) {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Date divider */
+.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q ._3pcPRPvuGH7hEM33zLknZO {
+    display: none;
+}
+
+
+/* Update/News card */
+.UVeN0kaD3zv1feMj_mMw5 .UVeN0kaD3zv1feMj_mMw5 {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: none;
+    background-color: rgb(var(--color-1));
+    transition: background-color 0.2s;
+}
+.UVeN0kaD3zv1feMj_mMw5 .UVeN0kaD3zv1feMj_mMw5:hover {
+    background-color: rgb(var(--color-3));
+}
+.UVeN0kaD3zv1feMj_mMw5._39Zk32AvV5cr6g-83IVRVS {
+    background-color: #199fff33;
+}
+.UVeN0kaD3zv1feMj_mMw5._39Zk32AvV5cr6g-83IVRVS:hover {
+    background-color: #199fff40;
+}
+
+._3oMUSjOFNB0E9LWcL2sE7 {
+    display: none;
+}
+
+._2gv3EsHSu5dMQyMqaz-W9t,
+._1wJJQwnV-ssGrL0xveFujy {
+    padding: 0;
+}
+
+
+/* Update/News card background gradient/image */
+._1HZy7BvOZuPT8feUwadL4W,
+.LibriMVXcLl1HB60ZUp78 {
+    background: none !important;
+}
+.fGDsmh9vz8h0RMEoRoAvF._3cX_vEKsN9S9EmR0O5w1Ol {
+    display: none;
+}
+
+/* Update/News card icon */
+._1-llQnFWxBo1kyWdkDFyXp {
+    width: 42px;
+    height: 42px;
+    margin: 0 12px 0 0;
+}
+
+/* Update/News card image */
+.ddB5GVHCwLezhshXUMCNL,
+._1XpBItdUymdlwPZzvvOnyW {
+    margin-right: 12px;
+    padding: 0;
+}
+.VytJzt3Z_t6332-n24Yrc,
+.fGDsmh9vz8h0RMEoRoAvF {
+    border-radius: 8px;
+}
+.fGDsmh9vz8h0RMEoRoAvF {
+    max-width: unset;
+}
+
+/* Update/News card text */
+._2HzKE96Sc4z6KHN68gr4DS {
+    margin: 0;
+}
+
+
+/* Card activity footer */
+._1yWgPveQ73QeYCdLcs6oFQ,
+.EhWKRN0QCGwfB7zcx7DwQ {
+    opacity: 1;
+    margin: 6px 0 0;
+}
+
+
+
+/*
+&
+&
+& Gamepage sidebar base
+&
+&
+*/
+
+._27RcNu8aXKBpYkHcNNrt-X ._2aor4XVOYzN1PBSREk0UbO {
+    margin-left: 16px;
+}
+
+/*
+! Base card
+*/
+._31ptFGGMZrSQc5BCX1e5lm._2G5B7o_YoI__u11--EFjal._3KfxIwlXEvum7FCD_AM2_t {
+    display: flex;
+    flex-direction: column;
+    margin: 6px 0 0;
+    border-radius: 8px;
+    background-image: none;
+    background-color: rgb(var(--color-2));
+}
+
+/* Card header */
+._38t1mljBjmJfqjpVzMT1CG {
+    margin: 12px 12px 0;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--color-1));
+}
+
+/* Card content base */
+._31ptFGGMZrSQc5BCX1e5lm._2G5B7o_YoI__u11--EFjal._3KfxIwlXEvum7FCD_AM2_t ._5uvIN6jXDXzzck59F-nhv {
+    padding: 12px;
+}
+
+
+/*
+! Achievements
+*/
+/* 100% Star */
+._2YS0EBJmY2Rvs07zZ90UIJ svg {
+    width: 42px;
+    height: 42px;
+    left: 4px;
+    top: 6px;
+}
+._2YS0EBJmY2Rvs07zZ90UIJ svg path {
+    stroke: unset;
+    fill: rgb(var(--accent-1), .7);
+    d: path("M4.14 11.85L4.46 11.53L4.46 11.07L4.46 5.15L10.37 5.15L10.84 5.15L11.18 4.81L16 0L20.81 4.81L21.15 5.15L21.62 5.15L27.53 5.15L27.53 11.07L27.53 11.53L27.85 11.85L32 16L27.85 20.14L27.53 20.46L27.53 20.92L27.53 26.84L21.62 26.84L21.15 26.84L20.81 27.18L16 32L11.18 27.18L10.84 26.84L10.37 26.84L4.46 26.84L4.46 20.92L4.46 20.46L4.14 20.14L0 16L4.14 11.85Z");
+}
+._2YS0EBJmY2Rvs07zZ90UIJ svg circle {
+    cx: 16;
+    cy: 16;
+    r: 6;
+    stroke: unset;
+    fill: rgb(var(--accent-2));
+}
+
+/* Progressbar */
+._3ns9185LizH61StaAXuAp6 {
+    height: 6px;
+    margin: 6px 0 0;
+    border-radius: 8px;
+    background-color: rgb(var(--background));
+}
+
+._3ns9185LizH61StaAXuAp6 ._3Rm36_oeAhvIg6ZYP9l1Jj {
+    border-radius: 8px;
+    background-color: rgb(var(--accent-1));
+}
+
+/* More */
+._2aVnDeExEHiUFX0zwr_BTO:has(._2gISWIeEzZ9PNuAzVuMaWd) {
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}
+
+/* Divider */
+._3ca11X3AK6npLS3emMa5Lr._3i6PczGBBYzCDZXkCDbJAD {
+    border: none;
+}
+
+
+/*
+! Notes
+*/
+._2L6IIbLCMWUJcOhliUVqKb {
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-4));
+}
+._2L6IIbLCMWUJcOhliUVqKb:not(:first-child) {
+    margin-top: 6px;
+}
+
+
+/*
+! Trading Cards
+*/
+/* Header */
+.RPcyJMJC7chgPFkD4KWtO {
+    width: 42px;
+    height: 42px;
+    margin: 6px 12px 6px 6px;
+}
+.RPcyJMJC7chgPFkD4KWtO._2feGA5T49Nk1_dTnwfOnL {
+    border-radius: 50%;
+    border: 4px dashed rgb(var(--color-2));
+}
+
+/* Card grid */
+._21DlIyo8Kp99Kz3KmWiFno {
+    gap: 6px;
+    margin: 0;
+}
+
+/* Cards */
+._1WsOngnf2RD4f5N-38rPLZ {
+    margin: 0;
+}
+
+._1WsOngnf2RD4f5N-38rPLZ ._2DUDvAhXoEOSsd8GTIsKLY {
+    border: none !important;
+    border-radius: 8px !important;
+    background-color: rgb(var(--color-2)) !important;
+}
+
+
+/*
+! Steam Workshop
+*/
+/* Image */
+._1W34WpqfvufNgueNdZozwC {
+    align-items: start;
+}
+
+/* Footer */
+._176QJCynkEUSdR_-9btdAW {
+    padding-top: 0 !important;
+    background: none;
+}
+
+
+/*
+! Screenshots
+*/
+._2_TE0KLOU7kWWxa9LS7iXA ._2fgcqIGs6BXH_KJiTLhJX5 {
+    gap: 6px;
+    margin: 0;
+}
+
+._2_TE0KLOU7kWWxa9LS7iXA ._2B8NkDc3EmF3XM6hl1qpQ8,
+._2_TE0KLOU7kWWxa9LS7iXA ._2B8NkDc3EmF3XM6hl1qpQ8 ._21yM8Jxi06nOAC-Lr1vfOh {
+    border-radius: 8px;
+}
+
+
+/*
+! My Review
+*/
+/* Header */
+._1izIEyRuLgphVa7NKAGtIb {
+    margin-right: 12px;
+    border-radius: 8px;
+}
+
+.BDa6lbTAdR4RwtqgRNUnO {
+    padding: 0;
+}
+
+/* Likes & Comments */
+._2Z3ghRCL5qh2cqXrrd9l8Z {
+    gap: 6px;
+    flex-flow: unset;
+    justify-content: flex-end;
+    padding-right: 12px;
+}
+
+._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz- ._2cFKqVak8vsZdvk9mKdum_,
+._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz- .szq-QUt-0soxUfoD65BC7 {
+    margin: 0;
+    padding: 0;
+}
+
+._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz- ._2EyEa4GxazAthx5c83AUGO {
+    display: none;
+}
+
+._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz- ._2FYBwhP98BAjYNtW0mlkR7 {
+    margin: 0;
+}

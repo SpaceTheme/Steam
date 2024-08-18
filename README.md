@@ -1,5 +1,3 @@
-[![Noti](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/noti.png)](#)
-
 <div align="center">
 <h3><img height="52px" src="https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/logo.png"></h3>
 
@@ -12,6 +10,15 @@
 </div>
 
 ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png)
+<details>
+    <summary>More images (v1.1.0-alpha)</summary>
+
+|  Library home  |  Library gamepage  |
+|  :---:  |  :---:  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/libHome.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/libGamepage.png)  |
+|  **Store**  |  **Friend list & Chat**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/storePage.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/friendAndChat.png)  |
+</details>
 <details>
     <summary>More images (Concepts)</summary>
 

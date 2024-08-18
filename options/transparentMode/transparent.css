@@ -1,0 +1,11 @@
+:root {
+    --color-1: 17, 17, 17, 60% !important;
+    --color-2: 30, 30, 30, 60% !important;
+    --color-3: 20, 20, 20, 60% !important;
+    --color-4: 24, 24, 24, 60% !important;
+    --color-5: 38, 41, 44, 60% !important;
+    --color-6: 38, 38, 41, 60% !important;
+    --accent-1: 102, 108, 255 !important;
+    --accent-2: 135, 140, 255 !important;
+    --background: 10, 10, 10, 60% !important;
+}

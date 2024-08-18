@@ -1,0 +1,55 @@
+/* Base */
+body.DesktopUI {
+    background: unset !important;
+}
+
+body.DesktopUI .LQkrbbayZPY11qHm01t7F {
+    background: unset;
+}
+
+body.DesktopUI ._2y2tUbsMx8OIwkimGSyHmb {
+    padding: 6px !important;
+    border: 2px solid rgb(var(--color-5));
+    border-radius: 8px;
+    background-color: rgb(var(--color-3));
+}
+
+/* Items */
+body.DesktopUI .pFo3kQOzrl9qVLPXXGIMp {
+    padding: 6px 12px;
+    font-weight: 500;
+    border-radius: 8px;
+    color: #9c9c9c;
+}
+body.DesktopUI .pFo3kQOzrl9qVLPXXGIMp:hover {
+    color: #fff;
+    background-color: rgb(var(--color-2));
+}
+body.DesktopUI ._1F2EcTc-0vNkdiBz8ATakM._1F2EcTc-0vNkdiBz8ATakM+.pFo3kQOzrl9qVLPXXGIMp {
+    border: none;
+}
+
+/* Divider */
+body.DesktopUI ._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_,
+body.DesktopUI ._1F2EcTc-0vNkdiBz8ATakM {
+    width: auto;
+    height: 3px;
+    margin: 2px 6px;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2)) !important;
+}
+
+/* Hide last Divider from tray menu */
+body.DesktopUI ._1F2EcTc-0vNkdiBz8ATakM:nth-last-child(1) {
+    display: none;
+}
+
+/* New Badge */
+body.DesktopUI ._3EvKu7VyTGMoDtbyugKQ5H {
+    margin: 0 6px 0 0;
+    padding: 0 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--accent-2));
+}

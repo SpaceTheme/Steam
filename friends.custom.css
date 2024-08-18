@@ -1,8 +1,12 @@
-@import url("./src/regular.css");
+@import url("./src/css/regular.css");
+@import url("./src/css/friends/chat.css");
+@import url("./src/css/friends/groupChat.css");
+@import url("./src/css/friends/list.css");
 
 
-html.client_chat_frame body, html.web_chat_frame body {
-    background-color: var(--background);
+
+body {
+    background-color: rgb(var(--background)) !important;
 }
 
 .singleWindowFocusBar {
@@ -11,75 +15,36 @@ html.client_chat_frame body, html.web_chat_frame body {
     background: unset;
 }
 
-
-.friendlist {
+.friendsListContainer,
+.multiChatDialog {
     height: calc(100% - 48px);
     margin: 32px 16px 16px;
 }
 
 
-.title-area {
-    width: calc(100% + 32px);
-    height: 32px !important;
-    margin-left: -16px;
+/* Title Bar */
+.TitleBar {
     top: -32px;
+    width: calc(100% + 32px);
+    height: 32px;
+    min-height: 32px;
+    margin-left: -16px;
 }
-.title-area-highlight {
+
+.TitleBar .title-area-highlight {
     mask: unset;
     -webkit-mask: unset;
     background: unset;
 }
-.friendsui-container .title-area-icon {
+
+.TitleBar .title-area-icon {
     width: 42px;
-    height: 32px;
 }
-
-
-.friendListHeaderContainer {
-    border-radius: 8px;
-    background-color: unset;
-    box-shadow: none;
+.TitleBar .title-area-icon:hover {
+    background-color: rgb(var(--color-3));
 }
-.currentUserContainer {
-    margin-bottom: 16px;
-    padding-right: 0;
-    border-bottom: none;
-}
-.statusHeaderGlow {
-    display: none;
-}
-.AvatarAndUser {
-    padding: 16px;
-    border-radius: 8px;
-    background-color: var(--color-2);
-}
-
-.socialTabContainer .activeTab {
-    border-radius: 8px 8px 0 0;
-    background-color: var(--color-1);
-    box-shadow: none;
-}
-
-
-.friendlistListContainer {
-    border-radius: 0 0 8px 8px;
-    background: var(--color-1);
-}
-._17ewzMiLZXQiOFFbpXAZdw, ._2hL6ssOeMwczcGsrkJWupl {
-    display: none;
-}
-
-.FriendsListChatSection {
-    margin-top: 10px;
-}
-.FriendsListContent:has(.FriendsListChatSection.Collapsed) .friendsListSectionTitle {
-    border-radius: 8px;
-}
-.friendsListSectionTitle {
-    border-radius: 8px 8px 0 0;
-    background-color: var(--color-1);
-}
-
-.friendListFooter {
-    display: none;
+.TitleBar  .title-area-icon:hover .SVGIcon_Button rect,
+.TitleBar  .title-area-icon:hover .SVGIcon_Button line,
+.TitleBar  .title-area-icon:hover .SVGIcon_Button polyline {
+    stroke: #dddddd;
 }
