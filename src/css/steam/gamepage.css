@@ -10,7 +10,7 @@
     overflow-y: overlay;
     padding: 16px;
     background-image: none;
-    background-color: unset;
+    background-color: rgb(var(--color-1));
 }
 
 ._2OOzYVWIHaKXm6_7sscT9i ._1Qa-Aq8WFiF9584yU_1xuC {
@@ -21,28 +21,28 @@
 /*
 ! Gamepage Banner
 */
-._2meE3N6-Wkw3yQUVtQK-i8 {
+.NZMJ6g2iVnFsOOp-lDmIP {
     overflow: hidden !important;
     margin-bottom: 12px;
 }
-._1sarAIIhbGSUQoAZkztD_F {
+._1IX7FPSY9Jb82KhBVBSkZa {
     transform: none !important;
 }
 
-._3VFZBY9W_BxsLy1TbDhRYZ {
+.QlR9EFwTdUNm_J5vx54_Z {
     overflow: hidden;
     height: 100%;
     border-radius: 8px;
 }
-._dijeIFQK07Fymccmf6qA {
+.HNbe3eZf6H7dtJ042x1vM {
     width: 100%;
     max-width: unset;
     mask-image: none;
     -webkit-mask-image: none;
 }
 
-._dijeIFQK07Fymccmf6qA.ooM_c2DA3hF8Wg7zbpK5x,
-._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
+.HNbe3eZf6H7dtJ042x1vM._3_IUVzR9tpG_JKEjhwXEAb,
+.HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u {
     display: none;
 }
 

@@ -5,46 +5,22 @@
 
 
 
-body {
-    background-color: rgb(var(--background)) !important;
-}
-
 .singleWindowFocusBar {
     mask: unset;
     -webkit-mask: unset;
     background: unset;
 }
 
+
+.TitleBar {
+    top: -32px;
+    width: calc(100% + 32px);
+    margin-left: -16px;
+}
+
+
 .friendsListContainer,
 .multiChatDialog {
     height: calc(100% - 48px);
     margin: 32px 16px 16px;
-}
-
-
-/* Title Bar */
-.TitleBar {
-    top: -32px;
-    width: calc(100% + 32px);
-    height: 32px;
-    min-height: 32px;
-    margin-left: -16px;
-}
-
-.TitleBar .title-area-highlight {
-    mask: unset;
-    -webkit-mask: unset;
-    background: unset;
-}
-
-.TitleBar .title-area-icon {
-    width: 42px;
-}
-.TitleBar .title-area-icon:hover {
-    background-color: rgb(var(--color-3));
-}
-.TitleBar  .title-area-icon:hover .SVGIcon_Button rect,
-.TitleBar  .title-area-icon:hover .SVGIcon_Button line,
-.TitleBar  .title-area-icon:hover .SVGIcon_Button polyline {
-    stroke: #dddddd;
 }

@@ -65,6 +65,7 @@ waitForElement('.Rp8QOGJ2DypeDniMnRBhr').then(() => {
     // Userpannel
     var userPannel = await waitForElement('._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u');
     var downloadBar = await waitForElement('._1_yS5UP7el0aN4vntx3dx');
+    var friendButton = await waitForElement('._1TdaAqMFadi0UTqilrkelR')
     var parent = await waitForElement('._3cykd-VfN_xBxf3Qxriccm');
 
     const buttonContainer = document.createElement('div');
@@ -81,12 +82,13 @@ waitForElement('.Rp8QOGJ2DypeDniMnRBhr').then(() => {
   
     gameListSidebar.appendChild(downloadBar);
     gameListSidebar.appendChild(userPannel);
+    buttonContainer.appendChild(friendButton);
     parent.appendChild(buttonContainer);
 
 
     // Download bar
-    var downloadingText = await waitForElement('._1sCy-pm412Smb0wJx0W-4');
-    var downloadingIconDiv = await waitForElement('._2VtAqT03BpBsVdmxwptn9D ._1KrJ3sFAqPBN9mfpaNTU5F');
+    //var downloadingText = await waitForElement('._1sCy-pm412Smb0wJx0W-4');
+    //var downloadingIconDiv = await waitForElement('._2VtAqT03BpBsVdmxwptn9D ._1KrJ3sFAqPBN9mfpaNTU5F');
     
-    downloadingIconDiv.appendChild(downloadingText);
+    //downloadingIconDiv.appendChild(downloadingText);
 })();

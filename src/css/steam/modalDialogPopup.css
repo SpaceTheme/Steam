@@ -1,0 +1,93 @@
+html.client_chat_frame body,
+html.web_chat_frame body {
+    background-color: rgb(var(--background)) !important;
+}
+
+
+
+.TitleBar {
+    height: 32px !important;
+    min-height: 32px;
+}
+
+.TitleBar .title-area-highlight {
+    height: 32px;
+    mask: unset;
+    -webkit-mask: unset;
+    background: unset;
+}
+
+.TitleBar .title-area-icon {
+    width: 42px;
+}
+.TitleBar .title-area-icon:hover {
+    background-color: rgb(var(--color-3));
+}
+.TitleBar  .title-area-icon:hover .SVGIcon_Button rect,
+.TitleBar  .title-area-icon:hover .SVGIcon_Button line,
+.TitleBar  .title-area-icon:hover .SVGIcon_Button polyline {
+    stroke: #dddddd;
+}
+
+
+
+/* Base */
+._3few7361SOf4k_YuKCmM62.MzjwfxXSiSauz8kyEuhYO,
+.DialogContent._DialogLayout:not(.CFTLX2wIKOK3hNV-fS7_V) {
+    gap: 16px;
+    width: -webkit-fill-available;
+    min-width: unset !important;
+    height: -webkit-fill-available;
+    min-height: unset !important;
+    margin: 32px 16px 16px;
+}
+
+
+
+/* Titel */
+._2rjVTGz8aLvqOdz5v2gq5C,
+._2Nmun5feXmM6VdoGKSPapp,
+.DialogContent:not(.CFTLX2wIKOK3hNV-fS7_V) .DialogHeader {
+    position: absolute;
+    top: -22px;
+    left: 0;
+    width: max-content;
+    margin: 0;
+    padding: 0;
+    font-size: 12px !important;
+    line-height: 12px;
+    font-weight: 600;
+    text-transform: none;
+    color: #969696;
+}
+
+
+
+/* Sidebar */
+._2kwFFHckg8jvnwJfg9-la8 {
+    min-height: unset !important;
+    padding: 0;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+
+
+._1-vlriAtKYDViAEunue4VO {
+    padding: 6px 12px;
+    background-color: unset !important;
+}
+
+
+
+/* Main */
+.DialogContentTransition,
+.DialogContent {
+    padding: 0 !important;
+    background: none !important;
+}
+
+.DialogContent_InnerWidth {
+    padding: 12px !important;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1)) !important;
+}

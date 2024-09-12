@@ -3,11 +3,11 @@ body.DesktopUI {
     background: unset !important;
 }
 
-body.DesktopUI .LQkrbbayZPY11qHm01t7F {
+body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
     background: unset;
 }
 
-body.DesktopUI ._2y2tUbsMx8OIwkimGSyHmb {
+body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n {
     padding: 6px !important;
     border: 2px solid rgb(var(--color-5));
     border-radius: 8px;
@@ -15,23 +15,23 @@ body.DesktopUI ._2y2tUbsMx8OIwkimGSyHmb {
 }
 
 /* Items */
-body.DesktopUI .pFo3kQOzrl9qVLPXXGIMp {
+body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI {
     padding: 6px 12px;
     font-weight: 500;
     border-radius: 8px;
     color: #9c9c9c;
 }
-body.DesktopUI .pFo3kQOzrl9qVLPXXGIMp:hover {
+body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover {
     color: #fff;
     background-color: rgb(var(--color-2));
 }
-body.DesktopUI ._1F2EcTc-0vNkdiBz8ATakM._1F2EcTc-0vNkdiBz8ATakM+.pFo3kQOzrl9qVLPXXGIMp {
+body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI {
     border: none;
 }
 
 /* Divider */
 body.DesktopUI ._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_,
-body.DesktopUI ._1F2EcTc-0vNkdiBz8ATakM {
+body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8 {
     width: auto;
     height: 3px;
     margin: 2px 6px;
@@ -42,7 +42,7 @@ body.DesktopUI ._1F2EcTc-0vNkdiBz8ATakM {
 }
 
 /* Hide last Divider from tray menu */
-body.DesktopUI ._1F2EcTc-0vNkdiBz8ATakM:nth-last-child(1) {
+body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8:nth-last-child(1) {
     display: none;
 }
 

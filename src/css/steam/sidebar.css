@@ -38,6 +38,10 @@
     background-color: rgb(var(--color-3)) !important;
 }
 
+._3pSPluBgf0NeR1kkCLWMhR ._3O48LaKWcabKx07xdrt1TH {
+    font-weight: 600;
+}
+
 /* Logo in home button */
 ._3pSPluBgf0NeR1kkCLWMhR ._1ooROmAgkhoBH_o65yl9dJ {
     top: 0;
@@ -227,12 +231,12 @@
 
 /*
 ! Downloadbar
-*/
+*//*
 ._1_yS5UP7el0aN4vntx3dx {
     visibility: hidden;
     height: 0;
 }
-/*
+
 ._1_yS5UP7el0aN4vntx3dx:has(.yZ55NhARZGx1Awk2qs8pS) {
     visibility: visible;
     height: unset;
