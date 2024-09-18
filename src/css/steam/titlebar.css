@@ -27,7 +27,7 @@
     display: flex;
 }
 .bSKGlAJG2UVWTsntEJY2v {
-    font-size: 0px;
+    font-size: 0;
 }
 .bSKGlAJG2UVWTsntEJY2v::after {
     display: flex;
@@ -73,7 +73,7 @@
     left: 50%;
     width: fit-content;
     height: 46px;
-    padding: 0px;
+    padding: 0;
     transform: translate(-50%, -50%);
 }
 ._3Z3ohQ8-1NKnCZkbS6fvy ._7AlhCx3XGzBeIrQaCneUD {
@@ -101,7 +101,7 @@
 
 
 ._3cykd-VfN_xBxf3Qxriccm {
-    margin: 0 0 0 10px;
+    margin: 0 27px 0 10px;
 }
 
 
