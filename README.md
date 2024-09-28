@@ -30,7 +30,7 @@
 </details>
   
 ## Installation
-1. Download [Millennium Beta](https://docs.steambrew.app/users/installing). Follow the instructions provided to install the patcher.
+1. Download [Millennium](https://docs.steambrew.app/users/installing). Follow the instructions provided to install the patcher.
 1. Open Steam and navigate to `Steam -> Settings -> Themes`
 1. Click on the Folder icon to open the skins folder
 1. Now simply drop the theme in the skins folder and unzip the .zip
