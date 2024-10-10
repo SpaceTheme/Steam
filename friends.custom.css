@@ -21,7 +21,7 @@
 
 .friendsListContainer,
 .multiChatDialog {
+    overflow: unset !important;
     height: calc(100% - 48px);
     margin: 32px 16px 16px;
-    overflow: unset !important;
 }
