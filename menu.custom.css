@@ -14,6 +14,7 @@ body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n {
     background-color: rgb(var(--color-3));
 }
 
+
 /* Items */
 body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI {
     padding: 6px 12px;
@@ -29,6 +30,7 @@ body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18
     border: none;
 }
 
+
 /* Divider */
 body.DesktopUI ._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_,
 body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8 {
@@ -41,10 +43,12 @@ body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8 {
     background-color: rgb(var(--color-2)) !important;
 }
 
+
 /* Hide last Divider from tray menu */
 body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8:nth-last-child(1) {
     display: none;
 }
+
 
 /* New Badge */
 body.DesktopUI ._3EvKu7VyTGMoDtbyugKQ5H {

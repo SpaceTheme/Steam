@@ -1,9 +1,5 @@
 /*
-&
-&
 & Gamepage
-&
-&
 */
 
 ._3FmxxjyWNHU1PrBGnBe6tm._2l416KfEtI4CL0mCUEmOBw {
@@ -170,6 +166,8 @@
     gap: 12px;
     width: unset !important;
     padding: 0 !important;
+}
+._27RcNu8aXKBpYkHcNNrt-X ._11kuVRYZvWXn-3rBJ_6yL8:has(div) {
     margin-bottom: 16px;
 }
 ._27RcNu8aXKBpYkHcNNrt-X ._11kuVRYZvWXn-3rBJ_6yL8>div:last-child {
@@ -309,11 +307,7 @@
 
 
 /*
-&
-&
 & Gamepage main list
-&
-&
 */
 
 ._3yTl3RiWfo-Itg-xp967wP {
@@ -423,11 +417,7 @@
 
 
 /*
-&
-&
 & Gamepage sidebar base
-&
-&
 */
 
 ._27RcNu8aXKBpYkHcNNrt-X ._2aor4XVOYzN1PBSREk0UbO {
@@ -616,4 +606,155 @@
 
 ._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz- ._2FYBwhP98BAjYNtW0mlkR7 {
     margin: 0;
+}
+
+
+
+/*
+& Community Content
+*/
+
+/*
+! Header
+*/
+.A6G1leLXs7Vqw45hoXg-l ._1Q2q_tQ9_Eq8YdEHNAHS3F._3jY6xWI4URhFyYsanh9VKL {
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background: none;
+    background-color: rgb(var(--color-2));
+}
+
+/* Space between text and icon */
+._1SQ30LQnUhED7sXI79rmas {
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Help/Info icon */
+._34I5HgBL6QP2CcuI4emtaM {
+    margin: 0;
+}
+
+
+
+/*
+! Cards
+*/
+._31ptFGGMZrSQc5BCX1e5lm._2G5B7o_YoI__u11--EFjal:has(._3Uy7tGY-DstlA3jV6dGEfB) {
+    margin: 12px 0 0;
+}
+
+
+/* Grid */
+._1I55h8ejmOddwvE4LFbSEq._290KSp85s48oovzIXHpZ1k {
+    gap: 12px;
+    padding: 0 0 12px;
+}
+
+
+/* Main */
+._3QS6OBHpvI5bXsSQA2zQuW {
+    gap: 6px;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+    box-shadow: none;
+}
+
+
+/* Setting icon */
+.CwZqp0ZwInfY8H9jUO4Xy {
+    border-radius: 8px;
+}
+
+
+/* Image & Video */
+._1aP1bu_l_kDbKMN7XDNmzg .AxZMHRu3YIxDFr0a-MP6n,
+._1aP1bu_l_kDbKMN7XDNmzg .jjN9CtYfeIJoHpKOCmKOx {
+    border-radius: 8px;
+}
+
+/* Vidoe Play icon */
+.jjN9CtYfeIJoHpKOCmKOx ._2co0ek5jbAvxuML8CcgsBy {
+    display: none;
+}
+._1aP1bu_l_kDbKMN7XDNmzg .jjN9CtYfeIJoHpKOCmKOx::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    height: 64px;
+    width: 64px;
+    border-radius: 100%;
+    background: url("../../icons/play.svg") center;
+    background-size: cover;
+    box-shadow: 0 0 20px #fff;
+    transform: translate(-50%, -50%);
+}
+
+/* Image & Video Disc */
+._1aP1bu_l_kDbKMN7XDNmzg ._3uabislt81gdMksbxzc-iN {
+    position: unset;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+}
+
+._1aP1bu_l_kDbKMN7XDNmzg .UhvgnRdPkZbRLaSD8iqLd {
+    margin: 0;
+}
+
+
+/* Guides */
+._-85o5-M_cGo-fefOuWwER ._33Cd4gWWUSqwn-dCRv_9Ko {
+    margin: 0;
+}
+
+._-85o5-M_cGo-fefOuWwER ._1dJuvQ4rvlB0q8vmLJH3l2 {
+    padding: 6px;
+    border-radius: 8px;
+    background: none;
+    background-color: rgb(var(--color-1));
+}
+
+/* Guide Image */
+.AxZMHRu3YIxDFr0a-MP6n {
+    border-radius: 8px;
+}
+
+
+/* Stats */
+._3lh8aaHNMcFvupuNhQDfFt {
+    order: 1;
+    position: unset;
+    flex-wrap: wrap;
+    gap: 6px;
+    transform: none;
+}
+._3lh8aaHNMcFvupuNhQDfFt::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}
+
+._3lh8aaHNMcFvupuNhQDfFt ._1GfHtX6GRZ_5BukahmkQp4 {
+    opacity: 1;
+    margin: 0;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+    transform: none;
+}
+
+
+/* User */
+._1ul9ZRBfhF0vyj-hrit6nU {
+    order: 2;
+    padding: 6px;
+    border-radius: 8px;
+    background: none;
+    background-color: rgb(var(--color-1));
 }

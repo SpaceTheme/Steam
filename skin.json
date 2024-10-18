@@ -24,7 +24,7 @@
         },
         
         "Navigate button": {
-            "description": "Hide Add shelf button in Library",
+            "description": "Hide Navigation buttons",
             "default": "yes",
             "tab": "Steam bloat",
             "values": {
@@ -96,7 +96,7 @@
             }
         },
 
-        "Userpannel": {
+        "Userpannel & Downloadpannel": {
             "description": "Moves the user buttons and the download bar to the game sidebar",
             "default": "no",
             "tab": "Experimental",
@@ -136,5 +136,5 @@
     "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png",
     "name": "SpaceTheme for Steam",
     "tags": [ "Modular", "Dark", "Customizable", "alpha" ],
-    "version": "1.1.0.1-alpha"
+    "version": "1.1.1-alpha"
 }

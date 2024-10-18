@@ -2,9 +2,9 @@
 @import url("./src/css/steam/titlebar.css");
 @import url("./src/css/steam/sidebar.css");
 @import url("./src/css/steam/libHome.css");
-@import url("./src/css/steam/newsModal.css");
 @import url("./src/css/steam/gamepage.css");
 @import url("./src/css/steam/downloadPage.css");
+@import url("./src/css/steam/newsModal.css");
 
 
 /* Base */
@@ -16,22 +16,11 @@
     border-radius: 8px;
 }
 
-/* Always show game sidebar */
-._1rDh5rXSFZJOqCa4UpnI4z:has(.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]) {
-    flex-direction: unset;
-}
-.RGNMWtyj73_-WdhflrmuY[style*="display: none;"] {
-    display: flex !important;
-    width: min-content;
-}
-.RGNMWtyj73_-WdhflrmuY[style*="display: none;"] ._3BFcmjAaMyP6GTPwc0VyWi {
-    display: none;
-}
 
 
 
 
-
+/*! Remove after experiment is live */
 /*downloadbar*/
 ._1_yS5UP7el0aN4vntx3dx {
     margin: 0 16px 16px;

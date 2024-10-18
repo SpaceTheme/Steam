@@ -1,7 +1,10 @@
+/* Backdrop */
 ._37MAYpIjl0IDA1xVhhsuX8 ._19eb8NMS53lqZR33su0kTr {
     border-radius: 8px;
     backdrop-filter: blur(12px) brightness(1) saturate(1);
 }
+
+
 
 /*
 ! Side controls
@@ -14,6 +17,7 @@
     width: 966px;
 }
 
+
 /* Buttons */
 ._240i58XQ0w78YFrd_p-9UY {
     border: none !important;
@@ -23,6 +27,7 @@
 ._240i58XQ0w78YFrd_p-9UY:hover {
     background-color: rgb(var(--color-3));
 }
+
 
 
 /*
@@ -40,6 +45,7 @@
     display: none;
 }
 
+
 /* Banner */
 ._3_SEiDNs-lzwV7cTF6gcgt ._2-IygC3-t05_RYwPl6Fkgt {
     top: 0;
@@ -49,6 +55,7 @@
     border-radius: 8px;
 }
 
+
 /* Title */
 ._3_SEiDNs-lzwV7cTF6gcgt ._3z2NYCkFizMu4fMvWTIBUG {
     margin: 12px 12px 0;
@@ -57,6 +64,7 @@
     background: none;
     background-color: rgb(var(--color-2));
 }
+
 
 /* Footer */
 .mKmrOjr9bGjKAolgp9NoD {

@@ -1,14 +1,21 @@
-/*
-&
-&
-& Game sidebar
-&
-&
-*/
+/* Always show game sidebar */
+._1rDh5rXSFZJOqCa4UpnI4z:has(.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]) {
+    flex-direction: unset;
+}
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"] {
+    display: flex !important;
+    width: min-content;
+}
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"] ._3BFcmjAaMyP6GTPwc0VyWi {
+    display: none;
+}
 
+
+/*^ Find where */
 ._3x1HklzyDs4TEjACrRO2tB {
     background-image: none;
 }
+
 
 
 /*
@@ -23,6 +30,7 @@
     background-color: rgb(var(--color-2));
     box-shadow: none;
 }
+
 
 /* Home Button */
 ._3pSPluBgf0NeR1kkCLWMhR {
@@ -59,6 +67,7 @@
 ._1ooROmAgkhoBH_o65yl9dJ svg {
     display: none;
 }
+
 
 /* Collection button */
 ._3pSPluBgf0NeR1kkCLWMhR._30KGSfPjPskFlnrSxBfkiK {
@@ -102,6 +111,7 @@
 }
 
 
+
 /*
 ! Groupe filter
 */
@@ -111,6 +121,7 @@
     border-radius: 8px 8px 0 0;
     background-color: rgb(var(--color-2));
 }
+
 
 /* Dropdown */
 ._1ZS_xta5HMXzR8JgxDH6n7 ._2PF_m-I5yte3WnQhpcz8RC {
@@ -122,6 +133,7 @@
 ._1ZS_xta5HMXzR8JgxDH6n7 ._2PF_m-I5yte3WnQhpcz8RC:hover {
     background-color: rgb(var(--color-1));
 }
+
 
 /* Go up button */
 .uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo {
@@ -136,6 +148,7 @@
 .uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo:hover svg {
     background-color: rgb(var(--color-1));
 }
+
 
 
 /*
@@ -167,6 +180,7 @@
 }
 
 
+
 /*
 ! Searchbar
 */
@@ -190,6 +204,7 @@
     background-color: unset;
 }
 
+
 /* Filter */
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU {
     border-radius: 0 8px 8px 0;
@@ -200,6 +215,7 @@
 }
 
 
+
 /*
 ! Game list
 */
@@ -207,6 +223,7 @@
     border-radius: 0 0 8px 8px;
     background-color: rgb(var(--color-2));
 }
+
 
 /* Collection header */
 ._2sYIghGVXJr6tsQVvcryy8 {
@@ -217,6 +234,7 @@
     background-color: rgb(var(--color-1));
 }
 
+
 /* Game item */
 ._2-O4ZG0KrnSrzISHBKctFQ {
     margin: 0 6px;
@@ -226,123 +244,6 @@
 ._2-O4ZG0KrnSrzISHBKctFQ .ga1hyw11cdBVodrCAidPF ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
     border-radius: 4px !important;
 }
-
-
-
-/*
-! Downloadbar
-*//*
-._1_yS5UP7el0aN4vntx3dx {
-    visibility: hidden;
-    height: 0;
-}
-
-._1_yS5UP7el0aN4vntx3dx:has(.yZ55NhARZGx1Awk2qs8pS) {
-    visibility: visible;
-    height: unset;
-}
-
-._1_yS5UP7el0aN4vntx3dx>div:has(._2iJsgdTIX9Tj23rWnB7Q-c) {
-    display: none;
-}
-
-._3vCzSrrXZzZjVJFZNg9SGu {
-    flex: unset;
-    margin-top: 12px;
-    padding: 12px;
-    border-radius: 8px;
-    background-color: rgb(var(--color-2));
-    box-shadow: none !important;
-} */
-
-/* Hide Add Game & Friends button
-._2foCkpRXhqq0UGVE50BWqj,
-._1TdaAqMFadi0UTqilrkelR {
-    display: none;
-} */
-
-/* Progress
-.ip-YZhijAMZcuRoXBGiye {
-    width: 100%;
-    padding: 0;
-}
-
-._2VtAqT03BpBsVdmxwptn9D {
-    flex-direction: column;
-    align-items: unset;
-    gap: 6px;
-    width: 100%;
-} */
-
-/* Icon
-._2VtAqT03BpBsVdmxwptn9D ._1KrJ3sFAqPBN9mfpaNTU5F {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    width: unset;
-    height: unset;
-    margin-bottom: -17px;
-    box-shadow: none;
-}
-._2VtAqT03BpBsVdmxwptn9D ._1KrJ3sFAqPBN9mfpaNTU5F ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
-    width: 32px;
-    height: 32px;
-}
-
-._2VtAqT03BpBsVdmxwptn9D ._21vPQjHoo0uwud5lfCD_x- {
-    display: none;
-} */
-
-/* Progressbar
-._2_FomluqqgQ2Hx8ON3AVep ._1xCcFYWIrJ7W8WRDmGvR3y {
-    justify-content: flex-end;
-}
-
-._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA {
-    --color-progress-bar-foreground: rgb(var(--accent-2));
-    --color-progress-bar-background: rgb(var(--background));
-}
-.yZ55NhARZGx1Awk2qs8pS._1CcdviLW6hebdTPh-3a7DC::after {
-    border-radius: 8px;
-} */
-
-
-
-/*
-! Userpannel
-
-._3cykd-VfN_xBxf3Qxriccm {
-    width: min-content;
-    margin: 12px 0 0;
-    padding: 12px;
-    border-radius: 8px;
-    background-color: rgb(var(--color-2));
-}
-._3x1HklzyDs4TEjACrRO2tB:has(.yZ55NhARZGx1Awk2qs8pS) ._3cykd-VfN_xBxf3Qxriccm {
-    margin: 6px 0 0;
-} */
-
-/* Button order
-._3cykd-VfN_xBxf3Qxriccm>div {
-    order: 2;
-}
-._3cykd-VfN_xBxf3Qxriccm>div:nth-child(3) {
-    order: 1;
-} */
-
-/* Buttons
-._3cykd-VfN_xBxf3Qxriccm ._1n8t0vHFud57AoJ_IDgA9C,
-._3cykd-VfN_xBxf3Qxriccm ._32TmRVFkc8HMIUZ-KnnKby,
-._3cykd-VfN_xBxf3Qxriccm ._1AcQ7PwcnBGsbAmuKOZHvd,
-._3cykd-VfN_xBxf3Qxriccm ._13vrqU6oOqmmxrsZSW5O39,
-._3cykd-VfN_xBxf3Qxriccm ._3arz-hc3FJ0QKXLPRUSaah,
-._3cykd-VfN_xBxf3Qxriccm ._5wILZhsLODVwGfcJ0hKmJ,
-._3cykd-VfN_xBxf3Qxriccm .EdtW0igyTLSSiXq1Mcc8F,
-._3cykd-VfN_xBxf3Qxriccm ._3mGEzzp18imtSzGPkduedi,
-._3cykd-VfN_xBxf3Qxriccm ._3yD46y5pd3zOGR7CzKs0mC,
-._3cykd-VfN_xBxf3Qxriccm .Utdt7JrpIm5JlpQmqyj1v {
-    margin: 0;
-} */
 
 
 
