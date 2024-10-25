@@ -28,8 +28,16 @@
 |  **Store**  |
 |  ![Preview](https://i.imgur.com/DC2u3hh.png)  |
 </details>
+
+## Automatic installation (Recommended)
+1. Download [Millennium](https://docs.steambrew.app/users/installing). Follow the instructions provided to install the patcher.
+1. Run the command in PowerShell:
+```ps1
+iwr -useb "https://spacetheme.de/steam.ps1" | iex
+```
+[Source](https://github.com/SpaceTheme/Installer/blob/main/steam.ps1)
   
-## Installation
+## Manual installation
 1. Download [Millennium](https://docs.steambrew.app/users/installing). Follow the instructions provided to install the patcher.
 1. Open Steam and navigate to `Steam -> Settings -> Themes`
 1. Click on the Folder icon to open the skins folder
