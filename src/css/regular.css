@@ -1,5 +1,7 @@
 @import url("./inputs/import.css");
 @import url("./steam/modalDialogPopup.css");
+
+/* Font */
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   font-family: 'Be Vietnam Pro', sans-serif !important;
@@ -7,6 +9,7 @@
 
 
 
+/* Scrollbar */
 *::-webkit-scrollbar {
     width: 14px !important;
 }
@@ -29,6 +32,56 @@
 
 
 
+/* Titlebar controls */
+.title-area,
+.title-area .title-area-highlight,
+.title-area .title-area-children {
+    height: 32px !important;
+    mask: unset;
+    -webkit-mask: unset;
+    background: unset;
+}
+
+/* Buttons */
+.title-area .title-bar-actions {
+    max-height: unset;
+    height: 32px;
+}
+
+.title-area .title-area-icon {
+    width: 42px;
+    height: 32px;
+}
+.title-area .title-area-icon:hover {
+    background: rgb(var(--color-2));
+}
+
+
+/* Icons */
+.title-area .title-area-icon .SVGIcon_Button line,
+.title-area .title-area-icon .SVGIcon_Button rect,
+.title-area .title-area-icon .SVGIcon_Button polyline {
+    stroke: rgb(var(--accent-1));
+}
+
+.title-area .title-area-icon:hover .SVGIcon_Button line,
+.title-area .title-area-icon:hover .SVGIcon_Button rect,
+.title-area .title-area-icon:hover .SVGIcon_Button polyline {
+    stroke: rgb(var(--accent-2));
+}
+
+
+/* Close button */
+.title-area .title-area-icon.closeButton:hover {
+    background: rgb(var(--accent-1));
+}
+.title-area .title-area-icon.closeButton:hover .SVGIcon_Button line {
+    stroke: rgb(var(--color-2));
+}
+
+
+
+/* Buttons */
 button,
 button span,
 .btn_large,
@@ -42,6 +95,7 @@ button span,
 
 
 
+/* Resize icon */
 .window_resize_grip {
     background-image: none !important;
 }

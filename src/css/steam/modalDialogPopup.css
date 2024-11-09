@@ -5,39 +5,14 @@ html.web_chat_frame body {
 
 
 
-.TitleBar {
-    height: 32px !important;
-    min-height: 32px;
-}
-
-.TitleBar .title-area-highlight {
-    height: 32px;
-    mask: unset;
-    -webkit-mask: unset;
-    background: unset;
-}
-
-.TitleBar .title-area-icon {
-    width: 42px;
-}
-.TitleBar .title-area-icon:hover {
-    background-color: rgb(var(--color-3));
-}
-.TitleBar  .title-area-icon:hover .SVGIcon_Button rect,
-.TitleBar  .title-area-icon:hover .SVGIcon_Button line,
-.TitleBar  .title-area-icon:hover .SVGIcon_Button polyline {
-    stroke: #dddddd;
-}
-
-
-
 /* Base */
 ._3few7361SOf4k_YuKCmM62.MzjwfxXSiSauz8kyEuhYO,
+._2sssIwe0duyIrFvat2oXzH,
 .DialogContent._DialogLayout:not(.CFTLX2wIKOK3hNV-fS7_V) {
     gap: 16px;
-    width: -webkit-fill-available;
+    width: -webkit-fill-available !important;
     min-width: unset !important;
-    height: -webkit-fill-available;
+    height: -webkit-fill-available !important;
     min-height: unset !important;
     margin: 32px 16px 16px;
 }

@@ -1,0 +1,4 @@
+:root {
+    --accent-1: var(--SystemAccentColorLight1-RGB) !important;
+    --accent-2: var(--SystemAccentColorDark1-RGB) !important;
+}

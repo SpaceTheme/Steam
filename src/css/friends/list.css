@@ -1,4 +1,6 @@
 .friendListHeaderContainer {
+    display: flex;
+    flex-direction: column;
     border-radius: 8px;
     background-color: unset;
     box-shadow: none;
@@ -24,8 +26,11 @@
 
 
 /* Friends haeder */
-.socialTabContainer .activeTab {
-    margin-bottom: 6px;
+.socialTabSearchContainer {
+    order: 1;
+}
+.socialTabSearchContainer .activeTab {
+    margin: 0 0 6px;
     padding: 6px 12px;
     border-radius: 8px;
     background-color: rgb(var(--color-2));
@@ -37,7 +42,25 @@
 }
 
 
+/* Quick Access Friends */
+.quickAccessFriends {
+    order: 2;
+}
+
+.quickAccessFriends:not(.emptyQuickAccess) {
+    width: auto;
+    margin: 0;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}
+
+
 /* List */
+.FriendsListContent {
+    margin-top: 6px;
+}
+
 .friendlistListContainer {
     border-radius: 8px;
     background: rgb(var(--color-1));

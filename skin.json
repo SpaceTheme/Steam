@@ -7,7 +7,7 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/gamepageSidebarLeft.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageSidebarLeft.css" }
                 }
             }
         },
@@ -18,19 +18,85 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": [".*"], "src": "options/systemAccent.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/general/systemAccent.css" }
                 }
             }
         },
         
-        "Navigate button": {
+        "Navigation buttons": {
             "description": "Hide Navigation buttons",
             "default": "yes",
             "tab": "Steam bloat",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/navigateButton.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/navigationButtons.css" }
+                }
+            }
+        },
+        "Wallet balance": {
+            "description": "Hide wallet balance",
+            "default": "no",
+            "tab": "Steam bloat",
+            "values": {
+                "no": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/walletBalance.css" }
+                },
+                "yes": {}
+            }
+        },
+        "Steam VR button": {
+            "description": "Hide Steam VR button from userpannel",
+            "default": "no",
+            "tab": "Steam bloat",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/steamVr.css" }
+                }
+            }
+        },
+        "Big Picture Mode button": {
+            "description": "Hide Big Picture Mode button from userpannel",
+            "default": "no",
+            "tab": "Steam bloat",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/bpm.css" }
+                }
+            }
+        },
+        "News button": {
+            "description": "Hide News button form userpannel",
+            "default": "no",
+            "tab": "Steam bloat",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/news.css" }
+                }
+            }
+        },
+        "Notification button": {
+            "description": "Hide Notification button form userpannel",
+            "default": "no",
+            "tab": "Steam bloat",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/notification.css" }
+                }
+            }
+        },
+        "Friend list button": {
+            "description": "Hide Friend list button form userpannel (only with Userpannel experimental)",
+            "default": "no",
+            "tab": "Steam bloat",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/friendList.css" }
                 }
             }
         },
@@ -41,44 +107,33 @@
             "values": {
                 "Show": {},
                 "Compact": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/whatsNew/compact.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/whatsNew/compact.css" }
                 },
                 "Hide": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/whatsNew/hide.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/whatsNew/hide.css" }
                 }
             }
         },
-        "Add shelf button visibility": {
+        "Add shelf button": {
             "description": "Hide Add shelf button in Library",
             "default": "no",
             "tab": "Steam bloat",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/addShelfVisibility.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/addShelf.css" }
                 }
             }
         },
-        "Game cover shiny effect visibility": {
+        "Game cover shiny effect": {
             "description": "Hide shiny effect on game covers",
             "default": "no",
             "tab": "Steam bloat",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/shinyEffectVisibility.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/shinyEffect.css" }
                 }
-            }
-        },
-        "Wallet visibility": {
-            "description": "Hide wallet balance",
-            "default": "no",
-            "tab": "Steam bloat",
-            "values": {
-                "no": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/walletVisibility.css" }
-                },
-                "yes": {}
             }
         },
         "VAC-Ban visibility": {
@@ -88,23 +143,23 @@
             "values": {
                 "Show": {},
                 "For me": {
-                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/VACBanVisibility/me.css" }
+                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/steamBloat/vacBan/me.css" }
                 },
                 "For all": {
-                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/VACBanVisibility/all.css" }
+                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/steamBloat/vacBan/all.css" }
                 }
             }
         },
 
-        "Userpannel & Downloadpannel": {
+        "Userpannel": {
             "description": "Moves the user buttons and the download bar to the game sidebar",
             "default": "no",
             "tab": "Experimental",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/experimental.css" },
-                    "TargetJs": { "affects": ["^Steam$"], "src": "options/experimental.js" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/experimental/userpannel.css" },
+                    "TargetJs": { "affects": ["^Steam$"], "src": "options/experimental/userpannel.js" }
                 }
             }
         }
@@ -136,5 +191,5 @@
     "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png",
     "name": "SpaceTheme for Steam",
     "tags": [ "Modular", "Dark", "Customizable", "alpha" ],
-    "version": "1.1.1-alpha"
+    "version": "1.1.2-alpha"
 }

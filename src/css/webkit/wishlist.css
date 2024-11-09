@@ -1,0 +1,193 @@
+/* Wishlist button */
+.wishlist .responsive_store_nav_ctn_spacer {
+    display: none;
+}
+
+
+
+/*
+! Header
+*/
+
+.wishlist .wishlist_header {
+    margin: 16px 0 0;
+    padding: 12px;
+    border-radius: 8px 8px 0 0;
+    background-color: rgb(var(--color-2));
+}
+
+
+/* Avatar */
+.wishlist .wishlist_header .profile_avatar_frame,
+.wishlist .wishlist_header img {
+    width: 54px;
+    height: 54px;
+}
+
+.wishlist .wishlist_header .profile_avatar_frame > img {
+    transform: scale(1);
+}
+
+.wishlist .wishlist_header img:not(.profile_avatar_frame img) {
+    transform: scale(0.78);
+}
+
+
+/* Text */
+.wishlist .wishlist_header h2 {
+    margin: 0 0 0 12px !important;
+    font-size: 20px !important;
+    text-transform: unset !important;
+}
+
+
+/* Controls */
+.wishlist .controls {
+    gap: 12px;
+    margin: 0 0 16px;
+    padding: 0 12px 12px;
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(var(--color-2));
+}
+
+.wishlist:has(#filters_container>div) .controls {
+    margin: 0;
+    padding: 0 12px 6px;
+    border-radius: 0;
+}
+
+/* Search */
+.wishlist .controls #wishlist_search {
+    margin: 0;
+    padding: 0 0 0 12px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+    box-shadow: none;
+}
+
+/* Dropdown */
+.wishlist .controls .control_row {
+    gap: 6px;
+}
+
+.wishlist .controls .filter_tab {
+    margin: 0 !important;
+    color: rgb(var(--accent-1));
+    border-radius: 8px;
+    background-color: rgb(var(--color-1)) !important;
+}
+
+/* Option Menu */
+.wishlist .filter_section {
+    right: 0px;
+    width: 60%;
+    margin: -6px 0 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-6)); /*! Add after new colors in color pallet */
+}
+
+.wishlist .filter_section .wrapper {
+    grid-gap: 6px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.wishlist .filter_section h3,
+.wishlist .filter_section .category h3 {
+    color: #fff !important;
+}
+
+
+/* Filter tags */
+.wishlist #filters_container:has(div) {
+    margin: 0 0 16px;
+    padding: 0 12px 12px;
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(var(--color-2));
+}
+
+.wishlist #filters_container div {
+    margin: 0;
+    padding: 6px 24px 6px 6px;
+    border-radius: 8px;
+    /*background-color: rgb(var(--color-3));*/ /*! Add after new colors in color pallet */
+    background-position: right 6px top 8px;
+}
+
+
+/* Divider */
+.wishlist .hr {
+    display: none;
+}
+
+
+
+/*
+! Cards
+*/
+
+.wishlist .wishlist_row {
+    gap: 12px;
+    width: -webkit-fill-available;
+    margin: 0 0 6px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+    box-shadow: none;
+}
+
+
+/* Image */
+.wishlist .wishlist_row .capsule {
+    margin: 0;
+}
+
+.wishlist .wishlist_row .capsule img,
+.wishlist .wishlist_row .capsule .screenshots {
+    border-radius: 8px;
+}
+
+
+/* Purchase */
+.wishlist .wishlist_row .purchase_area {
+    background-color: unset;
+}
+
+/* Discount */
+.wishlist .wishlist_row .purchase_area .discount_pct,
+.wishlist .wishlist_row .purchase_area .bundle_base_discount {
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+
+
+/*
+! Loading
+*/
+
+.wishlist .LoadingWrapper {
+    width: 54px;
+    height: 54px;
+    margin: 25% auto 0;
+    border: 8px solid rgba(var(--color-2));
+    border-top: 8px solid rgb(var(--accent-1));
+    border-radius: 50%;
+    animation: spin .6s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.wishlist .LoadingThrobber {
+    display: none;
+}

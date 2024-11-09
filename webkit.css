@@ -1,5 +1,7 @@
 @import url("./src/css/regular.css");
-@import url("./src/css/webkit/store.css");
+@import url("./src/css/webkit/agecheck.css");
+@import url("./src/css/webkit/home.css");
+@import url("./src/css/webkit/wishlist.css");
 
 /*
 &

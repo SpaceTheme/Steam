@@ -1,0 +1,43 @@
+/* Grid */
+#wishlist_ctn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    height: -webkit-fill-available !important;
+}
+
+
+/* Cards */
+.wishlist_row {
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+    box-shadow: none;
+}
+
+
+/* Image */
+.wishlist_row .capsule {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.wishlist_row .capsule img {
+    display: block;
+    width: -webkit-fill-available;
+    border-radius: 8px;
+}
+
+.wishlist_row .capsule .screenshots,
+.wishlist_row .capsule .screenshots > div {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    border-radius: 8px;
+}
