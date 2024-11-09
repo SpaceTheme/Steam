@@ -9,6 +9,8 @@ body:
     options:
     - label: I found no existing issues matching my bug
       required: true
+    - label: I found no existing issues matching my bug on the [Millennium Repo](https://github.com/shdwmtr/millennium/issues)
+      required: true
     - label: I completely restarted Steam and checked if the bug is still there
       required: true
     - label: I have checked if I use the latest version
