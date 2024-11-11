@@ -31,7 +31,8 @@
 
 ## Automatic installation (Recommended)
 1. Download [Millennium](https://docs.steambrew.app/users/installing). Follow the instructions provided to install the patcher.
-1. Run the command in PowerShell:
+1. Download [SpaceTheme Installer](https://github.com/SpaceTheme/Installer/releases) or
+<br>Run the command in PowerShell:
 ```ps1
 iwr -useb "https://spacetheme.de/steam.ps1" | iex
 ```
