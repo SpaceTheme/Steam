@@ -35,7 +35,7 @@
 ```ps1
 iwr -useb "https://spacetheme.de/steam.ps1" | iex
 ```
-[Source](https://github.com/SpaceTheme/Installer/blob/main/steam.ps1)
+[Source](https://github.com/SpaceTheme/Installer/blob/main/cli/steam.ps1)
   
 ## Manual installation
 1. Download [Millennium](https://docs.steambrew.app/users/installing). Follow the instructions provided to install the patcher.
