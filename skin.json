@@ -137,7 +137,7 @@
             }
         },
         "VAC-Ban visibility": {
-            "description": "Hide the VAC ban from your profile or on all profiles (currently not working)",
+            "description": "Hide the VAC ban from your profile or on all profiles",
             "default": "Show",
             "tab": "Steam bloat",
             "values": {
@@ -150,17 +150,28 @@
                 }
             }
         },
+        "Shop Cart Recommendations": {
+            "description": "Hide recommendations in the cart",
+            "default": "yes",
+            "tab": "Steam bloat",
+            "values": {
+                "yes": {
+                    "TargetCss": { "affects": ["https://.*.steampowered.com"], "src": "options/steamBloat/shopCartRecommendations.css" }
+                },
+                "no": {}
+            }
+        },
 
         "Userpannel": {
             "description": "Moves the user buttons and the download bar to the game sidebar",
             "default": "no",
             "tab": "Experimental",
             "values": {
-                "no": {},
                 "yes": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/experimental/userpannel.css" },
                     "TargetJs": { "affects": ["^Steam$"], "src": "options/experimental/userpannel.js" }
-                }
+                },
+                "no": {}
             }
         }
     },
@@ -191,5 +202,5 @@
     "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png",
     "name": "SpaceTheme for Steam",
     "tags": [ "Modular", "Dark", "Customizable", "alpha" ],
-    "version": "1.1.2-alpha"
+    "version": "1.1.3-alpha"
 }

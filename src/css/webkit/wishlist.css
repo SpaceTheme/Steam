@@ -1,6 +1,7 @@
 /* Wishlist button */
 .wishlist .responsive_store_nav_ctn_spacer {
-    display: none;
+    visibility: hidden;
+    height: 0;
 }
 
 

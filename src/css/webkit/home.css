@@ -1,14 +1,3 @@
-.responsive_page_template_content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.home_page_col_wrapper {
-    max-width: 1400px;
-    margin: 16px;
-}
-
 /* Banner */
 .page_background_holder {
     right: 0 !important;
