@@ -5,6 +5,10 @@
 @import url("./src/css/steam/gamepage.css");
 @import url("./src/css/steam/downloadPage.css");
 @import url("./src/css/steam/newsModal.css");
+@import url("./src/css/overlay/overview.css");
+@import url("./src/css/overlay/clock.css");
+@import url("./src/css/overlay/guide.css");
+@import url("./src/css/overlay/recordings.css");
 
 
 /* Base */
