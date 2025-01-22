@@ -22,7 +22,6 @@
                 }
             }
         },
-        
         "Navigation buttons": {
             "description": "Hide Navigation buttons",
             "default": "yes",
@@ -172,7 +171,6 @@
                 "no": {}
             }
         },
-
         "Userpannel": {
             "description": "Moves the user buttons and the download bar to the game sidebar",
             "default": "no",
