@@ -97,5 +97,5 @@ button span,
 
 /* Resize icon */
 .window_resize_grip {
-    background-image: none !important;
+    opacity: 0 !important;
 }
