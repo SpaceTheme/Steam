@@ -161,6 +161,17 @@
                 "no": {}
             }
         },
+        "URL bar": {
+            "description": "Hide URL bar",
+            "default": "no",
+            "tab": "Steam bloat",
+            "values": {
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/urlBar.css" }
+                },
+                "no": {}
+            }
+        },
 
         "Userpannel": {
             "description": "Moves the user buttons and the download bar to the game sidebar",
