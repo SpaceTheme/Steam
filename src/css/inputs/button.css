@@ -1,0 +1,10 @@
+button,
+button span,
+.btn_large,
+.btn_large span,
+.btn_medium,
+.btn_medium span,
+.btn_small,
+.btn_small span {
+    border-radius: 8px !important;
+}
