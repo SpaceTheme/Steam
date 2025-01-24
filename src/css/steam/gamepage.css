@@ -134,20 +134,79 @@
     background-color: rgb(var(--color-2));
 }
 
+
 /* Play/Install/... button */
 ._1FnJ6dPuknQFQ2RTpKTI16 {
     gap: 6px;
-    min-width: 180px !important;
+    min-width: unset !important;
 }
 
-._3ydigb6zZAjJ0JCDgHwSYA {
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX {
+    min-width: 180px;
+    gap: 6px;
+    justify-content: flex-start;
     padding: 12px 16px;
-    border-radius: 8px !important;
+    border-radius: 8px;
+    background: unset;
+    background-color: #4B89EF;
 }
-._2q-gZ3XJzlvSGHSF-GvSmi {
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:hover {
+    background: unset;
+    background-color: #649af2;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Play) {
+    background-color: #23A559;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Play):hover {
+    background: none !important;
+    background-color: #27b964 !important;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Trash) {
+    background-color: #EF4B4B;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Trash):hover {
+    background-color: #f26464;
+}
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg {
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX ._33cnXIqTRgRr49_FNXIHj6 {
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+}
+
+
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
     margin: 0;
     border-radius: 8px;
+    background: unset;
+    background-color: #4B89EF;
 }
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi:hover {
+    background: unset;
+    background-color: #649af2;
+}
+._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Play) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
+    background: none;
+    background-color: #23A559;
+}
+._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Play) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi:hover {
+    background-color: #27b964;
+}
+._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Trash) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
+    background-color: #EF4B4B;
+}
+._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Trash) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi:hover {
+    background-color: #f26464;
+}
+
 
 /* Achievements progressbar */
 ._25YVDTaClw6Y2COPsU0UaV {
