@@ -65,9 +65,64 @@
 }
 
 
+
 /*
 ! Gamepage info bar
 */
+/* Better Sticky info bar */
+._2L3s2nzh7yCnNESfI5_dN1.jnXtv79jL6SXXwlJYPtQz {
+    z-index: -999;
+    opacity: 0;
+}
+
+._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi- {
+    opacity: 1;
+    z-index: 2;
+    position: sticky;
+    border-radius: 8px;
+}
+._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi-._3SSPIdErMyF10Bul9E0qhX {
+    box-shadow: 0px 0px 16px 0px rgb(0, 0, 0);
+}
+
+._2_86QNCjVvJTL3Qe6Xztx_._2sKVnd_AUg44QSdoAp8Lne {
+    opacity: 0;
+}
+
+
+._39RheXihcN6H2k2muQTjkI ._1YbtIWcfkQJOysLXQbwzRf {
+    flex-wrap: wrap;
+    height: unset;
+}
+
+._39RheXihcN6H2k2muQTjkI ._1YbtIWcfkQJOysLXQbwzRf ._2MBVRXpsw6DUjs7937DWZW {
+    opacity: 0;
+}
+
+._39RheXihcN6H2k2muQTjkI ._1YbtIWcfkQJOysLXQbwzRf .zjtAIAWI6HE0oCtJzw6Qt {
+    min-width: unset;
+}
+
+._39RheXihcN6H2k2muQTjkI ._1YbtIWcfkQJOysLXQbwzRf ._1mDAVT4sTzFRwJtlKCw2Ws {
+    opacity: 1;
+    width: unset;
+    transform: unset;
+}
+
+._39RheXihcN6H2k2muQTjkI ._34lrt5-Fc3usZU6trA1P0- {
+    font-size: 14px;
+    line-height: 16px;
+}
+._39RheXihcN6H2k2muQTjkI ._2TYVGoD27ZMfjRirKQNLfk {
+    font-size: 13px;
+}
+._39RheXihcN6H2k2muQTjkI ._25YVDTaClw6Y2COPsU0UaV {
+    height: 4px;
+    border-radius: 3px;
+}
+
+
+
 ._3DeO92O5aVkcdwEBCJDjWm._3fLo166MlaNqP8r8tTyRz {
     margin-bottom: 0;
     background: unset;
