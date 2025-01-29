@@ -41,6 +41,9 @@
     -webkit-mask: unset;
     background: unset;
 }
+div.ModalPosition_TopBar {
+    display: none;
+}
 
 /* Buttons */
 .title-area .title-bar-actions {
