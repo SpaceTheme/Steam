@@ -10,6 +10,7 @@
 }
 
 
+
 /*
 ! Tab bar
 */
@@ -73,6 +74,7 @@
 }
 
 
+
 /*
 ! Chat
 */
@@ -89,6 +91,46 @@
 .chatWindow .chatHeader {
     display: none;
 }
+
+
+/* Time Divider */
+.msg.timeDivision {
+    height: 2px;
+    justify-content: flex-end;
+    margin-top: 16px;
+    padding: 0 !important;
+    text-wrap: nowrap;
+    color: transparent;
+    align-items: center;
+}
+
+.msg.timeDivision .preHorizDivider {
+    width: -webkit-fill-available;
+    height: 2px;
+    margin: 0;
+    border-radius: 8px;
+    background-color: rgb(var(--color-6));
+}
+
+.msg.timeDivision::after {
+    position: absolute;
+    content: attr(data-copytext);
+    width: auto;
+    height: fit-content;
+    padding: 6px 12px;
+    text-wrap: nowrap;
+    font-size: 11px;
+    font-weight: 600;
+    border: 2px solid rgb(var(--color-6));
+    border-radius: 8px;
+    color: #a7a7a7;
+    background: rgb(var(--color-2));
+}
+
+.msg.timeDivision .horizDivider {
+    display: none;
+}
+
 
 
 /*
