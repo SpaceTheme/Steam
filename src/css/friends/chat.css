@@ -93,6 +93,125 @@
 }
 
 
+
+/* Message Bubbles */
+.ChatMessageBlock {
+    width: fit-content;
+    margin: 16px 0 0 44px;
+}
+
+
+.ChatSpeaker .nibodjvvrm86uCfnnAn4g.avatarHolder {
+    position: absolute;
+    top: 0;
+    left: -44px;
+    width: 32px;
+    height: 32px;
+    margin-top: 6px;
+}
+
+
+.ChatSpeaker ._3h-QRJGxnVOIExtHD1R0f2.avatar {
+    width: unset;
+    height: unset;
+    border: none;
+    border-radius: 100%;
+    box-shadow: none;
+}
+.ChatSpeaker .X_mJE4BYV5StDPwZhSiAu.avatarFrame {
+    display: none;
+}
+
+
+.ChatSpeaker .speaker {
+    margin: 0;
+    padding: 0;
+}
+.ChatSpeaker .speakerStatus {
+    display: none;
+}
+
+.ChatSpeaker .speakerName {
+    margin: 0 !important;
+    font-weight: 600;
+}
+.ChatSpeaker .online .speakerName {
+    color: rgb(var(--blue));
+}
+.ChatSpeaker .ingame .speakerName {
+    color: rgb(var(--green));
+}
+.ChatSpeaker .awayOrSnooze .speakerName {
+    color: rgb(var(--yellow)) !important;
+}
+.ChatSpeaker .speakerTimeStamp {
+    align-self: center;
+    line-height: unset;
+    font-weight: 600;
+    color: #a7a7a7;
+}
+
+
+
+.ChatSpeaker {
+    padding: 6px 12px 0;
+    border-radius: 8px 8px 0 0;
+    background-color: rgb(var(--color-4));
+}
+.ChatMessageBlock:has(.msg._3qYm9oxf8MdyvQDJgbfCrF:nth-child(2) .chatImageContainer) .ChatSpeaker {
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+
+.msg._3qYm9oxf8MdyvQDJgbfCrF {
+    width: fit-content;
+    margin: 6px 0 0;
+    padding: 6px 12px !important;
+    border-radius: 8px;
+    background-color: rgb(var(--color-4));
+}
+.msg._3qYm9oxf8MdyvQDJgbfCrF:nth-child(2) {
+    width: auto;
+    margin: 0;
+    padding: 0 12px 6px !important;
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(var(--color-4));
+}
+.msg._3qYm9oxf8MdyvQDJgbfCrF:has(.chatImageContainer) {
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    border-radius: 0;
+    background-color: unset;
+}
+
+.msg._3qYm9oxf8MdyvQDJgbfCrF .msgText {
+    color: #fff;
+}
+
+.msg._3qYm9oxf8MdyvQDJgbfCrF .chatImageContainer .BBCodeImageWrapper {
+    background-color: unset;
+}
+.msg._3qYm9oxf8MdyvQDJgbfCrF .chatImageContainer .chatImageFull {
+    border-radius: 8px;
+}
+
+
+.msg._3qYm9oxf8MdyvQDJgbfCrF .FriendChatTimeStamp {
+    width: fit-content !important;
+    top: 50%;
+    left: -46px;
+    font-weight: 600;
+    border: none;
+    color: #a7a7a7;
+    transform: translateY(-50%);
+}
+.msg._3qYm9oxf8MdyvQDJgbfCrF:hover .FriendChatTimeStamp {
+    opacity: 1;
+}
+
+
+
 /* Time Divider */
 .msg.timeDivision {
     height: 2px;
