@@ -9,6 +9,15 @@
 
 
 
+:root {
+    --red: 239, 75, 75;
+    --green: 35, 165, 89;
+    --blue: 75, 137, 239;
+    --yellow: 239, 141, 75;
+}
+
+
+
 /* Scrollbar */
 *::-webkit-scrollbar {
     width: 14px !important;
