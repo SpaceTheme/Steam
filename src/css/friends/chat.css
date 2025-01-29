@@ -255,4 +255,31 @@
 /*
 ! Input
 */
-/* soon */
+.chatWindow .chatEntry {
+    margin: 0 12px 24px;
+    padding: 0 !important;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+.chatWindow .chatEntry>* {
+    margin: 0;
+}
+
+
+._3Ule3rolhZJiBN4yNNtk1s {
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+    box-shadow: none;
+}
+
+
+/*._113iuw_HlE_qSgt9cGWCSv {
+    height: fit-content;
+    margin: 0 0 0 32px;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    box-shadow: none;
+}*/
