@@ -93,6 +93,15 @@
 }
 
 
+.chatWindow .chatHistoryScroll {
+    padding: 0;
+}
+.chatWindow .chatHistory {
+    margin: 12px;
+    padding: 0;
+}
+
+
 
 /* Message Bubbles */
 .ChatMessageBlock {
