@@ -232,6 +232,20 @@
     border-radius: 8px;
     background: none;
     background-color: rgb(var(--color-1));
+    align-items: center;
+}
+
+._2sYIghGVXJr6tsQVvcryy8 ._3SFRZYIb9Y2q7YsVtB3YKb,
+._2sYIghGVXJr6tsQVvcryy8 ._2mZ8LlvoUiyeEUtIWuTri {
+    height: unset;
+}
+
+._2sYIghGVXJr6tsQVvcryy8 ._3SFRZYIb9Y2q7YsVtB3YKb {
+    margin-top: 1px;
+}
+
+._2sYIghGVXJr6tsQVvcryy8 ._29uten9Yy8q-n7woDEOXVF {
+    margin-top: -1px;
 }
 
 
