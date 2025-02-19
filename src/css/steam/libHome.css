@@ -207,18 +207,64 @@
 
 /*
 ! Last played first game card
-*//*todo:Fertig machen*/
+*/
+._3VOR2AeYATx3qSE0I-Pm-5 {
+    position: unset;
+    height: -webkit-fill-available;
+    padding: unset !important;
+}
 
 
 /* Image */
-._2IYf7aM4eYQ2Oh-ntmzHbm._3VOR2AeYATx3qSE0I-Pm-5 ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
-    border-radius: 8px 8px 0 0;
+._3VOR2AeYATx3qSE0I-Pm-5 ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
+    position: unset;
+}
+
+/* Play/Install/... Button */
+._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 {
+    position: absolute;
+    bottom: 12px !important;
+    left: 12px;
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--blue));
 }
 
 /* Info */
-._2d1hSvdpY5L2-GN1EnUb9Z {
-    border-radius: 0 0 8px 8px;
-    background-color: rgb(var(--color-1));
+._2XftMcBO9aY7VXCivzuW7-:has(._3VOR2AeYATx3qSE0I-Pm-5) {
+    width: -webkit-fill-available !important;
+}
+
+._3VOR2AeYATx3qSE0I-Pm-5 ._2d1hSvdpY5L2-GN1EnUb9Z {
+    width: -webkit-fill-available;
+    height: auto;
+    margin: 6px;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgba(var(--color-1), 80%);
+    /* backdrop-filter: blur(4px) !important; */
+    box-shadow: 0px 0px 3px 2px rgb(0 0 0 / 50%);
+}
+
+._3bkuozxKIatrWG3aeisthc {
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    padding: 0 0 0 64px;
+    line-height: unset;
+}
+
+._3bkuozxKIatrWG3aeisthc>._3bkuozxKIatrWG3aeisthc {
+    height: unset;
+    padding: 0;
+    text-transform: unset;
+    letter-spacing: 0;
+}
+._3bkuozxKIatrWG3aeisthc._2zIRlEsAfHhI-_3bZ3X60z {
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .RhmvOTLHkomDhCTDX9hLA {
