@@ -1,4 +1,20 @@
 {
+    "version": "20250219-alpha",
+    "name": "SpaceTheme for Steam",
+    "description": "A modular design with dark colors intended to enhance navigability and improve user experience.",
+    "author": "SpaceEnergy",
+    "github": {
+        "owner": "SpaceTheme",
+        "repo_name": "Steam"
+    },
+    "funding": { "kofi": "spacetheme" },
+    "discord_support": { "inviteCodeExcludingLink": "7Zv8Xz3Vzn" },
+    "tags": [ "Modular", "Dark", "Customizable", "alpha" ],
+    "header_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/banner.png",
+    "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png",
+    "RootColors": "./src/css/root.css",
+    "Steam-WebKit": "webkit.css",
+    "UseDefaultPatches": true,
     "Conditions": {
         "Gamepage sidebar on left": {
             "description": "Changes the sidebar on the game page from right to left",
@@ -195,21 +211,5 @@
             "TargetCss": "menu.custom.css",
             "TargetJs": "menu.custom.js"
         }
-    ],
-    "RootColors": "./src/css/root.css",
-    "Steam-WebKit": "webkit.css",
-    "UseDefaultPatches": true,
-    "author": "SpaceEnergy",
-    "description": "A modular design with dark colors intended to enhance navigability and improve user experience.",
-    "discord_support": { "inviteCodeExcludingLink": "7Zv8Xz3Vzn" },
-    "funding": { "kofi": "spacetheme" },
-    "github": {
-        "owner": "SpaceTheme",
-        "repo_name": "Steam"
-    },
-    "header_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/banner.png",
-    "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png",
-    "name": "SpaceTheme for Steam",
-    "tags": [ "Modular", "Dark", "Customizable", "alpha" ],
-    "version": "20250130-alpha"
+    ]
 }
