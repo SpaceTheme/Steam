@@ -224,7 +224,7 @@
 ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 {
     position: absolute;
     bottom: 12px !important;
-    left: 12px;
+    left: 12px !important;
     width: 52px;
     height: 52px;
     border-radius: 8px;
@@ -262,9 +262,19 @@
     text-transform: unset;
     letter-spacing: 0;
 }
+._3bkuozxKIatrWG3aeisthc.yGeS63NTeSwJCWS395eIb {
+    justify-content: space-around;
+    height: 40px;
+    padding: 0 0 0 46px;
+}
+
 ._3bkuozxKIatrWG3aeisthc._2zIRlEsAfHhI-_3bZ3X60z {
     font-size: 14px;
     font-weight: 700;
+}
+._3bkuozxKIatrWG3aeisthc.yGeS63NTeSwJCWS395eIb>._3bkuozxKIatrWG3aeisthc.yGeS63NTeSwJCWS395eIb {
+    height: unset;
+    padding: 0;
 }
 
 .RhmvOTLHkomDhCTDX9hLA {
