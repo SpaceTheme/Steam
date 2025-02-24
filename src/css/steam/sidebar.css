@@ -11,7 +11,7 @@
 }
 
 
-/*^ Find where */
+
 ._3x1HklzyDs4TEjACrRO2tB {
     background-image: none;
 }
@@ -208,10 +208,14 @@
 /* Filter */
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU {
     border-radius: 0 8px 8px 0;
-    background-color: rgb(var(--color-3));
+    background-color: rgb(var(--color-3)) !important;
 }
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU:hover {
     background-color: rgb(var(--color-1)) !important;
+}
+
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU._1Gjk27xaRIzt2zOSwOSP0N ._1TxHdzOt3OD9ikR3xIseKe svg path {
+    fill: gray;
 }
 
 
