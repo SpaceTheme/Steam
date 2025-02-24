@@ -27,6 +27,17 @@
                 }
             }
         },
+        "Gamepage always show game infos": {
+            "description": "Always show game infos on the game page",
+            "default": "no",
+            "tab": "General",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageAlwaysShowGameInfo.css"}
+                }
+            }
+        },
         "System accent colors": {
             "description": "Replaces the SpaceTheme accent colors with your system accent colors",
             "default": "no",
