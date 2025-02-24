@@ -29,6 +29,13 @@
 |  ![Preview](https://i.imgur.com/DC2u3hh.png)  |
 </details>
 
+## Installation
+1. Download [Millennium](https://docs.steambrew.app/users/installing) and follow the provided instructions to install the patcher.
+1. Open the [Theme Page](https://steambrew.app/theme?id=zQndv1rI0FXLh3QTRgOL) and click the Install button.
+1. Navigate to the Theme tab in your Steam settings and select "SpaceTheme."
+
+**Voilà! Enjoy the new look of your Steam!**
+<!--
 ## Automatic installation (Recommended)
 1. Download [Millennium](https://docs.steambrew.app/users/installing). Follow the instructions provided to install the patcher.
 1. Download [SpaceTheme Installer](https://github.com/SpaceTheme/Installer/releases) or
@@ -46,3 +53,4 @@ iwr -useb "https://spacetheme.de/steam.ps1" | iex
 1. Select the theme from the interface after it installs.
 
 Voila! Enjoy the new look of your Steam!
+-->
