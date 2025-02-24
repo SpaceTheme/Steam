@@ -38,6 +38,17 @@
                 }
             }
         },
+        "Gamepage game info box artwork": {
+            "description": "Hide Artwork in game info box",
+            "default": "no",
+            "tab": "General",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageGameInfoArtwork.css"}
+                }
+            }
+        },
         "System accent colors": {
             "description": "Replaces the SpaceTheme accent colors with your system accent colors",
             "default": "no",
