@@ -218,6 +218,60 @@
 }
 
 
+
+/*
+! Gamepage game info box
+*/
+._2QAgOXmzdXYGH8vI6S2sHw._25oBZpa3dUcMw8QAsa2u67 {
+    z-index: 1;
+    padding: 0;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+._2QAgOXmzdXYGH8vI6S2sHw._25oBZpa3dUcMw8QAsa2u67:not([style*="height: 0px;"]) {
+    height: unset !important;
+    margin: 6px 0 0;
+}
+
+._2jPMy2QZr8bWi6yrk5ZzHA {
+    background-color: unset;
+}
+
+._25oBZpa3dUcMw8QAsa2u67 ._1FXWy2UilVZIppT-PetDWw {
+    display: none;
+}
+
+._2jPMy2QZr8bWi6yrk5ZzHA ._37mmOlZM_8n5yJAG5CHiW7 {
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+}
+
+
+._2jPMy2QZr8bWi6yrk5ZzHA ._1uS70KI6ZbUE94jUB27ioB {
+    padding: 6px 0;
+}
+
+
+/* Portrait */
+._1Id6ZFEUVa5PKEMIvSg4nE {
+    border-radius: 8px;
+    border: none;
+}
+
+._3JzkHhrsBKThuVrwsu3Q7T._3JzkHhrsBKThuVrwsu3Q7T {
+    border-radius: 8px;
+}
+
+
+/* Steam Play/Proton message */
+._2UN73dmbVcWzIR2ZCr8KID {
+    margin: 0;
+    padding: 12px;
+}
+
+
+
 /*
 ! Gamepage game links bar
 */  /*todo: add comments*/
