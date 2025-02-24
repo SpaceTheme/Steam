@@ -9,7 +9,7 @@
     },
     "funding": { "kofi": "spacetheme" },
     "discord_support": { "inviteCodeExcludingLink": "7Zv8Xz3Vzn" },
-    "tags": [ "Modular", "Dark", "Customizable", "alpha" ],
+    "tags": [ "WIP", "Modular", "Dark", "Customizable"],
     "header_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/banner.png",
     "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png",
     "RootColors": "./src/css/root.css",
