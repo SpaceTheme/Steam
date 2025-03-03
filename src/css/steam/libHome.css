@@ -295,7 +295,16 @@
     height: 52px;
     border-radius: 8px;
     background: unset;
-    background-color: rgb(var(--blue));
+    background: rgb(var(--blue));
+}
+._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5:hover {
+    background: rgb(var(--blue-hover));
+}
+._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) {
+    background: rgb(var(--green));
+}
+._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs):hover {
+    background: rgb(var(--green-hover));
 }
 
 /* Info */
