@@ -1,7 +1,6 @@
 /* Backdrop */
 ._37MAYpIjl0IDA1xVhhsuX8 ._19eb8NMS53lqZR33su0kTr {
-    border-radius: 8px;
-    backdrop-filter: blur(12px) brightness(1) saturate(1);
+    backdrop-filter: brightness(0.2);
 }
 
 
@@ -20,9 +19,11 @@
 
 /* Buttons */
 ._240i58XQ0w78YFrd_p-9UY {
+    outline: 2px solid rgb(var(--color-5)) !important;
     border: none !important;
     border-radius: 8px;
     background-color: rgb(var(--color-1));
+    box-shadow: 0px 0px 16px 0px rgb(0, 0, 0);
 }
 ._240i58XQ0w78YFrd_p-9UY:hover {
     background-color: rgb(var(--color-3));
@@ -36,10 +37,11 @@
 /* Base */
 ._1KsYSVzmvIfRivBTcx-_GE {
     margin: 16px auto;
-    border: none;
+    outline: 3px solid rgb(var(--color-5));
     border-radius: 8px;
-    background-color: rgb(var(--color-1));
     background-image: none;
+    background-color: rgb(var(--color-1));
+    box-shadow: 0px 0px 16px 0px rgb(0, 0, 0);
 }
 .stsss-bTNuazY8FYtvTOX {
     display: none;
