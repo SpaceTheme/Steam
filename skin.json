@@ -105,7 +105,7 @@
             }
         },
         "News button": {
-            "description": "Hide News button form userpannel",
+            "description": "Hide News button from userpannel",
             "default": "no",
             "tab": "Steam bloat",
             "values": {
@@ -116,7 +116,7 @@
             }
         },
         "Notification button": {
-            "description": "Hide Notification button form userpannel",
+            "description": "Hide Notification button from userpannel",
             "default": "no",
             "tab": "Steam bloat",
             "values": {
@@ -127,7 +127,7 @@
             }
         },
         "Friend list button": {
-            "description": "Hide Friend list button form userpannel (only with Userpannel experimental)",
+            "description": "Hide Friend list button from userpannel (only with Userpannel experimental)",
             "default": "no",
             "tab": "Steam bloat",
             "values": {
