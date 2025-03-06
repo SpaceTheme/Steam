@@ -1,3 +1,0 @@
-[submodule "vendor/fluent-icons"]
-	path = vendor/fluent-icons
-	url = https://github.com/microsoft/fluentui-system-icons.git
