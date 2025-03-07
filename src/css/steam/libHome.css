@@ -27,6 +27,14 @@
 
 
 /*
+! Sticky hr in collection view
+*/
+._3bWISeqP3H2j6YJnFwVEwu:not(.E5k6bKwdV9GHvwwZHYfzA) {
+    position: unset;
+}
+
+
+/*
 ! Preload
 */
 ._2Ae5emb7JLG4NvS2OmutTx {
