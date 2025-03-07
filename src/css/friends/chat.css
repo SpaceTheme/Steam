@@ -292,3 +292,14 @@
     color: #fff;
     box-shadow: none;
 }*/
+
+
+.FriendChatTypingNotification {
+    opacity: 1;
+    position: fixed;
+    bottom: 16px;
+    left: calc(16px + 12px);
+    padding: 0 0 4px 6px;
+    font-weight: 300;
+    background: unset;
+}
