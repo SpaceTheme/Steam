@@ -232,6 +232,10 @@
             "MatchRegexString": "Menu$",
             "TargetCss": "menu.custom.css",
             "TargetJs": "menu.custom.js"
+        },
+        {
+            "MatchRegexString": ".*",
+            "TargetCss": "src/icons/fluent/fluent.css"
         }
     ]
 }

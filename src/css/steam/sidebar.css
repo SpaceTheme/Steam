@@ -137,15 +137,16 @@
 
 /* Go up button */
 .uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 6px;
-    border-radius: 8px;
-}
-.uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo svg {
     border: none;
+    border-radius: 8px;
     background-color: rgb(var(--color-3));
     transition: all 0.2s ease-in-out;
 }
-.uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo:hover svg {
+.uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo:hover {
     background-color: rgb(var(--color-1));
 }
 
@@ -172,11 +173,6 @@
 }
 ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6:hover {
     background-color: rgb(var(--color-1));
-}
-._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 .SVGIcon_SortBy,
-._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 .SVGIcon_ReadyToPlay {
-    width: 24px;
-    height: 24px;
 }
 
 
@@ -214,9 +210,6 @@
     background-color: rgb(var(--color-1)) !important;
 }
 
-._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU._1Gjk27xaRIzt2zOSwOSP0N ._1TxHdzOt3OD9ikR3xIseKe svg path {
-    fill: gray;
-}
 
 
 
