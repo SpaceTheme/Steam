@@ -340,6 +340,25 @@
 }
 
 
+/* Collection Dynamic, libhome */
+._3IWn-2rn7x98o5fDd0rAxb .sZaUDqkKPd-EtHyaNfoKG::before {
+    content: "\f02ea" !important;
+    z-index: 99;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    padding: 3px;
+    font-size: 18px;
+    color: rgb(var(--accent-1));
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: rgb(var(--color-6), 60%);
+}
+._3IWn-2rn7x98o5fDd0rAxb .sZaUDqkKPd-EtHyaNfoKG>svg {
+    display: none;
+}
+
+
 /* pen, libhome, collection */
 ._2q70uOe6xM3-c5XIVfBLe6 ._12pDikfkuNH_o3MHKU1skz._2CPHr3axb0cv3nnDnPui5o::before {
     content: "\e8ea" !important;
