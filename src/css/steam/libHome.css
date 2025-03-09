@@ -32,6 +32,9 @@
 ._3bWISeqP3H2j6YJnFwVEwu:not(.E5k6bKwdV9GHvwwZHYfzA) {
     position: unset;
 }
+._3bWISeqP3H2j6YJnFwVEwu::after {
+    display: none;
+}
 
 
 /*
