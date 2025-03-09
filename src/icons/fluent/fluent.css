@@ -338,3 +338,17 @@
 ._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM>svg {
     display: none;
 }
+
+
+/* pen, libhome, collection */
+._2q70uOe6xM3-c5XIVfBLe6 ._12pDikfkuNH_o3MHKU1skz._2CPHr3axb0cv3nnDnPui5o::before {
+    content: "\e8ea" !important;
+    font-size: 36px;
+    color: #67707b;
+}
+._2q70uOe6xM3-c5XIVfBLe6 ._12pDikfkuNH_o3MHKU1skz._2CPHr3axb0cv3nnDnPui5o:hover::before {
+    color: #fff;
+}
+._2q70uOe6xM3-c5XIVfBLe6 ._12pDikfkuNH_o3MHKU1skz._2CPHr3axb0cv3nnDnPui5o>svg {
+    display: none;
+}
