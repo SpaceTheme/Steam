@@ -155,15 +155,15 @@
 }
 
 /* Friends, Userpannel */
-._1KrJ3sFAqPBN9mfpaNTU5F::before {
+._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F::before {
     content: "\f5b3" !important;
     font-size: 16px;
     color: #67707b;
 }
-._1TdaAqMFadi0UTqilrkelR:hover ._1KrJ3sFAqPBN9mfpaNTU5F::before {
+._1TdaAqMFadi0UTqilrkelR ._1TdaAqMFadi0UTqilrkelR:hover ._1KrJ3sFAqPBN9mfpaNTU5F::before {
     color: #fff;
 }
-._1KrJ3sFAqPBN9mfpaNTU5F>svg {
+._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F>svg {
     display: none;
 }
 
