@@ -16,6 +16,17 @@
     "Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true,
     "Conditions": {
+        "Gamepage bigger banner": {
+            "description": "Bigger banner on the game page",
+            "default": "no",
+            "tab": "General",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageBiggerBanner.css" }
+                }
+            }
+        },
         "Gamepage sidebar on left": {
             "description": "Changes the sidebar on the game page from right to left",
             "default": "no",
