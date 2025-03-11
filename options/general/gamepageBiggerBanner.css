@@ -1,11 +1,19 @@
 .NZMJ6g2iVnFsOOp-lDmIP {
-    --header-height: calc(100vh - 46px - 16px - 12px - 70px - 6px - 40px - 16px - 16px) !important;
-    max-height: unset;
+    --header-height: calc(100vh - 46px - 16px - 12px - 70px - 6px - 40px - 16px - 16px - 50px - 16px) !important;
+    max-height: unset !important;
 }
 .NarrowWindow .NZMJ6g2iVnFsOOp-lDmIP {
+    --header-height: calc(100vh - 46px - 16px - 12px - 56px - 6px - 40px - 16px - 16px - 50px - 16px) !important;
+}
+
+:has(.userpannel-buttoncontainer) .NZMJ6g2iVnFsOOp-lDmIP {
+    --header-height: calc(100vh - 46px - 16px - 12px - 70px - 6px - 40px - 16px - 16px) !important;
+    max-height: unset !important;
+}
+:has(.userpannel-buttoncontainer) .NarrowWindow .NZMJ6g2iVnFsOOp-lDmIP {
     --header-height: calc(100vh - 46px - 16px - 12px - 56px - 6px - 40px - 16px - 16px) !important;
 }
 
 .NZMJ6g2iVnFsOOp-lDmIP.NZMJ6g2iVnFsOOp-lDmIP ._1IX7FPSY9Jb82KhBVBSkZa {
-    max-height: unset;
+    max-height: unset !important;
 }
