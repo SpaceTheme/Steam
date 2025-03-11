@@ -108,7 +108,7 @@
 */
 ._17uEBe5Ri8TMsnfELvs8-N {
     height: unset !important;
-    margin: 16px 16px 0;
+    margin: 16px 0 0 16px;
     padding: 16px 16px 0;
     border-radius: 8px;
     background-color: rgb(var(--color-2));
@@ -228,7 +228,7 @@
 */
 
 ._3Sb2o_mQ30IDRh0C72QUUu {
-    padding: 16px;
+    padding: 16px 0 16px 16px;
     background-image: none;
 }
 
