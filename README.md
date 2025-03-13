@@ -29,6 +29,10 @@
 |  ![Preview](https://i.imgur.com/DC2u3hh.png)  |
 </details>
 
+## Info
+* Some things only work properly when steam is maximized on a 1920x1080p (or higher) monitor.
+** Smaller monitors may be properly supported later
+
 ## Installation
 1. Download [Millennium](https://docs.steambrew.app/users/installing) and follow the provided instructions to install the patcher.
 1. Open the [Theme Page](https://steambrew.app/theme?id=zQndv1rI0FXLh3QTRgOL) and click the Install button.
