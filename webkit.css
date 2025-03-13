@@ -55,10 +55,9 @@ body.v6::-webkit-scrollbar {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    width: 100% !important;
-    max-width: 1000px;
+    width: calc(1260px - 16px - 16px) !important;
     height: auto !important;
-    margin: 12px 24px 0 !important;
+    margin: 12px 0 0 !important;
     padding: 6px 16px;
     border-radius: 8px;
     background-color: rgb(var(--color-2));
