@@ -73,7 +73,7 @@
         },
         "Navigation buttons": {
             "description": "Hide Navigation buttons",
-            "default": "yes",
+            "default": "no",
             "tab": "Steam bloat",
             "values": {
                 "no": {},
