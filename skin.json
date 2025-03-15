@@ -200,7 +200,7 @@
         },
         "Shop Cart Recommendations": {
             "description": "Hide recommendations in the cart",
-            "default": "yes",
+            "default": "no",
             "tab": "Steam bloat",
             "values": {
                 "yes": {
