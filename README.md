@@ -30,8 +30,8 @@
 </details>
 
 ## Info
-* Some things only work properly when steam is maximized on a 1920x1080p (or higher) monitor.
-** Smaller monitors may be properly supported later
+- Some things only work properly when steam is maximized on a 1920x1080p (or higher) monitor.
+  - Smaller monitors may be properly supported later
 
 ## Installation
 1. Download [Millennium](https://docs.steambrew.app/users/installing) and follow the provided instructions to install the patcher.
