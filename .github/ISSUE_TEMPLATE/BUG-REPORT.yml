@@ -15,6 +15,10 @@ body:
       required: true
     - label: I have checked if I use the latest version
       required: true
+    - label: I have checked the theme options
+      required: true
+    - label: Information the store gamepage looks buggy but it is not (it is currently in the skinning process)
+      required: true
 - type: textarea
   attributes:
     label: Describe the Bug!
