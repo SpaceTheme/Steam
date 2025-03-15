@@ -245,7 +245,7 @@
             "TargetJs": "menu.custom.js"
         },
         {
-            "MatchRegexString": ".*",
+            "MatchRegexString": "*",
             "TargetCss": "src/icons/fluent/fluent.css"
         }
     ]
