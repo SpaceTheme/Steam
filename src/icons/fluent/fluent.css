@@ -395,3 +395,18 @@
 .game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium span:hover::before {
     color: #fff;
 }
+
+
+/* arrow right, store, game, header */
+.game_bg.application .queue_overflow_ctn .next_in_queue_content>span::before {
+    content: "\f182" !important;
+    font-size: 24px;
+    color: rgb(var(--yellow));
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
