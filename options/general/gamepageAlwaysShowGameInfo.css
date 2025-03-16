@@ -7,3 +7,25 @@
 ._3qDWQGB0rtwM3qpXTb11Q-:has(.SVGIcon_Information) {
     display: none;
 }
+
+
+/* HLTB fix */
+._3qDWQGB0rtwM3qpXTb11Q-[hltb-click-listener="true"] {
+    display: flex;
+}
+._3qDWQGB0rtwM3qpXTb11Q-[hltb-click-listener="true"] svg {
+    display: none;
+}
+._3qDWQGB0rtwM3qpXTb11Q-[hltb-click-listener="true"] .zvLq1GUCH3yLuqv_TXBJ1::before {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    background-image: url("../../src/icons/hltb.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+._3qDWQGB0rtwM3qpXTb11Q-[hltb-click-listener="true"][hltb-injected="true"] {
+    display: none;
+}
