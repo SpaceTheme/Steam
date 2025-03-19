@@ -76,12 +76,12 @@
 }
 
 ._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi- {
-    opacity: 1;
-    z-index: 2;
-    position: sticky;
     border-radius: 8px;
 }
 ._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi-._3SSPIdErMyF10Bul9E0qhX {
+    opacity: 1;
+    z-index: 2;
+    position: sticky;
     box-shadow: 0px 0px 16px 0px rgb(0, 0, 0);
 }
 
@@ -277,6 +277,7 @@
 ! Gamepage game links bar
 */  /*todo: add comments*/
 ._2r4TK4BAuU-J4FuF_O7v_5 {
+    z-index: unset !important;
     padding: 0;
 }
 
