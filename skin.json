@@ -204,7 +204,7 @@
             "tab": "Steam bloat",
             "values": {
                 "yes": {
-                    "TargetCss": { "affects": ["https://.*.steampowered.com"], "src": "options/steamBloat/shopCartRecommendations.css" }
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/steamBloat/shopCartRecommendations.css" }
                 },
                 "no": {}
             }
