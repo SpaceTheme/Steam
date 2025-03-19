@@ -231,6 +231,17 @@
                 },
                 "no": {}
             }
+        },
+        "Store Gamepage": {
+            "description": "Store Gamepage from the concept",
+            "default": "no",
+            "tab": "Experimental",
+            "values": {
+                "yes": {
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/experimental/storeGamepage.css" }
+                },
+                "no": {}
+            }
         }
     },
     "Patches": [

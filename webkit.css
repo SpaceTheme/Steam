@@ -55,7 +55,8 @@ body.v6::-webkit-scrollbar {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    width: calc(1260px - 16px - 16px) !important;
+    width: 100% !important;
+    max-width: 1000px;
     height: auto !important;
     margin: 12px 0 0 !important;
     padding: 6px 16px;

@@ -1,0 +1,223 @@
+/*
+& Remove after experimental
+*/
+#store_header .content {
+    width: calc(1260px - 16px - 16px) !important;
+    max-width: unset !important;
+}
+
+/* checkboxchecked, store, game, header */
+.game_bg.application .queue_overflow_ctn .btn_medium span:has(img)::before {
+    content: "\f28e" !important;
+    font-size: 24px;
+    color: rgb(var(--blue));
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* prohibitedmultiple, store, game, header */
+.game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium span::before {
+    content: "\e9da" !important;
+    color: #8e8e8e;
+}
+.game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium span:hover::before {
+    color: #fff;
+}
+
+
+/* arrow right, store, game, header */
+.game_bg.application .queue_overflow_ctn .next_in_queue_content>span::before {
+    content: "\f182" !important;
+    font-size: 24px;
+    color: rgb(var(--yellow));
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+
+body.v6.game_bg.application .page_content_ctn,
+body.v6.game_bg.application .page_content {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+
+/*
+& Haeder
+*/
+
+/*
+! Title Area
+*/
+.game_bg.application .page_title_area .apphub_HeaderStandardTop {
+    min-height: unset;
+    margin: 0 0 16px;
+}
+
+/* Game Path */
+.game_bg.application .page_title_area .breadcrumbs {
+    display: none;
+}
+
+/* Game Title */
+.game_bg.application .page_title_area .apphub_HomeHeaderContent {
+    max-width: unset;
+}
+
+.game_bg.application .page_title_area .apphub_AppName {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+/* Community Hub */
+.game_bg.application .page_title_area .apphub_OtherSiteInfo {
+    display: none;
+}
+
+/* Sale Event Banner */
+.game_bg.application .saleEventBannerLink {
+    display: none;
+}
+
+
+/*
+! Wishlist/Follow Area
+*/
+
+.game_bg.application .queue_overflow_ctn {
+    position: absolute;
+    top: -48px;
+    right: 0;
+}
+
+.game_bg.application .queue_overflow_ctn .queue_ctn {
+    width: unset;
+    margin: 0;
+    background: unset;
+}
+
+.game_bg.application .queue_overflow_ctn .queue_actions_ctn {
+    display: flex;
+    gap: 6px;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+/* Buttons */
+.game_bg.application .queue_overflow_ctn .btn_medium {
+    font-weight: 500;
+    color: #fff !important;
+    background: unset;
+    background-color: rgb(var(--blue), .4);
+}
+.game_bg.application .queue_overflow_ctn .btn_medium:hover {
+    background: unset !important;
+    background-color: rgb(var(--blue), .6) !important;
+}
+
+.game_bg.application .queue_overflow_ctn .btn_medium span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0 12px;
+}
+.game_bg.application .queue_overflow_ctn .btn_medium span:has(img) {
+    padding: 0 12px 0 6px;
+}
+.game_bg.application .queue_overflow_ctn .btn_medium span img {
+    display: none;
+}
+
+/* Wishlist */
+.game_bg.application .queue_overflow_ctn #wishlistDropDown {
+    display: none;
+}
+
+/* Ignore */
+.game_bg.application .queue_overflow_ctn .queue_btn_ignore {
+    display: none;
+}
+.game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium {
+    display: flex;
+    height: 30px;
+    background-color: rgb(var(--color-2));
+}
+.game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium:hover {
+    background-color: rgb(var(--color-2)) !important;
+}
+.game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium span {
+    padding: 0 6px;
+}
+
+/* View Your Queue */
+.game_bg.application .queue_overflow_ctn .btnv6_blue_hoverfade.right {
+    display: none;
+}
+
+/* Queue */
+.game_bg.application .queue_overflow_ctn .next_in_queue_area {
+    order: 1;
+}
+
+.game_bg.application .queue_overflow_ctn .queue_controls_description,
+.game_bg.application .queue_overflow_ctn .queue_reason_description {
+    display: none;
+}
+
+.game_bg.application .queue_overflow_ctn .btn_next_in_queue {
+    width: unset;
+    height: unset;
+    margin: 0;
+    background: unset;
+}
+
+.game_bg.application .queue_overflow_ctn .next_in_queue_content {
+    padding: 0 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--yellow), .4);
+}
+.game_bg.application .queue_overflow_ctn .next_in_queue_content:hover {
+    background-color: rgb(var(--yellow), .6);
+}
+.game_bg.application .queue_overflow_ctn .next_in_queue_content span {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    font-size: 0px;
+}
+.game_bg.application .queue_overflow_ctn .next_in_queue_content .queue_sub_text {
+    display: none;
+}
+
+
+
+
+/* Clear *what ever* */
+.queue_actions_ctn div[style*="clear"] {
+    display: none;
+}
+
+
+
+/*
+& Game Media and Summary
+*/
+.game_bg.application .block.game_media_and_summary_ctn {
+    position: relative;
+}
+
+
