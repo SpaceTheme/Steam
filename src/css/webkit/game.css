@@ -1,6 +1,5 @@
 body.v6.game_bg.application .page_content_ctn,
 body.v6.game_bg.application .page_content {
-    width: 1260px;
     margin: 0 auto;
 }
 
@@ -51,7 +50,7 @@ body.v6.game_bg.application .page_content {
 .game_bg.application .queue_overflow_ctn {
     position: absolute;
     top: -48px;
-    right: 0;
+    right: 310px;
 }
 
 .game_bg.application .queue_overflow_ctn .queue_ctn {
