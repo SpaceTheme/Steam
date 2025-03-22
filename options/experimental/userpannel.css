@@ -65,9 +65,11 @@
 
 /* User buttons */
 ._3cykd-VfN_xBxf3Qxriccm ._2Lu3d-5qLmW4i19ysTt2jT:not(._3mGEzzp18imtSzGPkduedi) ._3yD46y5pd3zOGR7CzKs0mC {
-    height: 28px;
+    gap: 0;
     max-height: unset;
     padding: 6px;
+    font-size: 13px;
+    font-weight: 500;
     border-radius: 8px !important;
     background-color: rgb(var(--color-3)) !important;
     transition: background-color 0.15s ease-in-out;
@@ -76,11 +78,26 @@
     background-color: rgb(var(--color-1)) !important;
 }
 
-
-._3yD46y5pd3zOGR7CzKs0mC ._1YGAHSfGavQI6MODJq-pJB.X-Small {
+/* Avatar */
+.nibodjvvrm86uCfnnAn4g.avatarHolder {
     width: 32px;
     height: 32px;
+    margin-right: 6px;
+    transform: unset;
 }
+
+._3yD46y5pd3zOGR7CzKs0mC ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+    display: none !important;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC ._3h-QRJGxnVOIExtHD1R0f2 {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 100%;
+    box-shadow: none;
+}
+
 
 ._3yD46y5pd3zOGR7CzKs0mC ._1p_QrI3ixF-RAwnxad9pEm {
     box-shadow: none;
