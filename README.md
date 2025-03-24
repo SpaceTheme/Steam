@@ -24,9 +24,9 @@
 
 |  Library home  |  Library gamepage  |
 |  :---:  |  :---:  |
-|  ![Preview](https://i.imgur.com/Wr0S4Go.png)  |  ![Preview](https://i.imgur.com/s9bQdOK.png)  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/conceptLibHome.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/conceptLibGamepage.png)  |
 |  **Store**  |
-|  ![Preview](https://i.imgur.com/DC2u3hh.png)  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/conceptStorePage.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/conceptStoreGamepage.png)  |
 </details>
 
 ## Info
