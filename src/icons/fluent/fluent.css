@@ -1,8 +1,8 @@
 @font-face {
     font-family: "FluentSystemIcons-Filled";
-    src: url("https://spacetheme.de/themeIconFont/FluentSystemIcons-Filled.woff2") format("woff2"),
-    url("https://spacetheme.de/themeIconFont/FluentSystemIcons-Filled.woff") format("woff"),
-    url("https://spacetheme.de/themeIconFont/FluentSystemIcons-Filled.ttf") format("truetype");
+    src: url("https://spaceenergy.github.io/fonts/FluentSystemIcons-Filled.woff2") format("woff2"),
+    url("https://spaceenergy.github.io/fonts/FluentSystemIcons-Filled.woff") format("woff"),
+    url("https://spaceenergy.github.io/fonts/FluentSystemIcons-Filled.ttf") format("truetype");
 }
 
 *>:has(> [class*="SVGIcon_"],> svg)::before {
