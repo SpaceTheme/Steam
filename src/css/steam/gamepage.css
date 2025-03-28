@@ -328,8 +328,9 @@
 }
 
 
+
 /*
-! Recommend & post-game summary
+& Recommend & post-game summary
 */
 ._27RcNu8aXKBpYkHcNNrt-X ._11kuVRYZvWXn-3rBJ_6yL8 {
     display: flex !important;
@@ -346,7 +347,9 @@
 }
 
 
-/* Recommend */  /*todo: add comments*/
+/*
+! Recommend
+*/  /*todo: add comments*/
 ._3LE-6w1ItIAB4CKJFCa3Od {
     padding: 16px;
     border-radius: 8px;
@@ -423,7 +426,10 @@
 }*/
 
 
-/* Summary */  /*todo: add comments*/
+
+/*
+! Summary
+*/
 ._1OMmVJHDgNwOt0Wqn0hrf9 {
     width: auto !important;
     margin: 0 !important;
@@ -433,47 +439,86 @@
 }
 
 
+/*? IDK xd */
 ._2pAbUZVnG9Q1TYOfdvFmtX {
     margin-bottom: 6px;
     padding: 0 !important;
 }
 
+
+/* Topbar */
+._2o5c89vAnrXN8C60QTSMqO {
+    margin-bottom: 6px;
+    padding: 0 !important;
+}
 .P_gQ8X-yCsgXeXpP68KS0 {
     line-height: unset ;
 }
 
+
+/*? IDK xd */
 ._2K2No5eH-XS6QwrXUtzo2x {
     margin-left: 12px;
 }
 
 
+/* Content Container */
 ._2MKO5j24KqDdD-92hH5FXi {
     height: unset;
-    padding: 12px;
-    border-radius: 8px;
+    padding: 0;
     background: none;
-    background-color: rgb(var(--color-1));
 }
 ._2MKO5j24KqDdD-92hH5FXi:after {
     display: none;
 }
 
+/* Day Containers */
 ._1iO7MC6rgUjbDf49AE6hCm {
-    justify-content: flex-end;
     height: unset !important;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
 }
 ._1iO7MC6rgUjbDf49AE6hCm:first-child {
     margin: 0;
 }
 
+/* Date Title */
 ._3ugJ_KPVlOd9oeYm-fYC_w {
-    height: unset;
-    margin-bottom: 6px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #94a1a6;
 }
 
+/* Achievements */
 ._1r3z58m4uvAtp2Nfee0kDg {
     margin: 0;
 }
+
+/* Screenshots */
+._3OGeKUgr_1EvormVh8S7uH ._22q2XMkRbHZD96i_GXOaHh {
+    box-shadow: none;
+}
+._3OGeKUgr_1EvormVh8S7uH ._22q2XMkRbHZD96i_GXOaHh img {
+    border-radius: 8px;
+}
+
+/* Dot Divider */
+._1ms0i1dxwTqiqcXV59nenw {
+    width: 0;
+    height: 0;
+    margin: 0 !important;
+    margin-left: 6px !important;
+}
+
+/* Divider */
+._284XbL-B7aHiK4XgyI2DPS {
+    width: 3px;
+    margin: 24px 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--background));
+}
+
 
 
 
