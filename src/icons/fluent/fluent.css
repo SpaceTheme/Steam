@@ -4,6 +4,12 @@
     url("https://spaceenergy.github.io/fonts/FluentSystemIcons-Filled.woff") format("woff"),
     url("https://spaceenergy.github.io/fonts/FluentSystemIcons-Filled.ttf") format("truetype");
 }
+@font-face {
+    font-family: "FluentSystemIcons-Regular";
+    src: url("https://spaceenergy.github.io/fonts/FluentSystemIcons-Regular.woff2") format("woff2"),
+    url("https://spaceenergy.github.io/fonts/FluentSystemIcons-Regular.woff") format("woff"),
+    url("https://spaceenergy.github.io/fonts/FluentSystemIcons-Regular.ttf") format("truetype");
+}
 
 *>:has(> [class*="SVGIcon_"],> svg)::before {
     content: "";
