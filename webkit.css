@@ -116,11 +116,13 @@ body.v6::-webkit-scrollbar {
 /* Searchbar */
 #store_header .store_nav_bg .search_area {
     display: flex;
+    justify-content: end;
     align-items: center;
     max-width: unset;
 }
 #store_header .store_nav_bg .search_area #store_search {
     width: 100%;
+    max-width: 430px;
     height: 32px;
     padding: 0;
 }
