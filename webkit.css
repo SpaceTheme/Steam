@@ -7,11 +7,7 @@
 @import url("./src/css/webkit/wishlist.css");
 
 /*
-&
-&
 & Base
-&
-&
 */
 
 body.v6,
@@ -43,7 +39,7 @@ body.v6::-webkit-scrollbar {
 
 
 /*
-! Navbar/Header
+& Navbar/Header
 */
 #store_header .content {
     position: fixed !important;
@@ -345,4 +341,17 @@ body.v6::-webkit-scrollbar {
     &:hover {
         background-color: rgba(var(--green), 0.4);
     }
+}
+
+
+
+/*
+& Footer
+*/
+body.v6 #footer {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 16px 16px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
 }
