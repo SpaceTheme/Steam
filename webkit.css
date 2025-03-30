@@ -348,7 +348,7 @@ body.v6::-webkit-scrollbar {
 /*
 & Footer
 */
-body.v6 #footer {
+html body.v6 #footer {
     width: fit-content;
     margin: 0 auto;
     padding: 0 16px 16px;
