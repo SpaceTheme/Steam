@@ -175,10 +175,6 @@ body.v6.game_bg.application .page_content {
     gap: 6px;
     padding: 0 12px;
 }
-.game_bg.application .queue_overflow_ctn .btn_medium span:has(img),
-.game_bg.application .queue_overflow_ctn [id*="add_to_wishlist_area"] .btn_medium span {
-    padding: 0 12px 0 6px;
-}
 .game_bg.application .queue_overflow_ctn .btn_medium span img {
     display: none;
 }
