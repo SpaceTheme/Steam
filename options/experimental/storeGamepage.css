@@ -95,6 +95,7 @@ body.v6.game_bg.application .page_content {
     margin: 0 0 16px;
 }
 
+
 /* Game Path */
 .game_bg.application .page_title_area .breadcrumbs {
     display: none;
@@ -111,10 +112,12 @@ body.v6.game_bg.application .page_content {
     font-weight: 700;
 }
 
+
 /* Community Hub */
 .game_bg.application .page_title_area .apphub_OtherSiteInfo {
     display: none;
 }
+
 
 /* Sale Event Banner */
 .game_bg.application .saleEventBannerLink {
@@ -144,6 +147,7 @@ body.v6.game_bg.application .page_content {
     justify-content: flex-end;
     padding: 0;
 }
+
 
 /* Buttons */
 .game_bg.application .queue_overflow_ctn .btn_medium {
@@ -254,7 +258,6 @@ body.v6.game_bg.application .page_content {
 
 
 
-
 /* Clear *what ever* */
 .queue_actions_ctn div[style*="clear"] {
     display: none;
@@ -263,10 +266,66 @@ body.v6.game_bg.application .page_content {
 
 
 /*
-& Game Media and Summary
+& Game Media
 */
 .game_bg.application .block.game_media_and_summary_ctn {
     position: relative;
 }
 
+.game_bg.application .game_background_glow {
+    margin: 0;
+    padding: 0;
+    background: unset;
+}
+.game_bg.application .game_background_glow #game_highlights {
+    background: unset;
+}
 
+
+
+/*
+& Game Purchase / Infos etc.
+*/
+
+
+
+
+/*
+& Sidebar
+*/
+
+/*
+! Details 
+*/
+.game_bg.application #game_highlights .rightcol {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+
+
+/* Banner */
+.game_bg.application #game_highlights .rightcol .game_header_image_ctn {
+    margin-bottom: 6px;
+}
+.game_bg.application #game_highlights .rightcol .game_header_image_full {
+    border-radius: 8px;
+}
+
+
+/* Description */
+.game_bg.application #game_highlights .rightcol .game_description_snippet {
+    padding: 0;
+    line-height: unset;
+}
+
+/* Divider */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin: 12px 0;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}

@@ -240,9 +240,11 @@ body.v6::-webkit-scrollbar {
     right: 0;
     height: 100%;
     filter: blur(2px) brightness(0.5);
+    transition: all 0.2s ease-in-out;
 }
 #store_header .store_nav_bg .search_area .search_suggest .popup_body :is(.match_creator:hover, .match_tag:hover) .match_background_image {
     filter: blur(2px) brightness(0.7);
+    transform: scale(1.05);
 }
 
 #store_header .store_nav_bg .search_area .search_suggest .popup_body :is(.match_creator, .match_tag) .match_background_image img {
