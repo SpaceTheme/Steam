@@ -161,11 +161,11 @@ body.v6.game_bg.application .page_content {
     font-weight: 500;
     color: #fff !important;
     background: unset;
-    background-color: rgb(var(--blue), .4);
+    background-color: rgb(var(--blue), .2);
 }
 .game_bg.application .queue_overflow_ctn .btn_medium:hover {
     background: unset !important;
-    background-color: rgb(var(--blue), .6) !important;
+    background-color: rgb(var(--blue), .4) !important;
 }
 
 .game_bg.application .queue_overflow_ctn .btn_medium span {
