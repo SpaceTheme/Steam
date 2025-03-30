@@ -8,10 +8,10 @@
 
 /* checkboxchecked, store, game, header */
 .game_bg.application .queue_overflow_ctn [id*="add_to_wishlist_area"] .btn_medium span::before {
-    content: "\f292" !important;
-    font-size: 24px;
+    content: "\f47a" !important;
+    font-size: 22px;
     color: rgb(var(--blue));
-    font-family: FluentSystemIcons-Filled !important;
+    font-family: FluentSystemIcons-Regular !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;
@@ -20,13 +20,14 @@
     -webkit-font-smoothing: antialiased;
 }
 .game_bg.application .queue_overflow_ctn [id*="add_to_wishlist_area"] .btn_medium span:has(img)::before {
-    content: "\f28e" !important;
+    content: "\f47e" !important;
+    font-family: FluentSystemIcons-Filled !important;
 }
 
 /* prohibitedmultiple, store, game, header */
 .game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium span::before {
     content: "\e9da" !important;
-    font-size: 24px;
+    font-size: 22px;
     color: #8e8e8e;
     font-family: FluentSystemIcons-Filled !important;
     font-style: normal;
@@ -44,7 +45,7 @@
 /* arrow right, store, game, header */
 .game_bg.application .queue_overflow_ctn .next_in_queue_content >span::before {
     content: "\f182" !important;
-    font-size: 24px;
+    font-size: 22px;
     color: rgb(var(--yellow));
     font-family: FluentSystemIcons-Filled !important;
     font-style: normal;
@@ -58,7 +59,7 @@
 /* follow, store, game, header */
 .game_bg.application .queue_overflow_ctn .queue_btn_follow .btn_medium::before {
     content: "\f56f" !important;
-    font-size: 24px;
+    font-size: 22px;
     color: rgb(var(--blue));
     font-family: FluentSystemIcons-Regular !important;
     font-style: normal;
