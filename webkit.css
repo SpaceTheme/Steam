@@ -338,11 +338,11 @@ body.v6::-webkit-scrollbar {
     padding: 6px 12px;
     font-weight: 600;
     border-radius: 6px;
-    color: rgb(var(--accent-1));
+    color: rgb(var(--green));
     background: none;
-    background-color: rgba(var(--accent-1), 0.2);
+    background-color: rgba(var(--green), 0.2);
 
     &:hover {
-        background-color: rgba(var(--accent-1), 0.4);
+        background-color: rgba(var(--green), 0.4);
     }
 }
