@@ -6,7 +6,7 @@
     max-width: unset !important;
 }
 
-/* checkboxchecked, store, game, header */
+/* heart, store, game, header */
 .game_bg.application .queue_overflow_ctn [id*="add_to_wishlist_area"] .btn_medium span::before {
     content: "\f47a" !important;
     font-size: 22px;
