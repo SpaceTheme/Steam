@@ -377,3 +377,25 @@
 ._2q70uOe6xM3-c5XIVfBLe6 ._12pDikfkuNH_o3MHKU1skz._2CPHr3axb0cv3nnDnPui5o>svg {
     display: none;
 }
+
+
+
+
+
+/* arrow export up, gamepage, scroll to top */
+._1J21tLst5SEhBPkVRT53UV._28ZR8gHitOrJaSLxcIAl2p div::before {
+    content: "\f1a5";
+    font-size: 24px;
+    color: rgb(var(--blue), .8);
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+
+    &:hover {
+        color: rgb(var(--blue));
+    }
+}
