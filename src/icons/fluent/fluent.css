@@ -118,6 +118,18 @@
 }
 
 
+/* Friend, Sidebar */
+.cNZ3wORgnf1KSNhI2eE2M::before {
+    content: "\f5c8" !important;
+    font-size: 11px;
+    color: rgb(var(--green));
+}
+.cNZ3wORgnf1KSNhI2eE2M>svg {
+    display: none;
+}
+
+
+
 
 /* News, Userpannel */
 ._2Szzh5sKyGgnLUR870zbDE._5wILZhsLODVwGfcJ0hKmJ::before {
@@ -174,6 +186,28 @@
 ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F>svg {
     display: none;
 }
+
+
+
+
+/* arrow export up, scroll to top, library */
+._1J21tLst5SEhBPkVRT53UV._28ZR8gHitOrJaSLxcIAl2p div::before {
+    content: "\f1a5";
+    font-size: 24px;
+    color: rgb(var(--blue), .8);
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+
+    &:hover {
+        color: rgb(var(--blue));
+    }
+}
+
 
 
 
@@ -238,6 +272,7 @@
 
 
 
+
 /* Add, Addshelf */
 ._2aw5aUUo3lrK6wxJb4_ms5::before {
     content: "\f10d" !important;
@@ -251,6 +286,7 @@
 ._2aw5aUUo3lrK6wxJb4_ms5>svg {
     display: none;
 }
+
 
 
 
@@ -346,7 +382,7 @@
 }
 
 
-/* Collection Dynamic, libhome */
+/* Collection Dynamic, collection card, libhome */
 ._3IWn-2rn7x98o5fDd0rAxb .sZaUDqkKPd-EtHyaNfoKG::before {
     content: "\f02ea" !important;
     z-index: 99;
@@ -365,7 +401,7 @@
 }
 
 
-/* pen, libhome, collection */
+/* pen, collection, library */
 ._2q70uOe6xM3-c5XIVfBLe6 ._12pDikfkuNH_o3MHKU1skz._2CPHr3axb0cv3nnDnPui5o::before {
     content: "\e8ea" !important;
     font-size: 36px;
@@ -381,12 +417,113 @@
 
 
 
-
-/* arrow export up, gamepage, scroll to top */
-._1J21tLst5SEhBPkVRT53UV._28ZR8gHitOrJaSLxcIAl2p div::before {
-    content: "\f1a5";
+/* play, playbar, gamepage, library */
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Play)::before {
+    content: "\f610" !important;
     font-size: 24px;
-    color: rgb(var(--blue), .8);
+    color: #fff;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Play)>svg {
+    display: none;
+}
+
+/* stop, playbar, gamepage, library */
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_X_Line)::before {
+    content: "\f743" !important;
+    font-size: 24px;
+    color: #fff;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_X_Line)>svg {
+    display: none;
+}
+
+/* download, playbar, gamepage, library */
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Download)::before {
+    content: "\f151" !important;
+    font-size: 24px;
+    color: #fff;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Download)>svg {
+    display: none;
+}
+
+/* pause, playbar, gamepage, library */
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Pause)::before {
+    content: "\f5ac" !important;
+    font-size: 24px;
+    color: #fff;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Pause)>svg {
+    display: none;
+}
+
+/* uninstall, playbar, gamepage, library */
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Trash)::before {
+    content: "\f34d" !important;
+    font-size: 24px;
+    color: #fff;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Trash)>svg {
+    display: none;
+}
+
+
+/* cloud checkmark, playbar, gamepage, library */
+._2cRYms-zZc4misk9tj3bt8 .tool-tip-source:nth-child(1) ._3bkqc-SsCg0b3FTEuewlK8._1UXbBdCvbg9tyZhc4owO4W::before {
+    content: "\e3af" !important;
+    font-size: 30px;
+    color: #ffffff66;
+}
+._2cRYms-zZc4misk9tj3bt8 .tool-tip-source:nth-child(1) ._3bkqc-SsCg0b3FTEuewlK8._1UXbBdCvbg9tyZhc4owO4W>svg {
+    display: none;
+}
+
+/* cloud uptodate, playbar, gamepage, library */
+._2cRYms-zZc4misk9tj3bt8 .tool-tip-source:nth-child(2) ._3bkqc-SsCg0b3FTEuewlK8._1UXbBdCvbg9tyZhc4owO4W::before {
+    content: "\e3c1" !important;
+    font-size: 30px;
+    color: #ffffff66;
+}
+._2cRYms-zZc4misk9tj3bt8 .tool-tip-source:nth-child(2) ._3bkqc-SsCg0b3FTEuewlK8._1UXbBdCvbg9tyZhc4owO4W>svg {
+    display: none;
+}
+
+/* cloud check, playbar, gamepage, library */
+._2cRYms-zZc4misk9tj3bt8 .tool-tip-source:nth-child(3) ._3bkqc-SsCg0b3FTEuewlK8._1UXbBdCvbg9tyZhc4owO4W::before {
+    content: "\e3c4" !important;
+    font-size: 30px;
+    color: #ffffff66;
+}
+._2cRYms-zZc4misk9tj3bt8 .tool-tip-source:nth-child(3) ._3bkqc-SsCg0b3FTEuewlK8._1UXbBdCvbg9tyZhc4owO4W>svg {
+    display: none;
+}
+
+/* cloud upload, playbar, gamepage, library */
+._2cRYms-zZc4misk9tj3bt8 .tool-tip-source:nth-child(4) ._3bkqc-SsCg0b3FTEuewlK8._1UXbBdCvbg9tyZhc4owO4W::before {
+    content: "\e3a9" !important;
+    font-size: 30px;
+    color: #ffffff66;
+}
+._2cRYms-zZc4misk9tj3bt8 .tool-tip-source:nth-child(4) ._3bkqc-SsCg0b3FTEuewlK8._1UXbBdCvbg9tyZhc4owO4W>svg {
+    display: none;
+}
+
+/* cloud download, playbar, gamepage, library */
+._2cRYms-zZc4misk9tj3bt8 .tool-tip-source:nth-child(5) ._3bkqc-SsCg0b3FTEuewlK8._1UXbBdCvbg9tyZhc4owO4W::before {
+    content: "\e3a3" !important;
+    font-size: 30px;
+    color: #ffffff66;
+}
+._2cRYms-zZc4misk9tj3bt8 .tool-tip-source:nth-child(5) ._3bkqc-SsCg0b3FTEuewlK8._1UXbBdCvbg9tyZhc4owO4W>svg {
+    display: none;
+}
+
+
+/* last played playbar, gamepage, library */
+._1mDAVT4sTzFRwJtlKCw2Ws>div>._1kiZKVbDe-9Ikootk57kpA._3pS8kMrtScuY1Qf-W8tmRV::before {
+    content: "\e263" !important;
+    font-size: 30px;
+    color: #ffffff66;
     font-family: FluentSystemIcons-Filled !important;
     font-style: normal;
     font-weight: normal !important;
@@ -394,8 +531,78 @@
     text-transform: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
+}
 
-    &:hover {
-        color: rgb(var(--blue));
-    }
+
+/* playtime, playbar, gamepage, library */
+._1tIg-QIrwMNtCm7NcYADyi._1GZdosVXnfrf69yU8DWASl::before {
+    content: "\f840" !important;
+    font-size: 30px;
+    color: #ffffff66;
+}
+._1tIg-QIrwMNtCm7NcYADyi._1GZdosVXnfrf69yU8DWASl>svg {
+    display: none;
+}
+
+
+/* achievements, playbar, gamepage, library */
+._1tIg-QIrwMNtCm7NcYADyi.k-QNT9kzOEOvG0U_kGmwr::before {
+    content: "\f67d" !important;
+    font-size: 30px;
+    color: #ffffff66;
+}
+._1tIg-QIrwMNtCm7NcYADyi.k-QNT9kzOEOvG0U_kGmwr>svg {
+    display: none;
+}
+
+
+/* settings, playbar, gamepage, library */
+._3qDWQGB0rtwM3qpXTb11Q-:has(.SVGIcon_Settings)::before {
+    content: "\f6b3" !important;
+    font-size: 22px;
+    color: #757f8c;
+}
+._3qDWQGB0rtwM3qpXTb11Q-:has(.SVGIcon_Settings):hover::before {
+    color: #fff;
+}
+._3qDWQGB0rtwM3qpXTb11Q-:has(.SVGIcon_Settings)>svg {
+    display: none;
+}
+
+
+/* info, playbar, gamepage, library */
+._3qDWQGB0rtwM3qpXTb11Q- .zvLq1GUCH3yLuqv_TXBJ1:has(.SVGIcon_Information)::before {
+    content: "\f4ab" !important;
+    font-size: 22px;
+    color: #757f8c;
+}
+._3qDWQGB0rtwM3qpXTb11Q-:hover .zvLq1GUCH3yLuqv_TXBJ1:has(.SVGIcon_Information)::before {
+    color: #fff;
+}
+._3qDWQGB0rtwM3qpXTb11Q- .zvLq1GUCH3yLuqv_TXBJ1:has(.SVGIcon_Information)>svg {
+    display: none;
+}
+
+
+/* heart, playbar, gamepage, library */
+._3qDWQGB0rtwM3qpXTb11Q-._21hXW2oDD7zvNsoOaW7Yob::before {
+    content: "\f47e" !important;
+    font-size: 22px;
+    color: #757f8c;
+}
+._3qDWQGB0rtwM3qpXTb11Q-._21hXW2oDD7zvNsoOaW7Yob:hover::before {
+    color: rgb(var(--accent-1), .7);
+}
+._3qDWQGB0rtwM3qpXTb11Q-._21hXW2oDD7zvNsoOaW7Yob>svg {
+    display: none;
+}
+
+/* heart active, playbar, gamepage, library */
+._3qDWQGB0rtwM3qpXTb11Q-._21hXW2oDD7zvNsoOaW7Yob._2WaHZuAetbqENmqDthu3nl::before {
+    content: "\f47e" !important;
+    font-size: 22px;
+    color: rgb(var(--accent-1));
+}
+._3qDWQGB0rtwM3qpXTb11Q-._21hXW2oDD7zvNsoOaW7Yob._2WaHZuAetbqENmqDthu3nl:hover::before {
+    content: "\ef25" !important;
 }
