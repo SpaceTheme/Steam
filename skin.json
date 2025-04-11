@@ -87,10 +87,10 @@
             "default": "no",
             "tab": "Steam bloat",
             "values": {
-                "no": {
+                "no": {},
+                "yes": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/walletBalance.css" }
-                },
-                "yes": {}
+                }
             }
         },
         "Steam VR button": {
