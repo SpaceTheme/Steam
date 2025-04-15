@@ -65,6 +65,7 @@
 
 /* User buttons */
 ._3cykd-VfN_xBxf3Qxriccm ._2Lu3d-5qLmW4i19ysTt2jT:not(._3mGEzzp18imtSzGPkduedi) ._3yD46y5pd3zOGR7CzKs0mC {
+    position: relative;
     gap: 0;
     max-height: unset;
     padding: 6px;
@@ -76,6 +77,9 @@
 }
 ._3cykd-VfN_xBxf3Qxriccm ._2Lu3d-5qLmW4i19ysTt2jT:not(._3mGEzzp18imtSzGPkduedi) ._3yD46y5pd3zOGR7CzKs0mC:hover {
     background-color: rgb(var(--color-1)) !important;
+}
+._3cykd-VfN_xBxf3Qxriccm ._2Lu3d-5qLmW4i19ysTt2jT:not(._3mGEzzp18imtSzGPkduedi) ._3yD46y5pd3zOGR7CzKs0mC:has(._2jphjrSifC6orDT4g_7Wd) {
+    align-items: flex-start;
 }
 
 /* Avatar */
@@ -96,6 +100,14 @@
     border: none;
     border-radius: 100%;
     box-shadow: none;
+}
+
+/* Wallet*/
+._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd {
+    position: absolute;
+    left: calc(6px + 32px + 6px);
+    bottom: 6px;
+    font-size: 11px;
 }
 
 
