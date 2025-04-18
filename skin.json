@@ -258,6 +258,11 @@
         {
             "MatchRegexString": ".*",
             "TargetCss": "src/icons/fluent/fluent.css"
+        },
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "src/js/libraryroot.custom.js"
         }
     ]
 }
