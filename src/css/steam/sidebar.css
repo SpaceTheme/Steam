@@ -216,7 +216,9 @@
 /*
 ! Game list
 */
-._1ijTaXJJA5YWl_fW2IxcaT {
+._1ijTaXJJA5YWl_fW2IxcaT,
+._1fbRpYO_BFDlMdFLsQMGVE {
+    margin: 0;
     border-radius: 0 0 8px 8px;
     background-color: rgb(var(--color-2));
 }
