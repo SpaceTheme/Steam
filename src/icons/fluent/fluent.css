@@ -137,6 +137,10 @@
     font-size: 16px;
     color: #67707b;
 }
+._2Szzh5sKyGgnLUR870zbDE._5wILZhsLODVwGfcJ0hKmJ._1oEwirQksXfZ-3RWWslbAR::before {
+    content: "\e7fe" !important;
+    color: rgb(var(--blue));
+}
 ._2Szzh5sKyGgnLUR870zbDE._5wILZhsLODVwGfcJ0hKmJ:hover::before {
     color: #fff;
 }
