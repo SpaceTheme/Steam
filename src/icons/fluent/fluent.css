@@ -165,6 +165,19 @@
     display: none;
 }
 
+/* VR, Userpannel */
+._2Szzh5sKyGgnLUR870zbDE._3lRfTo8Wo3phXfE1DvK6QW::before {
+    content: "\f47b" !important;
+    font-size: 16px;
+    color: #67707b;
+}
+._2Szzh5sKyGgnLUR870zbDE._3lRfTo8Wo3phXfE1DvK6QW:hover::before {
+    color: #fff;
+}
+._2Szzh5sKyGgnLUR870zbDE._3lRfTo8Wo3phXfE1DvK6QW>svg {
+    display: none;
+}
+
 /* BPM, Userpannel */
 ._2Szzh5sKyGgnLUR870zbDE._3LKQ3S_yqrebeNLF6aeiog::before {
     content: "\edc3" !important;
