@@ -1,8 +1,8 @@
-name: Attach ZIP to Draft Release
+name: Attach ZIP to Release
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   attach-zip:
@@ -12,15 +12,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Create ZIP file named 'SpaceTheme_for_Steam.zip'
+      - name: Create ZIP file
         run: |
           zip -r SpaceTheme_for_Steam.zip . \
             -x "*.git*" "*.github*" "_assets/*" "README.md"
 
-      - name: Upload ZIP to release and publish it
+      - name: Upload ZIP to the current release
         uses: softprops/action-gh-release@v1
         with:
           files: SpaceTheme_for_Steam.zip
-          draft: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
