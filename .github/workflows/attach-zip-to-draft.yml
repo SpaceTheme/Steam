@@ -1,4 +1,4 @@
-name: Attach ZIP to Release
+name: Auto Upload ZIP to Release
 
 on:
   release:
@@ -12,14 +12,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Create ZIP file
+      - name: Install GitHub CLI
+        run: sudo apt install gh -y
+
+      - name: Create ZIP file named 'SpaceTheme_for_Steam.zip'
         run: |
           zip -r SpaceTheme_for_Steam.zip . \
             -x "*.git*" "*.github*" "_assets/*" "README.md"
 
-      - name: Upload ZIP to the current release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: SpaceTheme_for_Steam.zip
+      - name: Upload ZIP to release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        run: |
+          TAG_NAME="${{ github.event.release.tag_name }}"
+          RELEASE_ID=$(gh api repos/${{ github.repository }}/releases/tags/$TAG_NAME --jq '.id')
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            /repos/${{ github.repository }}/releases/$RELEASE_ID/assets?name=SpaceTheme_for_Steam.zip \
+            --input SpaceTheme_for_Steam.zip \
+            --header "Content-Type: application/zip"
