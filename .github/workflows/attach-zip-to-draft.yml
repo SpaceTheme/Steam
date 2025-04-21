@@ -2,7 +2,7 @@ name: Attach ZIP to Draft Release
 
 on:
   release:
-    types: [unpublished]
+    types: [created]
 
 jobs:
   attach-zip:
