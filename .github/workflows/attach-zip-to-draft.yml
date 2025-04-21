@@ -2,11 +2,10 @@ name: Attach ZIP to Draft Release
 
 on:
   release:
-    types: [edited]
+    types: [unpublished]
 
 jobs:
   attach-zip:
-    if: github.event.release.draft == true
     runs-on: ubuntu-latest
 
     steps:
