@@ -11,7 +11,7 @@
 
 ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png)
 <details>
-    <summary>More images (v1.1.0-alpha)</summary>
+    <summary>More images (v20250419)</summary>
 
 |  Library home  |  Library gamepage  |
 |  :---:  |  :---:  |
