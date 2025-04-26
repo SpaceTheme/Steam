@@ -42,7 +42,20 @@
     display: none;
 }
 
+
+/* Demo Tag */
+._3EXklzsbt_QeypOM4_vp1K {
+    padding: 12px calc(var(--banner-top-offset)* sqrt(2));
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    background-color: rgb(var(--green));
+    box-shadow: 0px 0px 16px 0px rgb(0, 0, 0);
+}
+
+
 /* Logo align */
+
 
 
 /* Collection tags */
