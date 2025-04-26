@@ -347,6 +347,7 @@
 }
 
 
+
 /*
 ! Recommend
 */  /*todo: add comments*/
@@ -519,6 +520,40 @@
     background-color: rgb(var(--background));
 }
 
+
+
+/*
+! Check out the full game
+*/
+._11kuVRYZvWXn-3rBJ_6yL8._3wbndu1paxHkciYr4rFJH5 .xYbDdgox9mzrraWWYN3_- {
+    flex-direction: unset;
+    padding: 12px;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--color-2));
+}
+
+
+/* Content */
+._11kuVRYZvWXn-3rBJ_6yL8._3wbndu1paxHkciYr4rFJH5 .xYbDdgox9mzrraWWYN3_- ._1AazHUNJbyL5SIWE5jC4Tz {
+    position: relative;
+    display: flex;
+    padding: 0 12px;
+    flex-direction: column;
+}
+
+
+/* Button */
+._11kuVRYZvWXn-3rBJ_6yL8._3wbndu1paxHkciYr4rFJH5 .xYbDdgox9mzrraWWYN3_- ._3f3yVG8Ru4B_jb4FbJ1l-i {
+    position: absolute;
+    bottom: 0;
+    padding-top: 12px;
+}
+
+._11kuVRYZvWXn-3rBJ_6yL8._3wbndu1paxHkciYr4rFJH5 .xYbDdgox9mzrraWWYN3_- ._3f3yVG8Ru4B_jb4FbJ1l-i ._3SdsgvPAsO-ewAaupsOhHy {
+    margin: 0;
+    padding: 0 16px;
+}
 
 
 
