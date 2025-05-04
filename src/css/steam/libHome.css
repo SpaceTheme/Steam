@@ -398,7 +398,8 @@
 
 /* New to library */
 ._2jj5TjFhHD1lvxMlpJYek6 {
-    top: 6px;
+    top: unset;
+    bottom: 6px;
 }
 ._2jj5TjFhHD1lvxMlpJYek6 .N8aJrSpxQ6II4CY_aFdYI {
     max-width: 100%;
@@ -407,6 +408,11 @@
     padding: 4px;
     border-radius: 8px;
     background-color: rgba(1, 169, 234);
+}
+
+/* Install button */
+.WYgDg9NyCcMIVuMyZ_NBC ._2GRcKrPZsMSF6glMPRMZei {
+    justify-content: unset;
 }
 
 /* Playtime/Date etc. */
