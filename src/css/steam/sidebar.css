@@ -188,7 +188,7 @@
 ._20QAC4WMXm8qFE8waUT5oo,
 ._20QAC4WMXm8qFE8waUT5oo._3qwXPrhpZYqVbJxrZDrvjy {
     margin: 0;
-    padding: 0 6px 12px;
+    padding: 0 6px 16px;
     border-radius: 0;
     background-color: rgb(var(--color-2));
 }
@@ -216,6 +216,20 @@
 }
 
 
+
+/*
+! Divider
+*/
+._20QAC4WMXm8qFE8waUT5oo::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    margin: 0 12px 6px;
+    width: calc(100% - 36px);
+    height: 4px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}
 
 
 /*
