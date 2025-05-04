@@ -259,11 +259,9 @@
 }
 
 ._2sYIghGVXJr6tsQVvcryy8 ._3SFRZYIb9Y2q7YsVtB3YKb {
-    margin-top: 1px;
-}
-
-._2sYIghGVXJr6tsQVvcryy8 ._29uten9Yy8q-n7woDEOXVF {
-    margin-top: -1px;
+    display: flex;
+    align-items: center;
+    padding: 0 2px 0 4px;
 }
 
 
