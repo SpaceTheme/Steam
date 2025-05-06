@@ -27,6 +27,17 @@
                 }
             }
         },
+        "Gamepage Steam-Custom-Artowrks Support": {
+            "description": "For the best support for https://github.com/SpaceTheme/Steam-Custom-Artworks ",
+            "default": "no",
+            "tab": "General",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageCustomArtwork.css" }
+                }
+            }
+        },
         "Gamepage sidebar on left": {
             "description": "Changes the sidebar on the game page from right to left",
             "default": "no",

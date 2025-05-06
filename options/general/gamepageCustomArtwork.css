@@ -1,0 +1,15 @@
+.NZMJ6g2iVnFsOOp-lDmIP:has(img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"]) ._3NBxSLAZLbbbnul8KfDFjw._2dzwXkCVAuZGFC-qKgo8XB {
+    display: none;
+}
+
+.QlR9EFwTdUNm_J5vx54_Z:has(img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"]) {
+    background-color: #ccc1a1;
+}
+
+img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"] {
+    width: fit-content !important;
+    height: fit-content;
+    max-width: 100%;
+    max-height: 420px;
+    margin: auto;
+}

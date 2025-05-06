@@ -17,3 +17,11 @@
 .NZMJ6g2iVnFsOOp-lDmIP.NZMJ6g2iVnFsOOp-lDmIP ._1IX7FPSY9Jb82KhBVBSkZa {
     max-height: unset !important;
 }
+
+
+.NZMJ6g2iVnFsOOp-lDmIP img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"] {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
