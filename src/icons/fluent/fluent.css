@@ -25,7 +25,7 @@
 
 
 /* Scrollup, Sidebar */
-.uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo::before {
+.uE7Pj4tb2n3_Bx4vjEX0a::before {
     content: "\f19c" !important;
     font-size: 18px;
     color: #67707b;
@@ -33,7 +33,7 @@
 .uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo:hover::before {
     color: #a9a9a9;
 }
-.uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo>svg {
+.uE7Pj4tb2n3_Bx4vjEX0a>svg {
     display: none;
 }
 
