@@ -6,10 +6,10 @@
     background-color: #ccc1a1;
 }
 
-img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"] {
-    width: fit-content !important;
-    height: fit-content;
-    max-width: 100%;
-    max-height: 420px;
+.NZMJ6g2iVnFsOOp-lDmIP img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"] {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
     margin: auto;
 }
