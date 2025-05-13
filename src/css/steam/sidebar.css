@@ -141,15 +141,17 @@
 
 
 /* Go up button */
-.uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo {
+.uE7Pj4tb2n3_Bx4vjEX0a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 6px;
     border: none;
     border-radius: 8px;
     background-color: rgb(var(--color-3));
     transition: all 0.2s ease-in-out;
+}
+.uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo {
+    margin-left: 6px;
 }
 .uE7Pj4tb2n3_Bx4vjEX0a.rkfSfuCLRt8sqpkXJqxYo:hover {
     background-color: rgb(var(--color-1));
