@@ -1,6 +1,7 @@
 /* Backdrop */
-._37MAYpIjl0IDA1xVhhsuX8 ._19eb8NMS53lqZR33su0kTr {
-    backdrop-filter: brightness(0.2);
+._37MAYpIjl0IDA1xVhhsuX8>div {
+    border-radius: 8px;
+    backdrop-filter: brightness(0.2) !important;
 }
 
 
