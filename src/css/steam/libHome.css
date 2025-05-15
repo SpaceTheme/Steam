@@ -413,6 +413,10 @@
 /* Install button */
 .WYgDg9NyCcMIVuMyZ_NBC ._2GRcKrPZsMSF6glMPRMZei {
     justify-content: unset;
+    align-items: flex-end;
+}
+.WYgDg9NyCcMIVuMyZ_NBC ._8YrRmy_c6O0FCxFT8gjqo {
+    max-width: unset;
 }
 
 /* Playtime/Date etc. */
