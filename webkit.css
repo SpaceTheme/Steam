@@ -113,6 +113,7 @@ body.v6::-webkit-scrollbar {
 /* Searchbar */
 #store_header .store_nav_bg .search_area {
     display: flex;
+    flex-shrink: unset;
     justify-content: end;
     align-items: center;
     max-width: unset;
@@ -311,18 +312,40 @@ body.v6::-webkit-scrollbar {
 }
 
 #store_header #store_controls .store_header_btn #wishlist_link {
+    display: flex;
+    gap: 2px;
+    align-items: center;
     width: max-content;
     margin: 0;
     padding: 6px 12px;
+    font-size: 0;
     font-weight: 600;
     border-radius: 6px;
-    color: rgb(var(--blue));
+    color: transparent;
     background: none;
     background-color: rgb(var(--blue), .2);
 }
 #store_header #store_controls .store_header_btn #wishlist_link:hover {
     background-color: rgb(var(--blue), .4) !important;
 }
+
+#store_header #store_controls .store_header_btn #wishlist_link::before {
+    content: "\f47e" !important;
+    font-size: 20px;
+    color: rgb(var(--blue));
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+#store_header #store_controls .store_header_btn #wishlist_link #wishlist_item_count_value {
+    font-size: 11px;
+    color: rgb(var(--blue));
+}
+
 
 
 /* Cart button */
@@ -331,6 +354,9 @@ body.v6::-webkit-scrollbar {
 }
 
 #store_header #store_controls ._2Fm-3XmbFRXR6yOZiRB0-d {
+    display: flex;
+    gap: 2px;
+    align-items: center;
     width: max-content;
     padding: 6px 12px;
     font-weight: 600;
@@ -342,6 +368,22 @@ body.v6::-webkit-scrollbar {
     &:hover {
         background-color: rgba(var(--green), 0.4);
     }
+}
+
+#store_header #store_controls ._2Fm-3XmbFRXR6yOZiRB0-d::before {
+    content: "\f26b" !important;
+    font-size: 20px;
+    color: rgb(var(--green));
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+#store_header #store_controls ._2Fm-3XmbFRXR6yOZiRB0-d ._1P_gEVnGARDlC_80XwA2tX {
+    display: none;
 }
 
 
