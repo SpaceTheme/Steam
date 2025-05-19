@@ -9,19 +9,6 @@
 
 
 
-:root {
-    --red: 240, 74, 74;
-    --red-hover: 242, 99, 99;
-    --green: 36, 166, 90;
-    --green-hover: 39, 185, 100;
-    --blue: 75, 137, 239;
-    --blue-hover: 100, 154, 242;
-    --yellow: 239, 141, 75;
-    --yellow-hover: 239, 141, 75;
-}
-
-
-
 /* Scrollbar */
 *::-webkit-scrollbar {
     width: 14px !important;
