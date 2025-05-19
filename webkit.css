@@ -62,6 +62,10 @@ body.v6::-webkit-scrollbar {
     box-shadow: 0px 4px 8px 0px rgba(var(--background), 0.5);
 }
 
+#store_header .content:not(:has(#store_nav_area)) {
+    display: none;
+}
+
 
 
 /* Nav Area */
