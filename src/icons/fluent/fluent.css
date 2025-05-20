@@ -117,7 +117,7 @@
 ._2sYIghGVXJr6tsQVvcryy8 .tool-tip-source::before {
     content: "\f02ea" !important;
     font-size: 16px;
-    color: #67707b;
+    color: rgb(var(--accent-1));
 }
 ._2sYIghGVXJr6tsQVvcryy8 .tool-tip-source>svg {
     display: none;
@@ -417,7 +417,7 @@
     color: rgb(var(--accent-1));
     border: 2px solid;
     border-radius: 8px;
-    background-color: rgb(var(--color-6), 60%);
+    background-color: rgb(var(--color-6));
 }
 ._3IWn-2rn7x98o5fDd0rAxb .sZaUDqkKPd-EtHyaNfoKG>svg {
     display: none;
@@ -593,6 +593,20 @@
 }
 
 
+/* gamepad, playbar, gamepage, library */
+._3qDWQGB0rtwM3qpXTb11Q-:has(>svg)::before {
+    content: "\eeb9" !important;
+    font-size: 22px;
+    color: #757f8c;
+}
+._3qDWQGB0rtwM3qpXTb11Q-:has(>svg):hover::before {
+    color: #fff;
+}
+._3qDWQGB0rtwM3qpXTb11Q-:has(>svg)>svg {
+    display: none;
+}
+
+
 /* info, playbar, gamepage, library */
 ._3qDWQGB0rtwM3qpXTb11Q- .zvLq1GUCH3yLuqv_TXBJ1:has(.SVGIcon_Information)::before {
     content: "\f4ab" !important;
@@ -628,4 +642,33 @@
 }
 ._3qDWQGB0rtwM3qpXTb11Q-._21hXW2oDD7zvNsoOaW7Yob._2WaHZuAetbqENmqDthu3nl:hover::before {
     content: "\ef25" !important;
+}
+
+
+
+
+/* setting, store, news */
+._1zyVyzldzUj085oNa8Y0r1._3cMESjaODP5L2fXHzANkNT::before {
+    content: "\f6b3" !important;
+    font-size: 17px;
+    color: #67707b;
+}
+._1zyVyzldzUj085oNa8Y0r1._3cMESjaODP5L2fXHzANkNT:hover::before {
+    color: #fff;
+}
+._1zyVyzldzUj085oNa8Y0r1._3cMESjaODP5L2fXHzANkNT>svg {
+    display: none;
+}
+
+/* close setting, store, news */
+._2vMIlVM2BeWTC0m5_Ys2WN::before {
+    content: "\f36a" !important;
+    font-size: 17px;
+    color: #67707b;
+}
+._2vMIlVM2BeWTC0m5_Ys2WN:hover::before {
+    color: #fff;
+}
+._2vMIlVM2BeWTC0m5_Ys2WN>svg {
+    display: none;
 }
