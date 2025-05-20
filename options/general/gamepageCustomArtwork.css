@@ -4,14 +4,48 @@
     display: none;
 }
 
-.QlR9EFwTdUNm_J5vx54_Z:has(img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"]) {
+
+/* Background */
+.QlR9EFwTdUNm_J5vx54_Z:has(img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"]),
+._3KDkLoCR8OM8xfdQysKn9t._1ashwbbBZrppDqaals3644:has(img._24_AuLm54JVe1Zc0AApCDR[src*="/customimages/"]) {
     background-color: #ccc1a1;
 }
 
+
+/* Artwork */
 .NZMJ6g2iVnFsOOp-lDmIP img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"] {
     width: auto !important;
     height: auto !important;
     max-width: 100% !important;
     max-height: 100% !important;
     margin: auto;
+}
+
+/* Download page Artwork */
+._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES {
+    -webkit-mask-image: none !important;
+}
+
+._3mZ2rKd2RECK4q4ufmsDYX ._2NqL3nV35eJFAu56_Yu-WM {
+    height: -webkit-fill-available !important;
+}
+
+._3mZ2rKd2RECK4q4ufmsDYX img._24_AuLm54JVe1Zc0AApCDR[src*="/customimages/"] {
+    width: auto !important;
+    height: auto !important;
+    max-width: unset !important;
+    max-height: 100% !important;
+    margin: auto;
+}
+
+._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES .edQzwM57P-T5K3eDGkyvZ {
+    top: unset;
+    bottom: 0;
+    left: unset;
+    right: 0;
+    height: 46px;
+    width: 110px;
+    background: none;
+    background-color: #ccc1a1;
+    mix-blend-mode: unset;
 }
