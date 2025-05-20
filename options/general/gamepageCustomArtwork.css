@@ -1,4 +1,6 @@
-.NZMJ6g2iVnFsOOp-lDmIP:has(img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"]) ._3NBxSLAZLbbbnul8KfDFjw._2dzwXkCVAuZGFC-qKgo8XB {
+/* Logo */
+.NZMJ6g2iVnFsOOp-lDmIP:has(img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"]) ._3NBxSLAZLbbbnul8KfDFjw._2dzwXkCVAuZGFC-qKgo8XB,
+._3mZ2rKd2RECK4q4ufmsDYX:has(img._24_AuLm54JVe1Zc0AApCDR[src*="/customimages/"]) ._1R9r2OBCxAmtuUVrgBEUBw:has(img[src*="/assets/"]) {
     display: none;
 }
 
