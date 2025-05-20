@@ -22,11 +22,11 @@
 }
 
 /* Download page Artwork */
-._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES {
+._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES:has(img._24_AuLm54JVe1Zc0AApCDR[src*="/customimages/"]) {
     -webkit-mask-image: none !important;
 }
 
-._3mZ2rKd2RECK4q4ufmsDYX ._2NqL3nV35eJFAu56_Yu-WM {
+._3mZ2rKd2RECK4q4ufmsDYX ._2NqL3nV35eJFAu56_Yu-WM:has(img._24_AuLm54JVe1Zc0AApCDR[src*="/customimages/"]) {
     height: -webkit-fill-available !important;
 }
 
@@ -38,7 +38,7 @@
     margin: auto;
 }
 
-._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES .edQzwM57P-T5K3eDGkyvZ {
+._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES:has(img._24_AuLm54JVe1Zc0AApCDR[src*="/customimages/"]) .edQzwM57P-T5K3eDGkyvZ {
     top: unset;
     bottom: 0;
     left: unset;
