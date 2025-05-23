@@ -1,11 +1,6 @@
 /*
 & Remove after experimental
 */
-#store_header .content {
-    width: calc(1260px - 16px - 16px) !important;
-    max-width: unset !important;
-}
-
 /* heart, store, game, header */
 .game_bg.application .queue_overflow_ctn [id*="add_to_wishlist_area"] .btn_medium span::before {
     content: "\f47a" !important;
@@ -79,7 +74,7 @@
 
 body.v6.game_bg.application .page_content_ctn,
 body.v6.game_bg.application .page_content {
-    width: 1260px;
+    width: 1032px;
     margin: 0 auto;
 }
 
@@ -275,7 +270,137 @@ body.v6.game_bg.application .page_content {
     background: unset;
 }
 .game_bg.application .game_background_glow #game_highlights {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 16px;
     background: unset;
+}
+
+div.leftcol:has(.highlight_ctn) {
+    width: 100%;
+}
+
+#game_highlights .highlight_ctn {
+    width: 100% !important;
+}
+.highlight_ctn .highlight_overflow {
+    display: flex;
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+
+
+/* Clear *what ever* */
+#game_highlights div[style*="clear"] {
+    display: none;
+}
+
+
+
+/*
+! Player Area
+*/
+#highlight_player_area {
+    border-radius: 8px;
+}
+
+
+
+/* Title */
+#highlight_player_area .html5_video_titlebar_ctn {
+    margin: 6px;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-3));
+}
+
+
+
+/* Controls */
+#highlight_player_area .html5_video_overlay {
+    overflow: hidden;
+    width: -webkit-fill-available;
+    height: unset;
+    margin: 6px;
+    padding: 6px 6px 12px 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--background), .9);
+}
+#highlight_player_area .html5_video_overlay[style="bottom: -35px;"] {
+    bottom: -55px !important;
+}
+
+#highlight_player_area .html5_video_overlay .control_container {
+    height: unset;
+    margin: 0;
+    background-color: unset;
+}
+
+
+/* Play/Pause button */
+#highlight_player_area .html5_video_overlay .play_button {
+    background-image: unset !important;
+}
+
+#highlight_player_area .html5_video_overlay .play_button::before {
+    font-size: 18px;
+    color: #8e8e8e;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+#highlight_player_area .html5_video_overlay .play_button:hover::before {
+    color: #fff;
+}
+
+#highlight_player_area .html5_video_overlay .play_button.pause::before {
+    content: "\f5ac";
+}
+
+#highlight_player_area .html5_video_overlay .play_button.play::before {
+    content: "\f610";
+}
+
+
+/* Progressbar */
+#highlight_player_area .html5_video_overlay .progress_bar_wrapper {
+    bottom: 0;
+    top: unset;
+    height: 4px;
+    margin: 6px;
+    background-color: unset;
+}
+
+#highlight_player_area .html5_video_overlay .progress_bar_container {
+    top: unset;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    border-radius: 8px;
+    background-color: rgb(89, 89, 89, .5);
+}
+
+#highlight_player_area .html5_video_overlay .progress_bar_background {
+    background-color: unset;
+}
+#highlight_player_area .html5_video_overlay .progress_bar {
+    border-radius: 8px;
+    background-color: rgb(var(--blue));
+}
+
+
+
+
+/* Slider Buttons */
+#game_highlights .slider_ctn {
+    display: none;
 }
 
 
