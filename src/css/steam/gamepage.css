@@ -16,7 +16,7 @@
 
 
 /*
-! Gamepage Banner
+& Gamepage Banner
 */
 .NZMJ6g2iVnFsOOp-lDmIP {
     overflow: hidden !important;
@@ -47,7 +47,9 @@
 
 
 
-/* Demo Tag */
+/*
+! Demo Tag
+*/
 ._3EXklzsbt_QeypOM4_vp1K {
     padding: 12px calc(var(--banner-top-offset)* sqrt(2));
     font-size: 22px;
@@ -58,11 +60,15 @@
 }
 
 
-/* Logo align */
+/*
+! Logo align
+*/
 
 
 
-/* Collection tags */
+/*
+! Collection tags
+*/
 ._2b6WkTnmJxMuX1biL7aS3C {
     overflow: visible;
     gap: 6px;
@@ -83,12 +89,29 @@
 
 
 
-/* VR required tag */
+/*
+! Text Logo
+*/
+._30acA_E0q_GuOxBqxgDJj4 {
+    align-items: flex-end;
+}
+
+
+._30acA_E0q_GuOxBqxgDJj4 ._3sUYxfgWcbeGFzYMkx1YDG {
+    padding: 22px;
+}
+
+
+
+/*
+! VR required tag
+*/
 ._30acA_E0q_GuOxBqxgDJj4 {
     padding: 0;
 }
 
 ._30acA_E0q_GuOxBqxgDJj4 .fqwOycZBL_zQfcUiVVWyz {
+    height: -webkit-fill-available;
     padding: 16px;
 }
 
@@ -121,7 +144,9 @@
 
 
 
-/* Info tags */
+/* 
+! Info tags
+*/
 /*! adding soon
 ._30acA_E0q_GuOxBqxgDJj4 .nkIX48cHLbjc0eaP5CNmM._1uS70KI6ZbUE94jUB27ioB {
     position: relative;
@@ -147,6 +172,7 @@
     opacity: 1;
 }
 */
+
 
 
 /*
