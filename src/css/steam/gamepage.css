@@ -109,9 +109,12 @@
 
 
 /*
-! Gamepage info bar
+& Gamepage info bar
 */
-/* Better Sticky info bar */
+
+/*
+! Better Sticky info bar
+*/
 ._2L3s2nzh7yCnNESfI5_dN1.jnXtv79jL6SXXwlJYPtQz {
     z-index: -999;
     opacity: 0;
@@ -177,7 +180,9 @@
 }
 
 
-/* Play/Install/... button */
+/*
+! Play/Install/... button
+*/
 ._1FnJ6dPuknQFQ2RTpKTI16 {
     gap: 6px;
     min-width: unset !important;
@@ -250,7 +255,9 @@
 }
 
 
-/* Achievements progressbar */
+/*
+! Achievements progressbar
+*/
 ._25YVDTaClw6Y2COPsU0UaV {
     background-color: rgb(var(--background));
 }
@@ -260,9 +267,27 @@
 }
 
 
+/*
+! Settings/Info/Favorites buttons
+*/
+.lO1IF132jJ1gc9yz2HYvV {
+    gap: 6px;
+}
+
+.lO1IF132jJ1gc9yz2HYvV ._3qDWQGB0rtwM3qpXTb11Q- {
+    margin: 0;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}
+.lO1IF132jJ1gc9yz2HYvV ._3qDWQGB0rtwM3qpXTb11Q-:hover {
+    background-color: rgb(var(--color-3));
+}
+
+
 
 /*
-! Gamepage game info box
+& Gamepage game info box
 */
 ._2QAgOXmzdXYGH8vI6S2sHw._25oBZpa3dUcMw8QAsa2u67 {
     z-index: 1;
