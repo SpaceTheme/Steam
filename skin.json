@@ -16,8 +16,8 @@
     "Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true,
     "Conditions": {
-        "Gamepage bigger banner": {
-            "description": "Bigger banner on the game page",
+        "Gamepage banner no crop": {
+            "description": "No cropped banner on the game page",
             "default": "no",
             "tab": "General",
             "values": {
