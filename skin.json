@@ -17,13 +17,31 @@
     "UseDefaultPatches": true,
     "Conditions": {
         "SpaceTheme custom font": {
-            "description": "Use a different sans-serif font for the whole SteamUI",
-            "default": "yes",
+            "description": "Use a different font for the SteamUI",
+            "default": "Be Vietnam Pro (defailt)",
             "tab": "General",
             "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/spacethemeCustomFont.css" }
+                "Be Vietnam Pro (defailt)": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/beVietnamPro.css" }
+                },
+                "Gluten": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/gluten.css" }
+                }
+                ,
+                "Quicksand": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/quicksand.css" }
+                }
+                ,
+                "Roboto": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/roboto.css" }
+                }
+                ,
+                "sourceCodePro": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/sourceCodePro.css" }
+                }
+                ,
+                "Ubuntu": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/ubuntu.css" }
                 }
             }
         },
