@@ -16,7 +16,7 @@
     "Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true,
     "Conditions": {
-        "SpaceTheme custom font": {
+        "Custom font": {
             "description": "Use a different font for the SteamUI",
             "default": "Be Vietnam Pro (default)",
             "tab": "General",
