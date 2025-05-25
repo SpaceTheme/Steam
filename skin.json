@@ -24,6 +24,9 @@
                 "Be Vietnam Pro (default)": {
                     "TargetCss": { "affects": [".*"], "src": "options/general/fonts/beVietnamPro.css" }
                 },
+                "Arial": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/arial.css" }
+                },
                 "Gluten": {
                     "TargetCss": { "affects": [".*"], "src": "options/general/fonts/gluten.css" }
                 }
