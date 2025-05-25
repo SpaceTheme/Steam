@@ -36,7 +36,7 @@
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/roboto.css" }
                 }
                 ,
-                "sourceCodePro": {
+                "Source Code Pro": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/sourceCodePro.css" }
                 }
                 ,
