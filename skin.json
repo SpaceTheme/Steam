@@ -16,6 +16,17 @@
     "Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true,
     "Conditions": {
+        "SpaceTheme custom font": {
+            "description": "Use a different sans-serif font for the whole SteamUI",
+            "default": "yes",
+            "tab": "General",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/spacethemeCustomFont.css" }
+                }
+            }
+        },
         "Gamepage bigger banner": {
             "description": "Bigger banner on the game page",
             "default": "no",
