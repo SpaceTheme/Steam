@@ -1,6 +1,6 @@
 {
     "version": "20250524",
-    "name": "SpaceTheme for Steam 20250524",
+    "name": "SpaceTheme for Steam",
     "description": "A modular design with dark colors intended to enhance navigability and improve user experience.",
     "author": "SpaceEnergy",
     "github": {
@@ -16,7 +16,7 @@
     "Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true,
     "Conditions": {
-        "Gamepage bigger banner": {
+        "Gamepage banner no crop": {
             "description": "No cropped banner on the game page",
             "default": "no",
             "tab": "General",
