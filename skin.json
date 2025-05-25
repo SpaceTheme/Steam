@@ -22,26 +22,26 @@
             "tab": "General",
             "values": {
                 "Be Vietnam Pro (default)": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/beVietnamPro.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/beVietnamPro.css" }
                 },
                 "Gluten": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/gluten.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/gluten.css" }
                 }
                 ,
                 "Quicksand": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/quicksand.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/quicksand.css" }
                 }
                 ,
                 "Roboto": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/roboto.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/roboto.css" }
                 }
                 ,
                 "Source Code Pro": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/sourceCodePro.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/sourceCodePro.css" }
                 }
                 ,
                 "Ubuntu": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/ubuntu.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/ubuntu.css" }
                 }
             }
         },
