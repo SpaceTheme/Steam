@@ -1,11 +1,6 @@
 @import url("./inputs/import.css");
 @import url("./steam/modalDialogPopup.css");
 
-/* Font */
-* {
-  font-family: inherit;
-}
-
 /* Scrollbar */
 *::-webkit-scrollbar {
     width: 14px !important;
