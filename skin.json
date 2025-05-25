@@ -18,10 +18,10 @@
     "Conditions": {
         "SpaceTheme custom font": {
             "description": "Use a different font for the SteamUI",
-            "default": "Be Vietnam Pro (defailt)",
+            "default": "Be Vietnam Pro (default)",
             "tab": "General",
             "values": {
-                "Be Vietnam Pro (defailt)": {
+                "Be Vietnam Pro (default)": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fonts/beVietnamPro.css" }
                 },
                 "Gluten": {
