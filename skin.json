@@ -16,6 +16,35 @@
     "Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true,
     "Conditions": {
+        "Custom font": {
+            "description": "Use a different font for the SteamUI",
+            "default": "Be Vietnam Pro (default)",
+            "tab": "General",
+            "values": {
+                "Be Vietnam Pro (default)": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/beVietnamPro.css" }
+                },
+                "Gluten": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/gluten.css" }
+                }
+                ,
+                "Quicksand": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/quicksand.css" }
+                }
+                ,
+                "Roboto": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/roboto.css" }
+                }
+                ,
+                "Source Code Pro": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/sourceCodePro.css" }
+                }
+                ,
+                "Ubuntu": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/ubuntu.css" }
+                }
+            }
+        },
         "Gamepage bigger banner": {
             "description": "Bigger banner on the game page",
             "default": "no",
