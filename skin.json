@@ -48,6 +48,17 @@
                 }
             }
         },
+        "Store sidebar only on hover": {
+            "description": "Store sidebar only on hover",
+            "default": "no",
+            "tab": "General",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/showSidebarInStoreOnHover.css" }
+                }
+            }
+        },
         "Gamepage bigger banner": {
             "description": "Bigger banner on the game page",
             "default": "no",
