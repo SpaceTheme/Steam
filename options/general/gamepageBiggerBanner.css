@@ -1,33 +1,33 @@
-.NZMJ6g2iVnFsOOp-lDmIP {
+body .NZMJ6g2iVnFsOOp-lDmIP {
     --header-height: calc(100vh - 46px - 16px - 12px - 70px - 6px - 40px - 16px - 16px - 50px - 16px) !important;
     max-height: unset !important;
 }
-._1SvpjsckP9cPRxO6gCBHrw:has(._1_cYNJSvS6IXs9vLTEYjy5 .z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP {
+body ._1SvpjsckP9cPRxO6gCBHrw:has(._1_cYNJSvS6IXs9vLTEYjy5 .z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP {
     --header-height: calc(100vh - 46px - 16px - 12px - 70px - 6px - 40px - 16px - 16px - 46px) !important;
 }
-.NarrowWindow .NZMJ6g2iVnFsOOp-lDmIP {
+body .NarrowWindow .NZMJ6g2iVnFsOOp-lDmIP {
     --header-height: calc(100vh - 46px - 16px - 12px - 56px - 6px - 40px - 16px - 16px - 50px - 16px) !important;
 }
-.NarrowWindow ._1SvpjsckP9cPRxO6gCBHrw:has(._1_cYNJSvS6IXs9vLTEYjy5 .z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP {
+body .NarrowWindow ._1SvpjsckP9cPRxO6gCBHrw:has(._1_cYNJSvS6IXs9vLTEYjy5 .z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP {
     --header-height: calc(100vh - 46px - 16px - 12px - 56px - 6px - 40px - 16px - 16px - 50px - 16px - 46px) !important;
 }
 
 
-:has(.userpannel-buttoncontainer) .NZMJ6g2iVnFsOOp-lDmIP {
+body :has(.userpannel-buttoncontainer) .NZMJ6g2iVnFsOOp-lDmIP {
     --header-height: calc(100vh - 46px - 16px - 12px - 70px - 6px - 40px - 16px - 16px) !important;
     max-height: unset !important;
 }
-:has(.userpannel-buttoncontainer) ._1SvpjsckP9cPRxO6gCBHrw:has(._1_cYNJSvS6IXs9vLTEYjy5 .z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP {
+body :has(.userpannel-buttoncontainer) ._1SvpjsckP9cPRxO6gCBHrw:has(._1_cYNJSvS6IXs9vLTEYjy5 .z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP {
     --header-height: calc(100vh - 46px - 16px - 12px - 70px - 6px - 40px - 16px - 16px - 46px) !important;
 }
-:has(.userpannel-buttoncontainer) .NarrowWindow .NZMJ6g2iVnFsOOp-lDmIP {
+body :has(.userpannel-buttoncontainer) .NarrowWindow .NZMJ6g2iVnFsOOp-lDmIP {
     --header-height: calc(100vh - 46px - 16px - 12px - 56px - 6px - 40px - 16px - 16px) !important;
 }
-:has(.userpannel-buttoncontainer) .NarrowWindow ._1SvpjsckP9cPRxO6gCBHrw:has(._1_cYNJSvS6IXs9vLTEYjy5 .z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP {
+body :has(.userpannel-buttoncontainer) .NarrowWindow ._1SvpjsckP9cPRxO6gCBHrw:has(._1_cYNJSvS6IXs9vLTEYjy5 .z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP {
     --header-height: calc(100vh - 46px - 16px - 12px - 56px - 6px - 40px - 16px - 16px - 46px) !important;
 }
 
 
-.NZMJ6g2iVnFsOOp-lDmIP.NZMJ6g2iVnFsOOp-lDmIP ._1IX7FPSY9Jb82KhBVBSkZa {
+body .NZMJ6g2iVnFsOOp-lDmIP.NZMJ6g2iVnFsOOp-lDmIP ._1IX7FPSY9Jb82KhBVBSkZa {
     max-height: unset !important;
 }
