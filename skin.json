@@ -297,6 +297,18 @@
                 "no": {}
             }
         }
+        ,
+        "Game Overlay": {
+            "description": "Game Overlay from the concept (Early Experimental)",
+            "default": "no",
+            "tab": "Experimental",
+            "values": {
+                "yes": {
+                    "TargetCss": { "affects": ["^SP Overlay:"], "src": "src/css/overlay.custom.css" }
+                },
+                "no": {}
+            }
+        }
     },
     "Patches": [
         {

@@ -1,0 +1,206 @@
+@import url("./src/css/regular.css");
+@import url("./overlay/achievements.css");
+@import url("./overlay/clock.css");
+@import url("./overlay/controllerSettings.css");
+@import url("./overlay/discussions.css");
+@import url("./overlay/dlc.css");
+@import url("./overlay/friends.css");
+@import url("./overlay/gameOverview.css");
+@import url("./overlay/guides.css");
+@import url("./overlay/notes.css");
+@import url("./overlay/recording.css");
+@import url("./overlay/screenshotManager.css");
+@import url("./overlay/settings.css");
+@import url("./overlay/webBrowser.css");
+
+
+body.QsvsRVwbsApgKt1MhM0fz.DesktopUI {
+    background: radial-gradient(#000000aa, #000000ee);
+}
+
+body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
+    content: "The overlay option is an early experimental, \a please do not make bug reports because of the overlay";
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 800;
+    white-space: pre-wrap;
+    border: 3px solid rgb(var(--red));
+    border-radius: 8px;
+    color: rgb(var(--red));
+    background-color: rgb(var(--red), 0.17);
+}
+
+
+
+._3b_pllMxcr_an1aQ5goWvB {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 800px;
+    height: -webkit-fill-available;
+    margin: 16px;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--background));
+    box-shadow: unset;
+}
+
+
+
+/*
+& Sidebar
+*/
+._1EI98QaSW75zbVd3gxgBfS {
+    position: unset;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+._1EI98QaSW75zbVd3gxgBfS ._3OzkVrQFFPv0aV41N4MrHV {
+    position: unset;
+    height: 100%;
+    justify-content: unset;
+}
+
+
+._1EI98QaSW75zbVd3gxgBfS ._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n {
+    overflow: auto;
+    position: unset;
+    flex: unset;
+    flex-direction: column;
+    gap: 6px;
+    height: unset;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}
+._1EI98QaSW75zbVd3gxgBfS ._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n::-webkit-scrollbar {
+    display: none;
+}
+
+
+/*
+! Items
+*/
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L {
+    margin: 0;
+    border-radius: 100%;
+    background-color: rgb(var(--color-5));
+}
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn {
+    border-radius: 16px;
+}
+
+
+
+/*
+& Main/Home
+*/
+.fi6UDkxJq66MLo2z9wabQ {
+    position: relative;
+    gap: 12px;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    max-height: unset;
+    margin: 12px 12px 12px 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}
+
+
+/*
+! Back to Game
+*/
+.fi6UDkxJq66MLo2z9wabQ ._2uM3ouyTdzAtXR3ffa7oRg {
+    position: absolute;
+    right: calc(-12px + -221px + -16px);
+}
+
+.fi6UDkxJq66MLo2z9wabQ ._2uM3ouyTdzAtXR3ffa7oRg ._2LJMRr1_5XUK4wlt7YMyPi {
+    gap: 12px;
+    flex-direction: row-reverse;
+}
+
+/* Button */
+.fi6UDkxJq66MLo2z9wabQ ._2uM3ouyTdzAtXR3ffa7oRg ._2LJMRr1_5XUK4wlt7YMyPi .mh8m9p4PBg_Qrev1bfTzc {
+    margin: 0;
+    outline: 2px solid rgb(var(--color-5)) !important;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}
+
+/* Text */
+.fi6UDkxJq66MLo2z9wabQ ._2uM3ouyTdzAtXR3ffa7oRg ._2LJMRr1_5XUK4wlt7YMyPi ._2EuLvYoO3iAtbpE0XEao8d {
+    margin: 0;
+    text-align: left;
+}
+
+
+/*
+! Logo Banner
+*/
+.fi6UDkxJq66MLo2z9wabQ .iu7jaxFxWk1sYge_kwKmz._3KwfoP3QLtY80hx0gtZBZ4 {
+    order: -1;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+    max-width: unset;
+    height: 200px;
+    padding: 0;
+    border-radius: 8px;
+    background: linear-gradient(180.00deg, rgb(var(--accent-1), .6),rgb(var(--color-1)) 112%);
+}
+
+
+.fi6UDkxJq66MLo2z9wabQ .iu7jaxFxWk1sYge_kwKmz._3KwfoP3QLtY80hx0gtZBZ4 ._3d_bT685lnWotXxgzKW6am {
+    transform: scale(.5);
+}
+
+
+/*
+! Time, Date & Playtime & Exit Game
+*/
+.fi6UDkxJq66MLo2z9wabQ .vCykYvbW9JAoUuOZK3L8M {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+
+
+/* Time */
+.fi6UDkxJq66MLo2z9wabQ .vCykYvbW9JAoUuOZK3L8M ._2gQ69IwRa_DeSORPxG5wu0 {
+    font-size: 62px;
+    line-height: 62px;
+}
+
+
+/* Date */
+
+
+
+/* Playtime */
+
+
+
+/* Exit Game */
+.fi6UDkxJq66MLo2z9wabQ .vCykYvbW9JAoUuOZK3L8M .BoygotvcKo4DC4dSix8G3 {
+    position: absolute;
+    bottom: 16px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+    filter: none;
+}
+.fi6UDkxJq66MLo2z9wabQ .vCykYvbW9JAoUuOZK3L8M .BoygotvcKo4DC4dSix8G3:hover {
+    background-color: rgb(var(--red));
+}
