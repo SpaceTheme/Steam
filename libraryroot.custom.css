@@ -31,5 +31,5 @@
 ._3vCzSrrXZzZjVJFZNg9SGu {
     border-radius: 8px;
     background-color: rgb(var(--color-2));
-    box-shadow: none;
+    box-shadow: none !important;
 }
