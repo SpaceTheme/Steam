@@ -1,0 +1,175 @@
+.Rp8QOGJ2DypeDniMnRBhr .VZ6x_grhNkIYJG__jEEyp.DesktopUI {
+    display: flex;
+    flex-direction: column;
+    border: unset;
+    background: unset;
+    background-color: rgb(var(--background));
+    box-shadow: none;
+    animation: none;
+}
+
+
+
+/*
+& Loading Window
+*/
+.Rp8QOGJ2DypeDniMnRBhr ._1TR3CCCdSmI-0MXucYBuP2 {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    margin: 0 16px 16px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}
+
+
+/*
+! Loading spinner
+*/
+.Rp8QOGJ2DypeDniMnRBhr ._1DWH_4M4yAq8O2T06-3ckY {
+    display: none;
+}
+
+
+.Rp8QOGJ2DypeDniMnRBhr ._3CN5DkgNMvdtT9fJhNOj_v::before {
+    content: "";
+    display: block;
+    width: 54px;
+    height: 54px;
+    border: 8px solid rgba(var(--color-2));
+    border-top: 8px solid rgb(var(--accent-1));
+    border-radius: 50%;
+    animation: spin .6s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*
+! Loading bar
+*/
+.Rp8QOGJ2DypeDniMnRBhr ._191qxA6UisOKSvaq9gM4W6 {
+    display: none;
+}
+
+
+/*
+! Avatar & Username
+*/
+.Rp8QOGJ2DypeDniMnRBhr ._6Z2AOU-R-8aK7KZevey0W {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/*
+& Select User Window
+*/
+.Rp8QOGJ2DypeDniMnRBhr ._27A5ub1QLLIMmgywKVMg4z {
+    width: -webkit-fill-available;
+    margin: 0 16px 16px;
+    padding: 0;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+}
+
+
+
+
+.Rp8QOGJ2DypeDniMnRBhr ._27A5ub1QLLIMmgywKVMg4z ._29VQq5eE-j95L-SafIOc1T {
+    padding: 0;
+}
+
+
+.Rp8QOGJ2DypeDniMnRBhr ._27A5ub1QLLIMmgywKVMg4z ._1Tsmp8q3Beodvix_OSedxk {
+    justify-content: center;
+    margin: 0;
+}
+
+
+
+
+/*
+! Steam Logo
+*/
+.Rp8QOGJ2DypeDniMnRBhr ._27A5ub1QLLIMmgywKVMg4z ._14exBrSFDthVqeknXgFh4X {
+    display: none;
+}
+
+
+/*
+! Title (Who's Playing?)
+*/
+.Rp8QOGJ2DypeDniMnRBhr ._27A5ub1QLLIMmgywKVMg4z ._2OLQBEFErC3eaxHeD7--LU {
+    padding: 12px 0 !important;
+    text-transform: uppercase;
+}
+
+
+/*
+! Users
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+& Login Window
+*/
+
+
+.Rp8QOGJ2DypeDniMnRBhr .lat0M-V5X4uYd6Mpm1DJ1 {
+    flex-direction: unset;
+    height: -webkit-fill-available;
+    margin: 0 16px 16px;
+}
+
+
+.Rp8QOGJ2DypeDniMnRBhr .lat0M-V5X4uYd6Mpm1DJ1 ._2v9dClMg2Lmn8UVv6GUeJt {
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--color-1));
+}
+
+
+
+/* *** */
+
+
+
+
+/*
+! QR Login Code
+*/
+.Rp8QOGJ2DypeDniMnRBhr .lat0M-V5X4uYd6Mpm1DJ1 .xlEVpBeYO1h2tOqErt9fj {
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
+
+.Rp8QOGJ2DypeDniMnRBhr .lat0M-V5X4uYd6Mpm1DJ1 .xlEVpBeYO1h2tOqErt9fj ._1YVDTFYSTDWouyIbRs_hN_:not(._1zNnNw2BDhrN6ML6YxBYJE) {
+    background-color: rgb(var(--color-2)) !important;
+}
+.Rp8QOGJ2DypeDniMnRBhr .lat0M-V5X4uYd6Mpm1DJ1 .xlEVpBeYO1h2tOqErt9fj ._1YVDTFYSTDWouyIbRs_hN_._1zNnNw2BDhrN6ML6YxBYJE {
+    background-color: rgb(var(--accent-1)) !important;
+}

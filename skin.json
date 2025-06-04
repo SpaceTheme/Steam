@@ -329,6 +329,10 @@
             "MatchRegexString": "^Steam$",
             "TargetCss": "libraryroot.custom.css",
             "TargetJs": "src/js/libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": ".Rp8QOGJ2DypeDniMnRBhr",
+            "TargetCss": "src/css/startupLogin.custom.css"
         }
     ]
 }
