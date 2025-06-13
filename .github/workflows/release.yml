@@ -3,14 +3,16 @@ name: Auto Upload ZIP to Release
 on:
   release:
     types: [published]
-  workflow_dispatch:
 
 jobs:
   attach-zip:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout main branch
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
 
       - name: Install zip
         run: sudo apt-get update && sudo apt-get install -y zip
