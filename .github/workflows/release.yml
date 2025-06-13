@@ -23,7 +23,7 @@ jobs:
             -x "*.git*" ".github/*" "_assets/*" "README.md" ".gitignore"
 
       - name: Upload ZIP to release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: SpaceTheme_for_Steam.zip
           tag_name: ${{ github.event.release.tag_name }}
