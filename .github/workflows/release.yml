@@ -20,14 +20,10 @@ jobs:
           zip -r SpaceTheme_for_Steam.zip . \
             -x "*.git*" ".github/*" "_assets/*" "README.md" ".gitignore"
 
-      - name: Get latest tag
-        id: get_tag
-        run: echo "tag=$(git describe --tags --abbrev=0)" >> $GITHUB_OUTPUT
-
       - name: Upload ZIP to release
         uses: softprops/action-gh-release@v1
         with:
           files: SpaceTheme_for_Steam.zip
-          tag_name: ${{ steps.get_tag.outputs.tag }}
+          tag_name: ${{ github.event.release.tag_name }}
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
