@@ -1,3 +1,0 @@
-:has(.profile_header_badgeinfo .btn_profile_action[href*="edit/info"]) .profile_ban_status {
-    display: none;
-}

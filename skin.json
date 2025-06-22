@@ -15,108 +15,144 @@
     "RootColors": "./src/css/root.css",
     "Steam-WebKit": "./src/css/webkit.css",
     "Conditions": {
-        "Custom font": {
+        "General - Navigation buttons": {
+            "description": "Hide Navigation buttons",
+            "default": "no",
+            "tab": "General",
+            "section": "Titlebar",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/navigationButtons.css" }
+                }
+            }
+        },
+
+
+        "General - Wallet balance": {
+            "description": "Hide wallet balance",
+            "default": "no",
+            "tab": "General",
+            "section": "Userpannel",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/walletBalance.css" }
+                }
+            }
+        },
+
+
+        "General - Steam VR button": {
+            "description": "Hide Steam VR button from userpannel",
+            "default": "no",
+            "tab": "General",
+            "section": "Userpannel",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/buttons/steamVr.css" }
+                }
+            }
+        },
+
+
+        "General - Big Picture Mode button": {
+            "description": "Hide Big Picture Mode button from userpannel",
+            "default": "no",
+            "tab": "General",
+            "section": "Userpannel",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/buttons/bpm.css" }
+                }
+            }
+        },
+
+
+        "General - News button": {
+            "description": "Hide News button from userpannel",
+            "default": "no",
+            "tab": "General",
+            "section": "Userpannel",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/buttons/news.css" }
+                }
+            }
+        },
+
+
+        "General - Notification button": {
+            "description": "Hide Notification button from userpannel",
+            "default": "no",
+            "tab": "General",
+            "section": "Userpannel",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/buttons/notification.css" }
+                }
+            }
+        },
+
+
+        "General - Friend list button": {
+            "description": "Hide Friend list button from userpannel (only with Userpannel experimental)",
+            "default": "no",
+            "tab": "General",
+            "section": "Userpannel",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/buttons/friendList.css" }
+                }
+            }
+        },
+
+
+        "General - Font": {
             "description": "Use a different font for the SteamUI",
             "default": "Be Vietnam Pro (default)",
             "tab": "General",
+            "section": "Other",
             "values": {
                 "Be Vietnam Pro (default)": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/beVietnamPro.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/fonts/beVietnamPro.css" }
                 },
                 "Arial": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/arial.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/fonts/arial.css" }
                 },
                 "Gluten": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/gluten.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/fonts/gluten.css" }
                 }
                 ,
                 "Quicksand": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/quicksand.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/fonts/quicksand.css" }
                 }
                 ,
                 "Roboto": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/roboto.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/fonts/roboto.css" }
                 }
                 ,
                 "Source Code Pro": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/sourceCodePro.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/fonts/sourceCodePro.css" }
                 }
                 ,
                 "Ubuntu": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/fonts/ubuntu.css" }
+                    "TargetCss": { "affects": [".*"], "src": "options/fonts/ubuntu.css" }
                 }
             }
         },
-        "Store sidebar only on hover": {
-            "description": "Store sidebar only on hover",
+
+
+        "General - System accent colors": {
+            "description": "Replaces the SpaceTheme accent colors with your system accent colors (Only works on Windows)",
             "default": "no",
             "tab": "General",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/showSidebarInStoreOnHover.css" }
-                }
-            }
-        },
-        "Gamepage bigger banner": {
-            "description": "Bigger banner on the game page",
-            "default": "no",
-            "tab": "General",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageBiggerBanner.css" }
-                }
-            }
-        },
-        "Gamepage Steam-Custom-Artowrks Support": {
-            "description": "For the best support for https://github.com/SpaceTheme/Steam-Custom-Artworks ",
-            "default": "no",
-            "tab": "General",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageCustomArtwork.css" }
-                }
-            }
-        },
-        "Gamepage sidebar on left": {
-            "description": "Changes the sidebar on the game page from right to left",
-            "default": "no",
-            "tab": "General",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageSidebarLeft.css" }
-                }
-            }
-        },
-        "Gamepage always show game infos": {
-            "description": "Always show game infos on the game page",
-            "default": "no",
-            "tab": "General",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageAlwaysShowGameInfo.css"}
-                }
-            }
-        },
-        "Gamepage game info box artwork": {
-            "description": "Hide Artwork in game info box",
-            "default": "no",
-            "tab": "General",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageGameInfoArtwork.css"}
-                }
-            }
-        },
-        "System accent colors": {
-            "description": "Replaces the SpaceTheme accent colors with your system accent colors",
-            "default": "no",
-            "tab": "General",
+            "section": "Other",
             "values": {
                 "no": {},
                 "yes": {
@@ -124,188 +160,262 @@
                 }
             }
         },
-        "Navigation buttons": {
-            "description": "Hide Navigation buttons",
+
+
+        "General - Userpannel": {
+            "description": "Moves the user buttons and the download bar to the game sidebar",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "General",
+            "section": "Experimental",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/navigationButtons.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/userpannel.css" },
+                    "TargetJs": { "affects": ["^Steam$"], "src": "options/general/userpannel/userpannel.js" }
                 }
             }
         },
-        "Wallet balance": {
-            "description": "Hide wallet balance",
+
+
+        "General - Game Overlay": {
+            "description": "Game Overlay from the concept",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "General",
+            "section": "Experimental",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/walletBalance.css" }
+                    "TargetCss": { "affects": ["^SP Overlay:"], "src": "src/css/overlay.custom.css" }
                 }
             }
         },
-        "Steam VR button": {
-            "description": "Hide Steam VR button from userpannel",
+
+
+
+
+        "Store - SteamDeck & Giftcard": {
+            "description": "Hide SteamDeck, Giftcard or both from the stores sidebar",
+            "default": "Show",
+            "tab": "Store",
+            "section": "Home",
+            "values": {
+                "Show": {},
+                "SteamDeck": {
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/home/steamdeckAndGiftcard/steamdeck.css" }
+                },
+                "Giftcard": {
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/home/steamdeckAndGiftcard/giftcard.css" }
+                },
+                "Both": {
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/home/steamdeckAndGiftcard/giftcard.css", "src2": "options/store-steamdeck-giftcard/steamdeck.css" }
+                }
+            }
+        },
+
+
+        "Store - Broadcast": {
+            "description": "Hide broadcasts on the store gamepage",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Store",
+            "section": "Gamepage",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/steamVr.css" }
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/gamepage/broadcast.css" }
                 }
             }
         },
-        "Big Picture Mode button": {
-            "description": "Hide Big Picture Mode button from userpannel",
+
+
+        "Store - Recommendations": {
+            "description": "Hide recommendations in the cart",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Store",
+            "section": "Cart",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/bpm.css" }
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/cart/recommendations.css" }
                 }
             }
         },
-        "News button": {
-            "description": "Hide News button from userpannel",
+
+
+        "Store - Sidebar only on hover": {
+            "description": "Store sidebar only on hover",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Store",
+            "section": "Other",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/news.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/store/showSidebarOnHover.css" }
                 }
             }
         },
-        "Notification button": {
-            "description": "Hide Notification button from userpannel",
+
+
+        "Store - URL bar": {
+            "description": "Hide URL bar",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Store",
+            "section": "Other",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/notification.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/store/urlBar.css" }
                 }
             }
         },
-        "Friend list button": {
-            "description": "Hide Friend list button from userpannel (only with Userpannel experimental)",
+
+
+        "Store - Gamepage": {
+            "description": "Store Gamepage from the concept",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Store",
+            "section": "Experimental",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/friendList.css" }
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/gamepage/storeGamepage.css" }
                 }
             }
         },
-        "What's New": {
+
+
+
+
+        "Library - What's New": {
             "description": "Customize the What's New section",
             "default": "Compact",
-            "tab": "Steam bloat",
+            "tab": "Library",
+            "section": "Home",
             "values": {
                 "Show": {},
                 "Compact": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/whatsNew/compact.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/home/whatsNew/compact.css" }
                 },
                 "Hide": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/whatsNew/hide.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/home/whatsNew/hide.css" }
                 }
             }
         },
-        "Add shelf button": {
+
+
+        "Library - Add shelf button": {
             "description": "Hide Add shelf button in Library",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Library",
+            "section": "Home",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/addShelf.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/home/addShelf.css" }
                 }
             }
         },
-        "Game cover shiny effect": {
+
+
+        "Library - Game cover shiny effect": {
             "description": "Hide shiny effect on game covers",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Library",
+            "section": "Home",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/shinyEffect.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/home/shinyEffect.css" }
                 }
             }
         },
-        "VAC-Ban visibility": {
+
+
+        "Library - Bigger banner": {
+            "description": "Bigger banner on the game page",
+            "default": "no",
+            "tab": "Library",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/biggerBanner.css" }
+                }
+            }
+        },
+
+
+        "Library - Steam-Custom-Artowrks Support": {
+            "description": "For the best support for https://github.com/SpaceTheme/Steam-Custom-Artworks ",
+            "default": "no",
+            "tab": "Library",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/customArtwork.css" }
+                }
+            }
+        },
+
+
+
+        "Library - Always show game infos": {
+            "description": "Always show game infos on the game page",
+            "default": "no",
+            "tab": "Library",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/alwaysShowGameInfo.css"}
+                }
+            }
+        },
+
+
+        "Library - Game info box artwork": {
+            "description": "Hide Artwork in game info box",
+            "default": "no",
+            "tab": "Library",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/gameInfoArtwork.css"}
+                }
+            }
+        },
+
+
+        "Library - Sidebar on left": {
+            "description": "Changes the sidebar on the game page from right to left",
+            "default": "no",
+            "tab": "Library",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/sidebarLeft.css" }
+                }
+            }
+        },
+
+
+
+
+        "Community - VAC-Ban visibility": {
             "description": "Hide the VAC ban from your profile or on all profiles",
             "default": "Show",
-            "tab": "Steam bloat",
+            "tab": "Community",
+            "section": "Profile",
             "values": {
                 "Show": {},
                 "For me": {
-                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/steamBloat/vacBan/me.css" }
+                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/community/vacBan/me.css" }
                 },
                 "For all": {
-                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/steamBloat/vacBan/all.css" }
+                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/community/vacBan/all.css" }
                 }
-            }
-        },
-        "Shop Cart Recommendations": {
-            "description": "Hide recommendations in the cart",
-            "default": "no",
-            "tab": "Steam bloat",
-            "values": {
-                "yes": {
-                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/steamBloat/shopCartRecommendations.css" }
-                },
-                "no": {}
-            }
-        },
-        "URL bar": {
-            "description": "Hide URL bar",
-            "default": "no",
-            "tab": "Steam bloat",
-            "values": {
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/urlBar.css" }
-                },
-                "no": {}
-            }
-        },
-        "Userpannel": {
-            "description": "Moves the user buttons and the download bar to the game sidebar",
-            "default": "no",
-            "tab": "Experimental",
-            "values": {
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/experimental/userpannel.css" },
-                    "TargetJs": { "affects": ["^Steam$"], "src": "options/experimental/userpannel.js" }
-                },
-                "no": {}
-            }
-        },
-        "Store Gamepage": {
-            "description": "Store Gamepage from the concept",
-            "default": "no",
-            "tab": "Experimental",
-            "values": {
-                "yes": {
-                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/experimental/storeGamepage.css" }
-                },
-                "no": {}
-            }
-        }
-        ,
-        "Game Overlay": {
-            "description": "Game Overlay from the concept (Early Experimental)",
-            "default": "no",
-            "tab": "Experimental",
-            "values": {
-                "yes": {
-                    "TargetCss": { "affects": ["^SP Overlay:"], "src": "src/css/overlay.custom.css" }
-                },
-                "no": {}
             }
         }
     },
