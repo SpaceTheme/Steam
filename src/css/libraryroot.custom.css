@@ -1,12 +1,11 @@
-@import url("./src/css/regular.css");
-@import url("./src/css/steam/titlebar.css");
-@import url("./src/css/steam/sidebar.css");
-@import url("./src/css/steam/libHome.css");
-@import url("./src/css/steam/millenniumSettings.css");
-@import url("./src/css/steam/gamepage.css");
-@import url("./src/css/steam/downloadPage.css");
-@import url("./src/css/steam/newsModal.css");
-@import url("./src/css/steam/achievementsModal.css");
+@import url("./steam/titlebar.css");
+@import url("./steam/sidebar.css");
+@import url("./steam/libHome.css");
+@import url("./steam/millenniumSettings.css");
+@import url("./steam/gamepage.css");
+@import url("./steam/downloadPage.css");
+@import url("./steam/newsModal.css");
+@import url("./steam/achievementsModal.css");
 
 
 /* Base */

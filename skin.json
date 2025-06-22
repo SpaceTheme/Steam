@@ -13,8 +13,7 @@
     "header_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/banner.png",
     "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png",
     "RootColors": "./src/css/root.css",
-    "Steam-WebKit": "webkit.css",
-    "UseDefaultPatches": true,
+    "Steam-WebKit": "./src/css/webkit.css",
     "Conditions": {
         "Custom font": {
             "description": "Use a different font for the SteamUI",
@@ -312,14 +311,8 @@
     },
     "Patches": [
         {
-            "MatchRegexString": "Supernav$",
-            "TargetCss": "menu.custom.css",
-            "TargetJs": "menu.custom.js"
-        },
-        {
-            "MatchRegexString": "Menu$",
-            "TargetCss": "menu.custom.css",
-            "TargetJs": "menu.custom.js"
+            "MatchRegexString": ".*",
+            "TargetCss": "src/css/regular.css"
         },
         {
             "MatchRegexString": ".*",
@@ -327,12 +320,36 @@
         },
         {
             "MatchRegexString": "^Steam$",
-            "TargetCss": "libraryroot.custom.css",
+            "TargetCss": "src/css/libraryroot.custom.css",
             "TargetJs": "src/js/libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": ".ModalDialogPopup",
+            "TargetCss": "src/css/libraryroot.custom.css",
+            "TargetJs": "src/css/libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": ".friendsui-container",
+            "TargetCss": "src/css/friends.custom.css",
+            "TargetJs": "src/css/friends.custom.js"
+        },
+        {
+            "MatchRegexString": "Supernav$",
+            "TargetCss": "src/css/menu.custom.css",
+            "TargetJs": "src/js/menu.custom.js"
+        },
+        {
+            "MatchRegexString": "Menu$",
+            "TargetCss": "src/css/menu.custom.css",
+            "TargetJs": "src/js/menu.custom.js"
         },
         {
             "MatchRegexString": ".Rp8QOGJ2DypeDniMnRBhr",
             "TargetCss": "src/css/startupLogin.custom.css"
+        },
+        {
+            "MatchRegexString": "^Steam Settings",
+            "TargetCss": "src/css/steam/settings.css"
         }
     ]
 }

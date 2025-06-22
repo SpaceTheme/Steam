@@ -1,7 +1,6 @@
-@import url("./src/css/regular.css");
-@import url("./src/css/friends/chat.css");
-@import url("./src/css/friends/groupChat.css");
-@import url("./src/css/friends/list.css");
+@import url("./friends/chat.css");
+@import url("./friends/groupChat.css");
+@import url("./friends/list.css");
 
 
 

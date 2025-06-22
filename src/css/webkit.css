@@ -1,11 +1,10 @@
-@import url("./src/css/regular.css");
-@import url("./src/css/webkit/agecheck.css");
-@import url("./src/css/webkit/cart.css");
-@import url("./src/css/webkit/game.css");
-@import url("./src/css/webkit/home.css");
-@import url("./src/css/webkit/news.css");
-@import url("./src/css/webkit/profile.css");
-@import url("./src/css/webkit/wishlist.css");
+@import url("./webkit/agecheck.css");
+@import url("./webkit/cart.css");
+@import url("./webkit/game.css");
+@import url("./webkit/home.css");
+@import url("./webkit/news.css");
+@import url("./webkit/wishlist.css");
+@import url("./webkit/profile.css");
 
 /*
 & Base
