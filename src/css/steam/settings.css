@@ -1,0 +1,177 @@
+.ModalDialogPopup {
+    display: flex;
+    flex-direction: column;
+    margin: 0 !important;
+}
+
+
+
+/*
+& Side/Navbar
+*/
+.ModalDialogPopup ._2kwFFHckg8jvnwJfg9-la8 {
+    padding: 12px;
+}
+
+.ModalDialogPopup ._18QCu-7MTzd51UpVbYysDy {
+    gap: 12px;
+    padding: 0;
+}
+
+
+/*
+! Items
+*/
+.ModalDialogPopup ._18QCu-7MTzd51UpVbYysDy ._1-vlriAtKYDViAEunue4VO {
+    padding: 0;
+}
+
+
+
+/*
+& Main
+*/
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 {
+    width: unset;
+    max-width: unset;
+}
+
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .DialogContent_InnerWidth {
+    padding: 0 !important;
+}
+
+
+/*
+! Title
+*/
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .DialogHeader {
+    margin: 0 !important;
+    padding: 16px 16px 0;
+}
+
+
+/*
+! Body
+*/
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 {
+    padding: 16px !important;
+}
+
+
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 {
+    overflow: overlay;
+    padding: 16px !important;
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 16px), linear-gradient(to left, black 0px 14px, transparent 14px);
+}
+
+
+
+/* Title */
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .SettingsDialogSubHeader {
+    margin: 0 !important;
+    padding: 12px;
+    line-height: unset;
+    border-radius: 8px 8px 0 0;
+    background-color: rgb(var(--color-2));
+}
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .SettingsDialogSubHeader:last-of-type {
+    border-radius: 8px;
+}
+
+
+
+/* Items */
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt {
+    margin-bottom: 12px;
+    padding: 6px 12px 12px;
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(var(--color-2));
+}
+
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt:last-of-type {
+    margin-bottom: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumThemes_ThemeItem,
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumPlugins_PluginField {
+    padding: 12px;
+}
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumThemes_ThemeItem:has(:nth-last-child),
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumPlugins_PluginField:has(:nth-last-child) {
+    padding: 6px 12px 12px;
+}
+
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumThemes_ThemeItem:nth-child(2),
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumPlugins_PluginField:nth-child(3) {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumThemes_ThemeItem:nth-child(2) {
+    padding-bottom: 0;
+}
+
+
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumThemes_ThemeItem ._2VcTlXFC64Jtg9gvtT6cmY,
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumPlugins_PluginField ._2VcTlXFC64Jtg9gvtT6cmY {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-3));
+}
+
+
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.GxgIyq8R5xTOeu4ftGrgX {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+/* SpaceTheme Item */
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt[data-theme-name="SpaceTheme for Steam"] ._2VcTlXFC64Jtg9gvtT6cmY {
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(90.00deg, rgba(17, 17, 17, 0), rgb(var(--color-3), .4) 100%), linear-gradient(270.00deg, rgba(17, 17, 17, 0) 0%, rgb(var(--color-3)) 80%);
+}
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt[data-theme-name="SpaceTheme for Steam"] ._2VcTlXFC64Jtg9gvtT6cmY::after {
+    content: "";
+    z-index: -1;
+    opacity: .6;
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background-image: url("https://raw.githubusercontent.com/SpaceTheme/Steam/refs/heads/main/_assets/img/libHome.png");
+    background-size: cover;
+    background-position: center;
+    transform: rotate(-30deg);
+}
+
+
+/* Items Description */
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q {
+    margin: 0
+}
+
+
+
+/* Color Picker */
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt .MillenniumColorPicker {
+    --size: 28px;
+    width: calc(var(--size) * 2);
+    margin: 0;
+}
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt .MillenniumColorPicker::-webkit-color-swatch {
+    border-radius: 8px;
+}
+
+
+
+/* Plugins Dialog Controls Section */
+.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .MillenniumPluginsDialogControlsSection {
+    margin: 0 !important;
+    margin-bottom: 12px !important;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+}
