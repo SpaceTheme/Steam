@@ -1,0 +1,209 @@
+/*
+& General
+*/
+
+/*
+! Titlebar
+*/
+.aFxOaYcllWYkCfVYQJFs0 .General.Navigation.buttons::before {
+    content: "Titlebar";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+/*
+! Userpannel
+*/
+.aFxOaYcllWYkCfVYQJFs0 .General.Wallet.balance::before {
+    content: "Userpannel";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+/*
+! Other
+*/
+.aFxOaYcllWYkCfVYQJFs0 .General.Font::before {
+    content: "Other";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+/*
+! Experimental
+*/
+.aFxOaYcllWYkCfVYQJFs0 .General.Userpannel::before {
+    content: "Experimental";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+
+/*
+& Store
+*/
+
+/*
+! Home
+*/
+.aFxOaYcllWYkCfVYQJFs0 .Store.SteamDeck.Giftcard::before {
+    content: "Home";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+/*
+! Gamepage
+*/
+.aFxOaYcllWYkCfVYQJFs0 .Store.Broadcast::before {
+    content: "Gamepage";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+/*
+! Cart
+*/
+.aFxOaYcllWYkCfVYQJFs0 .Store.Recommendations::before {
+    content: "Cart";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+/*
+! Other
+*/
+.aFxOaYcllWYkCfVYQJFs0 .Store.Sidebar.only.on.hover::before {
+    content: "Other";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+/*
+! Experimental
+*/
+.aFxOaYcllWYkCfVYQJFs0 .Store.Gamepage::before {
+    content: "Experimental";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+
+/*
+& Library
+*/
+
+/*
+! Home
+*/
+.aFxOaYcllWYkCfVYQJFs0 .Library.What\'s.New::before {
+    content: "Home";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+/*
+! Gamepage
+*/
+.aFxOaYcllWYkCfVYQJFs0 .Library.Bigger.banner::before {
+    content: "Gamepage";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+
+/*
+& Community
+*/
+
+/*
+! Home
+*/
+.aFxOaYcllWYkCfVYQJFs0 .Community.VAC-Ban.visibility::before {
+    content: "Profile";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}

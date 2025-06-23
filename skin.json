@@ -465,6 +465,10 @@
         {
             "MatchRegexString": "^Steam Settings",
             "TargetCss": "src/css/steam/settings.css"
+        },
+        {
+            "MatchRegexString": "^SpaceTheme for Steam",
+            "TargetCss": "options/settings.css"
         }
     ]
 }
