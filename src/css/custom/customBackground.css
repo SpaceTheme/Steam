@@ -1,0 +1,21 @@
+:has([href*="id/SpaceEnergy/badges"]) .profile_animated_background>video {
+    display: none;
+}
+
+
+
+
+:has([href*="id/SpaceEnergy/badges"]) .profile_animated_background {
+    position: fixed;
+    height: 100vh;
+    min-height: unset;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+:has([href*="id/SpaceEnergy/badges"]) .profile_animated_background {
+    background-image: url("https://cdn2.steamgriddb.com/hero/fc8ce33154a13ce9261407a59c12227b.webp");
+}

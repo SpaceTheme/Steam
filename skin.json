@@ -434,6 +434,11 @@
             "TargetJs": "src/js/libraryroot.custom.js"
         },
         {
+            "MatchRegexString": "https://steamcommunity\\.com(/.*)?",
+            "TargetCss": "src/css/custom/custom.css",
+            "TargetJs": "src/css/custom/custom.js"
+        },
+        {
             "MatchRegexString": ".ModalDialogPopup",
             "TargetCss": "src/css/libraryroot.custom.css",
             "TargetJs": "src/css/libraryroot.custom.js"

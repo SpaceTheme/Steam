@@ -1,0 +1,7 @@
+{
+    "SpaceEnergy": {
+        "animatedAvatar": "https://example.com/avatar.jpg",
+        "customBackground": "https://spacetheme.net/spacetheme-intro.mp4",
+        "gradientName": "#ffffff, #000000"
+    }
+}
