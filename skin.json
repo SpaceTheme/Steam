@@ -207,7 +207,7 @@
                     "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/home/steamdeckAndGiftcard/giftcard.css" }
                 },
                 "Both": {
-                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/home/steamdeckAndGiftcard/giftcard.css", "src2": "options/store-steamdeck-giftcard/steamdeck.css" }
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/home/steamdeckAndGiftcard/both.css" }
                 }
             }
         },
