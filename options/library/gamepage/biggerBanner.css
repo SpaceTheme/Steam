@@ -2,6 +2,9 @@ body .NZMJ6g2iVnFsOOp-lDmIP {
     --header-height: calc(100vh - 46px - 16px - 12px - 70px - 6px - 40px - 16px - 16px - 50px - 16px) !important;
     max-height: unset !important;
 }
+body .NZMJ6g2iVnFsOOp-lDmIP._1ZNHIcPSbQl11wXtomcqgH {
+    height: calc(var(--header-height) + 46px) !important;
+}
 body ._1SvpjsckP9cPRxO6gCBHrw:has(._1_cYNJSvS6IXs9vLTEYjy5 .z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP {
     --header-height: calc(100vh - 46px - 16px - 12px - 70px - 6px - 40px - 16px - 16px - 46px) !important;
 }
