@@ -162,6 +162,20 @@
         },
 
 
+        "General - Achievement Notification": {
+            "description": "Hide the Achievment Notification (Sound is still there)",
+            "default": "yes",
+            "tab": "General",
+            "section": "Other",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": [".zXrpABNQHpWKgSzqnGlL"], "src": "options/general/achievementNotifaction.css" }
+                }
+            }
+        },
+
+
         "General - Userpannel": {
             "description": "Moves the user buttons and the download bar to the game sidebar",
             "default": "no",
