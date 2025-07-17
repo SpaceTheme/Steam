@@ -411,10 +411,10 @@
             "values": {
                 "Show": {},
                 "For me": {
-                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/community/vacBan/me.css" }
+                    "TargetCss": { "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "options/community/vacBan/me.css" }
                 },
                 "For all": {
-                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/community/vacBan/all.css" }
+                    "TargetCss": { "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "options/community/vacBan/all.css" }
                 }
             }
         }
