@@ -8,7 +8,43 @@
 
 
 /*
-& Side/Navbar
+& Sidebar
+*/
+body .MillenniumDesktopSidebar {
+    --sidebar-width: 600px;
+    top: 50%;
+    left: 50%;
+    height: 80vh;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-1));
+    transform: translate(-50%, -50%);
+    transition: unset;
+}
+
+
+/*
+! Backdrop
+*/
+.MillenniumDesktopSidebar_Overlay {
+    transition: unset;
+}
+
+
+/*
+! Haeder
+*/
+.MillenniumDesktopSidebar .MillenniumDesktopSidebar_Title {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--color-2));
+    box-shadow: 0 0 7px 12px rgb(var(--color-1));
+}
+
+
+
+/*
+& Navbar
 */
 .MillenniumSettings.ModalDialogPopup ._2kwFFHckg8jvnwJfg9-la8 {
     flex: unset;
