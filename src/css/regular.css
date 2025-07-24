@@ -1,6 +1,13 @@
 @import url("./inputs/inputs.css");
 @import url("./steam/modalDialogPopup.css");
 
+/*
+& Plugins
+*/
+@import url("./plugins/augmentedSteam.css");
+
+
+
 /* Scrollbar */
 *::-webkit-scrollbar {
     width: 14px !important;

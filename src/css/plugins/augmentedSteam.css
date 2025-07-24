@@ -1,0 +1,43 @@
+:root[data-millennium-plugin~="augmented-steam"] {
+/*
+& Store Navbar Navbar/Header
+*/
+.store_header_btn.svelte-1xzkesz#es_customize_btn {
+    margin: 0 12px 0 0;
+    background: unset !important;
+    box-shadow: unset;
+}
+
+.store_header_btn.svelte-1xzkesz#es_customize_btn .es_customize_title.svelte-1xzkesz {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    background: unset !important;
+}
+
+
+/*
+! Settings Icon
+*/
+.store_header_btn.svelte-1xzkesz#es_customize_btn .es_customize_title.svelte-1xzkesz img.svelte-1xzkesz {
+    display: none;
+}
+
+
+.store_header_btn.svelte-1xzkesz#es_customize_btn .es_customize_title.svelte-1xzkesz::before {
+    content: "\f325" !important;
+    font-size: 20px;
+    color: #67707b;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+.store_header_btn.svelte-1xzkesz#es_customize_btn .es_customize_title.svelte-1xzkesz:hover::before {
+    color: #a9a9a9;
+}
+}
