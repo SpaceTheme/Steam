@@ -164,7 +164,7 @@
 
         "General - Achievement Notification": {
             "description": "Hide the Achievment Notification (Sound is still there)",
-            "default": "yes",
+            "default": "no",
             "tab": "General",
             "section": "Other",
             "values": {
