@@ -398,8 +398,13 @@ body.v6::-webkit-scrollbar {
 */
 html body.v6 #footer {
     width: fit-content;
-    margin: 0 auto;
+    margin: 0 auto 16px;
     padding: 0 16px 16px;
     border-radius: 8px;
     background-color: rgb(var(--color-2));
+}
+
+/* Top Divider */
+html body.v6 #footer .rule:nth-child(1) {
+    display: none;
 }
