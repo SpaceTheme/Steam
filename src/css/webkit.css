@@ -104,6 +104,10 @@ body.v6::-webkit-scrollbar {
     line-height: 32px;
 }
 
+#store_header .store_nav_bg .store_labs_new {
+    display: none;
+}
+
 #store_header .store_nav_bg .search_flex_spacer {
     display: none;
 }
@@ -296,7 +300,7 @@ body.v6::-webkit-scrollbar {
 
 
 
-/* Nav Controls */
+/* Nav Buttons */
 #store_header #store_controls {
     position: unset;
 }
