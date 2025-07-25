@@ -1,9 +1,9 @@
-@import url("./webkit/agecheck.css");
-@import url("./webkit/cart.css");
-@import url("./webkit/game.css");
-@import url("./webkit/home.css");
-@import url("./webkit/news.css");
-@import url("./webkit/wishlist.css");
+@import url("./webkit/store/agecheck.css");
+@import url("./webkit/store/cart.css");
+@import url("./webkit/store/game.css");
+@import url("./webkit/store/home.css");
+@import url("./webkit/store/news.css");
+@import url("./webkit/store/wishlist.css");
 @import url("./webkit/profile.css");
 
 @import url("./webkit/store/pointshop.css");
