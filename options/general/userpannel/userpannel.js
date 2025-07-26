@@ -22,41 +22,6 @@ const waitForElement = (selector, parent = document) => new Promise((resolve) =>
 
 
 
-// Create Loading Screen
-const createLoadingDiv = () => {
-    const loadingDiv = document.createElement('div');
-    loadingDiv.id = 'loading-div';
-
-    // Text
-    const textDiv = document.createElement('div');
-    textDiv.className = 'loading-text';
-    textDiv.innerText = 'Loading Steam interface';
-
-    // Radial Loader
-    const loadingIndicator = document.createElement('div');
-    loadingIndicator.className = 'radial-loader';
-
-    loadingDiv.appendChild(loadingIndicator);
-    loadingDiv.appendChild(textDiv);
-
-    // Apply to body
-    document.body.appendChild(loadingDiv);
-
-    // Timer
-    setTimeout(() => {
-        document.body.removeChild(loadingDiv);
-    }, 3000);
-};
-
-// Patch to body
-waitForElement('.Rp8QOGJ2DypeDniMnRBhr').then(() => {
-    if (!document.getElementById('loading-div')) {
-        createLoadingDiv();
-    }
-});
-
-
-
 // Move Elements
 (async () => {
     var gameListSidebar = await waitForElement('._3x1HklzyDs4TEjACrRO2tB');

@@ -1,25 +1,59 @@
-const waitForElement = (selector, parent = document) => {
-  return new Promise((resolve) => {
+const waitForElement = (selector, parent = document) => new Promise((resolve) => {
     const el = parent.querySelector(selector);
     if (el) {
-      resolve(el);
+        resolve(el);
     }
 
     const observer = new MutationObserver(() => {
-      const el = parent.querySelector(selector);
-      if (el) {
+        const el = parent.querySelector(selector);
+        if (!el) {
+            return;
+        }
+
         resolve(el);
         observer.disconnect();
-      }
     });
 
     observer.observe(document.body, {
-      subtree: true,
-      childList: true,
+        subtree: true,
+        childList: true,
     });
-  });
+});
+
+
+
+
+// Create Loading Screen
+const createLoadingDiv = () => {
+    const loadingDiv = document.createElement('div');
+    loadingDiv.id = 'st-loading-div';
+
+    // Radial Loader
+    const loadingIndicator = document.createElement('div');
+    loadingIndicator.className = 'st-radial-loader';
+
+    loadingDiv.appendChild(loadingIndicator);
+
+    // Apply to body
+    document.body.appendChild(loadingDiv);
+
+    // Timer
+    setTimeout(() => {
+        document.body.removeChild(loadingDiv);
+    }, 2500);
 };
 
+// Patch to body
+waitForElement('.Rp8QOGJ2DypeDniMnRBhr').then(() => {
+    if (!document.getElementById('st-loading-div')) {
+        createLoadingDiv();
+    }
+});
+
+
+
+
+// Store Sidebar Width half fix
 async function syncWidthIfTargetHidden() {
   const sourceClass = '._9sPoVBFyE_vE87mnZJ5aB';
   const targetClass = '.RGNMWtyj73_-WdhflrmuY';
