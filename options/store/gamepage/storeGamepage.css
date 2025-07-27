@@ -1,9 +1,9 @@
 /*
 & Remove after experimental
 */
-/* heart, store, game, header */
+/* bookmark, store, game, header */
 .game_bg.application .queue_overflow_ctn [id*="add_to_wishlist_area"] .btn_medium span::before {
-    content: "\f47a" !important;
+    content: "\f1f6" !important;
     font-size: 22px;
     color: rgb(var(--blue));
     font-family: FluentSystemIcons-Regular !important;
@@ -15,7 +15,7 @@
     -webkit-font-smoothing: antialiased;
 }
 .game_bg.application .queue_overflow_ctn [id*="add_to_wishlist_area"] .btn_medium span:has(img)::before {
-    content: "\f47e" !important;
+    content: "\f1f6" !important;
     font-family: FluentSystemIcons-Filled !important;
 }
 
@@ -53,7 +53,7 @@
 
 /* follow, store, game, header */
 .game_bg.application .queue_overflow_ctn .queue_btn_follow .btn_medium::before {
-    content: "\f56f" !important;
+    content: "\f115" !important;
     font-size: 22px;
     color: rgb(var(--blue));
     font-family: FluentSystemIcons-Regular !important;
@@ -65,8 +65,11 @@
     -webkit-font-smoothing: antialiased;
 }
 .game_bg.application .queue_overflow_ctn .queue_btn_follow .btn_medium.queue_btn_active::before {
-    content: "\f576" !important;
     font-family: FluentSystemIcons-Filled !important;
+}
+.game_bg.application .queue_overflow_ctn .queue_btn_follow .btn_medium.queue_btn_active:hover::before {
+    content: "\f119" !important;
+    color: rgb(var(--red));
 }
 
 
@@ -74,7 +77,7 @@
 
 body.v6.game_bg.application .page_content_ctn,
 body.v6.game_bg.application .page_content {
-    width: 1032px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -270,13 +273,21 @@ body.v6.game_bg.application .page_content {
     background: unset;
 }
 .game_bg.application .game_background_glow #game_highlights {
-    display: flex;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-auto-columns: 1fr auto;
+    grid-template-areas:
+        "media details";
     gap: 16px;
     background: unset;
 }
+.game_bg.application .game_background_glow #game_highlights:has(.broadcast_embed_top_ctn_trgt) {
+    grid-template-areas:
+        "broadcast broadcast"
+        "media details";
+}
 
 div.leftcol:has(.highlight_ctn) {
+    grid-area: media;
     width: 100%;
 }
 
@@ -284,7 +295,7 @@ div.leftcol:has(.highlight_ctn) {
     width: 100% !important;
 }
 .highlight_ctn .highlight_overflow {
-    display: flex;
+    /*display: flex;*/
     margin: 0;
     padding: 12px;
     border-radius: 8px;
@@ -298,11 +309,19 @@ div.leftcol:has(.highlight_ctn) {
 }
 
 
+/*
+! Brodcast
+*/
+#game_highlights div[data-featuretarget="broadcast-embed"] {
+    grid-area: broadcast;
+}
+
 
 /*
 ! Player Area
 */
-#highlight_player_area {
+.highlight_ctn #highlight_player_area {
+    width: 100% !important;
     border-radius: 8px;
 }
 
@@ -318,18 +337,25 @@ div.leftcol:has(.highlight_ctn) {
 
 
 
+/* Expand button */
+#highlight_player_area .es_slider_toggle:has(.es_slider_expand) {
+    display: none;
+}
+
+
+
 /* Controls */
 #highlight_player_area .html5_video_overlay {
     overflow: hidden;
     width: -webkit-fill-available;
     height: unset;
     margin: 6px;
-    padding: 6px 6px 12px 6px;
+    padding: 12px;
     border-radius: 8px;
     background-color: rgb(var(--background), .9);
 }
 #highlight_player_area .html5_video_overlay[style="bottom: -35px;"] {
-    bottom: -55px !important;
+    bottom: -70px !important;
 }
 
 #highlight_player_area .html5_video_overlay .control_container {
@@ -370,78 +396,186 @@ div.leftcol:has(.highlight_ctn) {
 
 /* Progressbar */
 #highlight_player_area .html5_video_overlay .progress_bar_wrapper {
-    bottom: 0;
-    top: unset;
-    height: 4px;
-    margin: 6px;
+    position: unset;
+    height: 8px;
+    margin: 6px 0 0;
     background-color: unset;
 }
 
 #highlight_player_area .html5_video_overlay .progress_bar_container {
-    top: unset;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
+    position: unset;
+    height: -webkit-fill-available;
     border-radius: 8px;
-    background-color: rgb(89, 89, 89, .5);
+    background-color: rgba(var(--color-2), 0.9);
 }
 
 #highlight_player_area .html5_video_overlay .progress_bar_background {
+    position: unset;
     background-color: unset;
 }
 #highlight_player_area .html5_video_overlay .progress_bar {
+    position: unset;
+    height: -webkit-fill-available;
     border-radius: 8px;
     background-color: rgb(var(--blue));
 }
 
 
+/*
+! Game Videos & Images
+*/
+/** Media */
+.game_bg.application #game_highlights #highlight_strip {
+    overflow: hidden;
+    height: 65px;
+    margin: 12px 0 6px;
+}
+.game_bg.application #game_highlights #highlight_strip::after {
+    content: "";
+    z-index: 55;
+    position: absolute;
+    right: 0;
+    display: flex;
+    width: 20px;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(30, 30, 30, 0) 10%, rgb(30, 30, 30) 100%);
+    pointer-events: none;
+}
+
+.game_bg.application #game_highlights #highlight_strip:has(#highlight_strip_scroll[style*="left"]:not([style*="left: 0"]))::before {
+    content: "";
+    z-index: 55;
+    position: absolute;
+    left: 0;
+    display: flex;
+    width: 20px;
+    height: 100%;
+    background: linear-gradient(270deg, rgba(30, 30, 30, 0) 10%, rgb(30, 30, 30) 100%);
+    pointer-events: none;
+}
+
+/*^ Images */
+.game_bg.application #game_highlights #highlight_strip .highlight_strip_item {
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    width: auto;
+    margin: 0 4px 0 0;
+    border-radius: 8px;
+}
+.game_bg.application #game_highlights #highlight_strip .highlight_strip_item:nth-last-child(1) {
+    margin-right: 0;
+}
+.game_bg.application #game_highlights #highlight_strip .highlight_strip_item.focus {
+    box-sizing: border-box;
+}
 
 
-/* Slider Buttons */
-#game_highlights .slider_ctn {
+.game_bg.application #game_highlights #highlight_strip .highlight_strip_item img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+/*^ Video play icon */
+.game_bg.application #game_highlights #highlight_strip .highlight_strip_item .highlight_movie_marker {
     display: none;
+}
+.game_bg.application #game_highlights #highlight_strip .highlight_strip_item:has(.highlight_movie_marker)::before {
+    content: "\f612" !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #fff;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*^ Slider Left&Right Buttons */
+.game_bg.application #game_highlights .slider_ctn .slider_left,
+.game_bg.application #game_highlights .slider_ctn .slider_right {
+    display: none;
+}
+
+/*^ Slider Scollbar */
+.game_bg.application #game_highlights .slider_ctn:has(.slider[style*="display: none"]) {
+    display: none;
+}
+
+.game_bg.application #game_highlights .slider_ctn .slider {
+    left: 0;
+    right: 0;
+    padding: 6px;
+    border-radius: 100px;
+    background-color: rgb(var(--color-1));
+}
+
+.game_bg.application #game_highlights .slider_ctn .handle {
+    width: 120px;
+    height: -webkit-fill-available;
+    margin: 6px;
+    border-radius: 100px;
+    background-color: rgb(var(--accent-1));
+}
+.game_bg.application #game_highlights .slider_ctn .handle:hover {
+    margin: 5px;
+    padding-right: 3px;
+    background: unset;
+    background-color: rgb(var(--accent-2));
 }
 
 
 
 /*
-& Game Purchase / Infos etc.
-*/
-
-
-
-
-/*
-& Sidebar
-*/
-
-/*
-! Details 
+& Details 
 */
 .game_bg.application #game_highlights .rightcol {
+    grid-area: details;
+    width: min-content;
     padding: 12px;
     border-radius: 8px;
     background-color: rgb(var(--color-2));
 }
 
 
-/* Banner */
+.game_bg.application #game_highlights .rightcol .glance_ctn {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+/*
+! Banner
+*/
 .game_bg.application #game_highlights .rightcol .game_header_image_ctn {
     margin-bottom: 6px;
 }
 .game_bg.application #game_highlights .rightcol .game_header_image_full {
+    aspect-ratio: 92 / 43;
+    width: 360px;
+    height: auto;
     border-radius: 8px;
 }
 
 
-/* Description */
+/*
+! Description
+*/
 .game_bg.application #game_highlights .rightcol .game_description_snippet {
     padding: 0;
     line-height: unset;
 }
 
-/* Divider */
+
+/*
+! Divider
+*/
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left::before {
     content: "";
     display: block;
@@ -451,3 +585,221 @@ div.leftcol:has(.highlight_ctn) {
     border-radius: 8px;
     background-color: rgb(var(--color-1));
 }
+
+
+/*
+! Infos
+*/
+
+
+/* Devs & Publisher */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .dev_row .summary {
+    white-space: normal;
+}
+
+
+
+/*
+! Tags
+*/
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right {
+    margin-top: auto;
+}
+
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .popular_tags_ctn {
+    margin: 0;
+}
+
+
+/* Text */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .responsive_block_header {
+    display: flex;
+    line-height: 19px;
+    color: #556772;
+}
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .responsive_block_header::after {
+    content: ":";
+    line-height: 19px;
+    color: #556772;
+}
+
+/* Lable */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .popular_tags_ctn .glance_tags_label {
+    display: none;
+}
+
+
+/* Tags */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .popular_tags_ctn .popular_tags {
+    display: flex;
+    gap: 6px;
+    height: unset;
+    margin-top: 6px;
+}
+
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .popular_tags_ctn .popular_tags .app_tag {
+    height: unset;
+    margin: 0;
+    padding: 6px 8px;
+    line-height: unset;
+    font-weight: 500;
+    border-radius: 8px;
+    color: #8f98a0;
+    background-color: rgb(var(--blue), .1);
+}
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .popular_tags_ctn .popular_tags .app_tag:hover {
+    background: unset;
+    background-color: rgb(var(--blue), .3);
+}
+
+
+/*
+& Details on Top
+
+.game_bg.application .game_background_glow #game_highlights {
+    flex-direction: column;
+}
+
+
+.game_bg.application #game_highlights .rightcol {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+/*
+! Grid
+
+.game_bg.application #game_highlights .rightcol .glance_ctn {
+    display: grid;
+    grid-template-areas:
+        "image disc"
+        "image infos"
+        "image tags";
+    grid-template-rows: auto 1fr;
+    height: calc(100% - 3px);
+}
+
+
+/*
+!Banner
+
+.game_bg.application #game_highlights .rightcol .game_header_image_ctn {
+    grid-area: image;
+    height: calc(100% - 3px);
+    margin: 0 12px 0 0;
+}
+
+
+/*
+! Description
+
+.game_bg.application #game_highlights .rightcol .game_description_snippet {
+    grid-area: disc;
+    height: fit-content;
+    padding: 0;
+    line-height: unset;
+    -webkit-line-clamp: 2;
+}
+
+
+
+/*
+! Divider
+
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left::before {
+    display: none;
+}
+
+
+/*
+! Infos
+
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-areas:
+        "reviews release steamdb support"
+        "devs devs devs devs"
+        "publisher publisher publisher publisher";
+}
+
+
+/* Reviews
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews {
+    grid-area: reviews;
+}
+
+
+/* Release
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .release_date {
+    grid-area: release;
+    flex-direction: column;
+}
+
+
+/* SteamDB
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .steamdb_last_update {
+    grid-area: steamdb !important;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 9px;
+}
+
+
+/* Support
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .release_date[style="padding-bottom: 0;"] {
+    grid-area: support;
+    flex-direction: column;
+}
+
+
+/* Devs
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .dev_row:has(#developers_list) {
+    grid-area: devs;
+}
+
+
+/* Publisher
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .dev_row {
+    grid-area: publisher;
+}
+
+
+/*
+! Tags
+
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right {
+    grid-template-areas: "lable divs";
+    grid-area: tags;
+    display: grid;
+    grid-template-columns: max-content 97%;
+    gap: 6px;
+    align-items: center;
+}
+
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .responsive_block_header {
+    grid-area: lable;
+}
+
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .popular_tags_ctn {
+    grid-area: divs;
+}
+
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .popular_tags_ctn .popular_tags {
+    margin-top: 0;
+}
+
+
+
+/*
+& Game Review
+*/
+
+
+
+
+/*
+& Game Purchase / Infos etc.
+*/
