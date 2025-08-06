@@ -344,6 +344,23 @@
         },
 
 
+        "Library - Banner position": {
+            "description": "Change the position of the banner (applies to all banners)",
+            "default": "Middle (default)",
+            "tab": "Library",
+            "section": "Gamepage",
+            "values": {
+                "Left": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/bannerPosition/left.css" }
+                },
+                "Middle (default)": {},
+                "Right": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/bannerPosition/right.css" }
+                }
+            }
+        },
+
+
         "Library - Bigger banner": {
             "description": "Bigger banner on the game page",
             "default": "no",
