@@ -59,7 +59,7 @@ body.v6::-webkit-scrollbar {
     align-items: center;
     justify-content: space-between;
     width: 100% !important;
-    max-width: 1200px;
+    max-width: 1248px;
     height: auto !important;
     margin: 12px 0 0 !important;
     padding: 6px 16px;
@@ -412,7 +412,7 @@ body.v6::-webkit-scrollbar {
     left: 50%;
     transform: translate(-50%);
     width: 100%;
-    max-width: 1300px;
+    max-width: 1248px;
     height: unset !important;
     margin: 16px 0 0;
     padding: 6px 16px;
