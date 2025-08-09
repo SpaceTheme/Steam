@@ -127,20 +127,19 @@
                 },
                 "Gluten": {
                     "TargetCss": { "affects": [".*"], "src": "options/fonts/gluten.css" }
-                }
-                ,
+                },
+                "Montserrat": {
+                    "TargetCss": { "affects": [".*"], "src": "options/fonts/montserrat.css" }
+                },
                 "Quicksand": {
                     "TargetCss": { "affects": [".*"], "src": "options/fonts/quicksand.css" }
-                }
-                ,
+                },
                 "Roboto": {
                     "TargetCss": { "affects": [".*"], "src": "options/fonts/roboto.css" }
-                }
-                ,
+                },
                 "Source Code Pro": {
                     "TargetCss": { "affects": [".*"], "src": "options/fonts/sourceCodePro.css" }
-                }
-                ,
+                },
                 "Ubuntu": {
                     "TargetCss": { "affects": [".*"], "src": "options/fonts/ubuntu.css" }
                 }
