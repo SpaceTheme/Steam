@@ -162,6 +162,20 @@
         },
 
 
+        "General - Mica & Acrylic plugin support": {
+            "description": "Support for Mica and Acrylic plugin https://steambrew.app/plugin?id=b4c58634419b (Only works with the standard theme colors)",
+            "default": "no",
+            "tab": "General",
+            "section": "Other",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/dwmxSupport.css" }
+                }
+            }
+        },
+
+
         "General - Achievement Notification": {
             "description": "Hide the Achievment Notification (Sound is still there)",
             "default": "no",
