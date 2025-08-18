@@ -294,11 +294,15 @@
 }*/
 
 
+
+.ChatHistoryContainer,
+.ChatRoomGroupDialog_history {
+    position: unset;
+}
 .FriendChatTypingNotification {
-    position: fixed;
-    bottom: 16px;
-    left: calc(16px + 12px);
-    padding: 0 0 4px 6px;
+    position: absolute;
+    margin: 0;
+    padding: 0 0 4px 12px;
     font-weight: 300;
     background: unset;
 }
