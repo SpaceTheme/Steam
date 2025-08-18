@@ -1,5 +1,5 @@
 <div align="center">
-<h3><img height="52px" src="https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/logo.png"></h3>
+<h3><img height="52px" src="https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/img/logo.png"></h3>
 
 [![Discord](https://img.shields.io/badge/discord-black?style=for-the-badge&logo=discord&logoColor=%23ffffff&labelColor=%235865F2&color=%235865F2)](https://discord.spacetheme.de)
 [![KoFi](https://img.shields.io/badge/kofi-dark?style=for-the-badge&logo=kofi&logoColor=%23fff&labelColor=%23ff5e5b&color=%23ff5e5b)](https://kofi.spacetheme.de)
@@ -7,24 +7,26 @@
 <hr>
 </div>
 
-![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png)
+![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.png)
 <details>
-    <summary>More images (v20250419)</summary>
+    <summary>More images (v20250812)</summary>
 
 |  Library home  |  Library gamepage  |
 |  :---:  |  :---:  |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/libHome.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/libGamepage.png)  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libHome.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libGamepage.png)  |
 |  **Store**  |  **Friend list & Chat**  |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/storePage.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/friendAndChat.png)  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storePage.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeGamepage.png)  |
+|  **Friend list & Chat**  |    |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/friendAndChat.png)  |    |
 </details>
 <details>
     <summary>More images (Concepts)</summary>
 
 |  Library home  |  Library gamepage  |
 |  :---:  |  :---:  |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/conceptLibHome.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/conceptLibGamepage.png)  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptLibHome.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptLibGamepage.png)  |
 |  **Store**  |  **Store gamepage**  |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/conceptStorePage.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/conceptStoreGamepage.png)  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptStorePage.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptStoreGamepage.png)  |
 </details>
 
 ## Info
