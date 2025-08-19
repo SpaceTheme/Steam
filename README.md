@@ -14,7 +14,7 @@
 |  Library home  |  Library gamepage  |
 |  :---:  |  :---:  |
 |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libHome.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libGamepage.png)  |
-|  **Store**  |  **Friend list & Chat**  |
+|  **Store**  |  **Store Gamepage**  |
 |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storePage.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeGamepage.png)  |
 |  **Friend list & Chat**  |    |
 |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/friendAndChat.png)  |    |
