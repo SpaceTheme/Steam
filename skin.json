@@ -10,8 +10,8 @@
     "funding": { "kofi": "spacetheme" },
     "discord_support": { "inviteCodeExcludingLink": "7Zv8Xz3Vzn" },
     "tags": [ "WIP", "Modular", "Dark", "Customizable"],
-    "header_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/banner.png",
-    "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png",
+    "header_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/refs/heads/main/.github/assets/banner.png",
+    "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/refs/heads/main/.github/assets/preview/preview.png",
     "RootColors": "./src/css/root.css",
     "Steam-WebKit": "./src/css/webkit.css",
     "Conditions": {
