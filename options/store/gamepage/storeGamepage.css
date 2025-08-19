@@ -77,7 +77,8 @@
 
 body.v6.game_bg.application .page_content_ctn,
 body.v6.game_bg.application .page_content {
-    width: 1248px;
+    width: 100%x;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -90,6 +91,10 @@ body.v6.game_bg.application .page_content {
 /*
 ! Title Area
 */
+.game_bg.application .page_title_area .apphub_HomeHeaderContent {
+    max-width: unset !important;
+}
+
 .game_bg.application .page_title_area .apphub_HeaderStandardTop {
     min-height: unset;
     margin: 0 0 16px;
@@ -257,13 +262,6 @@ body.v6.game_bg.application .page_content {
 
 
 
-/* Clear *what ever* */
-.queue_actions_ctn div[style*="clear"] {
-    display: none;
-}
-
-
-
 /*
 & Broadcast
 */
@@ -301,7 +299,7 @@ body.v6.game_bg.application .page_content {
 
 div.leftcol:has(.highlight_ctn) {
     grid-area: media;
-    width: 100%;
+    width: 100% !important;
 }
 
 #game_highlights .highlight_ctn {
@@ -313,12 +311,6 @@ div.leftcol:has(.highlight_ctn) {
     padding: 12px;
     border-radius: 8px;
     background-color: rgb(var(--color-2));
-}
-
-
-/* Clear *what ever* */
-#game_highlights div[style*="clear"] {
-    display: none;
 }
 
 
@@ -620,6 +612,11 @@ div.leftcol:has(.highlight_ctn) {
 }
 
 
+.game_bg.application #game_highlights .rightcol .glance_ctn .game_header_ctn {
+    gap: unset;
+}
+
+
 /*
 ! Banner
 */
@@ -660,13 +657,76 @@ div.leftcol:has(.highlight_ctn) {
 /*
 ! Infos
 */
-
-
-/* Devs & Publisher */
-.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .dev_row .summary {
-    white-space: normal;
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .subtitle {
+    min-width: fit-content;
+    padding-right: 6px;
+    font-size: 13px;
+    text-transform: unset;
+    color: #97A0A8;
+}
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .summary.column,
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .date {
+    color: #c6d4df;
 }
 
+
+/** Reviews */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 4px;
+}
+
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .summary.column {
+    overflow: visible;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*^ Anomaly */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .summary.column .review_anomaly_icon {
+    position: absolute;
+    left: -7px;
+    top: -4px;
+}
+
+/*^ Negative */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary  {
+    color: rgb(var(--red));
+}
+
+/*^ Mixed */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary.mixed {
+    color: rgb(var(--yellow));
+}
+
+/*^ Positive */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary.positive {
+    color: rgb(var(--green));
+}
+
+
+/** Release Date */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .release_date {
+    padding: 12px 0;
+}
+
+
+/** Devs & Publisher */
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .dev_row:has(#developers_list) {
+    padding-bottom: 4px;
+}
+
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .dev_row .summary a {
+    white-space: normal;
+    color: rgb(var(--blue));
+}
+.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .dev_row .summary a:hover {
+    color: rgb(var(--blue-hover));
+}
 
 
 /*
@@ -685,12 +745,12 @@ div.leftcol:has(.highlight_ctn) {
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .responsive_block_header {
     display: flex;
     line-height: 19px;
-    color: #556772;
+    color: #97A0A8;
 }
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .responsive_block_header::after {
     content: ":";
     line-height: 19px;
-    color: #556772;
+    color: #97A0A8;
 }
 
 /* Lable */
@@ -721,6 +781,161 @@ div.leftcol:has(.highlight_ctn) {
     background: unset;
     background-color: rgb(var(--blue), .3);
 }
+
+
+
+/*
+& Content
+*/
+/*
+! Purchase
+*/
+
+
+
+/*
+& Sidebar
+*/
+.game_bg.application .middle_page .game_meta_data {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 372px;
+    margin: 0;
+}
+
+
+/*
+! Containers
+*/
+.game_bg.application .middle_page .game_meta_data .responsive_apppage_details_right, .game_bg.application .middle_page .game_meta_data .responsive_apppage_details_left {
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--color-2));
+}
+
+
+/*
+! Age Rating
+*/
+.game_bg.application .middle_page .game_meta_data .shared_game_rating {
+    position: relative;
+    display: flex;
+}
+
+
+/** Age Image */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_details {
+    margin: 0;
+}
+
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_details .game_rating_icon {
+    margin-right: 12px;
+}
+
+.game_bg.application .middle_page .game_meta_data .shared_game_rating img,
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_allages {
+    display: none;
+}
+
+
+/** Custom Age Icon */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img, .game_rating_allages)::before {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    font-size: 34px;
+    font-weight: 900;
+    border-radius: 8px;
+}
+
+/*^ 18+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt="18+"])::before {
+    content: "18";
+    border: 3px solid rgb(var(--red));
+    color: rgb(var(--red));
+    background-color: rgb(var(--red), .2);
+}
+
+/*^ 16+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt="16+"])::before {
+    content: "16";
+    border: 3px solid rgb(var(--blue));
+    color: rgb(var(--blue));
+    background-color: rgb(var(--blue), .2);
+}
+
+/*^ 14+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt="14+"])::before {
+    content: "14";
+    border: 3px solid rgb(var(--blue));
+    color: rgb(var(--blue));
+    background-color: rgb(var(--blue), .2);
+}
+
+/*^ 12+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt="12+"])::before {
+    content: "12";
+    border: 3px solid rgb(var(--green));
+    color: rgb(var(--green));
+    background-color: rgb(var(--green), .2);
+}
+
+/*^ 6+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt="6+"])::before {
+    content: "6";
+    border: 3px solid rgb(var(--yellow));
+    color: rgb(var(--yellow));
+    background-color: rgb(var(--yellow), .2);
+}
+
+/*^ 0+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(.game_rating_allages)::before {
+    content: "0";
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, .2);
+}
+
+
+/** Text */
+/*^ Agency */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_agency {
+    position: absolute;
+    left: calc(70px + 12px);
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/*^ Desciption */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_descriptors,
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_content_categories {
+    margin-top: 20px;
+}
+
+
+/*
+! Relevant
+*/
+/** Header text */
+.game_bg.application .middle_page .game_meta_data .responsive_apppage_details_right.heading {
+    display: none;
+}
+
+
+/** Icon fix */
+.game_bg.application .middle_page .game_meta_data .responsive_apppage_details_right.recommendation_reasons .reason::before {
+    position: unset;
+    margin: 0;
+    margin-right: 6px;
+}
+
 
 
 /*
