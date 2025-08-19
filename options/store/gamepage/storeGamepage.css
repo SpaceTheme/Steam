@@ -854,48 +854,104 @@ div.leftcol:has(.highlight_ctn) {
     border-radius: 8px;
 }
 
+/*^ 21+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="21"])::before {
+    content: "21";
+    border: 3px solid rgb(var(--red));
+    color: rgb(var(--red));
+    background-color: rgb(var(--red), .2);
+}
+
 /*^ 18+ */
-.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt="18+"])::before {
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="18"])::before {
     content: "18";
     border: 3px solid rgb(var(--red));
     color: rgb(var(--red));
     background-color: rgb(var(--red), .2);
 }
 
+/*^ 17+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="17"])::before {
+    content: "17";
+    border: 3px solid rgb(var(--blue));
+    color: rgb(var(--blue));
+    background-color: rgb(var(--blue), .2);
+}
+
 /*^ 16+ */
-.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt="16+"])::before {
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="16"])::before {
     content: "16";
     border: 3px solid rgb(var(--blue));
     color: rgb(var(--blue));
     background-color: rgb(var(--blue), .2);
 }
 
+/*^ 15+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="15"])::before {
+    content: "15";
+    border: 3px solid rgb(var(--green));
+    color: rgb(var(--green));
+    background-color: rgb(var(--green), .2);
+}
+
 /*^ 14+ */
-.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt="14+"])::before {
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="14"])::before {
     content: "14";
-    border: 3px solid rgb(var(--blue));
-    color: rgb(var(--blue));
-    background-color: rgb(var(--blue), .2);
+    border: 3px solid rgb(var(--green));
+    color: rgb(var(--green));
+    background-color: rgb(var(--green), .2);
+}
+
+/*^ 13+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="13"])::before {
+    content: "13";
+    border: 3px solid rgb(var(--green));
+    color: rgb(var(--green));
+    background-color: rgb(var(--green), .2);
 }
 
 /*^ 12+ */
-.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt="12+"])::before {
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="12"])::before {
     content: "12";
     border: 3px solid rgb(var(--green));
     color: rgb(var(--green));
     background-color: rgb(var(--green), .2);
 }
 
+/*^ 10+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="10"])::before {
+    content: "10";
+    border: 3px solid rgb(var(--yellow));
+    color: rgb(var(--yellow));
+    background-color: rgb(var(--yellow), .2);
+}
+
+/*^ 7+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="7"])::before {
+    content: "7";
+    border: 3px solid rgb(var(--yellow));
+    color: rgb(var(--yellow));
+    background-color: rgb(var(--yellow), .2);
+}
+
 /*^ 6+ */
-.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt="6+"])::before {
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="6"])::before {
     content: "6";
     border: 3px solid rgb(var(--yellow));
     color: rgb(var(--yellow));
     background-color: rgb(var(--yellow), .2);
 }
 
+/*^ 3+ */
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="3"])::before {
+    content: "3";
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, .2);
+}
+
 /*^ 0+ */
-.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(.game_rating_allages)::before {
+.game_bg.application .middle_page .game_meta_data .shared_game_rating .game_rating_icon:has(.game_rating_allages, img[alt*="0"])::before {
     content: "0";
     border: 3px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
