@@ -268,6 +268,20 @@
         },
 
 
+        "Store - Info sidebar on right": {
+            "description": "Changes the info sidebar from right to left",
+            "default": "no",
+            "tab": "Store",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/gamepage/broadcast.css" }
+                }
+            }
+        },
+
+
         "Store - Recommendations": {
             "description": "Hide recommendations in the cart",
             "default": "no",
