@@ -1,3 +1,12 @@
+/*
+! Remove after steam beta is in stable
+*/
+._2BG1JKMgeqn_cr0rbRhRNA,
+.XIDYByW4BEOm-YiOiwGmO {
+    position: unset !important;
+}
+
+
 .game_page_background {
     padding-top: calc(var(--store-menu-overlap-height) + 16px + 32px) !important;
 }
