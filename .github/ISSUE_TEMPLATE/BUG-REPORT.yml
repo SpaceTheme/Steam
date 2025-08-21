@@ -17,9 +17,9 @@ body:
       required: true
     - label: I restarted Steam completely and checked if the bug is still there
       required: true
-    - label: I have checked the theme options
+    - label: I use the Steam Beta
       required: true
-    - label: I use the latest version
+    - label: I use the latest theme version
       required: true
 - type: textarea
   attributes:
