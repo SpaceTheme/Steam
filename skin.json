@@ -177,13 +177,16 @@
 
         "General - Window Controls": {
             "description": "Hide the Window Controls (Minimize, Maximize, Close) from the titlebar",
-            "default": "no",
+            "default": "Show",
             "tab": "General",
             "section": "Other",
             "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/windowControls.css" }
+                "Show": {},
+                "Show only on hover": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/windowControls/showOnHover.css" }
+                },
+                "Hide": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/windowControls/hide.css" }
                 }
             }
         },

@@ -1,0 +1,9 @@
+.window-controls {
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+.qP17eBPXkfezFfexZ4hC3:hover .window-controls {
+    opacity: 1 !important;
+    pointer-events: unset !important;
+}
