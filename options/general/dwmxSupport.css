@@ -7,3 +7,32 @@
     --color-6: 38, 38, 41, 0.5 !important;
     --background: 10, 10, 10, 0.5 !important;
 }
+
+
+
+
+/*
+& Last played first game card
+*/
+._3VOR2AeYATx3qSE0I-Pm-5 ._2d1hSvdpY5L2-GN1EnUb9Z {
+    background-color: rgba(var(--color-1)) !important;
+    backdrop-filter: blur(4px) !important;
+}
+
+
+
+/*
+& Collection cards
+*/
+._3IWn-2rn7x98o5fDd0rAxb ._1J1LQ0vGtpM3n0xw7XwQM6 {
+    backdrop-filter: blur(4px) !important;
+}
+
+
+
+/*
+& Game card
+*/
+._1LJqx_qFOC8199RBQO5kU8 {
+    background-color: rgba(var(--color-1)) !important;
+}
