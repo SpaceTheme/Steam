@@ -10,13 +10,15 @@ html.web_chat_frame body,
 /* Base */
 ._3few7361SOf4k_YuKCmM62.MzjwfxXSiSauz8kyEuhYO,
 ._2sssIwe0duyIrFvat2oXzH,
-.DialogContent._DialogLayout:not(.CFTLX2wIKOK3hNV-fS7_V) {
+.DialogContent._DialogLayout:not(.CFTLX2wIKOK3hNV-fS7_V),
+html .MillenniumSettings {
     gap: 16px;
     width: -webkit-fill-available !important;
     min-width: unset !important;
     height: -webkit-fill-available !important;
     min-height: unset !important;
     margin: 32px 16px 16px;
+    border: none !important;
 }
 
 
