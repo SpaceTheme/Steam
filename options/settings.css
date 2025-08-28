@@ -19,6 +19,22 @@
 
 
 /*
+! Sidebar
+*/
+.aFxOaYcllWYkCfVYQJFs0 .Sidebar.only.on.hover::before {
+    content: "Sidebar";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+/*
 ! Userpannel
 */
 .aFxOaYcllWYkCfVYQJFs0 .General.Wallet.balance::before {

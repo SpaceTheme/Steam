@@ -29,6 +29,20 @@
         },
 
 
+        "General - Sidebar only on hover": {
+            "description": "Shows only the sidebar in the store on hover",
+            "default": "no",
+            "tab": "General",
+            "section": "Sidebar",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/showSidebarOnHover.css" }
+                }
+            }
+        },
+
+
         "General - Wallet balance": {
             "description": "Hide wallet balance",
             "default": "no",
@@ -294,20 +308,6 @@
                 "no": {},
                 "yes": {
                     "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/cart/recommendations.css" }
-                }
-            }
-        },
-
-
-        "Store - Sidebar only on hover": {
-            "description": "Store sidebar only on hover",
-            "default": "no",
-            "tab": "Store",
-            "section": "Other",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/store/showSidebarOnHover.css" }
                 }
             }
         },
