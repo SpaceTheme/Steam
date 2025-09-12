@@ -10,3 +10,17 @@
 .game_page_background {
     padding-top: calc(var(--store-menu-overlap-height) + 16px + 32px) !important;
 }
+
+
+
+
+
+
+
+/*
+! Background bar on top of the page
+*/
+._2Tqj7EzRCeIvjCq0R1MZiy,
+._3SJGdY8UrEOW9-M8zAiXEi {
+    display: none !important;
+}
