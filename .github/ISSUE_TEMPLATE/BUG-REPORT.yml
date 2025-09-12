@@ -21,6 +21,7 @@ body:
       required: true
     - label: I use the latest theme version
       required: true
+    - label: I've ticked the checkboxes without reading their contents
 - type: textarea
   attributes:
     label: Current Behavior
