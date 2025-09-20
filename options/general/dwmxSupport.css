@@ -43,5 +43,5 @@
 & Loading spinner background
 */
 #st-loading-div {
-    background-color: rgba(var(--background)) !important;
+    background-color: rgba(10,10,10) !important;
 }
