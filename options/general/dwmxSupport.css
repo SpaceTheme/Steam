@@ -36,3 +36,12 @@
 ._1LJqx_qFOC8199RBQO5kU8 {
     background-color: rgba(var(--color-1)) !important;
 }
+
+
+
+/*
+& Loading spinner background
+*/
+#st-loading-div {
+    background-color: rgba(var(--background)) !important;
+}
