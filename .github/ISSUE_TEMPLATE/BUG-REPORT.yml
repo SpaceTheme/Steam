@@ -26,10 +26,9 @@ body:
       label: Step 2. Theme configuration
       description: Please provide your current theme configuration.
       value: |
-        <details>
-          <summary>Configuration</summary>
+        <details><summary>Configuration</summary>
 
-          ```text
+          ```
           On Windows, you can find the configuration file at:
             C:\Program Files (x86)\Steam\ext\config.json
 
