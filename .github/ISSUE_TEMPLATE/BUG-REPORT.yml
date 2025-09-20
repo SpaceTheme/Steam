@@ -35,7 +35,7 @@ body:
           On Linux, the configuration file is located at:
             ~/.config/millennium/config.json
 
-          Just paste the "themes" part here inside the <details> block.
+          Just replace the text here in the ``` with "Steam" part from the configuration file.
           ```
         </details>
     validations:
