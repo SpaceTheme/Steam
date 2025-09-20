@@ -59,4 +59,4 @@ iwr -useb "https://spacetheme.de/steam.ps1" | iex
 1. Select the theme from the interface after it installs.
 
 Voila! Enjoy the new look of your Steam!
--->d
+-->dd
