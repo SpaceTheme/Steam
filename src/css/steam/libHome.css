@@ -481,6 +481,22 @@
     background-color: rgba(var(--color-1)) !important;
 }
 
+.WYgDg9NyCcMIVuMyZ_NBC ._2GRcKrPZsMSF6glMPRMZei ._8YrRmy_c6O0FCxFT8gjqo::before {
+    content: "\f151" !important;
+    font-size: 14px;
+    color: #fff;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.WYgDg9NyCcMIVuMyZ_NBC ._2GRcKrPZsMSF6glMPRMZei ._8YrRmy_c6O0FCxFT8gjqo>svg {
+    display: none;
+}
+
 ._1pwP4eeP1zQD7PEgmsep0W:has(._3zxPLsbnU5LuorR0_EPCEC) ._1LJqx_qFOC8199RBQO5kU8 {
     width: calc(100% - 42px);
     margin-left: auto;
