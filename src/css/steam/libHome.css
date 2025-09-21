@@ -412,7 +412,7 @@
     font-size: 0;
     line-height: 0;
     border-radius: 8px;
-    background-color: rgba(1, 169, 234);
+    background-color: rgb(var(--blue));
     box-shadow: 0px 0px 3px 2px rgb(0 0 0 / 50%);
 }
 
