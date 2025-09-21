@@ -47,7 +47,7 @@
     color: #a9a9a9;
 }
 ._3mzKdQXht__YHo6PX1LmB6:nth-last-child(2)._1QFFkxM5hw-43miIiylbwq::before {
-    color: #09b9ff;
+    color: rgb(var(--blue));
 }
 ._3mzKdQXht__YHo6PX1LmB6:nth-last-child(2)>svg {
     display: none;
@@ -63,7 +63,7 @@
     color: #a9a9a9;
 }
 ._3mzKdQXht__YHo6PX1LmB6:nth-last-child(1)._1QFFkxM5hw-43miIiylbwq::before {
-    color: #09b9ff;
+    color: rgb(var(--blue));
 }
 ._3mzKdQXht__YHo6PX1LmB6:nth-last-child(1)>svg {
     display: none;
