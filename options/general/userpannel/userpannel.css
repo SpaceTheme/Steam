@@ -1,3 +1,23 @@
+._1rDh5rXSFZJOqCa4UpnI4z:has(.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]) {
+    flex-direction: unset;
+}
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"] {
+    display: flex !important;
+    max-width: min(50%, 100% - 400px);
+    min-width: 272px;
+}
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"] ._9sPoVBFyE_vE87mnZJ5aB {
+    max-width: min(50%, 100% - 400px);
+    min-width: calc(100% - 4px - 12px);
+}
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"] ._3BFcmjAaMyP6GTPwc0VyWi {
+    display: none;
+}
+
+
+
+
+
 /*
 ! Userpannel
 */

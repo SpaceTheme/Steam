@@ -21,7 +21,7 @@
 /*
 ! Sidebar
 */
-.aFxOaYcllWYkCfVYQJFs0 .Sidebar.only.on.hover::before {
+.aFxOaYcllWYkCfVYQJFs0 .Always.show.sidebar::before {
     content: "Sidebar";
     color: #8b929a;
     font-size: 15px;

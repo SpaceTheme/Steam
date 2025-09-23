@@ -28,6 +28,20 @@
         },
 
 
+        "General - Always show sidebar": {
+            "description": "Always show the sidebar \n (If you have this option on Disabled, and you use the \"Userpannel\" or \"Sidebar only on hover\" option, this option will be overwritten)",
+            "default": "Enabled",
+            "tab": "General",
+            "section": "Sidebar",
+            "values": {
+                "Enabled": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/alwaysShowSidebar.css" }
+                },
+                "Disabled": {}
+            }
+        },
+
+
         "General - Sidebar only on hover": {
             "description": "Shows only the sidebar in the store on hover",
             "default": "no",
