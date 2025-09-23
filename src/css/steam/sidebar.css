@@ -380,7 +380,7 @@
 /*
 & Resize Divider
 */
-._3x1HklzyDs4TEjACrRO2tB ._276E6ijBpjMA2_iTxNhhjc {
+._276E6ijBpjMA2_iTxNhhjc {
     margin: auto 6px;
     width: 4px;
     height: 240px;
@@ -388,7 +388,7 @@
     background-color: rgb(var(--accent-1));
     transition: all 0.2s ease-in-out;
 }
-._3x1HklzyDs4TEjACrRO2tB ._276E6ijBpjMA2_iTxNhhjc:hover, ._276E6ijBpjMA2_iTxNhhjc:focus, ._276E6ijBpjMA2_iTxNhhjc:active {
+._276E6ijBpjMA2_iTxNhhjc:hover, ._276E6ijBpjMA2_iTxNhhjc:focus, ._276E6ijBpjMA2_iTxNhhjc:active {
     height: 280px;
     background-color: rgb(var(--accent-2)) !important;
 }
