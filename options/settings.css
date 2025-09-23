@@ -5,7 +5,7 @@
 /*
 ! Titlebar
 */
-.aFxOaYcllWYkCfVYQJFs0 .General.Navigation.buttons::before {
+.aFxOaYcllWYkCfVYQJFs0 .Window.Controls::before {
     content: "Titlebar";
     color: #8b929a;
     font-size: 15px;

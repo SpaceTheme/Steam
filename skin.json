@@ -14,6 +14,23 @@
     "RootColors": "./src/css/root.css",
     "Steam-WebKit": "./src/css/webkit.css",
     "Conditions": {
+        "General - Window Controls": {
+            "description": "Hide the Window Controls (Minimize, Maximize, Close) from the titlebar",
+            "default": "Show",
+            "tab": "General",
+            "section": "Titlebar",
+            "values": {
+                "Show": {},
+                "Show only on hover": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/windowControls/showOnHover.css" }
+                },
+                "Hide": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/windowControls/hide.css" }
+                }
+            }
+        },
+
+
         "General - Navigation buttons": {
             "description": "Hide Navigation buttons",
             "default": "no",
@@ -197,23 +214,6 @@
                 "no": {},
                 "yes": {
                     "TargetCss": { "affects": [".*"], "src": "options/general/dwmxSupport.css" }
-                }
-            }
-        },
-
-
-        "General - Window Controls": {
-            "description": "Hide the Window Controls (Minimize, Maximize, Close) from the titlebar",
-            "default": "Show",
-            "tab": "General",
-            "section": "Other",
-            "values": {
-                "Show": {},
-                "Show only on hover": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/windowControls/showOnHover.css" }
-                },
-                "Hide": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/windowControls/hide.css" }
                 }
             }
         },
