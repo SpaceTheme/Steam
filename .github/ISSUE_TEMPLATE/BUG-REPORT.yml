@@ -17,8 +17,6 @@ body:
         required: true
       - label: I ticked the checkboxes without reading them.
         required: false
-      - label: I checked whether I was using the Steam beta.
-        required: false
       - label: I checked the Update tab to see if there was an update.
         required: false
   - type: textarea
