@@ -35,8 +35,8 @@
 
 ## Installation
 1. Download [Millennium](https://docs.steambrew.app/users/installing) and follow the provided instructions to install the patcher.
-1. Open the [Theme Page](https://steambrew.app/theme?id=zQndv1rI0FXLh3QTRgOL) and click the Install button.
-1. Navigate to the Theme tab in your Steam settings and select "SpaceTheme."
+1. Open the [Theme Page](https://steambrew.app/theme?id=zQndv1rI0FXLh3QTRgOL) and click the Copy Theme ID button.
+1. Navigate to the Theme tab in the Millennium settings and select "Install Theme" and paste the Theme ID.
 
 **Voilà! Enjoy the new look of your Steam!**
 <!--
