@@ -87,10 +87,3 @@ div.ModalPosition_TopBar {
 .window_resize_grip {
     opacity: 0 !important;
 }
-
-
-
-/* Fucking clear: both; */
-[style="clear: both;"] {
-    display: none !important;
-}
