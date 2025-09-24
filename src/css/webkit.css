@@ -407,14 +407,10 @@ body.v6::-webkit-scrollbar {
 */
 .h2B3SGR_w4RWdrnsRZEcD ._16jZ3HEbtaJTl80pQINN2Y {
     box-sizing: border-box;
-    position: fixed !important;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
     width: 100%;
     max-width: 1200px;
     height: unset !important;
-    margin: 16px 0 0;
+    margin: 16px auto 0;
     padding: 6px 16px;
     border: 0 !important;
     border-radius: 8px;
