@@ -340,20 +340,6 @@
         },
 
 
-        "Store - Gamepage": {
-            "description": "Store Gamepage from the concept",
-            "default": "no",
-            "tab": "Store",
-            "section": "Experimental",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/gamepage/storeGamepage.css" }
-                }
-            }
-        },
-
-
 
 
         "Library - What's New": {
