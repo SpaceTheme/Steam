@@ -77,7 +77,7 @@
 
 body.v6.game_bg.application .page_content_ctn,
 body.v6.game_bg.application .page_content {
-    width: 100%x;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
