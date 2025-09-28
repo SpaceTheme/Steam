@@ -39,24 +39,5 @@
 1. Navigate to the Theme tab in the Millennium settings and select "Install Theme" and paste the Theme ID.
 
 **Voilà! Enjoy the new look of your Steam!**
-<!--
-## Automatic installation (Recommended)
-1. Download [Millennium](https://docs.steambrew.app/users/installing). Follow the instructions provided to install the patcher.
-1. Download [SpaceTheme Installer](https://github.com/SpaceTheme/Installer/releases) or
-<br>Run the command in PowerShell:
-```ps1
-iwr -useb "https://spacetheme.de/steam.ps1" | iex
-```
-[Source](https://github.com/SpaceTheme/Installer/blob/main/cli/steam.ps1)
-  
-## Manual installation
-1. Download [Millennium](https://docs.steambrew.app/users/installing). Follow the instructions provided to install the patcher.
-1. Open Steam and navigate to `Steam -> Settings -> Themes`
-1. Click on the Folder icon to open the skins folder
-1. Now simply drop the theme in the skins folder and unzip the .zip
-1. Select the theme from the interface after it installs.
-
-Voila! Enjoy the new look of your Steam!
--->
 ## Know issue
 - If the "Userpannel & Downloadpannel" option is active and you open the download page and back again, the userpannel & downloadpannel is gone and is only available again after a Steam restart
