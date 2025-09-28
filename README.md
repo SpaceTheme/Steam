@@ -58,3 +58,5 @@ iwr -useb "https://spacetheme.de/steam.ps1" | iex
 
 Voila! Enjoy the new look of your Steam!
 -->
+## Know issue
+- If the "Userpannel & Downloadpannel" option is active and you open the download page and back again, the userpannel & downloadpannel is gone and is only available again after a Steam restart
