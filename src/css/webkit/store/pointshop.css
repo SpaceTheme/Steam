@@ -1,3 +1,8 @@
+.responsive_page_template_content:has(#points_shop_root) {
+    padding-top: calc(var(--store-menu-overlap-height) + 32px);
+}
+
+
 /*
 & Navbar
 */
