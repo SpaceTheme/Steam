@@ -1,6 +1,6 @@
 ._1bq4x9pa4-9RLY-dXWUZTp {
     background: unset;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
 }
 
 
@@ -15,7 +15,7 @@
 
 ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg {
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 
@@ -37,13 +37,13 @@
 
 
 ._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES .edQzwM57P-T5K3eDGkyvZ {
-    background: linear-gradient(to right, transparent 15%, rgb(var(--color-2)) 90%);
+    background: linear-gradient(to right, transparent 15%, rgb(var(--st-color-2)) 90%);
 }
 
 
 /* Download Speed */
 ._1BxZDLT8KveuJzn-1q4NTP .OS07NfYlp6v-Eh5oQ7dwn {
-    color: rgb(var(--accent-1));
+    color: rgb(var(--st-accent-1));
 }
 
 
@@ -72,7 +72,7 @@
 
 
 .Ayu--dDVVaKmP2gNYPAQ0 ._33jqEbo2sBXJZ08w9BkdEM svg {
-    color: rgb(var(--accent-1));
+    color: rgb(var(--st-accent-1));
 }
 
 
@@ -98,14 +98,14 @@
 
 
 ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR {
-    background-color: rgb(var(--background));
+    background-color: rgb(var(--st-background));
 }
 ._1VNuYHM6BPBOJspC6zPf5r:hover ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR {
-    background-color: rgb(var(--background));
+    background-color: rgb(var(--st-background));
 }
 
 ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR._2mLZnQr2HzWQ1K8D8xouc- div {
-    background-color: rgb(var(--accent-1));
+    background-color: rgb(var(--st-accent-1));
 }
 
 
@@ -175,9 +175,9 @@
     margin: 0 12px;
     padding: 12px 0 12px 12px;
     border-radius: 8px;
-    background-color: rgb(var(--accent-2), .15);
+    background-color: rgb(var(--st-accent-2), .15);
 }
 ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg:hover {
     border-radius: 8px;
-    background-color: rgb(var(--accent-2), .3);
+    background-color: rgb(var(--st-accent-2), .3);
 }

@@ -33,13 +33,13 @@
 
 ._2XZq-_f6npaQdAgeRzKIkz {
     border-radius: 8px;
-    background-color: rgb(var(--color-4));
+    background-color: rgb(var(--st-color-4));
 }
 ._2XZq-_f6npaQdAgeRzKIkz:hover {
     cursor: pointer;
 }
 ._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 ._2XZq-_f6npaQdAgeRzKIkz::before,
 ._2XZq-_f6npaQdAgeRzKIkz::after {
@@ -55,11 +55,11 @@
     height: 36px;
     margin-left: 12px;
     border-radius: 8px;
-    background: rgb(var(--color-4));
+    background: rgb(var(--st-color-4));
     box-shadow: none;
 }
 .chatTabSelector:hover {
-    background: rgb(var(--color-2));
+    background: rgb(var(--st-color-2));
 }
 .chatTabSelector .SVGIcon_DownArrowContextMenu {
     display: flex;
@@ -85,7 +85,7 @@
 
 .chatWindow {
     border-radius: 8px;
-    background: rgb(var(--color-1));
+    background: rgb(var(--st-color-1));
 }
 
 .chatWindow .chatHeader {
@@ -145,13 +145,13 @@
     font-weight: 600;
 }
 .ChatSpeaker .online .speakerName {
-    color: rgb(var(--blue));
+    color: rgb(var(--st-blue));
 }
 .ChatSpeaker .ingame .speakerName {
-    color: rgb(var(--green));
+    color: rgb(var(--st-green));
 }
 .ChatSpeaker .awayOrSnooze .speakerName {
-    color: rgb(var(--yellow)) !important;
+    color: rgb(var(--st-yellow)) !important;
 }
 .ChatSpeaker .speakerTimeStamp {
     align-self: center;
@@ -165,7 +165,7 @@
 .ChatSpeaker {
     padding: 6px 12px 0;
     border-radius: 8px 8px 0 0;
-    background-color: rgb(var(--color-4));
+    background-color: rgb(var(--st-color-4));
 }
 .ChatMessageBlock:has(.msg._3qYm9oxf8MdyvQDJgbfCrF:nth-child(2) .chatImageContainer) .ChatSpeaker {
     padding: 6px 12px;
@@ -177,14 +177,14 @@
     margin: 6px 0 0;
     padding: 6px 12px !important;
     border-radius: 8px;
-    background-color: rgb(var(--color-4));
+    background-color: rgb(var(--st-color-4));
 }
 .msg._3qYm9oxf8MdyvQDJgbfCrF:nth-child(2) {
     width: auto;
     margin: 0;
     padding: 0 12px 6px !important;
     border-radius: 0 0 8px 8px;
-    background-color: rgb(var(--color-4));
+    background-color: rgb(var(--st-color-4));
 }
 .msg._3qYm9oxf8MdyvQDJgbfCrF:has(.chatImageContainer) {
     width: 100%;
@@ -237,7 +237,7 @@
     height: 2px;
     margin: 0;
     border-radius: 8px;
-    background-color: rgb(var(--color-6));
+    background-color: rgb(var(--st-color-6));
 }
 
 .msg.timeDivision::after {
@@ -249,10 +249,10 @@
     text-wrap: nowrap;
     font-size: 11px;
     font-weight: 600;
-    border: 2px solid rgb(var(--color-6));
+    border: 2px solid rgb(var(--st-color-6));
     border-radius: 8px;
     color: #a7a7a7;
-    background: rgb(var(--color-2));
+    background: rgb(var(--st-color-2));
 }
 
 .msg.timeDivision .horizDivider {
@@ -268,7 +268,7 @@
     margin: 0 12px 24px;
     padding: 0 !important;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 .chatWindow .chatEntry>* {
     margin: 0;
@@ -277,7 +277,7 @@
 
 ._3Ule3rolhZJiBN4yNNtk1s {
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
     box-shadow: none;
 }
 

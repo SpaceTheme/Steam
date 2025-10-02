@@ -9,9 +9,9 @@ body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
 
 body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n {
     padding: 6px !important;
-    border: 3px solid rgb(var(--color-5));
+    border: 3px solid rgb(var(--st-color-5));
     border-radius: 8px;
-    background-color: rgb(var(--color-3));
+    background-color: rgb(var(--st-color-3));
 }
 
 
@@ -24,7 +24,7 @@ body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI {
 }
 body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover {
     color: #fff;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI {
     border: none;
@@ -41,7 +41,7 @@ body.DesktopUI .IjIBR_wDDi2N77Oz4KAT4 {
     padding: 0;
     border: none;
     border-radius: 8px;
-    background-color: rgb(var(--color-2)) !important;
+    background-color: rgb(var(--st-color-2)) !important;
 }
 
 
@@ -56,5 +56,5 @@ body.DesktopUI ._3EvKu7VyTGMoDtbyugKQ5H {
     margin: 0 6px 0 0;
     padding: 0 6px;
     border-radius: 8px;
-    background-color: rgb(var(--accent-2));
+    background-color: rgb(var(--st-accent-2));
 }

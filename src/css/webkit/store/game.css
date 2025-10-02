@@ -5,7 +5,7 @@
 .game_bg.application .queue_overflow_ctn [id*="add_to_wishlist_area"] .btn_medium span::before {
     content: "\f1f6" !important;
     font-size: 22px;
-    color: rgb(var(--blue));
+    color: rgb(var(--st-blue));
     font-family: FluentSystemIcons-Regular !important;
     font-style: normal;
     font-weight: normal !important;
@@ -41,7 +41,7 @@
 .game_bg.application .queue_overflow_ctn .next_in_queue_content >span::before {
     content: "\f182" !important;
     font-size: 22px;
-    color: rgb(var(--yellow));
+    color: rgb(var(--st-yellow));
     font-family: FluentSystemIcons-Filled !important;
     font-style: normal;
     font-weight: normal !important;
@@ -55,7 +55,7 @@
 .game_bg.application .queue_overflow_ctn .queue_btn_follow .btn_medium::before {
     content: "\f115" !important;
     font-size: 22px;
-    color: rgb(var(--blue));
+    color: rgb(var(--st-blue));
     font-family: FluentSystemIcons-Regular !important;
     font-style: normal;
     font-weight: normal !important;
@@ -69,7 +69,7 @@
 }
 .game_bg.application .queue_overflow_ctn .queue_btn_follow .btn_medium.queue_btn_active:hover::before {
     content: "\f119" !important;
-    color: rgb(var(--red));
+    color: rgb(var(--st-red));
 }
 
 
@@ -171,11 +171,11 @@ body.v6.game_bg.application .page_content {
     font-weight: 500;
     color: #fff !important;
     background: unset;
-    background-color: rgb(var(--blue), .2);
+    background-color: rgb(var(--st-blue), .2);
 }
 .game_bg.application .queue_overflow_ctn .btn_medium:hover {
     background: unset !important;
-    background-color: rgb(var(--blue), .4) !important;
+    background-color: rgb(var(--st-blue), .4) !important;
 }
 
 .game_bg.application .queue_overflow_ctn .btn_medium span {
@@ -211,10 +211,10 @@ body.v6.game_bg.application .page_content {
 .game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium {
     display: flex;
     height: 32px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 .game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium:hover {
-    background-color: rgb(var(--color-2)) !important;
+    background-color: rgb(var(--st-color-2)) !important;
 }
 .game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium span {
     padding: 0 6px;
@@ -250,10 +250,10 @@ body.v6.game_bg.application .page_content {
 .game_bg.application .queue_overflow_ctn .next_in_queue_content {
     padding: 0 12px;
     border-radius: 8px;
-    background-color: rgb(var(--yellow), .4);
+    background-color: rgb(var(--st-yellow), .4);
 }
 .game_bg.application .queue_overflow_ctn .next_in_queue_content:hover {
-    background-color: rgb(var(--yellow), .6);
+    background-color: rgb(var(--st-yellow), .6);
 }
 .game_bg.application .queue_overflow_ctn .next_in_queue_content span {
     display: flex;
@@ -315,7 +315,7 @@ div.leftcol:has(.highlight_ctn) {
     margin: 0;
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 
@@ -334,8 +334,8 @@ div.leftcol:has(.highlight_ctn) {
     padding: 6px;
     border-radius: 8px;
     background: unset;
-    background-color: rgb(var(--color-3));
-    box-shadow: 0px 4px 8px 0px rgba(var(--background), 0.5);
+    background-color: rgb(var(--st-color-3));
+    box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
     backdrop-filter: blur(0);
     transform: translateY(-100px);
 }
@@ -359,8 +359,8 @@ div.leftcol:has(.highlight_ctn) {
     margin: 6px;
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-3));
-    box-shadow: 0px 4px 8px 0px rgba(var(--background), 0.5);
+    background-color: rgb(var(--st-color-3));
+    box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
     backdrop-filter: blur(0);
     transform: translateY(100px);
 }
@@ -373,10 +373,10 @@ div.leftcol:has(.highlight_ctn) {
     bottom: calc(100% + 8px);
     gap: 6px;
     padding: 6px;
-    border: 3px solid rgb(var(--color-5));
+    border: 3px solid rgb(var(--st-color-5));
     border-radius: 8px;
-    background-color: rgb(var(--color-3));
-    box-shadow: 0px 4px 8px 0px rgba(var(--background), 0.5);
+    background-color: rgb(var(--st-color-3));
+    box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
 }
 
 /* Image */
@@ -396,7 +396,7 @@ div.leftcol:has(.highlight_ctn) {
 #highlight_player_area .aKceKkwAmCX8Ar8qWcJ7T ._2eh4iDod50HkFNh5C0fVW6 ._2Zd3311XV6d_wOGB8C9H4D .qSkn0N2OLSYYw4IxDl6LF::after {
     z-index: -1;
     border-radius: 8px;
-    background-color: rgb(var(--color-5));
+    background-color: rgb(var(--st-color-5));
 }
 
 
@@ -408,19 +408,19 @@ div.leftcol:has(.highlight_ctn) {
 /* Background */
 #highlight_player_area .aKceKkwAmCX8Ar8qWcJ7T ._2eh4iDod50HkFNh5C0fVW6 ._3ezjd4FAgey-Olcl2qvfD4 {
     border-radius: 8px;
-    background-color: rgba(var(--color-2));
+    background-color: rgba(var(--st-color-2));
 }
 
 /* Loaded */
 #highlight_player_area .aKceKkwAmCX8Ar8qWcJ7T ._2eh4iDod50HkFNh5C0fVW6 ._3f4Y1kM_nEtTF4DINVZ_rx {
     border-radius: 8px;
-    background-color: rgb(var(--color-5));
+    background-color: rgb(var(--st-color-5));
 }
 
 /* Played */
 #highlight_player_area .aKceKkwAmCX8Ar8qWcJ7T ._3ezyMaw8mNCokAmQuZDbj1 {
     border-radius: 8px;
-    background-color: rgb(var(--blue));
+    background-color: rgb(var(--st-blue));
 }
 
 /* Trickplay line */
@@ -429,7 +429,7 @@ div.leftcol:has(.highlight_ctn) {
     width: 4px;
     height: calc(100% + 8px);
     border-radius: 8px;
-    background-color: rgb(var(--blue-hover));
+    background-color: rgb(var(--st-blue-hover));
 }
 
 /*^ Control Icons */
@@ -579,7 +579,7 @@ div.leftcol:has(.highlight_ctn) {
     right: 0;
     padding: 6px;
     border-radius: 100px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
 }
 
 .game_bg.application #game_highlights .slider_ctn .handle {
@@ -587,13 +587,13 @@ div.leftcol:has(.highlight_ctn) {
     height: -webkit-fill-available;
     margin: 6px;
     border-radius: 100px;
-    background-color: rgb(var(--accent-1));
+    background-color: rgb(var(--st-accent-1));
 }
 .game_bg.application #game_highlights .slider_ctn .handle:hover {
     margin: 5px;
     padding-right: 3px;
     background: unset;
-    background-color: rgb(var(--accent-2));
+    background-color: rgb(var(--st-accent-2));
 }
 
 
@@ -606,7 +606,7 @@ div.leftcol:has(.highlight_ctn) {
     width: 348px;
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 
@@ -655,7 +655,7 @@ div.leftcol:has(.highlight_ctn) {
     height: 3px;
     margin: 12px 0;
     border-radius: 8px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
 }
 
 
@@ -700,17 +700,17 @@ div.leftcol:has(.highlight_ctn) {
 
 /*^ Negative */
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary  {
-    color: rgb(var(--red));
+    color: rgb(var(--st-red));
 }
 
 /*^ Mixed */
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary.mixed {
-    color: rgb(var(--yellow));
+    color: rgb(var(--st-yellow));
 }
 
 /*^ Positive */
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary.positive {
-    color: rgb(var(--green));
+    color: rgb(var(--st-green));
 }
 
 
@@ -727,10 +727,10 @@ div.leftcol:has(.highlight_ctn) {
 
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .dev_row .summary a {
     white-space: normal;
-    color: rgb(var(--blue));
+    color: rgb(var(--st-blue));
 }
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .dev_row .summary a:hover {
-    color: rgb(var(--blue-hover));
+    color: rgb(var(--st-blue-hover));
 }
 
 
@@ -781,11 +781,11 @@ div.leftcol:has(.highlight_ctn) {
     font-weight: 500;
     border-radius: 8px;
     color: #8f98a0;
-    background-color: rgb(var(--blue), .1);
+    background-color: rgb(var(--st-blue), .1);
 }
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .popular_tags_ctn .popular_tags .app_tag:hover {
     background: unset;
-    background-color: rgb(var(--blue), .3);
+    background-color: rgb(var(--st-blue), .3);
 }
 
 
@@ -820,7 +820,7 @@ div.leftcol:has(.highlight_ctn) {
     padding: 12px;
     border-radius: 8px;
     background: unset;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 
@@ -864,89 +864,89 @@ div.leftcol:has(.highlight_ctn) {
 /*^ 21+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="21"])::before {
     content: "21";
-    border: 3px solid rgb(var(--red));
-    color: rgb(var(--red));
-    background-color: rgb(var(--red), .2);
+    border: 3px solid rgb(var(--st-red));
+    color: rgb(var(--st-red));
+    background-color: rgb(var(--st-red), .2);
 }
 
 /*^ 18+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="18"])::before {
     content: "18";
-    border: 3px solid rgb(var(--red));
-    color: rgb(var(--red));
-    background-color: rgb(var(--red), .2);
+    border: 3px solid rgb(var(--st-red));
+    color: rgb(var(--st-red));
+    background-color: rgb(var(--st-red), .2);
 }
 
 /*^ 17+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="17"])::before {
     content: "17";
-    border: 3px solid rgb(var(--blue));
-    color: rgb(var(--blue));
-    background-color: rgb(var(--blue), .2);
+    border: 3px solid rgb(var(--st-blue));
+    color: rgb(var(--st-blue));
+    background-color: rgb(var(--st-blue), .2);
 }
 
 /*^ 16+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="16"])::before {
     content: "16";
-    border: 3px solid rgb(var(--blue));
-    color: rgb(var(--blue));
-    background-color: rgb(var(--blue), .2);
+    border: 3px solid rgb(var(--st-blue));
+    color: rgb(var(--st-blue));
+    background-color: rgb(var(--st-blue), .2);
 }
 
 /*^ 15+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="15"])::before {
     content: "15";
-    border: 3px solid rgb(var(--green));
-    color: rgb(var(--green));
-    background-color: rgb(var(--green), .2);
+    border: 3px solid rgb(var(--st-green));
+    color: rgb(var(--st-green));
+    background-color: rgb(var(--st-green), .2);
 }
 
 /*^ 14+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="14"])::before {
     content: "14";
-    border: 3px solid rgb(var(--green));
-    color: rgb(var(--green));
-    background-color: rgb(var(--green), .2);
+    border: 3px solid rgb(var(--st-green));
+    color: rgb(var(--st-green));
+    background-color: rgb(var(--st-green), .2);
 }
 
 /*^ 13+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="13"])::before {
     content: "13";
-    border: 3px solid rgb(var(--green));
-    color: rgb(var(--green));
-    background-color: rgb(var(--green), .2);
+    border: 3px solid rgb(var(--st-green));
+    color: rgb(var(--st-green));
+    background-color: rgb(var(--st-green), .2);
 }
 
 /*^ 12+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="12"])::before {
     content: "12";
-    border: 3px solid rgb(var(--green));
-    color: rgb(var(--green));
-    background-color: rgb(var(--green), .2);
+    border: 3px solid rgb(var(--st-green));
+    color: rgb(var(--st-green));
+    background-color: rgb(var(--st-green), .2);
 }
 
 /*^ 10+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="10"])::before {
     content: "10";
-    border: 3px solid rgb(var(--yellow));
-    color: rgb(var(--yellow));
-    background-color: rgb(var(--yellow), .2);
+    border: 3px solid rgb(var(--st-yellow));
+    color: rgb(var(--st-yellow));
+    background-color: rgb(var(--st-yellow), .2);
 }
 
 /*^ 7+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="7"])::before {
     content: "7";
-    border: 3px solid rgb(var(--yellow));
-    color: rgb(var(--yellow));
-    background-color: rgb(var(--yellow), .2);
+    border: 3px solid rgb(var(--st-yellow));
+    color: rgb(var(--st-yellow));
+    background-color: rgb(var(--st-yellow), .2);
 }
 
 /*^ 6+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="6"])::before {
     content: "6";
-    border: 3px solid rgb(var(--yellow));
-    color: rgb(var(--yellow));
-    background-color: rgb(var(--yellow), .2);
+    border: 3px solid rgb(var(--st-yellow));
+    color: rgb(var(--st-yellow));
+    background-color: rgb(var(--st-yellow), .2);
 }
 
 /*^ 3+ */

@@ -2,7 +2,7 @@ html.client_chat_frame body,
 html.web_chat_frame body,
 .ModalPosition_Content {
     border-radius: 8px;
-    background-color: rgb(var(--background)) !important;
+    background-color: rgb(var(--st-background)) !important;
 }
 
 
@@ -47,7 +47,7 @@ html .MillenniumSettings {
     min-height: unset !important;
     padding: 0;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 
@@ -68,5 +68,5 @@ html .MillenniumSettings {
 .DialogContent_InnerWidth {
     padding: 12px !important;
     border-radius: 8px;
-    background-color: rgb(var(--color-1)) !important;
+    background-color: rgb(var(--st-color-1)) !important;
 }

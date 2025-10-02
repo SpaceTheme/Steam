@@ -11,15 +11,15 @@
 .HruWVPwIDh2FFOOH7OiSs .gioyPMOZttYFcnmgLnsWf .iYW5hWQwg14WYT4PV3xe_ {
     top: 16px;
     right: -64px;
-    outline: 2px solid rgb(var(--color-5)) !important;
+    outline: 2px solid rgb(var(--st-color-5)) !important;
     border: none !important;
     border-radius: 8px;
     background-image: none;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
     box-shadow: 0px 0px 16px 0px rgb(0, 0, 0);
 }
 .HruWVPwIDh2FFOOH7OiSs .gioyPMOZttYFcnmgLnsWf .iYW5hWQwg14WYT4PV3xe_:hover {
-    background-color: rgb(var(--color-3));
+    background-color: rgb(var(--st-color-3));
 }
 
 
@@ -33,10 +33,10 @@
 }
 
 .HruWVPwIDh2FFOOH7OiSs .gioyPMOZttYFcnmgLnsWf ._2FqpD91Xarb7f0uIOuXFOR {
-    outline: 3px solid rgb(var(--color-5));
+    outline: 3px solid rgb(var(--st-color-5));
     border-radius: 8px;
     background-image: none;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
     box-shadow: 0px 0px 16px 0px rgb(0, 0, 0);
 }
 
@@ -65,7 +65,7 @@
     margin: 16px;
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 ._2iGYYePQN5QQzHWNLybmd4 .Pr0VCo6YB9GN5VnGd_wvF {
@@ -85,10 +85,10 @@
 }
 
 ._1-nHjRywUoX7Mpyc6JOPaQ {
-    background-color: rgb(var(--background));
+    background-color: rgb(var(--st-background));
 }
 ._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B {
-    background-color: rgb(var(--accent-1)) !important;
+    background-color: rgb(var(--st-accent-1)) !important;
 }
 
 
@@ -99,14 +99,14 @@
 .gxNvErGV7FhJ3lnOa5htx {
     margin: 0 16px 16px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 ._1X4dtbZ_AMX_DXT-SGiK01 {
     margin: 12px;
     padding: 12px !important;
     border-radius: 8px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
 }
 
 ._1UXC2lGcmNTGepRJTwtuH0 {
@@ -129,7 +129,7 @@
 ._2Kmn7fJOkLT4KyWl467a9M,
 ._316Uo4SBrQ_beBdSYn2HNO {
     border-radius: 8px;
-    background-color: rgb(var(--color-4));
+    background-color: rgb(var(--st-color-4));
 }
 ._2Kmn7fJOkLT4KyWl467a9M .cvw8DHMUBKuZs5DeLJOQ2 {
     gap: 12px;
@@ -139,7 +139,7 @@
 /* Global % of all player */
 ._316Uo4SBrQ_beBdSYn2HNO .UWkKthLfz_5MM3NdASE2W ._2lgHVJbZwxb10Md7bZ6USU {
     border-radius: 8px;
-    background-color: rgb(var(--accent-1), .1);
+    background-color: rgb(var(--st-accent-1), .1);
 }
 
 /* Item Icon */

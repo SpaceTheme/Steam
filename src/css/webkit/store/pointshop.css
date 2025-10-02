@@ -12,7 +12,7 @@
     margin: 16px 16px 0;
     padding: 12px;
     border-radius: 8px 8px 0 0;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 #points_shop_root ._3M7bfuSoa6JGmxA1QmgvE- ._4eFAqSzIMV3tIKywzF5Wb {
@@ -49,7 +49,7 @@
 #points_shop_root ._3M7bfuSoa6JGmxA1QmgvE- ._3C7A8Q_M6ai522YvsjLGJp ._1DA621MdnSeE97mDV9Xo6N {
     font-size: 10px;
     font-weight: 800;
-    color: rgb(var(--blue));
+    color: rgb(var(--st-blue));
 }
 
 
@@ -75,7 +75,7 @@
     margin: 0 2px 0 16px;
     padding: 0 12px 12px;
     border-radius: 0 0 8px 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 
@@ -106,7 +106,7 @@
 }
 #points_shop_root ._1TznBfOuD_2xPpXIWUDeW6 ._3RDAb3BHcPamYwkrsBsOiL ._1B_k-wp3lqSLARvY8-5-EX ._1Y8hK5A-ASv-Y5SGGb5Em5:hover .BVtL0_ttO-7ESEyO67g3w {
     color: #fff;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 /* Last Title */
@@ -135,10 +135,10 @@
     top: -500px;
     margin: 0;
     padding: 0 6px;
-    border-left: 3px solid rgb(var(--color-5));
-    border-right: 3px solid rgb(var(--color-5));
+    border-left: 3px solid rgb(var(--st-color-5));
+    border-right: 3px solid rgb(var(--st-color-5));
     background: unset;
-    background-color: rgb(var(--color-3));
+    background-color: rgb(var(--st-color-3));
 }
 #points_shop_root ._1TznBfOuD_2xPpXIWUDeW6 ._3RDAb3BHcPamYwkrsBsOiL ._1B_k-wp3lqSLARvY8-5-EX ._1Y8hK5A-ASv-Y5SGGb5Em5:hover ._2mFH5j7jjyfKD6D14nhTB5 {
     top: 0;
@@ -146,12 +146,12 @@
 
 #points_shop_root ._1TznBfOuD_2xPpXIWUDeW6 ._3RDAb3BHcPamYwkrsBsOiL ._1B_k-wp3lqSLARvY8-5-EX ._1Y8hK5A-ASv-Y5SGGb5Em5 ._2mFH5j7jjyfKD6D14nhTB5:nth-of-type(1) {
     padding-top: 6px;
-    border-top: 3px solid rgb(var(--color-5));
+    border-top: 3px solid rgb(var(--st-color-5));
     border-radius: 8px 8px 0 0;
 }
 #points_shop_root ._1TznBfOuD_2xPpXIWUDeW6 ._3RDAb3BHcPamYwkrsBsOiL ._1B_k-wp3lqSLARvY8-5-EX ._1Y8hK5A-ASv-Y5SGGb5Em5 ._2mFH5j7jjyfKD6D14nhTB5:last-of-type {
     padding-bottom: 6px;
-    border-bottom: 3px solid rgb(var(--color-5));
+    border-bottom: 3px solid rgb(var(--st-color-5));
     border-radius: 0 0 8px 8px;
 }
 
@@ -166,7 +166,7 @@
 }
 #points_shop_root ._1TznBfOuD_2xPpXIWUDeW6 ._3RDAb3BHcPamYwkrsBsOiL ._1B_k-wp3lqSLARvY8-5-EX ._1Y8hK5A-ASv-Y5SGGb5Em5 ._2mFH5j7jjyfKD6D14nhTB5:hover ._2CstpDQdKu0LihYIhSlbsq {
     color: #fff;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 

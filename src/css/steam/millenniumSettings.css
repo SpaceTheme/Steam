@@ -17,7 +17,7 @@ body .MillenniumDesktopSidebar {
     height: 80vh;
     padding: 16px;
     border-radius: 8px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
     transform: translate(-50%, -50%);
     transition: unset;
 }
@@ -37,8 +37,8 @@ body .MillenniumDesktopSidebar {
 .MillenniumDesktopSidebar .MillenniumDesktopSidebar_Title {
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
-    box-shadow: 0 0 7px 12px rgb(var(--color-1));
+    background-color: rgb(var(--st-color-2));
+    box-shadow: 0 0 7px 12px rgb(var(--st-color-1));
 }
 
 
@@ -103,7 +103,7 @@ body .MillenniumDesktopSidebar {
     padding: 12px;
     line-height: unset;
     border-radius: 8px 8px 0 0;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .SettingsDialogSubHeader:last-of-type {
     border-radius: 8px;
@@ -116,7 +116,7 @@ body .MillenniumDesktopSidebar {
     margin-bottom: 12px;
     padding: 6px 12px 12px;
     border-radius: 0 0 8px 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt:last-of-type {
@@ -149,7 +149,7 @@ body .MillenniumDesktopSidebar {
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumPlugins_PluginField ._2VcTlXFC64Jtg9gvtT6cmY {
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-3));
+    background-color: rgb(var(--st-color-3));
 }
 
 
@@ -163,7 +163,7 @@ body .MillenniumDesktopSidebar {
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt[data-theme-name="SpaceTheme for Steam"] ._2VcTlXFC64Jtg9gvtT6cmY {
     overflow: hidden;
     position: relative;
-    background: linear-gradient(90.00deg, rgba(17, 17, 17, 0), rgb(var(--color-3), .4) 100%), linear-gradient(270.00deg, rgba(17, 17, 17, 0) 0%, rgb(var(--color-3)) 80%);
+    background: linear-gradient(90.00deg, rgba(17, 17, 17, 0), rgb(var(--st-color-3), .4) 100%), linear-gradient(270.00deg, rgba(17, 17, 17, 0) 0%, rgb(var(--st-color-3)) 80%);
 }
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt[data-theme-name="SpaceTheme for Steam"] ._2VcTlXFC64Jtg9gvtT6cmY::after {
     content: "";
@@ -204,5 +204,5 @@ body .MillenniumDesktopSidebar {
     margin-bottom: 12px !important;
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }

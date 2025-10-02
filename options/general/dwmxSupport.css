@@ -1,11 +1,11 @@
 :root {
-    --color-1: 17, 17, 17, 0.5 !important;
-    --color-2: 30, 30, 30, 0.5 !important;
-    --color-3: 20, 20, 20, 0.5 !important;
-    --color-4: 24, 24, 24, 0.5 !important;
-    --color-5: 38, 41, 44, 0.5 !important;
-    --color-6: 38, 38, 41, 0.5 !important;
-    --background: 10, 10, 10, 0.5 !important;
+    --st-color-1: 17, 17, 17, 0.5 !important;
+    --st-color-2: 30, 30, 30, 0.5 !important;
+    --st-color-3: 20, 20, 20, 0.5 !important;
+    --st-color-4: 24, 24, 24, 0.5 !important;
+    --st-color-5: 38, 41, 44, 0.5 !important;
+    --st-color-6: 38, 38, 41, 0.5 !important;
+    --st-background: 10, 10, 10, 0.5 !important;
 }
 
 
@@ -15,7 +15,7 @@
 & Last played first game card
 */
 ._3VOR2AeYATx3qSE0I-Pm-5 ._2d1hSvdpY5L2-GN1EnUb9Z {
-    background-color: rgba(var(--color-1)) !important;
+    background-color: rgba(var(--st-color-1)) !important;
     backdrop-filter: blur(4px) !important;
 }
 
@@ -34,7 +34,7 @@
 & Game card
 */
 ._1LJqx_qFOC8199RBQO5kU8 {
-    background-color: rgba(var(--color-1)) !important;
+    background-color: rgba(var(--st-color-1)) !important;
 }
 
 

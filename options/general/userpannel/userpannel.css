@@ -27,7 +27,7 @@
     margin: 12px 0 0 !important;
     padding: 6px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 ._3x1HklzyDs4TEjACrRO2tB:has(.yZ55NhARZGx1Awk2qs8pS) ._3cykd-VfN_xBxf3Qxriccm {
     margin: 6px 0 0;
@@ -49,11 +49,11 @@
     font-size: 13px;
     font-weight: 500;
     border-radius: 8px !important;
-    background-color: rgb(var(--color-3)) !important;
+    background-color: rgb(var(--st-color-3)) !important;
     transition: background-color 0.15s ease-in-out;
 }
 ._3cykd-VfN_xBxf3Qxriccm ._2Lu3d-5qLmW4i19ysTt2jT:not(._3mGEzzp18imtSzGPkduedi) ._3yD46y5pd3zOGR7CzKs0mC:hover {
-    background-color: rgb(var(--color-1)) !important;
+    background-color: rgb(var(--st-color-1)) !important;
 }
 ._3cykd-VfN_xBxf3Qxriccm ._2Lu3d-5qLmW4i19ysTt2jT:not(._3mGEzzp18imtSzGPkduedi) ._3yD46y5pd3zOGR7CzKs0mC:has(._2jphjrSifC6orDT4g_7Wd) {
     align-items: flex-start;
@@ -121,12 +121,12 @@
 ._2Szzh5sKyGgnLUR870zbDE,
 ._1TdaAqMFadi0UTqilrkelR {
     border-radius: 8px !important;
-    background-color: rgb(var(--color-3)) !important;
+    background-color: rgb(var(--st-color-3)) !important;
     transition: background-color 0.15s ease-in-out;
 }
 ._2Szzh5sKyGgnLUR870zbDE:hover,
 ._1TdaAqMFadi0UTqilrkelR:hover {
-    background-color: rgb(var(--color-1)) !important;
+    background-color: rgb(var(--st-color-1)) !important;
 }
 
 ._3cykd-VfN_xBxf3Qxriccm ._1n8t0vHFud57AoJ_IDgA9C,
@@ -176,7 +176,7 @@
     margin-top: 12px;
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
     box-shadow: none !important;
 }
 
@@ -215,8 +215,8 @@
 ._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA {
     height: 4px;
     margin-top: 4px;
-    --color-progress-bar-foreground: rgb(var(--accent-1));
-    --color-progress-bar-background: rgb(var(--background));
+    --color-progress-bar-foreground: rgb(var(--st-accent-1));
+    --color-progress-bar-background: rgb(var(--st-background));
 }
 ._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA::after {
     border-radius: 8px;

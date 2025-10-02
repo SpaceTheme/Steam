@@ -21,7 +21,7 @@
 .AvatarAndUser {
     padding: 16px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 
@@ -33,7 +33,7 @@
     margin: 0 0 6px;
     padding: 6px 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
     box-shadow: none;
 }
 
@@ -52,7 +52,7 @@
     margin: 0;
     padding: 6px;
     border-radius: 8px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
 }
 
 
@@ -63,7 +63,7 @@
 
 .friendlistListContainer {
     border-radius: 8px;
-    background: rgb(var(--color-1));
+    background: rgb(var(--st-color-1));
 }
 ._1osHa9KHOmdCDNrA232z4N,
 ._2OoTJwlWvzvAysWOOEQaXS {
@@ -90,15 +90,15 @@
     margin-bottom: 6px;
     padding: 6px 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 .friendsListSectionTitle:hover {
-    background-color: rgb(var(--color-4)) !important;
+    background-color: rgb(var(--st-color-4)) !important;
 }
 
 .chatRoomListContainer {
     border-radius: 8px;
-    background: rgb(var(--color-1));
+    background: rgb(var(--st-color-1));
 }
 .ChatRoomList {
     padding: 0;

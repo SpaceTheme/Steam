@@ -1,19 +1,19 @@
 :root {
-    --accent-1: 102, 108, 255;
-    --accent-2: 135, 140, 255;
-    --color-1: 17, 17, 17;
-    --color-2: 30, 30, 30;
-    --color-3: 20, 20, 20;
-    --color-4: 24, 24, 24;
-    --color-5: 38, 41, 44;
-    --color-6: 38, 38, 41;
-    --background: 10, 10, 10;
-    --red: 240, 74, 74;
-    --red-hover: 242, 99, 99;
-    --green: 36, 166, 90;
-    --green-hover: 39, 185, 100;
-    --blue: 75, 137, 239;
-    --blue-hover: 100, 154, 242;
-    --yellow: 239, 141, 75;
-    --yellow-hover: 239, 141, 75;
+    --st-accent-1: 102, 108, 255;
+    --st-accent-2: 135, 140, 255;
+    --st-color-1: 17, 17, 17;
+    --st-color-2: 30, 30, 30;
+    --st-color-3: 20, 20, 20;
+    --st-color-4: 24, 24, 24;
+    --st-color-5: 38, 41, 44;
+    --st-color-6: 38, 38, 41;
+    --st-background: 10, 10, 10;
+    --st-red: 240, 74, 74;
+    --st-red-hover: 242, 99, 99;
+    --st-green: 36, 166, 90;
+    --st-green-hover: 39, 185, 100;
+    --st-blue: 75, 137, 239;
+    --st-blue-hover: 100, 154, 242;
+    --st-yellow: 239, 141, 75;
+    --st-yellow-hover: 239, 141, 75;
 }

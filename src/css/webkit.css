@@ -29,11 +29,11 @@ body.v6 .game_page_background::before {
     width: 100vw;
     height: 100vh;
     border-radius: 8px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
 }
 
 body.v6::-webkit-scrollbar {
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
     border-radius: 0 8px 8px 0;
 }
 
@@ -64,8 +64,8 @@ body.v6::-webkit-scrollbar {
     margin: 12px 0 0 !important;
     padding: 6px 16px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
-    box-shadow: 0px 4px 8px 0px rgba(var(--background), 0.5);
+    background-color: rgb(var(--st-color-2));
+    box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
 }
 
 #store_header .content:not(:has(#store_nav_area)) {
@@ -146,7 +146,7 @@ body.v6::-webkit-scrollbar {
     padding: 0 12px;
     border: none;
     border-radius: 8px;
-    background-color: rgba(var(--color-1));
+    background-color: rgba(var(--st-color-1));
     box-shadow: none;
 }
 
@@ -191,8 +191,8 @@ body.v6::-webkit-scrollbar {
 #store_header .store_nav_bg .search_area .search_suggest .popup_body {
     padding: 12px;
     border-radius: 8px;
-    border: 3px solid rgb(var(--color-5)) !important;
-    background-color: rgb(var(--color-2));
+    border: 3px solid rgb(var(--st-color-5)) !important;
+    background-color: rgb(var(--st-color-2));
 }
 
 #store_header .store_nav_bg .search_area .search_suggest .popup_body #search_suggestion_contents {
@@ -281,7 +281,7 @@ body.v6::-webkit-scrollbar {
     padding: 4px 6px;
     font-size: 12px;
     border-radius: 4px;
-    background-color: rgb(var(--color-5));
+    background-color: rgb(var(--st-color-5));
 }
 
 
@@ -337,16 +337,16 @@ body.v6::-webkit-scrollbar {
     border-radius: 6px;
     color: transparent;
     background: none;
-    background-color: rgb(var(--blue), .2);
+    background-color: rgb(var(--st-blue), .2);
 }
 #store_header #store_controls .store_header_btn #wishlist_link:hover {
-    background-color: rgb(var(--blue), .4) !important;
+    background-color: rgb(var(--st-blue), .4) !important;
 }
 
 #store_header #store_controls .store_header_btn #wishlist_link::before {
     content: "\f47e" !important;
     font-size: 20px;
-    color: rgb(var(--blue));
+    color: rgb(var(--st-blue));
     font-family: FluentSystemIcons-Filled !important;
     font-style: normal;
     font-weight: normal !important;
@@ -357,7 +357,7 @@ body.v6::-webkit-scrollbar {
 }
 #store_header #store_controls .store_header_btn #wishlist_link #wishlist_item_count_value {
     font-size: 11px;
-    color: rgb(var(--blue));
+    color: rgb(var(--st-blue));
 }
 
 
@@ -375,19 +375,19 @@ body.v6::-webkit-scrollbar {
     padding: 6px 12px;
     font-weight: 600;
     border-radius: 6px;
-    color: rgb(var(--green));
+    color: rgb(var(--st-green));
     background: none;
-    background-color: rgba(var(--green), 0.2);
+    background-color: rgba(var(--st-green), 0.2);
 
     &:hover {
-        background-color: rgba(var(--green), 0.4);
+        background-color: rgba(var(--st-green), 0.4);
     }
 }
 
 #store_header #store_controls ._2Fm-3XmbFRXR6yOZiRB0-d::before {
     content: "\f26b" !important;
     font-size: 20px;
-    color: rgb(var(--green));
+    color: rgb(var(--st-green));
     font-family: FluentSystemIcons-Filled !important;
     font-style: normal;
     font-weight: normal !important;
@@ -415,8 +415,8 @@ body.v6::-webkit-scrollbar {
     border: 0 !important;
     border-radius: 8px;
     background: none;
-    background-color: rgb(var(--color-2));
-    box-shadow: 0px 4px 8px 0px rgba(var(--background), 0.5);
+    background-color: rgb(var(--st-color-2));
+    box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
 }
 
 .h2B3SGR_w4RWdrnsRZEcD ._16jZ3HEbtaJTl80pQINN2Y ._7FiqKP7fZJGltkwRxPG6s {
@@ -446,13 +446,13 @@ body.v6::-webkit-scrollbar {
     padding: 0;
 }
 .h2B3SGR_w4RWdrnsRZEcD ._16jZ3HEbtaJTl80pQINN2Y ._3CtcPWgZYR05CldoJ0Jkrx ._175B12uOwmeGBNcSaQFe-Z._2IyR9WyPwYb15ILBjPvLR9 {
-    color: rgb(var(--accent-1));
+    color: rgb(var(--st-accent-1));
     text-shadow: none
 }
 
 /* Under text Divider */
 .h2B3SGR_w4RWdrnsRZEcD ._16jZ3HEbtaJTl80pQINN2Y ._3CtcPWgZYR05CldoJ0Jkrx ._175B12uOwmeGBNcSaQFe-Z ._3gaaE-cRfFWJdZcC8XMi0x  {
-    background-color: rgb(var(--accent-1));
+    background-color: rgb(var(--st-accent-1));
 }
 
 
@@ -470,7 +470,7 @@ body.v6::-webkit-scrollbar {
     min-width: unset;
     height: -webkit-fill-available;
     border-radius: 8px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
     transition: 0.4s all ease-in-out;
 }
 .h2B3SGR_w4RWdrnsRZEcD ._16jZ3HEbtaJTl80pQINN2Y ._1KU9eASfov1GnFQRbyLIdR:hover,
@@ -523,10 +523,10 @@ body.v6::-webkit-scrollbar {
     gap: 12px;
     margin-top: 12px;
     padding: 12px;
-    border: 3px solid rgb(var(--color-5));
+    border: 3px solid rgb(var(--st-color-5));
     border-radius: 8px;
     background: unset;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 /* Result lable/title */
@@ -575,7 +575,7 @@ body.v6::-webkit-scrollbar {
     height: 3px;
     margin: 0 0 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-5));
+    background-color: rgb(var(--st-color-5));
 }
 
 /* Lable/Title */
@@ -594,7 +594,7 @@ body.v6::-webkit-scrollbar {
     height: 3px;
     margin: 0 0 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-5));
+    background-color: rgb(var(--st-color-5));
 }
 
 /*^ Card */
@@ -659,7 +659,7 @@ body.v6::-webkit-scrollbar {
     padding: 4px 6px;
     border-radius: 4px;
     color: #ffff;
-    background-color: rgb(var(--color-5));
+    background-color: rgb(var(--st-color-5));
 }
 
 /* Creator */
@@ -686,7 +686,7 @@ body.v6::-webkit-scrollbar {
     height: 3px;
     margin: 0 0 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-5));
+    background-color: rgb(var(--st-color-5));
 }
 
 /*^ Button */
@@ -702,11 +702,11 @@ body.v6::-webkit-scrollbar {
     width: 100%;
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-4));
+    background-color: rgb(var(--st-color-4));
 }
 .h2B3SGR_w4RWdrnsRZEcD ._16jZ3HEbtaJTl80pQINN2Y ._2GxMhpm7OC2WWXN_wjgA78 ._2Cp17yynz2h_StEQZcNnqB .NOctYARrXun3C2m8ZOA3u:hover {
     font-weight: 600;
-    background-color: rgb(var(--color-3));
+    background-color: rgb(var(--st-color-3));
 }
 
 
@@ -719,11 +719,11 @@ body.v6::-webkit-scrollbar {
     padding: 6px 12px;
     font-size: 0;
     border-radius: 8px;
-    background-color: rgb(var(--blue), .2);
+    background-color: rgb(var(--st-blue), .2);
     text-shadow: none;
 }
 .h2B3SGR_w4RWdrnsRZEcD ._16jZ3HEbtaJTl80pQINN2Y ._175B12uOwmeGBNcSaQFe-Z._1tJxbjNzcWSdG2hBsklCTN:hover {
-    background-color: rgb(var(--blue), .4);
+    background-color: rgb(var(--st-blue), .4);
 }
 
 
@@ -732,7 +732,7 @@ body.v6::-webkit-scrollbar {
     content: "\f1f6" !important;
     margin-right: 6px;
     font-size: 20px;
-    color: rgb(var(--blue));
+    color: rgb(var(--st-blue));
     font-family: FluentSystemIcons-Filled !important;
     font-style: normal;
     font-weight: normal !important;
@@ -751,7 +751,7 @@ body.v6::-webkit-scrollbar {
     margin: 0;
     font-size: 13px;
     font-weight: 600;
-    color: rgb(var(--blue));
+    color: rgb(var(--st-blue));
 }
 
 
@@ -765,12 +765,12 @@ body.v6::-webkit-scrollbar {
     padding: 6px 12px;
     font-size: 0;
     border-radius: 8px;
-    background-color: rgb(var(--green), .2);
+    background-color: rgb(var(--st-green), .2);
     text-shadow: none;
     box-shadow: none;
 }
 .h2B3SGR_w4RWdrnsRZEcD ._16jZ3HEbtaJTl80pQINN2Y ._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5:hover {
-    background-color: rgb(var(--green), .4);
+    background-color: rgb(var(--st-green), .4);
 }
 
 
@@ -779,7 +779,7 @@ body.v6::-webkit-scrollbar {
     content: "\f26b" !important;
     margin-right: 6px;
     font-size: 20px;
-    color: rgb(var(--green));
+    color: rgb(var(--st-green));
     font-family: FluentSystemIcons-Filled !important;
     font-style: normal;
     font-weight: normal !important;
@@ -798,7 +798,7 @@ body.v6::-webkit-scrollbar {
     margin: 0;
     font-size: 13px;
     font-weight: 600;
-    color: rgb(var(--green));
+    color: rgb(var(--st-green));
 }
 
 
@@ -817,7 +817,7 @@ html body.v6 #footer {
     margin: 0 auto 16px;
     padding: 0 16px 16px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 /* Top Divider */

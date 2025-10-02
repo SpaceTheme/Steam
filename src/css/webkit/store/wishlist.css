@@ -10,7 +10,7 @@
     width: 100vw;
     height: 100vh;
     border-radius: 8px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
 }
 
 .gQWgnAxVrOM- .GHIW6-Wf1rQ- {
@@ -35,7 +35,7 @@
     margin: 16px 0 0;
     padding: 12px;
     border-radius: 8px 8px 0 0;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 
@@ -72,7 +72,7 @@
     margin: 0 0 16px;
     padding: 0 12px 12px;
     border-radius: 0 0 8px 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 .gQWgnAxVrOM-:has(.Wh-OfiQaHSM-) .TU227nj1DiE- {
@@ -88,7 +88,7 @@
     outline: none;
     border: none;
     border-radius: 8px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
     box-shadow: none;
 }
 
@@ -99,19 +99,19 @@
 
 .gQWgnAxVrOM- .TU227nj1DiE- ._1PVYT-GpKSQ- {
     margin: 0;
-    color: rgb(var(--accent-1));
+    color: rgb(var(--st-accent-1));
     border-radius: 8px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--st-color-1));
 }
 
 /* Option Menu */
 .gQWgnAxVrOM- .F0YMvqVKHkY- {
     margin: 6px auto 0;
     padding: 12px;
-    border: 2px solid rgb(var(--color-5));
+    border: 2px solid rgb(var(--st-color-5));
     border-radius: 8px;
     box-shadow: 0px 0px 16px 0px rgb(0, 0, 0);
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 .gQWgnAxVrOM- .F0YMvqVKHkY- form {
@@ -125,14 +125,14 @@
     margin: 0 0 16px;
     padding: 0 12px 12px;
     border-radius: 0 0 8px 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
 }
 
 .gQWgnAxVrOM- .Wh-OfiQaHSM- {
     margin: 0;
     padding: 6px 28px 6px 6px;
     border-radius: 8px;
-    background-color: rgb(var(--color-3));
+    background-color: rgb(var(--st-color-3));
     background-position: right 6px top 8px;
 }
 .gQWgnAxVrOM- .Wh-OfiQaHSM-::after {
@@ -143,7 +143,7 @@
     justify-content: center;
     padding: 3px;
     color: #67707b;
-    background-color: rgb(var(--color-5));
+    background-color: rgb(var(--st-color-5));
 }
 
 
@@ -164,7 +164,7 @@
     margin: 0 0 6px;
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--st-color-2));
     box-shadow: none;
 }
 
