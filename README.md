@@ -40,5 +40,41 @@
 - Some things only work properly when steam is maximized on a 1920x1080p (or higher) monitor.
   - Smaller monitors may be properly supported later
 
+## Roadmap
+- [ ] Store
+  - [ ] Home
+  - [ ] (WIP) Navbar
+  - [ ] Discovery
+  - [ ] (WIP) Pointshop
+  - [ ] Stats
+  - [ ] (WIP) Gamepage
+  - [ ] Search result list page
+  - [ ] Settings
+- [ ] Community
+  - [ ] Home
+  - [ ] Discussions
+  - [ ] Workshop
+  - [ ] Market
+  - [ ] Broadcast
+- [ ] User
+  - [ ] Profile
+  - [ ] Activity
+  - [ ] Friends
+  - [ ] Content (User's screenshots/artworks/videos/...)
+  - [ ] Badges
+  - [ ] Inventory
+- [ ] Friends & Chat
+  - [ ] Group chat
+- [ ] Big Picture Mode
+  - [ ] Home
+  - [ ] Sidebar
+  - [ ] Gamepage
+  - [ ] Library
+  - [ ] Store
+  - [ ] Friends & Chat
+  - [ ] Media
+  - [ ] Downloads
+  - [ ] Settings
+
 ## Know issue
 - If the "Userpannel & Downloadpannel" option is active and you open the download page and back again, the userpannel & downloadpannel is gone and is only available again after a Steam restart
