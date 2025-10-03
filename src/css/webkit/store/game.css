@@ -791,11 +791,58 @@ div.leftcol:has(.highlight_ctn) {
 
 
 /*
-& Content
+& Already Owned
 */
+body.v6.game_bg.application .game_area_already_owned {
+    display: flex;
+    width: auto;
+    height: unset;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: unset;
+    border: 3px solid rgb(var(--st-blue));
+    border-radius: 8px;
+    color: rgb(var(--st-blue));
+    background: unset;
+    background-color: rgb(var(--st-blue), .4);
+}
+
+
+/** Icon */
+.game_bg.application .game_area_already_owned .ds_flag {
+    display: none;
+}
+
+/*^ Custom */ /* custom-icon */
+.game_bg.application .game_area_already_owned::before {
+    content: "\f4ab";
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 20px;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+
 /*
-! Purchase
+& Game Review
 */
+
+
+
+
+/*
+& Game Purchase / Infos etc.
+*/
+
 
 
 
@@ -1138,16 +1185,3 @@ div.leftcol:has(.highlight_ctn) {
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .popular_tags_ctn .popular_tags {
     margin-top: 0;
 }
-
-
-
-/*
-& Game Review
-*/
-
-
-
-
-/*
-& Game Purchase / Infos etc.
-*/
