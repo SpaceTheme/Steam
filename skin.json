@@ -264,26 +264,6 @@
 
 
 
-        "Store - SteamDeck & Giftcard": {
-            "description": "Hide SteamDeck, Giftcard or both from the stores sidebar",
-            "default": "Show",
-            "tab": "Store",
-            "section": "Home",
-            "values": {
-                "Show": {},
-                "SteamDeck": {
-                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/home/steamdeckAndGiftcard/steamdeck.css" }
-                },
-                "Giftcard": {
-                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/home/steamdeckAndGiftcard/giftcard.css" }
-                },
-                "Both": {
-                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/home/steamdeckAndGiftcard/both.css" }
-                }
-            }
-        },
-
-
         "Store - Broadcast": {
             "description": "Hide broadcasts on the store gamepage",
             "default": "no",
