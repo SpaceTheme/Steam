@@ -294,6 +294,7 @@ body.v6.game_bg.application .page_content {
     grid-template-areas:
         "media details";
     gap: 16px;
+    padding: 0;
     background: unset;
 }
 .game_bg.application .game_background_glow #game_highlights:has(.broadcast_embed_top_ctn_trgt) {
