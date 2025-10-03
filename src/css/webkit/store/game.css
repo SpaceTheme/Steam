@@ -836,6 +836,112 @@ body.v6.game_bg.application .game_area_already_owned {
 /*
 & Game Review
 */
+.game_bg.application .game_area_play_stats {
+    max-width: unset;
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background: none;
+    background-color: rgb(var(--st-color-2));
+}
+.game_bg.application:has(.game_area_already_owned) .game_area_play_stats {
+    margin-top: 16px;
+}
+
+
+/*
+! Play button & Playtime
+*/
+/** Play button */
+.game_bg.application .game_area_play_stats .already_owned_actions {
+    display: none;
+}
+
+
+/** Playtime */
+.game_bg.application .game_area_play_stats .myactivity_block {
+    display: none;
+}
+
+
+/*
+! Content
+*/
+.game_bg.application .game_area_play_stats #review_create {
+    max-width: unset;
+    padding: 0;
+}
+
+
+/** Title */
+.game_bg.application .game_area_play_stats #review_create h2 {
+    padding: 0;
+    font-weight: 400;
+    border: none;
+    color: #fff;
+}
+
+
+/** Description */
+.game_bg.application .game_area_play_stats #review_create p {
+    margin-bottom: 12px;
+    line-height: 14px
+}
+
+
+/** Error */
+.game_bg.application .game_area_play_stats #review_create .error_message {
+    font-weight: 600;
+    color: rgb(var(--st-red));
+}
+
+
+/** Avatar */
+.game_bg.application .game_area_play_stats #review_create .avatar_block {
+    display: none;
+}
+
+
+/** Textarea */
+.game_bg.application .game_area_play_stats #review_create .input_box {
+    width: -webkit-fill-available !important;
+    max-width: unset;
+    border: 3px solid rgb(var(--st-color-5));
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-3));
+    box-shadow: none;
+}
+
+
+/** Controls */
+.game_bg.application .game_area_play_stats #review_create .controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+/*^ Settings */
+.game_bg.application .game_area_play_stats #review_create .controls .review_controls {
+    max-width: unset;
+    margin: 0;
+    padding: 0;
+    background: unset;
+}
+
+/*^ Yes/No buttons */
+.game_bg.application .game_area_play_stats #review_create .controls .review_control_didyouenjoy {
+    display: none;
+}
+
+.game_bg.application .game_area_play_stats #review_create .controls .review_create_vote_controls {
+    display: flex;
+    gap: 6px;
+}
+
+
+/*^ Post review */
+
 
 
 
