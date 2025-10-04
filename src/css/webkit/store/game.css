@@ -76,7 +76,7 @@
 
 
 body.v6.game_bg.application .game_page_background {
-    padding-top: calc(var(--store-menu-overlap-height) + 16px + 32px) !important;
+    padding-top: var(--store-menu-overlap-height);
 }
 
 body.v6.game_bg.application .page_content_ctn,

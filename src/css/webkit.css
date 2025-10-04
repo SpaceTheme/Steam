@@ -8,6 +8,13 @@
 
 @import url("./webkit/store/pointshop.css");
 
+:root {
+    --store-menu-overlap-height: 80px;
+}
+* {
+    --store-menu-overlap-height: 80px !important;
+}
+
 /*
 & Base
 */
