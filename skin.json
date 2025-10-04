@@ -367,6 +367,20 @@
         },
 
 
+        "Library - Darken not installed games": {
+            "description": "Darkens game cards when they are not installed",
+            "default": "yes",
+            "tab": "Library",
+            "section": "Home",
+            "values": {
+                "no": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/home/undarkUninstalled.css" }
+                },
+                "yes": {}
+            }
+        },
+
+
         "Library - Banner position": {
             "description": "Change the position of the banner (applies to all banners)",
             "default": "Middle (default)",
