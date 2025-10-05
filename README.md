@@ -49,6 +49,7 @@
   - [ ] (WIP) Pointshop
   - [ ] Stats
   - [ ] (WIP) Gamepage
+  - [ ] Cart
   - [ ] Search result list page
   - [ ] Settings
 - [ ] Community
