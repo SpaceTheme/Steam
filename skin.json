@@ -213,7 +213,7 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/dwmxSupport.css" }
+                    "TargetCss": { "affects": [".*"], "src": "src/css/plugins/dwmx.css" }
                 }
             }
         },
