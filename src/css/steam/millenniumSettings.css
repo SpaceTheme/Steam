@@ -118,9 +118,12 @@ body .MillenniumDesktopSidebar {
 /* Items */
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt {
     margin-bottom: 12px;
-    padding: 6px 12px 12px;
+    padding: 0 12px 12px;
     border-radius: 0 0 8px 8px;
     background-color: rgb(var(--st-color-2));
+}
+.MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt:nth-child(2) {
+    padding: 12px;
 }
 
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt:last-of-type {
@@ -130,21 +133,17 @@ body .MillenniumDesktopSidebar {
 }
 
 
-.MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumThemes_ThemeItem,
-.MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumPlugins_PluginField {
-    padding: 12px;
-}
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumThemes_ThemeItem:has(:nth-last-child),
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumPlugins_PluginField:has(:nth-last-child) {
     padding: 6px 12px 12px;
 }
 
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumThemes_ThemeItem:nth-child(2),
-.MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumPlugins_PluginField:nth-child(3) {
+.MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumPlugins_PluginField:nth-child(2) {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-.MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumThemes_ThemeItem:nth-child(2) {
+.MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt.MillenniumThemes_ThemeItem:nth-child(3) {
     padding-bottom: 0;
 }
 
