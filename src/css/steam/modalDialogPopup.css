@@ -15,7 +15,6 @@ html .MillenniumSettings {
     gap: 16px;
     width: -webkit-fill-available !important;
     min-width: unset !important;
-    height: 100% !important;
     min-height: -webkit-fill-available !important;
     max-height: -webkit-fill-available !important;
     margin: 32px 16px 16px;
