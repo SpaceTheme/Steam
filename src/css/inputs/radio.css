@@ -6,20 +6,20 @@
     width: 16px;
     height: 16px;
     margin: 0;
-    outline: 2px solid rgb(var(--st-color-5));
-    background-color: rgb(var(--st-color-3));
+    outline: 2px solid rgb(var(--st-color-3));
+    background-color: rgb(var(--st-color-5));
 }
 
 
 .DialogRoundCheckboxField .DialogRoundCheckboxField_Control {
-    outline: 2px solid rgb(var(--st-color-5));
-    background-color: rgb(var(--st-color-3));
+    outline: 2px solid rgb(var(--st-color-3));
+    background-color: rgb(var(--st-color-5));
 }
 .DialogRoundCheckboxField:hover .DialogRoundCheckboxField_Control:not(.Active) {
-    outline: 3px solid rgb(var(--st-color-5));
+    outline: 3px solid rgb(var(--st-color-3));
 }
 ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit:not(._1gKI37LOWj1Df3QSnxvKyF):hover {
-    outline: 3px solid rgb(var(--st-color-5));
+    outline: 3px solid rgb(var(--st-color-3));
 }
 
 .DialogRoundCheckboxField .DialogRoundCheckboxField_Control.Active {
@@ -49,9 +49,9 @@
 }
 ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF {
     outline-color: rgb(var(--st-accent-1));
-    border: 3px solid rgb(var(--st-color-3));
+    border: 3px solid rgb(var(--st-color-5));
     background-color: #fff;
 }
 ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF:hover {
-    border: 4px solid rgb(var(--st-color-3));
+    border: 4px solid rgb(var(--st-color-5));
 }
