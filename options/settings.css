@@ -138,7 +138,7 @@
 /*
 ! Other
 */
-.aFxOaYcllWYkCfVYQJFs0 .Store.Sidebar.only.on.hover::before {
+.aFxOaYcllWYkCfVYQJFs0 .URL.bar::before {
     content: "Other";
     color: #8b929a;
     font-size: 15px;
