@@ -320,6 +320,20 @@
         },
 
 
+        "Store - Footer": {
+            "description": "Hide Valve/Steam footer",
+            "default": "no",
+            "tab": "Store",
+            "section": "Other",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": [".*"], "src": "options/store/footer.css" }
+                }
+            }
+        },
+
+
 
 
         "Library - What's New": {
