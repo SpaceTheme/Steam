@@ -64,11 +64,24 @@
     background-color: rgb(var(--st-color-2));
 }
 
+/*^ Empty Cart */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD  .EflKs0JjldhDSxbUBaiOp {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(var(--st-red));
+}
+
 /*^ Game */
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD .XjPmFc2t_i1DAuEXEbIX {
     padding: 12px;
     border-radius: 8px;
     background-color: rgb(var(--st-color-1));
+}
+/* On Empty Cart */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD .XjPmFc2t_i1DAuEXEbIX:has(.EflKs0JjldhDSxbUBaiOp) {
+    border: 3px solid rgb(var(--st-red));
+    background-color: rgb(var(--st-red), .3);
 }
 
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD .XjPmFc2t_i1DAuEXEbIX ._3F0SnUeC_obtI4WyQtijAa {
