@@ -320,6 +320,20 @@
         },
 
 
+        "Store - Follow the creators": {
+            "description": "Hide Follow the creators",
+            "default": "no",
+            "tab": "Store",
+            "section": "Cart",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/cart/followCreators.css" }
+                }
+            }
+        },
+
+
         "Store - URL bar": {
             "description": "Hide URL bar",
             "default": "no",
