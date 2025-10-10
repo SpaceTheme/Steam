@@ -306,6 +306,20 @@
         },
 
 
+        "Store - Digital product info": {
+            "description": "Hides the info that the purchase is a digital product",
+            "default": "no",
+            "tab": "Store",
+            "section": "Cart",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/cart/digidalProductInfo.css" }
+                }
+            }
+        },
+
+
         "Store - URL bar": {
             "description": "Hide URL bar",
             "default": "no",
