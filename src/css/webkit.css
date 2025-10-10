@@ -502,7 +502,7 @@ body.v6::-webkit-scrollbar {
 & Footer
 */
 html body.v6 #footer {
-    width: fit-content;
+    width: var(--st-store-max-width);
     margin: 0 auto 16px;
     padding: 0 16px 16px;
     border-radius: 8px;
