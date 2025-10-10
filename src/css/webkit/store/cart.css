@@ -1,4 +1,201 @@
 /* Background image */
-.FaiD8bJRAZ-HoNo0VvLOO {
+.page_content_ctn .FaiD8bJRAZ-HoNo0VvLOO {
     display: none;
+}
+
+
+
+/*
+& Base
+*/
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD {
+    max-width: var(--st-store-max-width);
+}
+
+
+
+/*
+& Header
+*/
+/*
+! Path
+*/
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2FKdJT3nRLNX_ue4Zj-qdK {
+    display: none;
+}
+
+
+/*
+! Title
+*/
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD .bCGAC51za6R_thjPd7_vw {
+    margin-bottom: 16px;
+    font-size: 26px;
+}
+
+
+
+/*
+& Content
+*/
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1jqUY_WcPgZnIOE-d9x7wc {
+    gap: 16px;
+}
+
+
+/*
+! Right (Game list etc.)
+*/
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._17GFdSD2pc0BquZk5cejg8 {
+    gap: 12px;
+    max-width: unset;
+    font-size: 0;
+}
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._17GFdSD2pc0BquZk5cejg8:has(._3ypRUtQoOfOrCsyHlzfGm4>:nth-child(2)) {
+    margin-top: -12px;
+}
+
+
+/** List */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._3ypRUtQoOfOrCsyHlzfGm4 {
+    gap: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+/*^ Game */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD .XjPmFc2t_i1DAuEXEbIX {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-1));
+}
+
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD .XjPmFc2t_i1DAuEXEbIX ._3F0SnUeC_obtI4WyQtijAa {
+    gap: 12px;
+}
+
+/* Image */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2Xz_WXO8PfREP4c9ZWAuNg {
+    height: unset;
+}
+
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2Xz_WXO8PfREP4c9ZWAuNg ._37_1K2XQrVBwncWFXTcpMP {
+    border-radius: 8px;
+}
+
+
+/** Continue & Remove all */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1Sdz1qnoKoD9eEPpC340Yj {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+/** Recommendations */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2rkDlHZ2yi-tFtDk4-CC4U {
+    margin-top: 16px;
+}
+
+/*^ Title */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2dxsG5kVzdAeX8R0mGOiV8 {
+    margin-bottom: 12px;
+    letter-spacing: unset;
+    line-height: unset;
+}
+
+/*^ List */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._24yiwSg4qoT0NRBSlWoUXw {
+    gap: 12px;
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+
+/*
+! Left (Total etc.)
+*/
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._3HIve50RR17shqpJqmrUps {
+    max-width: 32%;
+}
+
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._3HIve50RR17shqpJqmrUps ._1bCdGv5zX6cYDovFfcBfdg {
+    position: unset;
+    gap: 16px;
+}
+
+
+/** Payment */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2bIzQo07mxubFvscA8RIA8 {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+/*^ Button */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD button.qV80oahDZsbXiS6lIDLND {
+    margin: 0;
+}
+
+
+/** Digital Product info */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD .jY9l4aHTdQLHeTWfPonTr {
+    padding: 12px;
+    border: 3px solid rgb(var(--st-blue));
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var( --st-blue), .3);
+}
+
+/*^ Image */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD .jY9l4aHTdQLHeTWfPonTr img {
+    display: none;
+}
+
+
+/** Follow the Creators */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2HG7VOroS8aHSg-W3fPyTt {
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--st-color-2));
+}
+
+/*^ Creator */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1k0S-tUF_ENycLJ7PWqbzS {
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-1));
+}
+
+/* Background image */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1TsqAyLSPMv7JrgVI6Jpnv {
+    display: none;
+}
+
+/* Image to text gap */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD .Ke5f13IVZVzYSmQVJgVyd {
+    column-gap: 6px;
+}
+
+/* Image */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1N0rYLgFmHTfQng24QRoEh {
+    height: 54px;
+}
+
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1N0rYLgFmHTfQng24QRoEh ._3JepbxeEa0I4l8TnG9DeT5 {
+    border-radius: 8px;
+    box-shadow: unset;
+}
+
+/* Follow */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2artmqqQS2Rl8YMsi1nV-U {
+    padding: 0;
+    background: unset;
 }
