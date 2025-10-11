@@ -454,7 +454,7 @@
         },
 
 
-        "Library - Steam-Custom-Artowrks Support": {
+        "Library - Steam-Custom-Artworks Support": {
             "description": "For the best support for https://github.com/SpaceTheme/Steam-Custom-Artworks ",
             "default": "no",
             "tab": "Library",
