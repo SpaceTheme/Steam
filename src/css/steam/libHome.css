@@ -425,7 +425,7 @@
     box-shadow: 0px 0px 3px 2px rgb(0 0 0 / 50%);
 }
 ._2jj5TjFhHD1lvxMlpJYek6 .N8aJrSpxQ6II4CY_aFdYI::before {
-    content: "\f56e" !important;
+    content: "\f56e";
     font-size: 14px;
     color: #fff;
     font-family: FluentSystemIcons-Filled !important;
@@ -435,6 +435,11 @@
     text-transform: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
+}
+
+/* Coming Soon */
+._2jj5TjFhHD1lvxMlpJYek6 .N8aJrSpxQ6II4CY_aFdYI.QTJZotuAt67vK7Sa2Wjus::before {
+    content: "\f08a0";
 }
 
 
