@@ -56,7 +56,7 @@ body.v6::-webkit-scrollbar {
 .gQWgnAxVrOM- .qxuaSNtrNvE- {
     box-sizing: border-box;
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--st-store-max-width);
     height: unset !important;
     margin: 16px auto 0;
     padding: 6px 16px;

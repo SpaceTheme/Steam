@@ -82,7 +82,7 @@ body.v6.game_bg.application .game_page_background {
 body.v6.game_bg.application .page_content_ctn,
 body.v6.game_bg.application .page_content {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--st-store-max-width);
     margin: 0 auto;
 }
 
