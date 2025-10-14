@@ -65,7 +65,7 @@
 }
 
 /*^ Empty Cart */
-.page_content_ctn ._22xtsolKcQit92o-LBeRWD  .EflKs0JjldhDSxbUBaiOp {
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD .XjPmFc2t_i1DAuEXEbIX._2Qnb-DOaU8BbFWOUBG3hs1 .EflKs0JjldhDSxbUBaiOp {
     text-align: center;
     font-size: 16px;
     font-weight: 700;
@@ -79,7 +79,7 @@
     background-color: rgb(var(--st-color-1));
 }
 /* On Empty Cart */
-.page_content_ctn ._22xtsolKcQit92o-LBeRWD .XjPmFc2t_i1DAuEXEbIX:has(.EflKs0JjldhDSxbUBaiOp) {
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD .XjPmFc2t_i1DAuEXEbIX._2Qnb-DOaU8BbFWOUBG3hs1 {
     border: 3px solid rgb(var(--st-red));
     background-color: rgb(var(--st-red), .3);
 }
