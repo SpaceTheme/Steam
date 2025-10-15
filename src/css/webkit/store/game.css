@@ -81,6 +81,7 @@ body.v6.game_bg.application .game_page_background {
 
 body.v6.game_bg.application .page_content_ctn,
 body.v6.game_bg.application .page_content {
+    position: relative;
     width: 100%;
     max-width: var(--st-store-max-width);
     margin: 0 auto;
@@ -135,14 +136,24 @@ body.v6.game_bg.application .page_content {
 }
 
 
+/** Blue gradient */
+.game_bg.application .game_background_lighten {
+    display: none;
+}
+
+
 /*
 ! Wishlist/Follow Area
 */
 
+.game_bg.application .queue_and_playtime {
+    position: unset;
+}
+
 .game_bg.application .queue_overflow_ctn {
     position: absolute;
-    top: -48px;
-    right: 0;
+    top: 8px;
+    right: 0px;
 }
 
 .game_bg.application .queue_overflow_ctn .queue_ctn {
@@ -262,6 +273,11 @@ body.v6.game_bg.application .page_content {
     font-size: 0px;
 }
 .game_bg.application .queue_overflow_ctn .next_in_queue_content .queue_sub_text {
+    display: none;
+}
+
+/*^ clear:; */
+.game_bg.application .queue_overflow_ctn div[style="clear: both;"] {
     display: none;
 }
 
