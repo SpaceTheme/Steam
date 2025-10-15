@@ -2,7 +2,7 @@
 & Remove after experimental
 */
 /* bookmark, store, game, header */
-.game_bg.application .queue_overflow_ctn [id*="add_to_wishlist_area"] .btn_medium span::before {
+.game_bg.application .queue_overflow_ctn .add_to_wishlist::before {
     content: "\f1f6" !important;
     font-size: 22px;
     color: rgb(var(--st-blue));
@@ -14,7 +14,7 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
 }
-.game_bg.application .queue_overflow_ctn [id*="add_to_wishlist_area"] .btn_medium span:has(img)::before {
+.game_bg.application .queue_overflow_ctn .add_to_wishlist:has(img)::before {
     content: "\f1f6" !important;
     font-family: FluentSystemIcons-Filled !important;
 }
@@ -170,7 +170,7 @@ body.v6.game_bg.application .page_content {
 }
 
 
-/* Buttons */
+/** Buttons */
 .game_bg.application .queue_overflow_ctn .btn_medium {
     display: flex;
     justify-content: center;
@@ -199,12 +199,20 @@ body.v6.game_bg.application .page_content {
     display: none;
 }
 
-/* Wishlist */
+/*^ Wishlist */
 .game_bg.application .queue_overflow_ctn #wishlistDropDown {
     display: none;
 }
 
-/* Follow */
+.game_bg.application .queue_overflow_ctn .add_to_wishlist {
+    padding: 0 12px;
+}
+
+.game_bg.application .queue_overflow_ctn .add_to_wishlist span {
+    display: none;
+}
+
+/*^ Follow */
 .game_bg.application .queue_overflow_ctn .queue_btn_follow .btn_medium {
     padding: 0 12px;
 }
@@ -212,7 +220,7 @@ body.v6.game_bg.application .page_content {
     display: none;
 }
 
-/* Ignore */
+/*^ Ignore */
 .game_bg.application .queue_overflow_ctn .queue_btn_ignore {
     display: none;
 }
@@ -231,17 +239,17 @@ body.v6.game_bg.application .page_content {
     padding: 0 6px;
 }
 
-/* Add a note Augmented Steam plugin */
+/*^ Add a note Augmented Steam plugin */
 .game_bg.application .queue_overflow_ctn #esi-user-note-button {
     display: none;
 }
 
-/* View Your Queue */
+/*^ View Your Queue */
 .game_bg.application .queue_overflow_ctn .btnv6_blue_hoverfade.right {
     display: none;
 }
 
-/* Queue */
+/*^ Queue */
 .game_bg.application .queue_overflow_ctn .next_in_queue_area {
     order: 1;
 }
