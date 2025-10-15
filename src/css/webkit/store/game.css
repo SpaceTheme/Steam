@@ -1039,6 +1039,34 @@ body.v6.game_bg.application .game_area_already_owned {
     border-radius: 8px;
 }
 
+/*^ Rating Pedding */
+.game_bg.application .game_meta_data .shared_game_rating:not(:has(.game_rating_icon))::before {
+    content: "\f840";
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    font-size: 34px;
+    font-weight: 900;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, .2);
+}
+
+.game_bg.application .game_meta_data .shared_game_rating:not(:has(.game_rating_icon)) .game_rating_title {
+    display: none;
+}
+
 /*^ 21+ */
 .game_bg.application .game_meta_data .shared_game_rating .game_rating_icon:has(img[alt*="21"])::before {
     content: "21";
