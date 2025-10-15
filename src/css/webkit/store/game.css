@@ -973,6 +973,10 @@ body.v6.game_bg.application .game_area_already_owned {
 /*
 & Game Purchase / Infos etc.
 */
+.game_bg.application .game_description_column {
+    width: calc(100% - 372px - 16px);
+    margin: 0;
+}
 
 
 
@@ -986,6 +990,19 @@ body.v6.game_bg.application .game_area_already_owned {
     gap: 12px;
     width: 372px;
     margin: 0;
+}
+
+
+/** clear:; */
+.game_bg.application .game_meta_data div[style="clear: both;"] {
+    display: none;
+}
+
+
+/** emtpy divs */
+.game_bg.application #responsive_apppage_details_left_ctn,
+.game_bg.application #responsive_apppage_details_right_ctn {
+    display: none;
 }
 
 
