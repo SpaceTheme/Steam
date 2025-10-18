@@ -862,7 +862,7 @@ body.v6.game_bg.application .game_area_already_owned {
 */
 .game_bg.application .game_area_play_stats {
     max-width: unset;
-    margin: 0;
+    margin: 0 0 16px;
     padding: 12px;
     border-radius: 8px;
     background: none;
