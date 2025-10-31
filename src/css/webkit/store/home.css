@@ -1,5 +1,13 @@
 /* Banner */
+.menu_takeover_background {
+    display: none;
+}
+
 .page_background_holder {
-    right: 0 !important;
+    width: 100%;
+    max-width: var(--st-store-max-width);
+    right: 50% !important;
+    left: 50% !important;
     border-radius: 8px;
+    transform: translateX(-50%);
 }
