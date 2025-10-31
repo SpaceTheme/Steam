@@ -59,7 +59,7 @@ body.v6::-webkit-scrollbar {
     max-width: var(--st-store-max-width);
     height: unset !important;
     margin: 16px auto 0;
-    padding: 6px 16px;
+    padding: 6px 12px;
     border: 0 !important;
     border-radius: 8px;
     background: none;
@@ -107,6 +107,12 @@ body.v6::-webkit-scrollbar {
 .h2B3SGR_w4RWdrnsRZEcD ._16jZ3HEbtaJTl80pQINN2Y ._3CtcPWgZYR05CldoJ0Jkrx ._175B12uOwmeGBNcSaQFe-Z ._3gaaE-cRfFWJdZcC8XMi0x,
 .gQWgnAxVrOM- .qxuaSNtrNvE- .v2uRRqcZpzM- .In8c5bkG5eM- ._-4fVuiRLPho- .IOoilFOfWUQ-  {
     background-color: rgb(var(--st-accent-1));
+}
+
+
+/** Right Buttons */
+.h2B3SGR_w4RWdrnsRZEcD ._16jZ3HEbtaJTl80pQINN2Y ._7FiqKP7fZJGltkwRxPG6s ._1wn1lBlAzl3HMRqS1llwie {
+    padding: 0;
 }
 
 
