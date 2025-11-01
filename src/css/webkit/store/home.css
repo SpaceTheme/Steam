@@ -7,6 +7,15 @@
     display: none;
 }
 
+
+.promo_link {
+    width: 100%;
+    max-width: var(--st-store-max-width);
+    margin-left: 50%;
+    border-radius: 8px;
+    transform: translateX(-50%);
+}
+
 .page_background_holder,
 .fullscreen-bg__video {
     object-fit: none;
