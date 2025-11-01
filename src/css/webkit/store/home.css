@@ -3,9 +3,12 @@
     display: none;
 }
 
-.page_background_holder {
+.page_background_holder,
+.fullscreen-bg__video {
+    object-fit: none;
     width: 100%;
     max-width: var(--st-store-max-width);
+    height: 450px;
     right: 50% !important;
     left: 50% !important;
     border-radius: 8px;
