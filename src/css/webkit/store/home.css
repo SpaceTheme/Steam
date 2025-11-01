@@ -3,6 +3,10 @@
     display: none;
 }
 
+.store_bg_overlay {
+    display: none;
+}
+
 .page_background_holder,
 .fullscreen-bg__video {
     object-fit: none;
