@@ -172,7 +172,7 @@
 
 /** Follow the Creators */
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2HG7VOroS8aHSg-W3fPyTt {
-    margin: 0;
+    margin: 0 0 6px;
     padding: 12px;
     border-radius: 8px;
     background: unset;
@@ -181,10 +181,13 @@
 
 /*^ Creator */
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1k0S-tUF_ENycLJ7PWqbzS {
-    margin: 0;
-    padding: 12px;
+    margin: 0 0 6px;
+    padding: 6px;
     border-radius: 8px;
     background-color: rgb(var(--st-color-1));
+}
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1k0S-tUF_ENycLJ7PWqbzS:nth-last-child(1) {
+    margin: 0;
 }
 
 /* Background image */
