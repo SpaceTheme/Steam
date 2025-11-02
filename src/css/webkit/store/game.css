@@ -792,7 +792,7 @@ div.leftcol:has(.highlight_ctn) {
 /* Tags */
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .popular_tags_ctn .popular_tags {
     display: flex;
-    white-space: warp;
+    flex-wrap: wrap;
     gap: 6px;
     height: unset;
     margin-top: 6px;
