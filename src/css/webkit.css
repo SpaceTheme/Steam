@@ -11,10 +11,10 @@
 :root {
     --st-store-max-width: 1200px;
 
-    --store-menu-overlap-height: 80px;
+    --store-menu-overlap-height: 90px;
 }
 * {
-    --store-menu-overlap-height: 80px !important;
+    --store-menu-overlap-height: 90px !important;
 }
 
 /*
