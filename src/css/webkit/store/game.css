@@ -112,15 +112,20 @@ body.v6.game_bg.application .page_content {
     display: none;
 }
 
+/* Game Icon */
+.game_bg.application .page_title_area .apphub_AppIcon {
+    display: none !important;
+}
+
 /* Game Title */
 .game_bg.application .page_title_area .apphub_HomeHeaderContent {
     max-width: unset;
 }
 
 .game_bg.application .page_title_area .apphub_AppName {
-    font-size: 36px;
-    line-height: 36px;
-    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 800;
 }
 
 
@@ -152,7 +157,7 @@ body.v6.game_bg.application .page_content {
 
 .game_bg.application .queue_overflow_ctn {
     position: absolute;
-    top: 8px;
+    top: 0px;
     right: 0px;
 }
 
