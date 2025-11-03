@@ -109,6 +109,9 @@
 /** Recommendations */
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2rkDlHZ2yi-tFtDk4-CC4U {
     margin-top: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
 }
 
 /*^ Title */
@@ -116,15 +119,14 @@
     margin-bottom: 12px;
     letter-spacing: unset;
     line-height: unset;
+    font-size: 15px;
+    text-transform: none;
 }
 
 /*^ List */
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._24yiwSg4qoT0NRBSlWoUXw {
     gap: 12px;
     margin: 0;
-    padding: 12px;
-    border-radius: 8px;
-    background-color: rgb(var(--st-color-2));
 }
 
 
@@ -149,6 +151,31 @@
     background-color: rgb(var(--st-color-2));
 }
 
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2bIzQo07mxubFvscA8RIA8 .qV80oahDZsbXiS6lIDLND {
+    margin-bottom: 6px;
+}
+
+/*^ Text */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2bIzQo07mxubFvscA8RIA8 ._3ayrhzEm-T_IRhWeQ4HFxr {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2bIzQo07mxubFvscA8RIA8 ._2WLaY5TxjBGVyuWe_6KS3N {
+    font-weight: 600;
+}
+
+/*^ Divider */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2bIzQo07mxubFvscA8RIA8 ._31DQWsrdb_9oV-vMOaaPqI::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-1));
+}
+
 /*^ Button */
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD button.qV80oahDZsbXiS6lIDLND {
     margin: 0;
@@ -164,6 +191,12 @@
     background-color: rgb(var( --st-blue), .3);
 }
 
+/*^ Text */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD .jY9l4aHTdQLHeTWfPonTr .p8XFGmprI4snkQjm11Pf2 {
+    font-weight: 400;
+    color: #fff;
+}
+
 /*^ Image */
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD .jY9l4aHTdQLHeTWfPonTr img {
     display: none;
@@ -177,6 +210,15 @@
     border-radius: 8px;
     background: unset;
     background-color: rgb(var(--st-color-2));
+}
+
+/*^ Text */
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2HG7VOroS8aHSg-W3fPyTt ._307GrwtjhKkXh5dUC5KjUv {
+    font-size: 15px;
+}
+
+.page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2HG7VOroS8aHSg-W3fPyTt ._3YGQuryhG_j0UPSIaC_7ul {
+    font-size: 12px;
 }
 
 /*^ Creator */
