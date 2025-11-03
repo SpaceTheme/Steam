@@ -505,6 +505,40 @@ body.v6::-webkit-scrollbar {
 
 
 /*
+& Live tag
+*/
+html body.v6 ._2R1rYdwKuMFLsEb4WvJYdD,
+html body.v6 .broadcast_live_stream_icon {
+    display: inline-flex;
+    height: max-content;
+    margin-right: 12px;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 13px;
+    letter-spacing: 0px;
+    border: 3px solid rgb(var(--st-red));
+    border-radius: 8px;
+    color: #fff !important;
+    background: unset;
+    background-color: rgb(var(--st-background), .6);
+    box-shadow: unset;
+}
+
+html body.v6 ._2R1rYdwKuMFLsEb4WvJYdD::before,
+html body.v6 .broadcast_live_stream_icon::before {
+    content: "";
+    display: flex;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    border-radius: 80px;
+    background-color: rgb(var(--st-red));
+}
+
+
+
+/*
 & Footer
 */
 html body.v6 #footer {
