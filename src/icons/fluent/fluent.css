@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "FluentSystemIcons-Filled";
     src: url("https://spacetheme.net/themes/_fonts/FluentSystemIcons-Filled.woff2") format("woff2"),
     url("https://spacetheme.net/themes/_fonts/FluentSystemIcons-Filled.woff") format("woff"),
@@ -9,6 +9,19 @@
     src: url("https://spacetheme.net/themes/_fonts/FluentSystemIcons-Regular.woff2") format("woff2"),
     url("https://spacetheme.net/themes/_fonts/FluentSystemIcons-Regular.woff") format("woff"),
     url("https://spacetheme.net/themes/_fonts/FluentSystemIcons-Regular.ttf") format("truetype");
+} */
+
+@font-face {
+    font-family: "FluentSystemIcons-Filled";
+    src: url("./_font/FluentSystemIcons-Filled.woff2") format("woff2"),
+    url("./_font/FluentSystemIcons-Filled.woff") format("woff"),
+    url("./_font/FluentSystemIcons-Filled.ttf") format("truetype");
+}
+@font-face {
+    font-family: "FluentSystemIcons-Regular";
+    src: url("./_font/FluentSystemIcons-Regular.woff2") format("woff2"),
+    url("./_font/FluentSystemIcons-Regular.woff") format("woff"),
+    url("./_font/FluentSystemIcons-Regular.ttf") format("truetype");
 }
 
 *>:has(> [class*="SVGIcon_"],> svg)::before {
