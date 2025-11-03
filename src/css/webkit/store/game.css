@@ -304,6 +304,161 @@ body.v6.game_bg.application .page_content {
 }
 
 
+#game_highlights .broadcast_embed_top_ctn_trgt ._3zXpFCyX2IiaD-MNF5KJFf {
+    padding: 12px;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+/*
+! Header
+*/
+#game_highlights .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/** Icons */
+#game_highlights .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ ._3IBcNy1U-I38_F9BNw-VHE {
+    gap: 6px;
+}
+
+#game_highlights .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ ._3IBcNy1U-I38_F9BNw-VHE>div {
+    position: relative;
+    display: flex;
+}
+
+/*^ Setting */
+#game_highlights .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ ._37ugZJhL-qCRkdeZBRju2h {
+    position: absolute;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    background: unset;
+}
+#game_highlights .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ ._3IBcNy1U-I38_F9BNw-VHE>div:has(._37ugZJhL-qCRkdeZBRju2h)::before {
+    content: "\f6b3" !important;
+    font-size: 22px;
+    color: #757f8c;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+#game_highlights .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ ._3IBcNy1U-I38_F9BNw-VHE>div:has(._37ugZJhL-qCRkdeZBRju2h):hover::before {
+    color: #fff;
+}
+
+/*^ Arrow */
+#game_highlights .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ .L8sFYvKOUztrhXdjxy7mp,
+#game_highlights .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ .ahz31bshwySKGB_tBKf14 {
+    position: absolute;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    background: unset;
+}
+#game_highlights .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ ._3IBcNy1U-I38_F9BNw-VHE>div:has(.L8sFYvKOUztrhXdjxy7mp, .ahz31bshwySKGB_tBKf14)::before {
+    content: "\f2a4" !important;
+    font-size: 22px;
+    color: #757f8c;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+#game_highlights .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ ._3IBcNy1U-I38_F9BNw-VHE>div:has(.ahz31bshwySKGB_tBKf14)::before {
+    content: "\f2b7" !important;
+}
+#game_highlights .broadcast_embed_top_ctn_trgt .WsfbqpkdutNGWu3V4uhn_ ._3IBcNy1U-I38_F9BNw-VHE>div:has(.L8sFYvKOUztrhXdjxy7mp, .ahz31bshwySKGB_tBKf14):hover::before {
+    color: #fff;
+}
+
+
+/*
+! Content
+*/
+#game_highlights .broadcast_embed_top_ctn_trgt ._2yiy6ghVhj3fkC4I01odHC {
+    gap: 12px;
+    margin-top: 12px;
+    grid-template-rows: unset;
+}
+
+
+/*
+! Left & Right Banner
+*/
+#game_highlights .broadcast_embed_top_ctn_trgt ._2yiy6ghVhj3fkC4I01odHC ._2FYu31I46rjm0DVxq-ufK9 {
+    background: unset;
+}
+
+#game_highlights .broadcast_embed_top_ctn_trgt ._2yiy6ghVhj3fkC4I01odHC ._2FYu31I46rjm0DVxq-ufK9 .T_zpRAGXggYgVaRyCSXDu {
+    height: -webkit-fill-available;
+    border-radius: 8px;
+}
+
+
+/*
+! Stream
+*/
+#game_highlights .broadcast_embed_top_ctn_trgt ._2yiy6ghVhj3fkC4I01odHC ._1KU955BfHBkZdSvJncjc9V {
+    border-radius: 8px;
+}
+
+#game_highlights .broadcast_embed_top_ctn_trgt ._2yiy6ghVhj3fkC4I01odHC ._1KU955BfHBkZdSvJncjc9V ._3VvcXgvuoyH2OXPyzZXeVT {
+    background-color: unset;
+}
+
+#game_highlights .broadcast_embed_top_ctn_trgt ._2yiy6ghVhj3fkC4I01odHC ._1KU955BfHBkZdSvJncjc9V .videoSrc {
+    border: none !important;
+    border-radius: 8px;
+}
+
+
+/**TODO Controls */
+
+
+
+/*
+! Viewbar
+*/
+#game_highlights .broadcast_embed_top_ctn_trgt ._2yiy6ghVhj3fkC4I01odHC ._2YgphHYykz192eH3FgalS4 {
+    padding: 6px;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--st-color-1));
+}
+
+
+/**TODO Viewer */
+
+
+/**TODO Share & Settings & Page */
+
+
+/*
+! Wierd empty div
+*/
+#game_highlights .broadcast_embed_top_ctn_trgt ._1oCVbTJqa4Av40NuPdztIv {
+    display: none !important;
+}
+
+
+
 
 /*
 & Game Media
