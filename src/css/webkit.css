@@ -48,6 +48,16 @@ body.v6::-webkit-scrollbar {
 
 
 
+body.v6 .page_content_ctn,
+body.v6 .page_content {
+    position: relative;
+    width: 100% !important;
+    max-width: var(--st-store-max-width);
+    margin: 0 auto !important;
+}
+
+
+
 
 /*
 & Navbar/Header

@@ -75,21 +75,6 @@
 
 
 
-body.v6.game_bg.application .game_page_background {
-    padding-top: var(--store-menu-overlap-height);
-}
-
-body.v6.game_bg.application .page_content_ctn,
-body.v6.game_bg.application .page_content {
-    position: relative;
-    width: 100%;
-    max-width: var(--st-store-max-width);
-    margin: 0 auto;
-}
-
-
-
-
 /*
 & Haeder
 */
