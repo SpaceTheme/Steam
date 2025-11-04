@@ -5,7 +5,8 @@ button span,
 .btn_medium,
 .btn_medium span,
 .btn_small,
-.btn_small span {
+.btn_small span,
+[role=button] {
     border-radius: 8px !important;
 }
 
