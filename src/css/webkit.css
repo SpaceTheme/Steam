@@ -1,4 +1,5 @@
 @import url("./webkit/store/agecheck.css");
+@import url("./webkit/store/bundleInfo.css");
 @import url("./webkit/store/cart.css");
 @import url("./webkit/store/game.css");
 @import url("./webkit/store/home.css");
@@ -49,11 +50,13 @@ body.v6::-webkit-scrollbar {
 
 
 body.v6 .page_content_ctn,
-body.v6 .page_content {
+body.v6 .page_content,
+body.v6 ._22xtsolKcQit92o-LBeRWD {
     position: relative;
     width: 100% !important;
-    max-width: var(--st-store-max-width);
+    max-width: var(--st-store-max-width) !important;
     margin: 0 auto !important;
+    padding: 0 !important;
 }
 
 

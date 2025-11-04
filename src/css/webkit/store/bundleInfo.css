@@ -1,0 +1,55 @@
+/* Background image */
+.game_bg .game_page_background {
+    background-image: unset !important;
+}
+
+
+
+/*
+& Header
+*/
+/*
+! Path
+*/
+.game_bg .page_title_area .breadcrumbs {
+    display: none;
+}
+
+
+/*
+! Title
+*/
+.page_content_ctn .page_title_area .pageheader {
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0;
+}
+
+
+
+/*
+& Game Purchase / Infos etc.
+*/
+.game_bg .game_description_column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: calc(var(--st-store-max-width) - 372px - 16px);
+    margin: 16px 0 0;
+}
+
+
+/*
+& Sidebar
+*/
+.game_bg .game_meta_data {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 372px;
+    margin: 16px 0 0;
+}

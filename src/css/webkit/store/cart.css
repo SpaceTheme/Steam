@@ -6,15 +6,6 @@
 
 
 /*
-& Base
-*/
-.page_content_ctn ._22xtsolKcQit92o-LBeRWD {
-    max-width: var(--st-store-max-width);
-}
-
-
-
-/*
 & Header
 */
 /*
@@ -31,6 +22,7 @@
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD .bCGAC51za6R_thjPd7_vw {
     margin-bottom: 16px;
     font-size: 28px;
+    font-weight: 800;
     line-height: 28px;
 }
 
