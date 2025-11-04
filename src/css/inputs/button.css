@@ -19,6 +19,7 @@ button span,
     font-size: 14px !important;
     font-weight: 600 !important;
     line-height: 32px !important;
+    box-shadow: unset !important;
 }
 
 
@@ -28,6 +29,9 @@ button span,
     text-shadow: unset !important;
     border-radius: 8px !important;
     background-color: rgb(var(--st-green)) !important;
+}
+.btn_green_steamui:hover {
+    background-color: rgb(var(--st-green-hover)) !important;
 }
 .btn_green_steamui span {
     background: unset !important;
@@ -41,6 +45,9 @@ button span,
     text-shadow: unset !important;
     border-radius: 8px !important;
     background-color: rgb(var(--st-blue)) !important;
+}
+.btn_blue_steamui:hover {
+    background-color: rgb(var(--st-blue-hover)) !important;
 }
 .btn_blue_steamui span {
     background: unset !important;
