@@ -1582,6 +1582,11 @@ body.v6.game_bg.application .game_area_already_owned {
     display: none;
 }
 
+/* Add cart button */
+.game_bg.application .game_description_column .game_area_purchase .btn_addtocart {
+    background: unset !important;
+}
+
 
 /*
 & Sidebar
