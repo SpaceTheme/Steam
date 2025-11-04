@@ -1216,9 +1216,56 @@ body.v6.game_bg.application .game_area_already_owned {
 & Game Purchase / Infos etc.
 */
 .game_bg.application .game_description_column {
-    width: calc(100% - 372px - 16px);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: calc(var(--st-store-max-width) - 372px - 16px);
     margin: 0;
 }
+
+
+/*
+! Check out ** collection
+*/
+.game_bg.application .game_description_column .franchise_notice {
+    display: flex;
+    align-items: center;
+    height: 58px;
+    margin: 0;
+    font-weight: 500;
+    border-radius: 8px;
+    box-shadow: unset;
+    text-shadow: unset;
+}
+
+
+/** Background */
+.game_bg.application .game_description_column .franchise_notice .background_image {
+    opacity: 1;
+    height: unset;
+}
+.game_bg.application .game_description_column .franchise_notice:hover .background_image {
+    transform: scale(1.03);
+}
+
+
+/** Highlist / Background gradient */
+.game_bg.application .game_description_column .franchise_notice .franchise_highlight {
+    height: unset;
+    background: linear-gradient(90.00deg, rgb(var(--st-color-2)) 45%, rgb(var(--st-color-1), .6) 100%);
+    box-shadow: unset !important;
+}
+
+
+/** Text */
+.game_bg.application .game_description_column .franchise_notice .franchise_name {
+    position: unset;
+    z-index: 1;
+    height: unset;
+    margin-left: 16px;
+    padding: 0;
+}
+
 
 
 
