@@ -554,7 +554,7 @@ body.v6 .broadcast_embed_top_ctn_trgt ._1oCVbTJqa4Av40NuPdztIv {
         "media details";
 }
 
-div.leftcol:has(.highlight_ctn) {
+body.v6 div.leftcol:has(.highlight_ctn) {
     grid-area: media;
     width: 100% !important;
 }
@@ -855,7 +855,7 @@ div.leftcol:has(.highlight_ctn) {
 */
 .game_bg.application #game_highlights .rightcol {
     grid-area: details;
-    width: 348px;
+    width: 348px !important;
     padding: 12px;
     border-radius: 8px;
     background-color: rgb(var(--st-color-2));
@@ -1204,7 +1204,6 @@ body.v6.game_bg.application .game_area_already_owned {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: calc(var(--st-store-max-width) - 372px - 16px);
     margin: 0;
 }
 
@@ -1580,7 +1579,6 @@ body.v6.game_bg.application .game_area_already_owned {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    width: 372px;
     margin: 0;
 }
 

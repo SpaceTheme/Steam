@@ -1,6 +1,7 @@
 @import url("./webkit/store/agecheck.css");
 @import url("./webkit/store/bundleInfo.css");
 @import url("./webkit/store/cart.css");
+@import url("./webkit//store/checkout.css");
 @import url("./webkit/store/game.css");
 @import url("./webkit/store/home.css");
 @import url("./webkit/store/news.css");
@@ -57,6 +58,14 @@ body.v6 ._22xtsolKcQit92o-LBeRWD {
     max-width: var(--st-store-max-width) !important;
     margin: 0 auto !important;
     padding: 0 !important;
+}
+
+body.v6 .leftcol {
+    width: calc(var(--st-store-max-width) - 372px - 16px) !important;
+}
+
+body.v6 .rightcol {
+    width: 372px !important;
 }
 
 

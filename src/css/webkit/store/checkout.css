@@ -1,0 +1,30 @@
+/*
+& Base
+*/
+.checkout #checkout_page_content {
+    padding-top: var(--store-menu-overlap-height) !important;
+}
+
+
+
+/*
+& Header
+*/
+.checkout .page_header_ctn {
+    display: none;
+}
+
+.checkout #checkout_page_content h2,
+.checkout #checkout_page_content h3 {
+    margin: 0 0 16px;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+
+
+/*
+& Payment Method
+*/
