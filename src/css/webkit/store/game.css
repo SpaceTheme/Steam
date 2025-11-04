@@ -1267,7 +1267,320 @@ body.v6.game_bg.application .game_area_already_owned {
 }
 
 
+/*
+! Buy Options
+*/
+.game_bg.application .game_description_column .game_area_purchase {
+    display: flex;
+    flex-direction: column;
+}
 
+
+/** Buy Game */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 12px;
+}
+
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game {
+    padding: 12px 12px calc(32px + 12px + 12px);
+    font-size: 12px;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--st-color-2));
+}
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game:has(.package_in_library_flag) {
+    margin-top: 31px;
+}
+
+/*^ Complete banner */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .ds_flag {
+    position: unset;
+    z-index: unset;
+    text-align: center;
+    height: unset;
+    margin-bottom: -8px;
+    padding: 6px 6px calc(6px + 8px);
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    background-color: rgb(var(--st-blue));
+    box-shadow: unset;
+}
+
+/*^ In Library */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .package_in_library_flag {
+    top: -31px;
+    left: 0;
+    z-index: -1;
+    justify-content: center;
+    width: -webkit-fill-available;
+    height: unset;
+    margin-bottom: -8px;
+    padding: 6px 6px calc(6px + 8px);
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    background-color: rgb(var(--st-green));
+    box-shadow: unset;
+}
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .package_in_library_flag .icon {
+    display: none;
+}
+
+/*^ Title */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game .title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: unset;
+}
+
+
+/* Bundle text */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game .title .bundle_label {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(var(--st-blue));
+}
+
+/* Bundle (?) */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game .title .bundle_label span {
+    display: none;
+}
+
+/*^ Desciption */
+.game_bg.application .game_description_column .game_area_purchase .game_purchase_discount_countdown {
+    width: 100%;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: rgb(var(--st-accent-1));
+}
+
+
+.game_bg.application .game_description_column .game_area_purchase .package_contents {
+    width: fit-content;
+    margin: 0;
+}
+
+/*^ Bundle content */
+.game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview,
+.game_bg.application .game_description_column .game_area_purchase .package_contents_capsules_ctn {
+    width: fit-content;
+    margin: 6px 0 0;
+    padding: 0;
+    background-color: unset;
+}
+
+/* List */
+.game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_position,
+.game_bg.application .game_description_column .game_area_purchase .package_contents_capsules {
+    display: flex;
+    gap: 6px;
+    height: unset;
+}
+
+.game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_item,
+.game_bg.application .game_description_column .game_area_purchase .package_contents_capsule {
+    position: unset;
+    display: none;
+}
+.game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_item:nth-child(-n+3),
+.game_bg.application .game_description_column .game_area_purchase .package_contents_capsule:nth-child(-n+3) {
+    display: flex;
+    box-shadow: unset !important;
+}
+
+/* List more icon */
+.game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_item:nth-child(4),
+.game_bg.application .game_description_column .game_area_purchase .package_contents_capsule:nth-child(4) {
+    display: flex;
+    pointer-events: none;
+}
+.game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_item:nth-child(4) *,
+.game_bg.application .game_description_column .game_area_purchase .package_contents_capsule:nth-child(4) * {
+    display: none;
+}
+.game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_item:nth-child(4)::before,
+.game_bg.application .game_description_column .game_area_purchase .package_contents_capsule:nth-child(4)::before {
+    content: "\e833";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-1));
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Image */
+.game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview img,
+.game_bg.application .game_description_column .game_area_purchase .package_contents_capsules_ctn img {
+    border-radius: 8px;
+}
+
+.game_bg.application .game_description_column .game_area_purchase .package_contents_capsules a {
+    border-radius: 8px;
+}
+
+/* Options */
+.game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview .ds_options,
+.game_bg.application .game_description_column .game_area_purchase .package_contents_capsules_ctn .ds_options {
+    display: none;
+}
+
+
+
+/*^ Platform */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_platform {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+}
+
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_platform .platform_img {
+    width: 18px;
+    height: 18px;
+}
+
+/* Windows */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_platform .win {
+    background-image: url("../../../icons/platform/windows.svg");
+}
+
+/* Linux */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_platform .linux {
+    background-image: url("../../../icons/platform/linux.svg");
+}
+
+/* Soundtrack */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_platform .music {
+    background-image: unset;
+}
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_platform .music::before {
+    content: "\e863";
+    font-size: 20px;
+    color: #fff;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*^ Buttons */
+.game_bg.application .game_description_column .game_area_purchase .game_purchase_action {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 6px;
+    bottom: 12px;
+    right: 12px;
+}
+
+.game_bg.application .game_description_column .game_area_purchase .game_purchase_action_bg {
+    height: unset;
+    padding: 0;
+    background-color: unset;
+}
+.game_bg.application .game_description_column .game_area_purchase .game_purchase_action_bg > * {
+    margin: 0;
+}
+
+
+/* Price div */
+.game_bg.application .game_description_column .game_area_purchase :is(.game_purchase_price, .game_purchase_discount) {
+    position: absolute;
+    bottom: calc(32px + 6px);
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: unset;
+    margin: 0;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: unset;
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(var(--st-color-1));
+}
+
+/* Bundle Discount */
+.game_bg.application .game_description_column .game_area_purchase .bundle_base_discount {
+    display: flex;
+    height: unset;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: unset;
+    border: none;
+}
+.game_bg.application .game_description_column .game_area_purchase .no_discount .bundle_base_discount::after {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: initial;
+    margin-left: 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+/* Discount */
+.game_bg.application .game_description_column .game_area_purchase .discount_pct {
+    height: unset;
+    padding: 4px 6px;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: unset;
+    border-radius: 8px;
+    color: rgb(var(--st-green));
+    background-color: rgb(var(--st-green), .3);
+}
+
+/* Price */
+.game_bg.application .game_description_column .game_area_purchase .discount_prices {
+    height: unset;
+    padding: 0;
+    background-color: unset;
+}
+
+.game_bg.application .game_description_column .game_area_purchase .discount_original_price {
+    top: 0;
+    right: 0;
+}
+
+.game_bg.application .game_description_column .game_area_purchase .discount_final_price {
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 600;
+    line-height: unset;
+    color: rgb(var(--st-green));
+}
+.game_bg.application .game_description_column .game_area_purchase .no_discount .discount_final_price {
+    color: #fff;
+}
+
+.game_bg.application .game_description_column .game_area_purchase .discount_final_price .your_price_label {
+    display: none;
+}
 
 
 /*
@@ -1649,4 +1962,4 @@ body.v6.game_bg.application .game_area_already_owned {
 
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_right .popular_tags_ctn .popular_tags {
     margin-top: 0;
-}
+}*/
