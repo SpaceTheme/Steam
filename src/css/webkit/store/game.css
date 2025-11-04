@@ -1365,7 +1365,7 @@ body.v6.game_bg.application .game_area_already_owned {
 
 
 .game_bg.application .game_description_column .game_area_purchase .package_contents {
-    width: fit-content;
+    width: 55%;
     margin: 0;
 }
 
