@@ -8,3 +8,41 @@ button span,
 .btn_small span {
     border-radius: 8px !important;
 }
+
+
+
+
+
+
+.btn_medium > span, input.btn_medium {
+    padding: 0 12px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 32px !important;
+}
+
+
+.btn_green_steamui {
+    padding: 0 !important;
+    color: #fff !important;
+    text-shadow: unset !important;
+    border-radius: 8px !important;
+    background-color: rgb(var(--st-green)) !important;
+}
+.btn_green_steamui span {
+    background: unset !important;
+    background-color: unset !important;
+}
+
+
+.btn_blue_steamui {
+    padding: 0 !important;
+    color: #fff !important;
+    text-shadow: unset !important;
+    border-radius: 8px !important;
+    background-color: rgb(var(--st-blue)) !important;
+}
+.btn_blue_steamui span {
+    background: unset !important;
+    background-color: unset !important;
+}
