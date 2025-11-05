@@ -1047,9 +1047,9 @@ body.v6 div.leftcol:has(.highlight_ctn) {
 */
 body.v6.game_bg.application .game_area_already_owned {
     display: flex;
-    width: auto;
+    width: auto !important;
     height: unset;
-    padding: 12px;
+    padding: 12px !important;
     font-size: 16px;
     font-weight: 600;
     line-height: unset;
