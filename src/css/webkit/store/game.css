@@ -1335,8 +1335,8 @@ body.v6.game_bg.application .game_area_already_owned {
 
 /* Bundle text */
 .game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game .title .bundle_label {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     color: rgb(var(--st-blue));
 }
 
