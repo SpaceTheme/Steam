@@ -49,7 +49,10 @@
   - [ ] (WIP) Pointshop
   - [ ] Stats
   - [ ] (WIP) Gamepage
+  - [ ] (WIP) Bundle info 
   - [x] Cart
+  - [ ] (WIP) Checkout
+  - [ ] Categories page
   - [ ] Search result list page
   - [ ] Settings
 - [ ] Community
