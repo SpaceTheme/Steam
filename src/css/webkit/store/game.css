@@ -274,6 +274,11 @@
     display: none;
 }
 
+/*^ expand to fill shit */
+.game_bg.application .queue_overflow_ctn .expand_to_fill {
+    display: none;
+}
+
 /*^ clear:; */
 .game_bg.application .queue_overflow_ctn div[style="clear: both;"] {
     display: none;
