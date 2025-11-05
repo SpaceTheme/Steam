@@ -141,6 +141,7 @@
 }
 
 .game_bg.application .queue_overflow_ctn {
+    overflow: unset;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -227,6 +228,13 @@
 }
 .game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium span {
     padding: 0 6px;
+}
+
+/* Menu */
+.game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .queue_menu_flyout {
+    right: 0;
+    left: unset;
+    margin: unset;
 }
 
 /*^ Add a note Augmented Steam plugin */
