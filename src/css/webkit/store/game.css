@@ -545,7 +545,6 @@ body.v6 .broadcast_embed_top_ctn_trgt ._1oCVbTJqa4Av40NuPdztIv {
     grid-template-areas:
         "media details";
     gap: 16px;
-    padding: 0;
     background: unset;
 }
 .game_bg.application .game_background_glow #game_highlights:has(.broadcast_embed_top_ctn_trgt) {
@@ -1264,10 +1263,11 @@ body.v6.game_bg.application .game_area_already_owned {
 .game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper {
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 12px;
+    margin-bottom: 0;
 }
 
 .game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game {
+    margin: 0 0 12px;
     padding: 12px 12px calc(32px + 12px + 12px);
     font-size: 12px;
     border-radius: 8px;
@@ -1479,6 +1479,8 @@ body.v6.game_bg.application .game_area_already_owned {
 }
 
 .game_bg.application .game_description_column .game_area_purchase .game_purchase_action_bg {
+    display: flex;
+    gap: 6px;
     height: unset;
     padding: 0;
     background-color: unset;
