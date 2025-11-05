@@ -73,6 +73,20 @@
         },
 
 
+        "General - Friend icon": {
+            "description": "Hide the friend icon from the game item",
+            "default": "no",
+            "tab": "General",
+            "section": "Sidebar",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/friendIcon.css" }
+                }
+            }
+        },
+
+
         "General - Wallet balance": {
             "description": "Hide wallet balance",
             "default": "no",
