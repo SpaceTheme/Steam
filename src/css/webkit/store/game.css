@@ -242,6 +242,7 @@
 /*^ Queue */
 .game_bg.application .queue_overflow_ctn .next_in_queue_area {
     order: 1;
+    width: unset;
 }
 
 .game_bg.application .queue_overflow_ctn .queue_controls_description,
@@ -250,6 +251,7 @@
 }
 
 .game_bg.application .queue_overflow_ctn .btn_next_in_queue {
+    position: unset;
     width: unset;
     height: unset;
     margin: 0;
