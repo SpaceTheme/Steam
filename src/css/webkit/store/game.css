@@ -82,21 +82,6 @@
 /*
 ! Title Area
 */
-.game_bg.application .page_title_area .apphub_HomeHeaderContent {
-    max-width: unset !important;
-}
-
-.game_bg.application .page_title_area .apphub_HeaderStandardTop {
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 16px;
-    min-height: unset;
-    margin: 0 0 16px;
-}
-
-
 /* Game Path */
 .game_bg.application .page_title_area .breadcrumbs {
     display: none;
@@ -110,6 +95,20 @@
 /* Game Title */
 .game_bg.application .page_title_area .apphub_HomeHeaderContent {
     max-width: unset;
+}
+
+.game_bg.application .page_title_area .apphub_HeaderStandardTop {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 16px;
+    min-height: unset;
+    margin: 0 0 16px;
+}
+
+.game_bg.application .page_title_area .apphub_HeaderStandardTop [style="clear: both"] {
+    display: none;
 }
 
 .game_bg.application .page_title_area .apphub_AppName {
