@@ -10,6 +10,8 @@
 
 @import url("./webkit/store/pointshop.css");
 
+@import url("./plugins/extendium/plugins.css");
+
 :root {
     --st-store-max-width: 1200px;
 
