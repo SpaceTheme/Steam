@@ -1,0 +1,11 @@
+body.v6 .proton_rating_div {
+    margin: 0;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+
+body.v6 .proton_rating_div .proton_rating_link {
+    font-size: 13px;
+    font-weight: 600;
+}

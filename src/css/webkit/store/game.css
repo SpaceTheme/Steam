@@ -87,6 +87,11 @@
 }
 
 .game_bg.application .page_title_area .apphub_HeaderStandardTop {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 16px;
     min-height: unset;
     margin: 0 0 16px;
 }
@@ -115,7 +120,7 @@
 
 
 /* Community Hub */
-.game_bg.application .page_title_area .apphub_OtherSiteInfo {
+.game_bg.application .page_title_area .apphub_OtherSiteInfo .btn_medium {
     display: none;
 }
 
