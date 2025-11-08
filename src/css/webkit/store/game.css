@@ -1070,7 +1070,7 @@ body.v6 div.leftcol:has(.highlight_ctn) {
 /*
 & Already Owned
 */
-body.v6.game_bg.application .game_area_already_owned {
+body.v6.game_bg.application .game_area_already_owned.page_content {
     display: flex;
     width: auto !important;
     height: unset;
