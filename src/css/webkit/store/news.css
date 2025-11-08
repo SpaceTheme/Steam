@@ -1,4 +1,10 @@
-html body.events_hub.v6::before {
+html body.events_hub.v6 .page_content_ctn {
+    max-width: unset !important;
+}
+
+
+body.events_hub.v6 ._1e3WbBz7-mqMKmK8HnpzFF {
+    display: flex;
     background-color: rgb(var(--st-background));
 }
 
@@ -222,6 +228,11 @@ html body.events_hub.v6::before {
     margin-left: 0 !important;
     border-radius: 8px;
     background-color: rgb(var(--st-color-1));
+}
+
+._1e3WbBz7-mqMKmK8HnpzFF ._18npkDI3gKg9S7EeTFOj-2.ws9ANxmy2MKDDodGRGkqN ._3yqpPRFLwr6ETVDgLGT37s {
+    max-width: unset !important;
+    transform: unset !important;
 }
 
 
