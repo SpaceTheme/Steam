@@ -705,6 +705,32 @@
     margin: 6px 0 0;
 }
 
+
+/*
+! Input
+*/
+._5uvIN6jXDXzzck59F-nhv .YFAtL5H6txGXk5T_IhpUF {
+    margin: 0 0 16px;
+}
+
+
+/** Textarea */
+._5uvIN6jXDXzzck59F-nhv .YFAtL5H6txGXk5T_IhpUF ._1JlC29Ic6L-QvL-39X_d-X {
+    width: -webkit-fill-available;
+    padding: 12px;
+    border: none;
+    background-color: rgb(var(--st-color-4));
+    box-shadow: none;
+}
+
+
+/** Buttons */
+._5uvIN6jXDXzzck59F-nhv .YFAtL5H6txGXk5T_IhpUF ._37e7DrDNmf1FmsMGA5y0A0 {
+    margin: 6px 0 0;
+    padding: 0;
+}
+
+
 /*
 ! Cards
 */
