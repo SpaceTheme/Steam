@@ -814,7 +814,12 @@
 */
 
 ._27RcNu8aXKBpYkHcNNrt-X ._2aor4XVOYzN1PBSREk0UbO {
+    gap: 16px;
     margin-left: 16px;
+}
+
+._27RcNu8aXKBpYkHcNNrt-X ._2aor4XVOYzN1PBSREk0UbO ._2r4TK4BAuU-J4FuF_O7v_5 {
+    margin-bottom: 0;
 }
 
 /*
@@ -910,7 +915,7 @@
 /*
 ! Trading Cards
 */
-/* Header */
+/** Header */
 .RPcyJMJC7chgPFkD4KWtO {
     width: 42px;
     height: 42px;
@@ -921,13 +926,14 @@
     border: 4px dashed rgb(var(--st-color-2));
 }
 
-/* Card grid */
+
+/** Card grid */
 ._21DlIyo8Kp99Kz3KmWiFno {
     gap: 6px;
     margin: 0;
 }
 
-/* Cards */
+/*^ Cards */
 ._1WsOngnf2RD4f5N-38rPLZ {
     margin: 0;
 }
@@ -940,14 +946,31 @@
 
 
 /*
+! DLC
+*/
+/** Image */
+._5uvIN6jXDXzzck59F-nhv ._2bF7XkQZA1M7jTj6txLFp- ._3SQn1_upOaYSAJAn2N4YKY {
+    box-shadow: unset;
+}
+
+._5uvIN6jXDXzzck59F-nhv ._2bF7XkQZA1M7jTj6txLFp- .HAvWsE0-ycDj77SdyLXE- {
+    display: none;
+}
+
+
+/*
 ! Steam Workshop
 */
-/* Image */
+/** Image */
 ._1W34WpqfvufNgueNdZozwC {
     align-items: start;
 }
 
-/* Footer */
+._1W34WpqfvufNgueNdZozwC img {
+    border-radius: 8px;
+}
+
+/** Footer */
 ._176QJCynkEUSdR_-9btdAW {
     padding-top: 0 !important;
     background: none;
