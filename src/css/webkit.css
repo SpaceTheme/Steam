@@ -570,6 +570,16 @@ html body.v6 .broadcast_live_stream_icon::before {
 
 
 
+
+/*
+& Skeleton
+*/
+body.v6 [class*="skeleton"] {
+    border-radius: 8px !important;
+}
+
+
+
 /*
 & Footer
 */
