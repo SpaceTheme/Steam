@@ -586,15 +586,20 @@ body.v6 [class*="skeleton"] {
 /*
 & Footer
 */
-html body.v6 #footer {
+html body.responsive_page #footer {
     width: var(--st-store-max-width);
     margin: 0 auto 16px;
-    padding: 0 16px 16px;
+    padding: 16px;
     border-radius: 8px;
     background-color: rgb(var(--st-color-2));
 }
 
+html body.responsive_page #footer .footer_content {
+    width: unset;
+    padding-top: 0;
+}
+
 /* Top Divider */
-html body.v6 #footer .rule:nth-child(1) {
+html body.responsive_page #footer .rule:nth-child(1) {
     display: none;
 }

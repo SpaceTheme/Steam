@@ -1,6 +1,6 @@
-body.v6 #footer_spacer {
+body.responsive_page #footer_spacer {
     display: none !important;
 }
-body.v6 #footer {
+body.responsive_page #footer {
     display: none !important;
 }
