@@ -26,6 +26,7 @@
 */
 
 body.v6,
+body.responsive_page,
 body.v6.game_bg,
 body.v6 .game_page_background.game,
 .home_cluster_ctn {
@@ -33,6 +34,7 @@ body.v6 .game_page_background.game,
     background-color: transparent !important;
 }
 body.v6::before,
+body.responsive_page::before,
 body.v6.game_bg::before,
 body.v6 .game_page_background::before {
     content: "";
@@ -45,7 +47,8 @@ body.v6 .game_page_background::before {
     background-color: rgb(var(--st-color-1));
 }
 
-body.v6::-webkit-scrollbar {
+body.v6::-webkit-scrollbar,
+body.responsive_page::-webkit-scrollbar {
     background-color: rgb(var(--st-color-1));
     border-radius: 0 8px 8px 0;
 }
