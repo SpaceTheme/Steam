@@ -970,17 +970,55 @@
 /*
 ! My Review
 */
-/* Header */
+/** Icon */
 ._1izIEyRuLgphVa7NKAGtIb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 12px;
     border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--st-red), .4);
 }
 
+/*^ Custom icon */
+/* Dislike */
+._1izIEyRuLgphVa7NKAGtIb::before {
+    content: "\f837";
+    font-size: 28px;
+    color: rgb(var(--st-red));
+}
+
+/* Like */
+._38t1mljBjmJfqjpVzMT1CG._2ID9U4dgdadY74FJ3YHhbB:not(:has(._1izIEyRuLgphVa7NKAGtIb.H3AIY0blJD66-WY00q3AI))::before {
+    content: "\f839";
+    display: flex;
+    width: 44px;
+    height: 44px;
+    margin-right: 12px;
+    font-size: 28px;
+    border-radius: 8px;
+    background: unset;
+    color: rgb(var(--st-green));
+    background-color: rgb(var(--st-green), .4);
+    align-items: center;
+    justify-content: center;
+}
+
+/* Vanilla */
+._1izIEyRuLgphVa7NKAGtIb svg,
+._38t1mljBjmJfqjpVzMT1CG svg {
+    display: none;
+}
+
+
+/** Title */
 .BDa6lbTAdR4RwtqgRNUnO {
     padding: 0;
 }
 
-/* Likes & Comments */
+
+/** Likes & Comments */
 ._2Z3ghRCL5qh2cqXrrd9l8Z {
     gap: 6px;
     flex-flow: unset;
