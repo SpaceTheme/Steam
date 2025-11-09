@@ -1404,13 +1404,44 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 
 .game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_item,
 .game_bg.application .game_description_column .game_area_purchase .package_contents_capsule {
-    position: unset;
+    position: relative;
     display: none;
 }
 .game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_item:nth-child(-n+3),
 .game_bg.application .game_description_column .game_area_purchase .package_contents_capsule:nth-child(-n+3) {
     display: flex;
     box-shadow: unset !important;
+}
+
+/* on Wishlist icon */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .ds_wishlist_flag {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: unset;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    font-size: 0;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--st-blue));
+}
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .ds_wishlist_flag::before {
+    content: "\f1f6";
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
 }
 
 /* List more icon */
