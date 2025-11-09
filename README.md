@@ -10,13 +10,17 @@
 
 ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.png)
 <details>
-    <summary>More images (v20250812)</summary>
+    <summary>More images (10. Nov. 2025)</summary>
 
 |  Library home  |  Library gamepage  |
 |  :---:  |  :---:  |
 |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libHome.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libGamepage.png)  |
 |  **Store**  |  **Store Gamepage**  |
 |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storePage.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeGamepage.png)  |
+|  **Store Wishlist**  |  **Store Cart**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeWishlist.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeCart.png)  |
+|  **Store News**  |  **Community**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeNews.png)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/communityPage.png)  |
 |  **Friend list & Chat**  |    |
 |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/friendAndChat.png)  |    |
 </details>
