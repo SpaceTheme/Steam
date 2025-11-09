@@ -102,8 +102,18 @@ body.v6 .rightcol {
 /*
 ! Placeholder
 */
-.StoreMenuLoadingPlaceholder {
-    display: none;
+html body.v6 .StoreMenuLoadingPlaceholder .PlaceholderInner {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    width: 100%;
+    max-width: var(--st-store-max-width);
+    height: 42px;
+    border-radius: 8px;
+    background: none;
+    background-color: rgb(var(--st-color-2));
+    box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
+    transform: translate(-50%);
 }
 
 
