@@ -9,13 +9,15 @@
     position: fixed;
     height: 100vh;
     min-height: unset;
+    border-radius: 8px 0 0 8px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
 
 
 :has([href*="id/SpaceEnergy/badges"]) .profile_animated_background {
-    background-image: url("https://cdn2.steamgriddb.com/hero/fc8ce33154a13ce9261407a59c12227b.webp");
+    background-image: url("https://media.robertsspaceindustries.com/5cfr2eq9px1un/source.jpg");
 }
