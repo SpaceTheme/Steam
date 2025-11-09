@@ -1,0 +1,6 @@
+body.profile_page .profile_page {
+    background-color: unset !important;
+}
+body.profile_page .profile_page:not([style^="background-image"]) {
+    background: unset !important;
+}

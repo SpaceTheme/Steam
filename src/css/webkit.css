@@ -7,8 +7,10 @@
 @import url("./webkit/store/news.css");
 @import url("./webkit/store/wishlist.css");
 @import url("./webkit/profile.css");
+@import url("./webkit/community/profile/user.css");
 
 @import url("./webkit/store/pointshop.css");
+@import url("./webkit/store/stats.css");
 
 @import url("./plugins/extendium/plugins.css");
 
@@ -25,36 +27,28 @@
 & Base
 */
 
-body.v6,
-body.responsive_page,
-body.v6.game_bg,
-body.v6 .game_page_background.game,
-.home_cluster_ctn {
+body {
     background: transparent !important;
     background-color: transparent !important;
 }
-body.v6::before,
-body.responsive_page::before,
-body.v6.game_bg::before,
-body.v6 .game_page_background::before {
-    content: "";
-    z-index: -1;
-    position: fixed;
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    border-radius: 8px;
-    background-color: rgb(var(--st-color-1));
+body::before {
+    content: "" !important;
+    z-index: -1 !important;
+    position: fixed !important;
+    display: block !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    border-radius: 8px !important;
+    background-color: rgb(var(--st-color-1)) !important;
 }
 
 body.responsive_page .apphub_background {
     background-image: unset !important;
 }
 
-body.v6::-webkit-scrollbar,
-body.responsive_page::-webkit-scrollbar {
-    background-color: rgb(var(--st-color-1));
-    border-radius: 0 8px 8px 0;
+body::-webkit-scrollbar {
+    background-color: rgb(var(--st-color-1)) !important;
+    border-radius: 0 8px 8px 0 !important;
 }
 
 
