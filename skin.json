@@ -348,6 +348,20 @@
         },
 
 
+        "Store - Landing Header": {
+            "description": "Hide the landing header (this with the big coin)",
+            "default": "no",
+            "tab": "Store",
+            "section": "Points Shop",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/pointshop/header.css" }
+                }
+            }
+        },
+
+
         "Store - URL bar": {
             "description": "Hide URL bar",
             "default": "no",

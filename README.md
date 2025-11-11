@@ -47,7 +47,7 @@
 
 ## Roadmap
 - [ ] Store
-  - [ ] Home
+  - [ ] (WIP) Home
   - [ ] (WIP) Navbar
   - [ ] Discovery
   - [ ] (WIP) Pointshop
