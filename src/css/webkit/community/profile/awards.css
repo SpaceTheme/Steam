@@ -1,0 +1,53 @@
+.maincontent .profile_awards_header_title {
+    margin: 0 0 16px;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.maincontent .profile_awards_header_subtitle {
+    margin: 0;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+
+
+/*
+&  Awards
+*/
+/*
+! Grid
+*/
+.maincontent .profile_awards_section {
+    gap: 12px;
+    margin: 0 0 32px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+.maincontent .profile_awards_section:nth-last-child(1) {
+    margin: 0;
+}
+
+
+/*
+! Cards
+*/
+.maincontent .profile_award {
+    width: 154px;
+    margin: 0;
+    padding: 16px;
+    background: unset;
+    background-color: rgb(var(--st-color-3));
+    box-shadow: unset;
+}
+
+
+/** Name */
+.maincontent .profile_award_name {
+    padding: 12px 0 0;
+    font-size: 14px;
+    font-weight: 600;
+}

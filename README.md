@@ -70,6 +70,7 @@
   - [ ] Activity
   - [ ] Friends
   - [ ] Content (User's screenshots/artworks/videos/...)
+  - [x] Awards 
   - [ ] Badges
   - [ ] Inventory
 - [ ] Friends & Chat
