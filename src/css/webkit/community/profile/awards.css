@@ -21,12 +21,8 @@
 ! Grid
 */
 .maincontent .profile_awards_section {
-    justify-content: center;
     gap: 12px;
     margin: 0 0 32px;
-    padding: 12px;
-    border-radius: 8px;
-    background-color: rgb(var(--st-color-2));
 }
 .maincontent .profile_awards_section:nth-last-child(1) {
     margin: 0;
@@ -37,11 +33,11 @@
 ! Cards
 */
 .maincontent .profile_award {
-    width: 154px;
+    width: 129px;
     margin: 0;
     padding: 16px;
     background: unset;
-    background-color: rgb(var(--st-color-3));
+    background-color: rgb(var(--st-color-2));
     box-shadow: unset;
 }
 
