@@ -4,3 +4,9 @@ body.responsive_page #footer_spacer {
 body.responsive_page #footer {
     display: none !important;
 }
+
+
+/** News page */
+body ._2XzXRucgCsdN2x7oRwSJu0 {
+    display: none;
+}
