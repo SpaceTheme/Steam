@@ -593,6 +593,62 @@ body.v6 [class*="skeleton"] {
 
 
 
+
+/*
+& Profile Pages Header
+*/
+body .profile_small_header_bg {
+    overflow: hidden;
+    max-width: var(--st-store-max-width);
+    height: unset;
+    margin: 0 auto 32px;
+}
+
+body .profile_small_header_bg .profile_small_header_texture {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    max-width: unset;
+    height: unset;
+    margin-top: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+/*
+! Avatar
+*/
+body .profile_small_header_bg .profile_small_header_avatar {
+    position: unset;
+}
+
+
+/*
+! Text
+*/
+body .profile_small_header_bg .profile_small_header_text {
+    position: unset;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    max-height: unset;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+
+/** Username */
+body .profile_small_header_bg .profile_small_header_name {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
 /*
 & Footer
 */
