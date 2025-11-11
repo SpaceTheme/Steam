@@ -21,6 +21,7 @@
 ! Grid
 */
 .maincontent .profile_awards_section {
+    justify-content: center;
     gap: 12px;
     margin: 0 0 32px;
     padding: 12px;
