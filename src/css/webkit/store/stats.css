@@ -1,3 +1,16 @@
 body._2aYDMWWN9bAVaHmPfFHXWA .responsive_page_frame {
     background: unset !important;
 }
+
+body._2aYDMWWN9bAVaHmPfFHXWA .page_content_ctn {
+    display: flex;
+}
+
+body._2aYDMWWN9bAVaHmPfFHXWA .page_content_ctn ._2tAk2uCRwLsaOcFMF0VAr9,
+body._2aYDMWWN9bAVaHmPfFHXWA .page_content_ctn .KSZ9hmL_XbHI_tlSUQylO {
+    position: unset;
+}
+
+body._2aYDMWWN9bAVaHmPfFHXWA .page_content_ctn ._2-hIBICcMkAAkFzWEvp5uM {
+    width: unset;
+}
