@@ -20,10 +20,11 @@
 }
 
 /* prohibitedmultiple, store, game, header */
-.game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium span::before {
+.game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium::before {
     content: "\e9da" !important;
     font-size: 22px;
     color: #8e8e8e;
+    padding: 0 12px;
     font-family: FluentSystemIcons-Filled !important;
     font-style: normal;
     font-weight: normal !important;
@@ -32,7 +33,7 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
 }
-.game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium span:hover::before {
+.game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium:hover::before {
     color: #fff;
 }
 
@@ -186,10 +187,7 @@
 }
 
 .game_bg.application .queue_overflow_ctn .btn_medium span {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    padding: 0 12px;
+    display: none;
 }
 .game_bg.application .queue_overflow_ctn .btn_medium span img {
     display: none;
@@ -225,6 +223,7 @@
 }
 .game_bg.application .queue_overflow_ctn #queue_btn_ignore_menu .btn_medium {
     display: flex;
+    width: 32px;
     height: 32px;
     background-color: rgb(var(--st-color-2));
 }
