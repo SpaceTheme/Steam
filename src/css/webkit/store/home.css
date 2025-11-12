@@ -131,3 +131,263 @@
 .home_page_content .discovery_queue_ctn .dq_item .dq_item_cap {
     border-radius: 8px;
 }
+
+
+
+
+/*
+& Since you ** section
+*/
+.home_page_content.gp_contiguous_singles {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: unset;
+    margin: 16px 0 0;
+}
+
+
+/*
+! Game
+*/
+.home_page_content.gp_contiguous_singles .home_content {
+    position: relative;
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+/** Title */
+.home_page_content.gp_contiguous_singles .home_content .single_title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/*^ Reason */
+.home_page_content.gp_contiguous_singles .home_content .home_content_reason {
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+/** Images */
+.home_page_content.gp_contiguous_singles .home_content .gamelink {
+    position: unset;
+    display: flex;
+}
+
+
+.home_page_content.gp_contiguous_singles .home_content .gamelink .screenshots {
+    z-index: unset;
+    display: flex;
+    gap: 6px;
+    margin-left: 6px;
+}
+
+
+.home_page_content.gp_contiguous_singles .home_content .gamelink a {
+    display: flex;
+    margin: 0;
+    width: unset;
+    background: unset;
+}
+
+.home_page_content.gp_contiguous_singles .home_content .gamelink img {
+    width: auto;
+    height: 142px;
+    max-height: unset;
+    border-radius: 8px;
+    box-shadow: unset;
+}
+
+
+/** Live Tag */
+.home_page_content.gp_contiguous_singles .broadcast_live_stream_icon {
+    top: unset;
+    left: unset;
+    margin: 5px;
+}
+
+
+/** Price */
+.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn:has(>.empty) {
+    display: none;
+}
+
+.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn .discount_block_inline {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: unset;
+    margin: 0;
+    padding: 6px;
+    font-weight: 600;
+    line-height: unset;
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(var(--st-color-1));
+}
+
+.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn .discount_pct {
+    height: unset;
+    padding: 4px 6px;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: unset;
+    border-radius: 8px;
+    color: rgb(var(--st-green));
+    background-color: rgb(var(--st-green), .3);
+}
+
+.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn .discount_prices {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: unset;
+    padding: 0;
+    background-color: unset;
+}
+
+.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn .discount_prices .discount_final_price {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: unset;
+    color: rgb(var(--st-green)) !important;
+}
+.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn .no_discount .discount_prices .discount_final_price {
+    color: #fff !important;
+}
+
+
+/*
+! Button Bar
+*/
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar {
+    justify-content: flex-end;
+    gap: 6px;
+    margin-top: 6px;
+    padding: 6px 12px;
+}
+
+
+/** Button */
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar * {
+    margin: 0;
+}
+
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar>:nth-child(1) {
+    margin-right: auto !important;
+}
+
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar .single_buttonbar_group {
+    gap: 6px;
+}
+
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    background: unset !important;
+    background-color: rgb(var(--st-color-3)) !important;
+}
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar a:hover {
+    background-color: rgb(var(--st-color-4)) !important;
+}
+
+
+/** Custom Icon Buttons */
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar span {
+    display: none;
+}
+
+/*^ Visit Page */
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar>:nth-child(1)::before {
+    content: "\f58d";
+    font-size: 22px;
+    color: #8e8e8e;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*^ Wishlist */
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar .single_buttonbar_group a[onclick*="AddToWishlistButton"] {
+    width: unset;
+    padding: 0 12px;
+    background-color: rgb(var(--st-blue), .2) !important;
+}
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar .single_buttonbar_group a[onclick*="AddToWishlistButton"]:hover {
+    background-color: rgb(var(--st-blue), .4) !important;
+}
+
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar .single_buttonbar_group a[onclick*="AddToWishlistButton"]::before {
+    content: "\f1f6";
+    font-size: 22px;
+    color: rgb(var(--st-blue));
+    font-family: FluentSystemIcons-Regular !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar .single_buttonbar_group a[onclick*="AddToWishlistButton"]:hover::before,
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar .single_buttonbar_group a[onclick*="AddToWishlistButton"].btn_disabled::before {
+    font-family: FluentSystemIcons-Filled !important;
+}
+
+/*^ Ignore */
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar .single_buttonbar_group a[onclick*="IgnoreButton"]::before {
+    content: "\e9da";
+    font-size: 22px;
+    color: #8e8e8e;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*^ See more */
+.home_page_content.gp_contiguous_singles .home_content.single_buttonbar>:nth-last-child(1)::before {
+    content: "\e833";
+    font-size: 22px;
+    color: #8e8e8e;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/*
+! ds Option
+*/
+.home_page_content.gp_contiguous_singles .ds_options {
+    display: none;
+}
