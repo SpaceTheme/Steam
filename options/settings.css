@@ -226,10 +226,26 @@
 */
 
 /*
-! Home
+! Profile
 */
 .aFxOaYcllWYkCfVYQJFs0 .Community.VAC-Ban.visibility::before {
     content: "Profile";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+
+/*
+! Other
+*/
+.aFxOaYcllWYkCfVYQJFs0 .Community.Profile.pages.header::before {
+    content: "Other";
     color: #8b929a;
     font-size: 15px;
     font-weight: 500;

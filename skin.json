@@ -555,6 +555,20 @@
                     "TargetCss": { "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "options/community/vacBan/all.css" }
                 }
             }
+        },
+
+
+        "Community - Profile pages header": {
+            "description": "Hide the profile pages header",
+            "default": "no",
+            "tab": "Community",
+            "section": "Other",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "options/community/profilePagesHeader.css" }
+                }
+            }
         }
     },
     "Patches": [
