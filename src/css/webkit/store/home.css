@@ -144,9 +144,9 @@
 .page_content_ctn.dark .home_page_content {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
     width: unset;
-    margin: 16px 0 0;
+    margin: calc(16px * 2) 0 0;
 }
 
 .page_content_ctn.dark .home_content {
@@ -274,9 +274,9 @@
 .home_page_content.gp_contiguous_singles {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
     width: unset;
-    margin: 16px 0 0;
+    margin: calc(16px * 2) 0 0;
 }
 
 
