@@ -134,6 +134,139 @@
 
 
 
+/*
+& Your recent play*** section
+*/
+.page_content_ctn.dark {
+    background-color: unset !important;
+}
+
+.page_content_ctn.dark .home_page_content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: unset;
+    margin: 16px 0 0;
+}
+
+.page_content_ctn.dark .home_content {
+    padding: 0;
+}
+
+
+/*
+! Title
+*/
+.page_content_ctn.dark .home_content h2,
+.page_content_ctn.dark .home_content h2 span {
+    margin: 0 0 6px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/*
+! Games
+*/
+.page_content_ctn.dark .home_content .home_content_items {
+    display: flex;
+    gap: 12px;
+}
+
+
+.page_content_ctn.dark .home_content .home_content_item {
+    float: unset;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 6px;
+    margin: 0 !important;
+    padding: 12px !important;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+    box-shadow: unset !important;
+}
+
+
+/** Images */
+.page_content_ctn.dark .home_content .home_content_item img {
+    border-radius: 8px;
+}
+
+
+/** Live Tag */
+.page_content_ctn.dark .home_content .home_content_item .broadcast_live_stream_icon {
+    top: 16px;
+    left: 16px;
+}
+
+
+/** Game Name */
+.page_content_ctn.dark .home_content .home_content_item .home_content_item_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+    height: -webkit-fill-available;
+}
+
+
+.page_content_ctn.dark .home_content .home_content_item .home_smallcap_title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/** Price */
+.page_content_ctn.dark .home_content .discount_block {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    height: unset;
+    margin: 0 0 0 auto;
+    padding: 6px;
+    font-weight: 600;
+    line-height: unset;
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(var(--st-color-1));
+}
+
+.page_content_ctn.dark .home_content .discount_block .discount_pct {
+    height: unset;
+    padding: 4px 6px;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: unset;
+    border-radius: 8px;
+    color: rgb(var(--st-green));
+    background-color: rgb(var(--st-green), .3);
+}
+
+.page_content_ctn.dark .home_content .discount_block .discount_prices {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: unset;
+    padding: 0;
+    background-color: unset;
+}
+
+.page_content_ctn.dark .home_content .discount_block .discount_prices .discount_final_price {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: unset;
+    color: rgb(var(--st-green)) !important;
+}
+.page_content_ctn.dark .home_content .discount_block.no_discount .discount_prices .discount_final_price {
+    color: #fff !important;
+}
+
+
 
 /*
 & Since you ** section
