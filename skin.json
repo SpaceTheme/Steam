@@ -306,6 +306,20 @@
         },
 
 
+        "Store - Write a Review": {
+            "description": "Hide the Write a Review section",
+            "default": "no",
+            "tab": "Store",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/gamepage/writeReview.css" }
+                }
+            }
+        },
+
+
         "Store - Recommendations": {
             "description": "Hide recommendations in the cart",
             "default": "no",
