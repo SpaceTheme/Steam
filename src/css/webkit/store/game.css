@@ -242,7 +242,7 @@
 }
 
 /*^ Add a note Augmented Steam plugin */
-.game_bg.application .queue_overflow_ctn #esi-user-note-button {
+.game_bg.application .queue_overflow_ctn .svelte-kj6kx7 {
     display: none;
 }
 
@@ -272,7 +272,9 @@
 
 .game_bg.application .queue_overflow_ctn .next_in_queue_content {
     padding: 0 12px;
+    text-shadow: unset;
     border-radius: 8px;
+    background: unset;
     background-color: rgb(var(--st-yellow), .4);
 }
 .game_bg.application .queue_overflow_ctn .next_in_queue_content:hover {
@@ -285,6 +287,10 @@
     font-size: 0px;
 }
 .game_bg.application .queue_overflow_ctn .next_in_queue_content .queue_sub_text {
+    display: none;
+}
+
+.game_bg.application .queue_overflow_ctn .btn_next_in_queue:after {
     display: none;
 }
 
