@@ -48,6 +48,7 @@
 
 .home_page_content .discovery_queue_ctn .home_page_content_title {
     width: -webkit-fill-available;
+    padding: 0;
 }
 
 
@@ -130,6 +131,54 @@
 
 .home_page_content .discovery_queue_ctn .dq_item .dq_item_cap {
     border-radius: 8px;
+}
+
+
+
+/*
+& Browse Steam section
+*/
+.home_page_content:has(#browse_steam_header) {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: var(--st-store-max-width);
+    min-height: unset;
+}
+
+
+/*
+! Title
+*/
+.home_page_content #browse_steam_header {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+! Buttons
+*/
+.home_page_content:has(#browse_steam_header) .button_container {
+    gap: 12px;
+}
+
+
+.home_page_content:has(#browse_steam_header) .button_container .big_button {
+    height: 54px;
+    padding: 6px;
+    font-weight: 800;
+    letter-spacing: unset;
+    border: 3px solid rgb(var(--st-blue));
+    border-radius: 8px;
+    color: rgb(var(--st-blue));
+    background: unset;
+    background-color: rgb(var(--st-blue), .2);
+    box-shadow: unset;
+}
+.home_page_content:has(#browse_steam_header) .button_container .big_button:hover {
+    background: unset;
+    background-color: rgb(var(--st-blue), .4);
 }
 
 
@@ -218,55 +267,6 @@
 }
 
 
-/** Price */
-.page_content_ctn.dark .home_content .discount_block {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    width: fit-content;
-    height: unset;
-    margin: 0 0 0 auto;
-    padding: 6px;
-    font-weight: 600;
-    line-height: unset;
-    border-radius: 8px;
-    color: #fff;
-    background-color: rgb(var(--st-color-1));
-}
-
-.page_content_ctn.dark .home_content .discount_block .discount_pct {
-    height: unset;
-    padding: 4px 6px;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: unset;
-    border-radius: 8px;
-    color: rgb(var(--st-green));
-    background-color: rgb(var(--st-green), .3);
-}
-
-.page_content_ctn.dark .home_content .discount_block .discount_prices {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    height: unset;
-    padding: 0;
-    background-color: unset;
-}
-
-.page_content_ctn.dark .home_content .discount_block .discount_prices .discount_final_price {
-    padding-left: 0;
-    padding-right: 0;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: unset;
-    color: rgb(var(--st-green)) !important;
-}
-.page_content_ctn.dark .home_content .discount_block.no_discount .discount_prices .discount_final_price {
-    color: #fff !important;
-}
-
-
 
 /*
 & Since you ** section
@@ -350,55 +350,6 @@
     position: absolute;
     top: 12px;
     right: 12px;
-}
-.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn:has(>.empty) {
-    display: none;
-}
-
-.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn .discount_block_inline {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    height: unset;
-    margin: 0;
-    padding: 6px;
-    font-weight: 600;
-    line-height: unset;
-    border-radius: 8px;
-    color: #fff;
-    background-color: rgb(var(--st-color-1));
-}
-
-.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn .discount_pct {
-    height: unset;
-    padding: 4px 6px;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: unset;
-    border-radius: 8px;
-    color: rgb(var(--st-green));
-    background-color: rgb(var(--st-green), .3);
-}
-
-.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn .discount_prices {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    height: unset;
-    padding: 0;
-    background-color: unset;
-}
-
-.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn .discount_prices .discount_final_price {
-    padding-left: 0;
-    padding-right: 0;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: unset;
-    color: rgb(var(--st-green)) !important;
-}
-.home_page_content.gp_contiguous_singles .home_content .discount_block_ctn .no_discount .discount_prices .discount_final_price {
-    color: #fff !important;
 }
 
 
