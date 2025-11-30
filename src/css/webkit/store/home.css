@@ -184,6 +184,283 @@
 
 
 /*
+& New & Trending, Top Sellers list section
+*/
+.home_page_body_ctn .home_ctn.tab_container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 16px 0 0;
+    padding: 0;
+    background: unset;
+}
+
+.home_ctn.tab_container > div {
+    margin-top: unset !important;
+}
+
+
+/*
+! Tabs
+*/
+.home_ctn.tab_container .home_tabs_row_ctn {
+    box-sizing: border-box;
+    width: var(--st-store-max-width);
+    margin: 0 auto 0;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+.home_ctn.tab_container .home_tabs_row_ctn .store_horizontal_minislider_ctn {
+    height: unset !important;
+}
+
+.home_ctn.tab_container .home_tabs_row_ctn .home_tabs_row {
+    display: flex;
+    gap: 6px;
+}
+
+
+/** Items */
+.home_ctn.tab_container .home_tabs_row_ctn .home_tabs_row .home_tab {
+    margin: 0;
+    padding: 6px 12px;
+    border: none !important;
+    background: unset;
+    background-color: rgb(var(--st-color-3));
+}
+.home_ctn.tab_container .home_tabs_row_ctn .home_tabs_row .home_tab:hover {
+    background-color: rgb(var(--st-color-4));
+}
+
+.home_ctn.tab_container .home_tabs_row_ctn .home_tabs_row .home_tab.active {
+    font-weight: 600;
+    background-color: rgb(var(--st-color-1));
+}
+
+.home_ctn.tab_container .home_tabs_row_ctn .home_tabs_row .home_tab .tab_content {
+    padding: 0;
+    line-height: unset;
+    color: #fff;
+    text-shadow: unset;
+    background: unset;
+    background-color: unset;
+}
+
+
+/*
+! Content
+*/
+.home_ctn.tab_container .flex_cols {
+    gap: 12px;
+    width: var(--st-store-max-width);
+}
+
+
+.home_ctn.tab_container .flex_cols [style="clear: both;"] {
+    display: none;
+}
+
+
+/*
+! List
+*/
+.home_ctn.tab_container .flex_cols .home_leftcol {
+    width: 100%;
+}
+
+.home_ctn.tab_container .flex_cols .home_leftcol .home_tabs_content {
+    min-height: unset;
+}
+
+.home_ctn.tab_container .flex_cols .home_leftcol .tab_content_items {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+/** Items */
+.home_ctn.tab_container .flex_cols .home_leftcol .tab_content_items .tab_item {
+    display: flex;
+    gap: 12px;
+    height: unset;
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+.home_ctn.tab_container .flex_cols .home_leftcol .tab_content_items .tab_item:nth-last-child(-n+4) {
+    display: none;
+}
+
+.home_ctn.tab_container .flex_cols .home_leftcol .tab_content_items .tab_item.focus {
+    transform: scale(1.01);
+    background: unset;
+    background-color: rgb(var(--st-color-2));
+    box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
+}
+
+/*^ Image */
+.home_ctn.tab_container .flex_cols .home_leftcol .tab_content_items .tab_item .tab_item_cap {
+    position: unset;
+}
+
+.home_ctn.tab_container .flex_cols .home_leftcol .tab_content_items .tab_item .tab_item_cap_img {
+    border-radius: 8px;
+}
+
+/*^ Text */
+.home_ctn.tab_container .flex_cols .home_leftcol .tab_content_items .tab_item .tab_item_name {
+    color: #c7d5e0;
+}
+
+/*^ Price */
+.home_ctn.tab_container .flex_cols .home_leftcol .tab_content_items .tab_item .discount_block {
+    order: 1;
+}
+
+
+/*
+! Sidebar/Preview
+*/
+.home_ctn.tab_container .flex_cols .home_rightcol {
+    flex: unset;
+    min-width: 400px;
+    margin: 0;
+}
+
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container {
+    flex: unset;
+    margin: unset;
+    padding: 12px;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tab_preview {
+    position: unset;
+    display: none;
+}
+
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tab_preview.focus {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/** Title */
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tab_title {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/** Reviews */
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tab_review_summary {
+    display: flex;
+    gap: 4px;
+    width: unset;
+    margin: 0;
+    padding: 0;
+    color: #97A0A8;
+    background: unset;
+}
+
+
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tab_review_summary span:not(.game_review_summary) {
+    color: #c6d4df;
+}
+
+
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tab_review_summary .game_review_summary {
+    order: 2;
+    margin-left: auto;
+    color: rgb(var(--st-red));
+}
+
+/*^ Mixed */
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tab_review_summary .game_review_summary.mixed {
+    color: rgb(var(--st-yellow));
+}
+
+/*^ Positive */
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tab_review_summary .game_review_summary.positive {
+    color: rgb(var(--st-green));
+}
+
+/** Tags */
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tags {
+    overflow: unset;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    height: unset;
+    margin: 0;
+}
+
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tags::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-1));
+}
+
+/*^ Tag */
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tags a {
+    height: unset;
+    margin: 0;
+    padding: 6px 8px;
+    line-height: unset;
+    font-weight: 500;
+    border-radius: 8px;
+    color: #8f98a0;
+    background-color: rgb(var(--st-blue), .1);
+}
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .tags a:hover {
+    background-color: rgb(var(--st-blue), .3);
+}
+
+/** Screenshots */
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .screenshot {
+    width: 185px;
+    margin: 0;
+    border-radius: 8px;
+}
+
+
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .screenshot:nth-last-child(3) {
+    position: absolute;
+    bottom: 122.06px;
+    right: 12px;
+}
+
+.home_ctn.tab_container .flex_cols .home_rightcol #tab_preview_container .screenshot:nth-last-child(1) {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+
+/*
+! See more
+*/
+.home_ctn.tab_container .flex_cols .home_leftcol .tab_see_more {
+    margin-top: 12px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+
+/*
 & Your recent play*** section
 */
 .page_content_ctn.dark {
