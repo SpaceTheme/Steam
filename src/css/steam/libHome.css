@@ -316,7 +316,7 @@
     bottom: 12px !important;
     left: 12px !important;
     width: 52px;
-    height: 52px;
+    height: 32px;
     border-radius: 8px;
     background: unset;
     background: rgb(var(--st-blue));
@@ -351,7 +351,7 @@
 ._3bkuozxKIatrWG3aeisthc {
     display: flex;
     justify-content: space-between;
-    height: 52px;
+    height: 32px;
     padding: 0 0 0 64px;
     line-height: unset;
 }
@@ -369,8 +369,7 @@
 }
 
 ._3bkuozxKIatrWG3aeisthc._2zIRlEsAfHhI-_3bZ3X60z {
-    font-size: 14px;
-    font-weight: 700;
+    display: none;
 }
 ._3bkuozxKIatrWG3aeisthc.yGeS63NTeSwJCWS395eIb>._3bkuozxKIatrWG3aeisthc.yGeS63NTeSwJCWS395eIb {
     height: unset;
