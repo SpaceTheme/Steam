@@ -53,10 +53,11 @@
   - [ ] (WIP) Pointshop
   - [ ] Stats
   - [ ] (WIP) Gamepage
-  - [ ] (WIP) Bundle info 
+  - [ ] Bundle info 
   - [x] Cart
   - [ ] (WIP) Checkout
   - [ ] Categories page
+  - [ ] Personal calendar
   - [ ] Search result list page
   - [ ] Settings
 - [ ] Community
