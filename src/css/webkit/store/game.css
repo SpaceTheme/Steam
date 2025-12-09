@@ -242,7 +242,7 @@
 }
 
 /*^ Add a note Augmented Steam plugin */
-.game_bg.application .queue_overflow_ctn .svelte-kj6kx7 {
+.game_bg.application .queue_overflow_ctn [class*="svelte-"] {
     display: none;
 }
 
