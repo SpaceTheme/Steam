@@ -1,0 +1,7 @@
+.game_bg.application .es_regional_icon {
+    background-image: unset !important;
+}
+
+.game_bg.application .es_regional--always.svelte-tc81l5 {
+    float: left !important;
+}
