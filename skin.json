@@ -633,7 +633,7 @@
             "TargetCss": "src/css/steam/settings.css"
         },
         {
-            "MatchRegexString": "^SpaceTheme for Steam",
+            "MatchRegexString": "[data-theme-name=\"SpaceTheme for Steam\"]",
             "TargetCss": "options/settings.css"
         },
         {

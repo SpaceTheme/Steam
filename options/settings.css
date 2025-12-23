@@ -5,7 +5,7 @@
 /*
 ! Titlebar
 */
-.aFxOaYcllWYkCfVYQJFs0 .Window.Controls::before {
+.MillenniumDesktopSidebar_Content .Window.Controls::before {
     content: "Titlebar";
     color: #8b929a;
     font-size: 15px;
@@ -21,7 +21,7 @@
 /*
 ! Sidebar
 */
-.aFxOaYcllWYkCfVYQJFs0 .Always.show.sidebar::before {
+.MillenniumDesktopSidebar_Content .Always.show.sidebar::before {
     content: "Sidebar";
     color: #8b929a;
     font-size: 15px;
@@ -37,7 +37,7 @@
 /*
 ! Userpannel
 */
-.aFxOaYcllWYkCfVYQJFs0 .General.Wallet.balance::before {
+.MillenniumDesktopSidebar_Content .General.\-.Wallet.balance::before {
     content: "Userpannel";
     color: #8b929a;
     font-size: 15px;
@@ -53,7 +53,7 @@
 /*
 ! Other
 */
-.aFxOaYcllWYkCfVYQJFs0 .General.Font::before {
+.MillenniumDesktopSidebar_Content .General.\-.Font::before {
     content: "Other";
     color: #8b929a;
     font-size: 15px;
@@ -69,7 +69,7 @@
 /*
 ! Experimental
 */
-.aFxOaYcllWYkCfVYQJFs0 .General.Userpannel::before {
+.MillenniumDesktopSidebar_Content .General.\-.Userpannel::before {
     content: "Experimental";
     color: #8b929a;
     font-size: 15px;
@@ -90,7 +90,7 @@
 /*
 ! Home
 */
-.aFxOaYcllWYkCfVYQJFs0 .Store.SteamDeck.Giftcard::before {
+.MillenniumDesktopSidebar_Content .Store.\-.SteamDeck.Giftcard::before {
     content: "Home";
     color: #8b929a;
     font-size: 15px;
@@ -106,7 +106,7 @@
 /*
 ! Gamepage
 */
-.aFxOaYcllWYkCfVYQJFs0 .Store.Broadcast::before {
+.MillenniumDesktopSidebar_Content .Store.\-.Broadcast::before {
     content: "Gamepage";
     color: #8b929a;
     font-size: 15px;
@@ -122,7 +122,7 @@
 /*
 ! Cart
 */
-.aFxOaYcllWYkCfVYQJFs0 .Store.Recommendations::before {
+.MillenniumDesktopSidebar_Content .Store.\-.Recommendations::before {
     content: "Cart";
     color: #8b929a;
     font-size: 15px;
@@ -138,7 +138,7 @@
 /*
 ! Points Shop
 */
-.aFxOaYcllWYkCfVYQJFs0 .Store.Landing.Header::before {
+.MillenniumDesktopSidebar_Content .Store.\-.Landing.Header::before {
     content: "Points Shop";
     color: #8b929a;
     font-size: 15px;
@@ -154,24 +154,8 @@
 /*
 ! Other
 */
-.aFxOaYcllWYkCfVYQJFs0 .URL.bar::before {
+.MillenniumDesktopSidebar_Content .Store.\-.URL.bar::before {
     content: "Other";
-    color: #8b929a;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: .5px;
-    line-height: 36px;
-    text-transform: uppercase;
-    user-select: none;
-    margin-right: 26px;
-}
-
-
-/*
-! Experimental
-*/
-.aFxOaYcllWYkCfVYQJFs0 .Store.Gamepage::before {
-    content: "Experimental";
     color: #8b929a;
     font-size: 15px;
     font-weight: 500;
@@ -191,7 +175,7 @@
 /*
 ! Home
 */
-.aFxOaYcllWYkCfVYQJFs0 .Library.What\'s.New::before {
+.MillenniumDesktopSidebar_Content .Library.\-.What\'s.New::before {
     content: "Home";
     color: #8b929a;
     font-size: 15px;
@@ -207,7 +191,7 @@
 /*
 ! Gamepage
 */
-.aFxOaYcllWYkCfVYQJFs0 .Library.Banner.position::before {
+.MillenniumDesktopSidebar_Content .Library.\-.Banner.position::before {
     content: "Gamepage";
     color: #8b929a;
     font-size: 15px;
@@ -228,7 +212,7 @@
 /*
 ! Profile
 */
-.aFxOaYcllWYkCfVYQJFs0 .Community.VAC-Ban.visibility::before {
+.MillenniumDesktopSidebar_Content .Community.\-.VAC-Ban.visibility::before {
     content: "Profile";
     color: #8b929a;
     font-size: 15px;
@@ -244,7 +228,7 @@
 /*
 ! Other
 */
-.aFxOaYcllWYkCfVYQJFs0 .Community.Profile.pages.header::before {
+.MillenniumDesktopSidebar_Content .Community.\-.Profile.pages.header::before {
     content: "Other";
     color: #8b929a;
     font-size: 15px;
