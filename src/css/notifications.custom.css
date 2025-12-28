@@ -1,0 +1,71 @@
+._1OOQPJx0nCNP9ME9toCmV7 {
+    border-radius: 8px;
+    /*background: unset !important;*/
+}
+._1OOQPJx0nCNP9ME9toCmV7::before {
+    display: none !important;
+}
+
+
+/*
+! Steam Logo
+*/
+._3RkGkNRNheAkoRA3migph5 {
+    display: none;
+}
+
+
+
+/*
+! Base
+*/
+._1OOQPJx0nCNP9ME9toCmV7 ._2NdiftmP-B3C4LPWnNGTCB,
+._1OOQPJx0nCNP9ME9toCmV7 ._3-H47wPl1Ng3lh7xGZOPIg {
+    /*height: 100%;
+    margin: 0 12px 12px 0;*/
+    padding: 7px;
+    border: 3px solid rgb(var(--st-color-5));
+    border-radius: 8px;
+    background-color: rgb(var(--st-background));
+}
+
+
+
+._1OOQPJx0nCNP9ME9toCmV7 ._2NdiftmP-B3C4LPWnNGTCB img,
+._1OOQPJx0nCNP9ME9toCmV7 ._3-H47wPl1Ng3lh7xGZOPIg img {
+    border-radius: 8px;
+}
+
+
+
+
+
+/*
+& Millennium Update
+*/
+._1OOQPJx0nCNP9ME9toCmV7 ._3-H47wPl1Ng3lh7xGZOPIg ._1KIwOtwkYQUtRoPyxlh3G- {
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-blue), .3);
+}
+
+._1OOQPJx0nCNP9ME9toCmV7 ._3-H47wPl1Ng3lh7xGZOPIg ._1KIwOtwkYQUtRoPyxlh3G-::before {
+    content: "\f151";
+    font-size: 32px;
+    color: rgb(var(--st-blue));
+}
+._1OOQPJx0nCNP9ME9toCmV7 ._3-H47wPl1Ng3lh7xGZOPIg ._1KIwOtwkYQUtRoPyxlh3G- svg {
+    display: none;
+}
+
+
+
+
+/*
+& Achievements
+*/

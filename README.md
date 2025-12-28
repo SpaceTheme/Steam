@@ -99,6 +99,7 @@
   - [ ] Controller Settings
   - [ ] Settings
 - [ ] Other
+  - [ ] (WIP) Notifications
   - [ ] Steam Settings
   - [ ] Inputs (all types)
   - [ ] Recordings & Screenshots

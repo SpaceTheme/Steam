@@ -625,6 +625,11 @@
             "TargetJs": "src/js/menu.custom.js"
         },
         {
+			"MatchRegexString": "^notificationtoasts_",
+			"TargetCss": "src/css/notifications.custom.css",
+			"TargetJs": "src/css/notifications.custom.js"
+		},
+        {
             "MatchRegexString": ".Rp8QOGJ2DypeDniMnRBhr",
             "TargetCss": "src/css/startupLogin.custom.css"
         },
