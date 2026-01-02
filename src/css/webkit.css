@@ -66,6 +66,11 @@ body ._22xtsolKcQit92o-LBeRWD {
     padding: 0 !important;
 }
 
+/*! Steam Replay page */
+body .page_content_ctn:has(._1qcMwZqiAwD0aa-bpPRDPD._1FQxwxnbfp1DQRGwxjKNTx) {
+    max-width: 100% !important;
+}
+
 body.v6 .leftcol {
     width: calc(var(--st-store-max-width) - 372px - 16px) !important;
 }

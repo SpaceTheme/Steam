@@ -11,8 +11,6 @@
     "tags": [ "WIP", "Modular", "Dark", "Customizable"],
     "header_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/banner.png",
     "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.png",
-    "RootColors": "./src/css/root.css",
-    "Steam-WebKit": "./src/css/webkit.css",
     "Conditions": {
         "General - Window Controls": {
             "description": "Hide the Window Controls (Minimize, Maximize, Close) from the titlebar",
@@ -585,6 +583,8 @@
             }
         }
     },
+    "RootColors": "./src/css/root.css",
+    "Steam-WebKit": "./src/css/webkit.css",
     "Patches": [
         {
             "MatchRegexString": ".*",
