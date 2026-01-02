@@ -65,6 +65,7 @@
   - [ ] Discussions
   - [ ] Workshop
   - [ ] Market
+    - [ ] (WIP) Item page
   - [ ] Broadcast
 - [ ] User
   - [ ] Profile
