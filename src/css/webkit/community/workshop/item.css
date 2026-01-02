@@ -1,0 +1,12 @@
+#SubscribeItemBtn {
+    display: flex;
+}
+
+#SubscribeItemBtn .subscribeIcon {
+    position: unset;
+    margin-left: 4px;
+}
+
+#SubscribeItemBtn .subscribeText {
+    background: unset;
+}

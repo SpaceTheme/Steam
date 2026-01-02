@@ -11,10 +11,20 @@
 @import url("./webkit/store/stats.css");
 @import url("./webkit/store/wishlist.css");
 
+@import url("./plugins/extendium/plugins.css");
+
+/** Community */
+/*^ Home */
+
+/*^ Market */
+
+/*^ Profile */
 @import url("./webkit/community/profile/awards.css");
 @import url("./webkit/community/profile/user.css");
 
-@import url("./plugins/extendium/plugins.css");
+/*^ Workshop */
+@import url("./webkit/community/workshop/home.css");
+@import url("./webkit/community/workshop/item.css");
 
 :root {
     --st-store-max-width: 1200px;
