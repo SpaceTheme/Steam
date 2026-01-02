@@ -1,8 +1,8 @@
-@import url("./webkit/profile.css");
+/** Store */
 @import url("./webkit/store/agecheck.css");
 @import url("./webkit/store/bundleInfo.css");
 @import url("./webkit/store/cart.css");
-@import url("./webkit//store/checkout.css");
+@import url("./webkit/store/checkout.css");
 @import url("./webkit/store/game.css");
 @import url("./webkit/store/home.css");
 @import url("./webkit/store/news.css");
@@ -11,12 +11,15 @@
 @import url("./webkit/store/stats.css");
 @import url("./webkit/store/wishlist.css");
 
-@import url("./plugins/extendium/plugins.css");
 
 /** Community */
 /*^ Home */
 
 /*^ Market */
+@import url("./webkit/community/market/buyModal.css");
+@import url("./webkit/community/market/home.css");
+@import url("./webkit/community/market/item.css");
+@import url("./webkit/community/market/search.css");
 
 /*^ Profile */
 @import url("./webkit/community/profile/awards.css");
@@ -26,6 +29,13 @@
 @import url("./webkit/community/workshop/home.css");
 @import url("./webkit/community/workshop/item.css");
 
+
+/** Plugins */
+/*^ Extendium */
+@import url("./plugins/extendium/plugins.css");
+
+
+
 :root {
     --st-store-max-width: 1200px;
 
@@ -34,6 +44,8 @@
 * {
     --store-menu-overlap-height: 90px !important;
 }
+
+
 
 /*
 & Base
@@ -67,6 +79,8 @@ body::-webkit-scrollbar {
 
 body .page_content_ctn,
 body .page_content,
+body .market_page_fullwidth,
+body #BG_bottom,
 body .maincontent,
 body ._22xtsolKcQit92o-LBeRWD {
     position: relative;
@@ -80,6 +94,7 @@ body ._22xtsolKcQit92o-LBeRWD {
 body .page_content_ctn:has(._1qcMwZqiAwD0aa-bpPRDPD._1FQxwxnbfp1DQRGwxjKNTx) {
     max-width: 100% !important;
 }
+
 
 body.v6 .leftcol {
     width: calc(var(--st-store-max-width) - 372px - 16px) !important;
