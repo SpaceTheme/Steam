@@ -508,12 +508,15 @@
         },
         
 
+        "Library - Banner Infos": {
+            "description": "Only show banner infos (collection, hltb plugin infos) on hover",
             "default": "no",
             "tab": "Library",
             "section": "Gamepage",
             "values": {
                 "no": {},
                 "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/showBannerInfosOnHover.css" }
                 }
             }
         },
