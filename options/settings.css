@@ -173,6 +173,21 @@
 */
 
 /*
+! Pinned
+*/
+.MillenniumDesktopSidebar_Content .Library.\-.Steam-Custom-Artworks.Support::before {
+    content: "Pinned";
+    color: #8b929a;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-right: 26px;
+}
+
+/*
 ! Home
 */
 .MillenniumDesktopSidebar_Content .Library.\-.What\'s.New::before {

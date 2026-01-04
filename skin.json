@@ -404,6 +404,20 @@
 
 
 
+        "Library - Steam-Custom-Artworks Support": {
+            "description": "The best support for https://spacetheme.net/#steam-custom-artworks ",
+            "default": "no",
+            "tab": "Library",
+            "section": "Pined",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/customArtwork.css" }
+                }
+            }
+        },
+
+        
         "Library - What's New": {
             "description": "Customize the What's New section",
             "default": "Compact",
@@ -470,11 +484,11 @@
             "section": "Gamepage",
             "values": {
                 "Left": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/bannerPosition/left.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/bannerPosition/left.css" }
                 },
                 "Middle (default)": {},
                 "Right": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/bannerPosition/right.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/bannerPosition/right.css" }
                 }
             }
         },
@@ -492,21 +506,17 @@
                 }
             }
         },
+        
 
-
-        "Library - Steam-Custom-Artworks Support": {
-            "description": "The best support for https://spacetheme.net/#steam-custom-artworks ",
             "default": "no",
             "tab": "Library",
             "section": "Gamepage",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/customArtwork.css" }
                 }
             }
         },
-
 
 
         "Library - Always show game infos": {
