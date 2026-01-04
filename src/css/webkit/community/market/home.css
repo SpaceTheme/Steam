@@ -1,0 +1,55 @@
+/*
+& Header
+*/
+body .market_header_bg {
+    background-color: unset;
+}
+
+.market_header_bg #BG_top {
+    width: 100%;
+    max-width: var(--st-store-max-width);
+    height: unset;
+    background-color: unset;
+}
+
+.market_header_bg .market_header_logo {
+    width: 100%;
+    max-width: var(--st-store-max-width);
+    height: unset;
+    background-image: unset;
+}
+
+
+/*
+! Text
+*/
+.market_header_bg .market_header_text {
+    width: fit-content;
+    margin-bottom: 16px;
+    padding: 32px 0 0;
+}
+
+
+/** Title */
+.market_header_bg .market_header_text .market_title_text {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+
+/** Subtitle */
+.market_header_bg .market_header_text .market_subtitle_text {
+    font-size: 12px;
+    font-weight: 700;
+    color: #a9a9a9;
+}
+
+
+/*
+! User Info
+*/
+.market_header_bg .user_info {
+    display: none;
+}
