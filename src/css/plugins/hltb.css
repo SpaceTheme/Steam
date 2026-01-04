@@ -1,0 +1,60 @@
+#hltb-for-millennium {
+    bottom: 16px;
+    right: 16px;
+}
+
+#hltb-for-millennium .hltb-info {
+    padding: 0;
+    border: unset;
+    background: unset;
+}
+
+#hltb-for-millennium .hltb-info ul {
+    gap: 6px;
+    padding: 0;
+}
+
+#hltb-for-millennium .hltb-info ul li {
+    text-align: center;
+    padding: 0 10px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-1), .65);
+    /* backdrop-filter: blur(4px); */
+    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 50%);
+}
+#hltb-for-millennium .hltb-info ul li:has(.hltb-details-btn) {
+    height: 38px;
+    padding: 0;
+}
+
+#hltb-for-millennium .hltb-info ul li .hltb-gametime {
+    font-size: 12px;
+}
+
+#hltb-for-millennium .hltb-info ul li .hltb-label {
+    font-size: 9px;
+    font-weight: 700;
+}
+
+#hltb-for-millennium .hltb-info ul li .hltb-details-btn {
+    height: 100%;
+    padding: 0;
+    font-size: 0;
+}
+#hltb-for-millennium .hltb-info ul li .hltb-details-btn::after {
+    content: "\f4ab";
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+#hltb-for-millennium .hltb-info ul li .hltb-details-btn:hover::after {
+    color: rgb(var(--st-blue));
+}

@@ -9,6 +9,11 @@
 @import url("./steam/achievementsModal.css");
 
 
+/** Plugins */
+/*^ HLTB for Steam */
+@import url("./plugins/hltb.css");
+
+
 
 #st-loading-div {
     z-index: 9999;
