@@ -8,6 +8,8 @@
 <hr>
 </div>
 
+[![KoFi](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/ad.png)](https://kofi.spacetheme.net)
+
 ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.png)
 <details>
     <summary>More images (10. Nov. 2025)</summary>
