@@ -1,0 +1,234 @@
+/*
+& Nav
+*/
+.market_listing_nav_container {
+    display: none;
+}
+
+
+
+/*
+& Content
+*/
+.market_listing_iteminfo {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px !important;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2)) !important;
+}
+
+.market_listing_iteminfo>[style="clear: both"],
+.market_listing_iteminfo>br {
+    display: none;
+}
+
+
+/*
+! Item Info Section
+*/
+.market_listing_iteminfo .largeiteminfo_react_placeholder {
+    min-height: unset;
+}
+
+
+.market_listing_iteminfo .ja5o2GZTopxfGJArsZgFh {
+    gap: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-1));
+}
+
+
+/** Image */
+.market_listing_iteminfo .ja5o2GZTopxfGJArsZgFh ._3ugvZ2nny7eChIYJuwKYO- {
+    aspect-ratio: 1 / 1;
+    flex-grow: unset;
+    width: 240px;
+    min-width: 240px;
+    height: 240px;
+    min-height: 240px;
+    padding: 16px;
+    border: 3px solid rgb(var(--st-accent-1));
+    border-radius: 8px;
+    background: unset !important;
+    background-color: rgb(var(--st-accent-1), .2) !important;
+    box-shadow: unset !important;
+}
+
+.market_listing_iteminfo .ja5o2GZTopxfGJArsZgFh ._3ugvZ2nny7eChIYJuwKYO- ._1u7tlq5OcUVR8p7-ic_ZVw {
+    justify-content: center;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+.market_listing_iteminfo .ja5o2GZTopxfGJArsZgFh ._3ugvZ2nny7eChIYJuwKYO- ._1u7tlq5OcUVR8p7-ic_ZVw img {
+    overflow: hidden;
+}
+
+
+/** Title, Game & Infos */
+.market_listing_iteminfo .ja5o2GZTopxfGJArsZgFh ._3AocqvUfA7f6sPEQVWiDCC {
+    display: grid;
+    grid-template-areas:
+        "title info"
+        "game info";
+    grid-template-rows: auto 1fr;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+/*^ Title */
+.market_listing_iteminfo .ja5o2GZTopxfGJArsZgFh ._3AocqvUfA7f6sPEQVWiDCC .R1W-zMFN4WGw9JK48Yqez {
+    grid-area: title;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.market_listing_iteminfo .ja5o2GZTopxfGJArsZgFh ._3AocqvUfA7f6sPEQVWiDCC .R1W-zMFN4WGw9JK48Yqez .f6hU22EA7Z8peFWZVBJU {
+    color: #fff !important;
+}
+
+/*^ Game */
+.market_listing_iteminfo .ja5o2GZTopxfGJArsZgFh ._3AocqvUfA7f6sPEQVWiDCC ._3KiTPfFvdkPH6ixij56nVM {
+    grid-area: game;
+    width: fit-content;
+    height: fit-content;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-4));
+}
+
+/* Icon */
+.market_listing_iteminfo .ja5o2GZTopxfGJArsZgFh ._3AocqvUfA7f6sPEQVWiDCC ._3KiTPfFvdkPH6ixij56nVM ._3LTPlbh1oIRZyLjujpw83H {
+    border-radius: 8px;
+}
+
+/* Text */
+.market_listing_iteminfo .ja5o2GZTopxfGJArsZgFh ._3AocqvUfA7f6sPEQVWiDCC ._3KiTPfFvdkPH6ixij56nVM ._1maNP9UvDekHzld1kwwQnw {
+    line-height: 14px;
+}
+
+/*^ Info */
+.market_listing_iteminfo .ja5o2GZTopxfGJArsZgFh ._3AocqvUfA7f6sPEQVWiDCC>._3JCkAyd9cnB90tRcDLPp4W[style="--direction: column;"] {
+    grid-area: info;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-4));
+}
+
+
+/*
+! Explanation Section
+*/
+.market_listing_iteminfo .market_commodity_explanation {
+    margin: 0 0 12px;
+}
+
+
+/*
+! Price & Buy Section
+*/
+.market_listing_iteminfo #market_commodity_order_spread {
+    display: flex;
+    gap: 12px;
+}
+
+
+/*
+! Card
+*/
+.market_listing_iteminfo .market_commodity_orders_block {
+    float: unset;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: unset;
+    margin: unset;
+    padding: 12px;
+    border: unset;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-3));
+    box-shadow: unset;
+}
+
+.market_listing_iteminfo .market_commodity_orders_interior {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/** Header */
+.market_listing_iteminfo .market_commodity_orders_header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: unset;
+    margin: 0;
+    border: unset;
+}
+
+
+.market_listing_iteminfo .market_commodity_orders_header span {
+    margin: 0;
+}
+
+/*^ Title */
+.market_listing_iteminfo .market_commodity_orders_header .market_commodity_order_summary {
+    order: 1;
+    min-height: unset;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*^ Subtitle */
+.market_listing_iteminfo .market_commodity_orders_header .es_sold_amount {
+    order: 2;
+    min-height: unset;
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/*^ Button */
+.market_listing_iteminfo .market_commodity_orders_header .market_commodity_buy_button {
+    order: 3;
+    margin: 0;
+    margin-top: auto;
+    padding: 0;
+    text-transform: uppercase;
+    color: #fff !important;
+    background: unset;
+    background-color: rgb(var(--st-green));
+}
+
+.market_listing_iteminfo .market_commodity_orders_header .market_commodity_buy_button span {
+    background: unset;
+}
+
+
+/** Table */
+.market_listing_iteminfo .market_commodity_orders_table_container {
+    display: flex;
+    border: unset;
+}
+
+.market_listing_iteminfo .market_commodity_orders_table {
+    margin: 0;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-4));
+}
+
+/*^ Item */
+.market_listing_iteminfo .market_commodity_orders_table td {
+    border-radius: 4px;
+    background-color: rgb(var(--st-color-2));
+}
