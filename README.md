@@ -8,7 +8,7 @@
 <hr>
 </div>
 
-[![KoFi](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/ad.png)](https://kofi.spacetheme.net)
+### [Support me on Ko-Fi](https://kofi.spacetheme.net)
 
 ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.png)
 <details>
