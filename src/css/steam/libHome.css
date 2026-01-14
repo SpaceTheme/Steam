@@ -343,7 +343,7 @@
     margin: 6px;
     padding: 6px;
     border-radius: 8px;
-    background-color: rgba(var(--st-color-1), 80%);
+    background-color: rgba(var(--st-color-1), 60%);
     /* backdrop-filter: blur(4px) !important; */
     box-shadow: 0px 0px 3px 2px rgb(0 0 0 / 50%);
 }
@@ -468,7 +468,7 @@
     line-height: 12px;
     border: unset;
     border-radius: 8px;
-    background-color: rgba(var(--st-color-1), 80%);
+    background-color: rgba(var(--st-color-1), 60%);
     box-shadow: 0px 0px 3px 2px rgb(0 0 0 / 50%);
 }
 
@@ -485,7 +485,7 @@
     line-height: 12px;
     border: unset;
     border-radius: 8px !important;
-    background-color: rgba(var(--st-color-1), 80%) !important;
+    background-color: rgba(var(--st-color-1), 60%) !important;
     box-shadow: 0px 0px 3px 2px rgb(0 0 0 / 50%);
 }
 
@@ -529,7 +529,7 @@
     margin-top: -30px;
     padding: 4px;
     border-radius: 8px;
-    background-color: rgba(var(--st-color-1), 80%);
+    background-color: rgba(var(--st-color-1), 60%);
     /* backdrop-filter: blur(4px) !important; */
     box-shadow: 0px 0px 3px 2px rgb(0 0 0 / 50%);
 }
