@@ -14,8 +14,7 @@
     display: none;
 }
 
-.checkout #checkout_page_content h2,
-.checkout #checkout_page_content h3 {
+.checkout #payment_header {
     margin: 0 0 16px;
     font-size: 28px;
     line-height: 28px;
@@ -28,3 +27,32 @@
 /*
 & Payment Method
 */
+.checkout .payment_info_form_area {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px !important;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2)) !important;
+}
+
+/*
+!  Balance to low
+*/
+.checkout #payment_row_step2_header {
+    text-align: center;
+    margin: 0;
+    padding: 12px;
+    font-size: 16px !important;
+    font-weight: 700;
+    border: 3px solid rgb(var(--st-red));
+    border-radius: 8px;
+    color: rgb(var(--st-red));
+    background-color: rgb(var(--st-red), .4);
+}
+
+
+/** Image */
+.checkout #payment_row_step2_header img {
+    display: none;
+}
