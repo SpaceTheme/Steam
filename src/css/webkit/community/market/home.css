@@ -2,6 +2,7 @@
 & Header
 */
 body .market_header_bg {
+    margin-bottom: 16px;
     background-color: unset;
 }
 
@@ -52,4 +53,96 @@ body .market_header_bg {
 */
 .market_header_bg .user_info {
     display: none;
+}
+
+
+
+/*
+& Tabs
+*/
+#myMarketTabs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: unset !important;
+    margin: 0 0 12px !important;
+    padding: 6px 12px !important;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+#myMarketTabs .market_tab_well_tabs {
+    position: unset;
+    display: flex;
+    gap: 8px;
+    font-size: 0px;
+    border: unset;
+    background: unset;
+}
+
+
+/*
+! Button
+*/
+#myMarketTabs .market_tab_well_tab .market_tab_well_tab_contents {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    min-width: unset;
+    height: 32px;
+    padding: 0;
+    font-weight: 400;
+    line-height: unset;
+    border-radius: 8px;
+    color: #fff;
+    background: unset;
+}
+#myMarketTabs .market_tab_well_tab.market_tab_well_tab_active .market_tab_well_tab_contents {
+    font-weight: 600;
+    color: rgb(var(--st-accent-1));
+}
+
+
+/*
+! Sell an Item
+*/
+#myMarketTabs .pick_and_sell_button {
+    position: unset;
+}
+
+
+/*
+! Empty
+*/
+#myMarketTabs #myMarketTabs_empty {
+    display: none;
+}
+
+
+/*
+& Listings
+*/
+#myListings #tabContentsMyListings {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+/*
+! List
+*/
+#myListings .my_listing_section {
+    order: 2;
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+#myListings .my_listing_section:has(#my_market_listingstoconfirm_number) {
+    order: 1;
+    border: 3px solid rgb(var(--st-yellow));
+    background-color: rgb(var( --st-yellow), .2);
 }
