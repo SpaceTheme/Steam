@@ -19,8 +19,9 @@
     background-color: rgb(var(--st-color-2)) !important;
 }
 
-.market_listing_iteminfo>[style="clear: both"],
-.market_listing_iteminfo>br {
+.market_listing_iteminfo [style="clear: both"],
+.market_listing_iteminfo br,
+.market_listing_iteminfo hr {
     display: none;
 }
 
@@ -140,9 +141,7 @@
 }
 
 
-/*
-! Card
-*/
+/** Card */
 .market_listing_iteminfo .market_commodity_orders_block {
     float: unset;
     display: flex;
@@ -165,7 +164,7 @@
 }
 
 
-/** Header */
+/*^ Header */
 .market_listing_iteminfo .market_commodity_orders_header {
     display: flex;
     flex-direction: column;
@@ -180,7 +179,7 @@
     margin: 0;
 }
 
-/*^ Title */
+/* Title */
 .market_listing_iteminfo .market_commodity_orders_header .market_commodity_order_summary {
     order: 1;
     min-height: unset;
@@ -188,7 +187,7 @@
     font-weight: 400;
 }
 
-/*^ Subtitle */
+/* Subtitle */
 .market_listing_iteminfo .market_commodity_orders_header .es_sold_amount {
     order: 2;
     min-height: unset;
@@ -197,7 +196,7 @@
     font-weight: 400;
 }
 
-/*^ Button */
+/* Button */
 .market_listing_iteminfo .market_commodity_orders_header .market_commodity_buy_button {
     order: 3;
     margin: 0;
@@ -214,7 +213,7 @@
 }
 
 
-/** Table */
+/*^ Table */
 .market_listing_iteminfo .market_commodity_orders_table_container {
     display: flex;
     border: unset;
@@ -227,8 +226,53 @@
     background-color: rgb(var(--st-color-4));
 }
 
-/*^ Item */
+/* Item */
 .market_listing_iteminfo .market_commodity_orders_table td {
     border-radius: 4px;
     background-color: rgb(var(--st-color-2));
+}
+
+
+/*
+! Recent Activity Section
+*/
+.market_listing_iteminfo #market_activity_section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0;
+}
+
+
+/** Header */
+.market_listing_iteminfo #market_activity_section .market_activity_header {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/** Line */
+.market_listing_iteminfo #market_activity_section .market_activity_heading {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-4));
+}
+
+.market_listing_iteminfo #market_activity_section .market_activity_heading .market_activity_cell {
+    height: unset;
+}
+
+
+/** Items */
+.market_listing_iteminfo #market_activity_section #market_activity_block {
+    padding: 0;
+}
+
+
+.market_listing_iteminfo #market_activity_section .market_activity_cell {
+    width: 116px;
 }
