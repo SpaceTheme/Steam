@@ -24,17 +24,20 @@ button span,
 }
 
 
-.btn_green_steamui {
+.btn_green_steamui,
+._5b8C30zCFXs- {
     padding: 0 !important;
     color: #fff !important;
     text-shadow: unset !important;
     border-radius: 8px !important;
     background-color: rgb(var(--st-green)) !important;
 }
-.btn_green_steamui:hover {
+.btn_green_steamui:hover,
+._5b8C30zCFXs-:hover {
     background-color: rgb(var(--st-green-hover)) !important;
 }
-.btn_green_steamui span {
+.btn_green_steamui span,
+._5b8C30zCFXs- span {
     background: unset !important;
     background-color: unset !important;
 }
