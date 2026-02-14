@@ -1,6 +1,6 @@
 /* Background image */
-.game_bg .game_page_background {
-    background-image: unset !important;
+.game_bg .game_page_background_ctn {
+    display: none;
 }
 
 
