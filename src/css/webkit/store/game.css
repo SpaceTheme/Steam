@@ -1079,6 +1079,7 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
     display: flex;
     width: auto !important;
     height: unset;
+    margin-bottom: 16px !important;
     padding: 12px !important;
     font-size: 16px;
     font-weight: 600;
@@ -1124,9 +1125,6 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
     border-radius: 8px;
     background: none;
     background-color: rgb(var(--st-color-2));
-}
-.game_bg.application:has(.game_area_already_owned) .game_area_play_stats {
-    margin-top: 16px;
 }
 
 
