@@ -1568,7 +1568,7 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
     gap: 6px;
     height: unset;
     margin: 0;
-    padding: 6px;
+    padding: 6px !important;
     font-size: 14px;
     font-weight: 600;
     line-height: unset;
