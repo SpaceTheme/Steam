@@ -98,8 +98,8 @@
 ! Text Logo
 */
 ._30acA_E0q_GuOxBqxgDJj4 {
-    z-index: 9999;
-    flex-direction: row-reverse;
+    top: 0;
+    bottom: unset;
     align-items: flex-end;
     padding: 0;
 }
