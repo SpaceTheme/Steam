@@ -1356,7 +1356,7 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 .game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game h2 {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: calc(100% - 138px);
     margin-bottom: 2px;
     font-size: 20px;
     font-weight: 600;
