@@ -1410,6 +1410,7 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 .game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_item,
 .game_bg.application .game_description_column .game_area_purchase .package_contents_capsule {
     position: relative;
+    left: 0 !important;
     display: none;
 }
 .game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_item:nth-child(-n+3),
