@@ -12,6 +12,7 @@
 /** Plugins */
 /*^ HLTB for Steam */
 @import url("./plugins/hltb.css");
+@import url("./plugins/sizeOnDisk.css");
 
 
 
