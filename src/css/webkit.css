@@ -113,7 +113,8 @@ body .discount_block.empty {
     display: none !important;
 }
 
-body .discount_block {
+body .discount_block,
+body .a3nhjc9lykk- {
     display: flex !important;
     align-items: center !important;
     gap: 6px !important;
@@ -128,7 +129,8 @@ body .discount_block {
     background-color: rgb(var(--st-color-1)) !important;
 }
 
-body .discount_block .discount_pct {
+body .discount_block .discount_pct,
+body .a3nhjc9lykk- .XXn-kJ7FSrw- {
     height: unset !important;
     padding: 4px 6px !important;
     font-size: 18px !important;
@@ -139,7 +141,8 @@ body .discount_block .discount_pct {
     background-color: rgb(var(--st-green), .3) !important;
 }
 
-body .discount_block .discount_prices {
+body .discount_block .discount_prices,
+body .a3nhjc9lykk- .ME2eMO7C1Tk- {
     display: flex !important;
     flex-direction: column !important;
     align-items: end !important;
@@ -148,7 +151,8 @@ body .discount_block .discount_prices {
     background-color: unset !important;
 }
 
-body .discount_block .discount_prices .discount_final_price {
+body .discount_block .discount_prices .discount_final_price,
+body .a3nhjc9lykk- .DOnsaVcV0Is- {
     padding-left: 0 !important;
     padding-right: 0 !important;
     font-size: 14px !important;
@@ -156,7 +160,8 @@ body .discount_block .discount_prices .discount_final_price {
     line-height: unset !important;
     color: rgb(var(--st-green)) !important;
 }
-body .discount_block.no_discount .discount_prices .discount_final_price {
+body .discount_block.no_discount .discount_prices .discount_final_price,
+body .a3nhjc9lykk-:not(:has(.MKj0TKJbfZY-[aria-label*="%"])) .DOnsaVcV0Is- {
     color: #fff !important;
 }
 
