@@ -1,3 +1,58 @@
 .search_price_discount_combined {
     width: unset !important;
 }
+
+
+
+/*
+& Header
+*/
+.search_page .page_header_ctn.search {
+    margin: 0;
+    padding: 0;
+    background: unset;
+}
+
+.search_page .page_header_ctn .breadcrumbs,
+.search_page .page_header_ctn h2.pageheader {
+    display: none;
+}
+
+
+
+/*
+! Title
+*/
+.search_page .page_header_ctn #termsnone {
+    display: block !important;
+}
+
+.search_page .page_header_ctn .pagesubheader {
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 28px;
+    color: #fff;
+}
+.search_page .page_header_ctn:has(.searchtag.tag_dynamic) .pagesubheader {
+    margin-bottom: 0;
+}
+
+
+
+/*
+! Tag/Subtitle
+*/
+.search_page .page_header_ctn .searchtag.tag_dynamic {
+    margin: 0 0 16px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #a9a9a9;
+    background-color: unset;
+}
+
+/** Dismiss icon */
+.search_page .page_header_ctn .searchtag.tag_dynamic .btn {
+    display: none;
+}
