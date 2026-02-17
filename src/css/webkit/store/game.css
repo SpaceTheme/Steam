@@ -1406,12 +1406,17 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
     gap: 6px;
     height: unset;
 }
+.game_bg.application .game_description_column .game_area_purchase .package_contents_capsules::after {
+    display: none !important;
+}
 
 .game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_item,
 .game_bg.application .game_description_column .game_area_purchase .package_contents_capsule {
     position: relative;
     left: 0 !important;
     display: none;
+    margin: 0 !important;
+    box-shadow: unset;
 }
 .game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_item:nth-child(-n+3),
 .game_bg.application .game_description_column .game_area_purchase .package_contents_capsule:nth-child(-n+3) {
