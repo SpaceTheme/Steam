@@ -503,6 +503,16 @@
     display: none;
 }
 
+/* lock, playbar, gamepage, library */
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Lock)::before {
+    content: "\e79e" !important;
+    font-size: 24px;
+    color: #fff;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Lock)>svg {
+    display: none;
+}
+
 
 /* cloud checkmark, playbar, gamepage, library */
 ._2cRYms-zZc4misk9tj3bt8 .tool-tip-source:nth-child(1) ._3bkqc-SsCg0b3FTEuewlK8._1UXbBdCvbg9tyZhc4owO4W::before {
