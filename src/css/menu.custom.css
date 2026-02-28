@@ -167,6 +167,16 @@ body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n ._3sTMvhkGXqBzwhsP2-IA5P ._3B8wRA4H7e_oS
     color: rgb(var(--st-yellow));
 }
 
+/* New inventory item */
+body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n ._3sTMvhkGXqBzwhsP2-IA5P ._3B8wRA4H7e_oSksYNqpSPv ._1VRx9qVxigUC4qeM0NWNMR:has(._3n8vALReUk851YHiEiWEfQ) {
+    background-color: rgb(var(--st-yellow), .2);
+}
+
+body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n ._3sTMvhkGXqBzwhsP2-IA5P ._3B8wRA4H7e_oSksYNqpSPv ._1VRx9qVxigUC4qeM0NWNMR:has(._3n8vALReUk851YHiEiWEfQ)::before {
+    content: "\e148";
+    color: rgb(var(--st-yellow));
+}
+
 /*^ Text */
 body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n ._3sTMvhkGXqBzwhsP2-IA5P ._1SQjN025UZ0z_8AkWHCsGd {
     margin-left: 6px;
