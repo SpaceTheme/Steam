@@ -92,14 +92,13 @@ body .market_header_bg {
     min-width: unset;
     height: 32px;
     padding: 0;
-    font-weight: 400;
+    font-weight: 500;
     line-height: unset;
     border-radius: 8px;
     color: #fff;
     background: unset;
 }
 #myMarketTabs .market_tab_well_tab.market_tab_well_tab_active .market_tab_well_tab_contents {
-    font-weight: 600;
     color: rgb(var(--st-accent-1));
 }
 
@@ -109,6 +108,15 @@ body .market_header_bg {
 */
 #myMarketTabs .pick_and_sell_button {
     position: unset;
+}
+
+
+#myMarketTabs .pick_and_sell_button span {
+    padding: 0px;
+    font-weight: 800;
+    border-radius: 8px;
+    background-image: unset;
+    background-color: rgb(var(--st-green));
 }
 
 
@@ -135,6 +143,9 @@ body .market_header_bg {
 */
 #myListings .my_listing_section {
     order: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
     margin: 0;
     padding: 12px;
     border-radius: 8px;
@@ -145,4 +156,42 @@ body .market_header_bg {
     order: 1;
     border: 3px solid rgb(var(--st-yellow));
     background-color: rgb(var( --st-yellow), .2);
+}
+
+
+/** Header */
+#myListings .my_listing_section .my_market_header {
+    margin-bottom: 6px;
+}
+
+
+#myListings .my_listing_section .my_market_header_active {
+    font-weight: 600;
+}
+
+
+/** Table Header */
+#myListings .my_listing_section .market_listing_table_header {
+    margin: 0;
+    padding: 6px 0 6px 12px;
+    font-size: 11px;
+    border: unset;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-1));
+}
+#myListings .my_listing_section:has(#my_market_listingstoconfirm_number) .market_listing_table_header {
+    background-color: rgb(var( --st-yellow), .2);
+}
+
+
+/** Item */
+#myListings .my_listing_section .market_listing_row {
+    margin: unset;
+    border: unset;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-3));
+    transition: unset;
+}
+#myListings .my_listing_section:has(#my_market_listingstoconfirm_number) .market_listing_row {
+    background-color: rgb(var( --st-yellow), .1);
 }
