@@ -11,7 +11,7 @@
 ## [New Support/Community Server](https://root.spacetheme.net)
 ## [Support me on Ko-Fi](https://kofi.spacetheme.net)
 
-![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp.)
+![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp)
 <details>
     <summary>More images (10. Nov. 2025)</summary>
 
