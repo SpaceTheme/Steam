@@ -151,10 +151,18 @@ body .a3nhjc9lykk- .ME2eMO7C1Tk- {
     background-color: unset !important;
 }
 
+body .game_purchase_discount .discount_original_price,
+body .a3nhjc9lykk- .ywNldZ-YzEE- {
+    position: relative !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+}
+
 body .discount_block .discount_prices .discount_final_price,
 body .a3nhjc9lykk- .DOnsaVcV0Is- {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding: 0 !important;
     font-size: 14px !important;
     font-weight: 600 !important;
     line-height: unset !important;

@@ -1616,24 +1616,6 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 }
 
 /* Price */
-.game_bg.application .game_description_column .game_area_purchase .discount_prices {
-    height: unset;
-    padding: 0;
-    background-color: unset;
-}
-
-.game_bg.application .game_description_column .game_area_purchase .discount_original_price {
-    top: 0;
-    right: 0;
-}
-
-.game_bg.application .game_description_column .game_area_purchase .discount_final_price {
-    padding-left: 0;
-    padding-right: 0;
-    font-weight: 600;
-    line-height: unset;
-    color: rgb(var(--st-green));
-}
 .game_bg.application .game_description_column .game_area_purchase .no_discount .discount_final_price {
     color: #fff;
 }
