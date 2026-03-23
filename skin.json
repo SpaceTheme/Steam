@@ -70,6 +70,34 @@
         },
 
 
+        "General - Sidebar hover easing": {
+            "description": "Select the easing applied to the sidebar on hover animation",
+            "default": "Linear (default)",
+            "tab": "General",
+            "section": "Sidebar",
+            "values": {
+                "Linear (default)": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/sidebarEasing/linear.css" }
+                },
+                "Ease": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/sidebarEasing/ease.css" }
+                },
+                "Ease-In": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/sidebarEasing/ease-in.css" }
+                },
+                "Ease-Out": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/sidebarEasing/ease-out.css" }
+                },
+                "Ease-In-Out": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/sidebarEasing/ease-in-out.css" }
+                },
+                "Spring (bouncy)": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/sidebarEasing/spring.css" }
+                }
+            }
+        },
+
+
         "General - Friend icon": {
             "description": "Hide the friend icon from the game item",
             "default": "no",
