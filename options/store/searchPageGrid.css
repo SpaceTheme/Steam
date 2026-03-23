@@ -1,0 +1,42 @@
+.search_page #search_result_container #search_resultsRows {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+/*
+& Card
+*/
+.search_page #search_result_container .search_result_row {
+    flex-direction: column;
+}
+
+
+
+/*
+! Card
+*/
+/** Image */
+.search_page #search_result_container .search_result_row img {
+    width: 100%;
+    height: auto;
+    max-height: unset;
+    border-radius: 8px;
+}
+
+
+/*** Content */
+.search_page #search_result_container .search_result_row .responsive_search_name_combined {
+    gap: 6px 0;
+    grid-template-areas:
+        "title title title platforms"
+        "reviews reviews price price"
+        "release release price price" !important;
+}
+
+
+/*^ Release Date */
+.search_page #search_result_container .search_result_row .search_released {
+    margin: 0 !important;
+}
