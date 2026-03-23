@@ -61,7 +61,7 @@
   - [ ] (WIP) Checkout
   - [ ] Categories page
   - [ ] Personal calendar
-  - [ ] Search result list page
+  - [ ] (WIP) Search result list page
   - [ ] Settings
 - [ ] Community
   - [ ] Home

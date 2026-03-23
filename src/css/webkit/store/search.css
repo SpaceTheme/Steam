@@ -1,3 +1,5 @@
+/* @import url("../../../../options/store/searchPageGrid.css"); */
+
 .search_price_discount_combined {
     width: unset !important;
 }
@@ -56,3 +58,110 @@
 .search_page .page_header_ctn .searchtag.tag_dynamic .btn {
     display: none;
 }
+
+
+
+/*
+& Controls
+*/
+/*
+! Top Controls
+*/
+.search_page .searchbar {
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px 8px 0 0;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+
+/*
+! Bottom Controls
+*/
+.search_page .search_results_filtered_warning {
+    margin: 0;
+    padding: 0 12px 12px;
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+
+/*
+& List
+*/
+.search_page #search_result_container {
+    margin-top: 12px;
+}
+
+.search_page #search_result_container #search_resultsRows {
+    gap: 6px;
+}
+
+
+
+/*
+! Game Cards
+*/
+.search_page #search_result_container .search_result_row {
+    gap: 6px;
+    width: -webkit-fill-available;
+    padding: 12px;
+    font-weight: 600;
+    border: unset;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+/** Image */
+.search_page #search_result_container .search_result_row img {
+    width: 100%;
+    height: auto;
+    max-height: unset;
+    border-radius: 8px;
+}
+
+
+/** Content */
+.search_page #search_result_container .search_result_row .responsive_search_name_combined {
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 0;
+    grid-template-areas:
+        "title title title platforms"
+        "reviews release price price";
+    justify-content: unset;
+}
+
+/*^ Platforms */
+.search_page #search_result_container .search_result_row .search_platforms {
+    justify-content: flex-end;
+}
+
+/*^ Reviews */
+.search_page #search_result_container .search_result_row .search_reviewscore {
+    align-self: start;
+    width: 16px;
+    height: 16px;
+    margin: 6px 0 0;
+}
+
+/*^ Release Date */
+.search_page #search_result_container .search_result_row .search_released {
+    justify-self: unset;
+    align-self: start;
+    margin: 6px 0 0 20px;
+    line-height: 16px;
+}
+
+/*^ Price */
+.search_page #search_result_container .search_result_row .search_price_discount_combined {
+    align-self: end;
+}
+
+
+
+/*
+& Sidebar
+*/
