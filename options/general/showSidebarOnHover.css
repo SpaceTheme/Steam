@@ -28,7 +28,7 @@
     height: 100%;
     margin-left: -16px;
     padding-left: 16px;
-    transition: all .2s linear;
+    transition: all .2s ease-in-out;
 }
 
 .RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:hover {
