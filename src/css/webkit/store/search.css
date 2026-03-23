@@ -72,21 +72,163 @@
     background-color: rgb(var(--st-color-2));
 }
 
+.search_page .searchbar .searchbar_left {
+    display: flex;
+    height: 30px;
+}
+
 
 /*** Search Bar */
 .search_page .searchbar .searchbar_left #term {
-    width: 230px;
+    width: 200px;
     height: 30px;
     padding: 0 12px;
     border: unset;
-    border-radius: 8px;
-    color: #a9a9a9;
+    border-radius: 8px 0 0 8px;
+    color: #dcdedf;
     background-color: rgb(var(--st-color-1));
     box-shadow: unset;
     transition: 0.4s all ease-in-out;
 }
 .search_page .searchbar .searchbar_left #term:is(:hover, :focus) {
-    width: 430px;
+    width: 400px;
+}
+
+/*^ Search Icon */
+.search_page .searchbar .searchbar_left button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 8px 8px 0 !important;
+    background: unset !important;
+    background-color: rgb(var(--st-color-1)) !important;
+}
+
+/* Text */
+.search_page .searchbar .searchbar_left button span {
+    display: none;
+}
+
+/* Custom icon */
+.search_page .searchbar .searchbar_left button::before {
+    content: "\f69a" !important;
+    font-size: 18px;
+    color: #dcdedf;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*^ Result list */
+.search_page .searchbar .searchbar_left #term_options {
+    overflow: hidden;
+    top: unset !important;
+    left: unset !important;
+    width: 430px !important;
+    margin-top: 6px;
+    padding: 6px;
+    font-weight: 500;
+    border: 3px solid rgb(var(--st-color-5));
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(var(--st-color-2));
+    box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
+}
+
+/* Items */
+.search_page .searchbar .searchbar_left #term_options li {
+    overflow: hidden;
+    padding: 6px;
+    text-overflow: ellipsis;
+    border-radius: 8px;
+}
+.search_page .searchbar .searchbar_left #term_options li.selected {
+    background-color: rgb(var(--st-color-3));
+}
+
+
+/*** Sort By */
+.search_page .searchbar .sortbox {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 30px;
+    margin: 0;
+}
+
+/*^ Text */
+.search_page .searchbar .sortbox .label {
+    margin: 0;
+    font-weight: 500;
+    color: #dcdedf;
+}
+
+/*^ Dropdown Button */
+.search_page .searchbar .sortbox .dselect_container {
+    width: unset;
+}
+
+.search_page .searchbar .sortbox .dselect_container button {
+    overflow: hidden;
+    max-width: 140px;
+    height: 30px;
+    padding: 0 calc(12px + 14px) 0 12px;
+    font-weight: 600;
+    color: #fff;
+    background: unset;
+    background-color: rgb(var(--st-color-1));
+}
+
+.search_page .searchbar .sortbox .dselect_container button::after {
+    content: "\f262" !important;
+    width: unset;
+    margin-right: 6px;
+    font-size: 14px;
+    color: #dcdedf;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 30px;
+    -webkit-font-smoothing: antialiased;
+    background: unset;
+}
+
+/*^ Sort list */
+.search_page .dselect_container #sort_by_droplist {
+    overflow: hidden;
+    top: unset !important;
+    left: unset !important;
+    margin-top: 6px;
+    padding: 6px;
+    font-weight: 500;
+    border: 3px solid rgb(var(--st-color-5));
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(var(--st-color-2));
+    box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
+}
+
+/* Items */
+.search_page .dselect_container #sort_by_droplist a {
+    padding: 6px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 8px;
+    color: #fff;
+}
+.search_page .dselect_container #sort_by_droplist a.highlighted_selection {
+    background: unset;
+    background-color: rgb(var(--st-color-3));
 }
 
 
