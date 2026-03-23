@@ -341,3 +341,59 @@
 /*
 & Sidebar
 */
+.search_page #additional_search_options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0 0 0 16px;
+}
+
+
+.search_page #additional_search_options .search_collapse_block {
+    margin: 0;
+}
+
+
+
+/*
+! Header
+*/
+.search_page #additional_search_options .block_header {
+    position: relative;
+    padding: 12px;
+    font-weight: 500;
+    border-radius: 8px 8px 0 0 !important;
+    color: #fff;
+    background-color: rgb(var(--st-color-2));
+}
+.search_page #additional_search_options .block_header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    width: calc(100% - 12px - 12px);
+    height: 4px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-3));
+    transform: translateX(-50%);
+}
+
+.search_page #additional_search_options .collapsed .block_header {
+    border-radius: 8px !important;
+}
+.search_page #additional_search_options .collapsed .block_header::after {
+    display: none;
+}
+
+
+
+/*
+! Content
+*/
+.search_page #additional_search_options .block_content {
+    padding: 0 12px 12px;
+    border: unset;
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(var(--st-color-2));
+}
