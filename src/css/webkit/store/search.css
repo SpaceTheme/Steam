@@ -73,15 +73,40 @@
 }
 
 
+/*** Search Bar */
+.search_page .searchbar .searchbar_left #term {
+    width: 230px;
+    height: 30px;
+    padding: 0 12px;
+    border: unset;
+    border-radius: 8px;
+    color: #a9a9a9;
+    background-color: rgb(var(--st-color-1));
+    box-shadow: unset;
+    transition: 0.4s all ease-in-out;
+}
+.search_page .searchbar .searchbar_left #term:is(:hover, :focus) {
+    width: 430px;
+}
+
 
 /*
-! Bottom Controls
+! Warning
 */
 .search_page .search_results_filtered_warning {
     margin: 0;
     padding: 0 12px 12px;
     border-radius: 0 0 8px 8px;
     background-color: rgb(var(--st-color-2));
+}
+
+.search_results_filtered_warning > div:first-child {
+    padding: 12px;
+    font-weight: 800;
+    border: 2px solid rgb(var(--st-yellow));
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(var(--st-yellow), .2);
 }
 
 
