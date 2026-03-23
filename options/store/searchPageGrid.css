@@ -17,15 +17,6 @@
 /*
 ! Card
 */
-/** Image */
-.search_page #search_result_container .search_result_row img {
-    width: 100%;
-    height: auto;
-    max-height: unset;
-    border-radius: 8px;
-}
-
-
 /*** Content */
 .search_page #search_result_container .search_result_row .responsive_search_name_combined {
     gap: 6px 0;

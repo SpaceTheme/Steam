@@ -75,6 +75,7 @@
 .search_page .searchbar .searchbar_left {
     display: flex;
     height: 30px;
+    padding: 0;
 }
 
 
@@ -130,7 +131,6 @@
 /*^ Result list */
 .search_page .searchbar .searchbar_left #term_options {
     overflow: hidden;
-    top: unset !important;
     left: unset !important;
     width: 430px !important;
     margin-top: 6px;
