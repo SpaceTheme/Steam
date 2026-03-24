@@ -402,6 +402,20 @@
         },
 
 
+        "Store - Search grid view": {
+            "description": "Adds Grid/List View toggle button to the store search page",
+            "default": "no",
+            "tab": "Store",
+            "section": "Other",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "src/css/storeSearchGrid.css" },
+                    "TargetJs": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "src/js/storeSearchGrid.js" }
+                }
+            }
+        },
+
 
 
         "Library - Steam-Custom-Artworks Support": {

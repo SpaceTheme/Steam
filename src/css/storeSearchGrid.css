@@ -1,6 +1,7 @@
-.search_page #search_result_container #search_resultsRows {
+.search_page.st-grid-view #search_result_container #search_resultsRows {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
 }
 
 
@@ -8,7 +9,7 @@
 /*
 & Card
 */
-.search_page #search_result_container .search_result_row {
+.search_page.st-grid-view #search_result_container .search_result_row {
     flex-direction: column;
 }
 
@@ -18,7 +19,7 @@
 ! Card
 */
 /*** Content */
-.search_page #search_result_container .search_result_row .responsive_search_name_combined {
+.search_page.st-grid-view #search_result_container .search_result_row .responsive_search_name_combined {
     gap: 6px 0;
     grid-template-areas:
         "title title title platforms"
@@ -28,6 +29,6 @@
 
 
 /*^ Release Date */
-.search_page #search_result_container .search_result_row .search_released {
+.search_page.st-grid-view #search_result_container .search_result_row .search_released {
     margin: 0 !important;
 }
