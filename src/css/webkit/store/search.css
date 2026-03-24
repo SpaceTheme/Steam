@@ -1,3 +1,5 @@
+@import url("../../../../options/store/searchPageGrid.css");
+
 .search_price_discount_combined {
     width: unset !important;
 }
@@ -397,3 +399,7 @@
     border-radius: 0 0 8px 8px;
     background-color: rgb(var(--st-color-2));
 }
+
+
+/*** Checkbox */
+.search_page #additional_search_options .block_content .tab_filter_control_row {
