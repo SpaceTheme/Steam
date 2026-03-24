@@ -263,6 +263,11 @@
 .search_page #search_result_container #search_resultsRows {
     gap: 6px;
 }
+.search_page.st-grid-view #search_result_container #search_resultsRows {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
 
 
 
@@ -277,6 +282,9 @@
     border: unset;
     border-radius: 8px;
     background-color: rgb(var(--st-color-2));
+}
+.search_page.st-grid-view #search_result_container .search_result_row {
+    flex-direction: column;
 }
 
 
@@ -297,6 +305,13 @@
         "title title title platforms"
         "reviews release price price";
     justify-content: unset;
+}
+.search_page.st-grid-view #search_result_container .search_result_row .responsive_search_name_combined {
+    gap: 6px;
+    grid-template-areas:
+        "title title title platforms"
+        "reviews reviews price price"
+        "release release price price" !important;
 }
 
 /*^ Title */
@@ -329,6 +344,9 @@
     font-weight: 400;
     line-height: 16px;
     color: #a9a9a9;
+}
+.search_page.st-grid-view #search_result_container .search_result_row .search_released {
+    margin: 0 !important;
 }
 
 /*^ Price */
