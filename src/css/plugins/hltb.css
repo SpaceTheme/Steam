@@ -1,6 +1,6 @@
 #hltb-for-millennium {
     z-index: 999999;
-    bottom: 16px;
+    bottom: 16px !important;
     right: 16px !important;
 }
 
