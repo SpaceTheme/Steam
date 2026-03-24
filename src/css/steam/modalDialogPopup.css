@@ -70,3 +70,16 @@ html .MillenniumSettings {
     border-radius: 8px;
     background-color: rgb(var(--st-color-1)) !important;
 }
+
+
+/*
+! App/Steam Close Window
+*/
+
+/** Text */
+.DialogContent_InnerWidth ._2Se5JD_UkWeIyaZiXXmxDD .DialogBodyText {
+    margin-bottom: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #fff;
+}
