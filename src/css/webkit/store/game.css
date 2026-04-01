@@ -1394,7 +1394,7 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 .game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview,
 .game_bg.application .game_description_column .game_area_purchase .package_contents_capsules_ctn {
     width: fit-content;
-    margin: 6px 0 0;
+    margin: 12px 0 0;
     padding: 0;
     background-color: unset;
 }
@@ -1402,6 +1402,7 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 /* List */
 .game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview_position,
 .game_bg.application .game_description_column .game_area_purchase .package_contents_capsules {
+    overflow: visible;
     display: flex;
     gap: 6px;
     height: unset;
@@ -1427,14 +1428,14 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 /* on Wishlist icon */
 .game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .ds_wishlist_flag {
     position: absolute;
-    top: 4px;
-    left: 4px;
+    top: -6px;
+    left: -6px;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: unset;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     padding: 0px;
     font-size: 0;
     border-radius: 8px;
