@@ -236,6 +236,7 @@
 ! Warning
 */
 .search_page .search_results_filtered_warning {
+    position: relative;
     margin: 0;
     padding: 0 12px 12px;
     border-radius: 0 0 8px 8px;
@@ -243,7 +244,6 @@
 }
 
 .search_results_filtered_warning > div:first-child {
-    position: relative;
     padding: 12px 48px 12px 12px;
     font-weight: 800;
     border: 2px solid rgb(var(--st-yellow));
@@ -260,6 +260,9 @@
     right: 24px;
     top: 50%;
     bottom: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 36px;
     height: 36px;
     background-image: unset;
@@ -485,7 +488,7 @@
 ! Content
 */
 .search_page #additional_search_options .block_content {
-    padding: 0 12px 12px;
+    padding: 6px 12px 12px;
     border: unset;
     border-radius: 0 0 8px 8px;
     background-color: rgb(var(--st-color-2));
