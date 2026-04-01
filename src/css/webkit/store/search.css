@@ -493,3 +493,39 @@
     border-radius: 0 0 8px 8px;
     background-color: rgb(var(--st-color-2));
 }
+
+
+/** Range */
+.search_page #additional_search_options .block_content .range_container {
+    margin-top: 6px !important;
+}
+
+/*^ Slider */
+.search_page #additional_search_options .block_content .range_container .range_input {
+    height: 16px;
+    max-height: unset;
+    margin: unset;
+}
+.search_page #additional_search_options .block_content .range_container .range_input::-webkit-slider-runnable-track {
+    height: 4px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-accent-1));
+}
+.search_page #additional_search_options .block_content .range_container .range_input::-webkit-slider-thumb {
+    height: 16px;
+    width: 6px;
+    margin-top: -6px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: none;
+}
+.search_page #additional_search_options .block_content .range_container .range_container_inner:hover .range_input::-webkit-slider-thumb {
+    height: 14px;
+    margin-top: -5px;
+}
+
+/*^ Text */
+.search_page #additional_search_options .block_content .range_container .range_display {
+    padding: 0;
+    line-height: normal;
+}
