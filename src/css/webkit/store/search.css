@@ -243,12 +243,40 @@
 }
 
 .search_results_filtered_warning > div:first-child {
-    padding: 12px;
+    position: relative;
+    padding: 12px 48px 12px 12px;
     font-weight: 800;
     border: 2px solid rgb(var(--st-yellow));
     border-radius: 8px;
     color: #fff;
     background-color: rgb(var(--st-yellow), .2);
+}
+
+
+/** Settings Icon */
+.search_page .search_results_filtered_warning .settings_tab {
+    box-sizing: border-box;
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    bottom: 50%;
+    width: 36px;
+    height: 36px;
+    background-image: unset;
+    transform: translateY(calc(-50% + -6px));
+}
+.search_page .search_results_filtered_warning .settings_tab::before {
+    content: "\f6b3" !important;
+    font-size: 18px;
+    color: #dcdedf;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 18px;
+    -webkit-font-smoothing: antialiased;
+}
 }
 
 
