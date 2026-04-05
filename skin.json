@@ -403,7 +403,6 @@
 
 
 
-
         "Library - Steam-Custom-Artworks Support": {
             "description": "The best support for https://spacetheme.net/#steam-custom-artworks ",
             "default": "no",
@@ -611,6 +610,10 @@
             "MatchRegexString": "^Steam$",
             "TargetCss": "src/css/libraryroot.custom.css",
             "TargetJs": "src/js/libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": "https://.*\\.steampowered\\.com(/.*)?",
+            "TargetJs": "src/js/webkit.js"
         },
         {
             "MatchRegexString": "https://steamcommunity\\.com(/.*)?",
