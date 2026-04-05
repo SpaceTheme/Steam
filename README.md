@@ -47,6 +47,10 @@
 - Some things only work properly when steam is maximized on a 1920x1080p (or higher) monitor.
   - Smaller monitors may be properly supported later
 
+## Fully supported plugins
+- [HLTB for Steam](https://steambrew.app/plugin?id=f685622bace6)
+- [Size on Disk](https://steambrew.app/plugin?id=e73371b61eef)
+
 ## Roadmap
 - [ ] Store
   - [ ] (WIP) Home
