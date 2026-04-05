@@ -60,13 +60,14 @@
   - [ ] (WIP) Checkout
   - [ ] Categories page
   - [ ] Personal calendar
-  - [ ] (WIP) Search result list page
+  - [x] Search result list page
   - [ ] Settings
 - [ ] Community
   - [ ] Home
   - [ ] Discussions
   - [ ] Workshop
   - [ ] Market
+    - [ ] (WIP) Home
     - [ ] (WIP) Item page
   - [ ] Broadcast
 - [ ] User
