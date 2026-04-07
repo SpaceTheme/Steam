@@ -505,6 +505,20 @@
                 }
             }
         },
+
+
+        "Library - Dynamic banner height": {
+            "description": "Scale gamepage banner height with window size to preserve full banner aspect ratio",
+            "default": "no",
+            "tab": "Library",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/dynamicBannerHeight.css" }
+                }
+            }
+        },
         
 
         "Library - Banner Infos": {
