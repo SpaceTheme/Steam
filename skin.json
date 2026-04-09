@@ -638,6 +638,11 @@
             "TargetJs": "src/js/menu.custom.js"
         },
         {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "src/css/menu.custom.css",
+            "TargetJs": "src/js/menu.custom.js"
+        },
+        {
 			"MatchRegexString": "^notificationtoasts_",
 			"TargetCss": "src/css/notifications.custom.css",
 			"TargetJs": "src/css/notifications.custom.js"
