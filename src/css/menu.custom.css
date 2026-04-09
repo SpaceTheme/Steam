@@ -31,7 +31,12 @@ body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover {
 }
 body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
     color: #9c9c9c;
-    background: unset;
+    background: rgb(var(--st-color-2));
+}
+
+
+body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI {
+    border: none;
 }
 
 
