@@ -4,6 +4,7 @@ body.DesktopUI {
 }
 
 body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
+    padding: 0;
     background: unset;
 }
 
@@ -24,55 +25,51 @@ body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI {
     border-radius: 8px;
     color: #9c9c9c;
 }
-body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
-    color: #9c9c9c;
-    background: transparent;
-}
 body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover {
     color: #fff;
     background-color: rgb(var(--st-color-2));
 }
-body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI {
-    border: none;
+body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
+    color: #9c9c9c;
+    background: unset;
 }
+
 
 /*
 ! Play/Install/... button
 */
-
 body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI {
-    min-width: 150px;
-    gap: 6px;
-    justify-content: flex-start;
-    padding: 8px;
-    margin-bottom: 2px;
-    background: unset;
+    min-width: 146px;
+    font-weight: 700;
     color: #fff;
+    background: unset;
 }
 
 body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Download) {
-    background-color: #4B89EF;
+    background-color: rgb(var(--st-blue));
 }
 
 body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Download):hover {
-    background-color: #649af2;
+    background: none;
+    background-color: rgb(var(--st-blue-hover));
 }
 
 body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Play) {
-    background-color: #23A559;
+    background-color: rgb(var(--st-green));
 }
 
 body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Play):hover {
     background: none;
-    background-color: #27b964;
+    background-color: rgb(var(--st-green-hover));
 }
 
 body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Trash) {
-    background-color: #EF4B4B;
+    background-color: rgb(var(--st-red));
 }
 
 body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Trash):hover {
-    background-color: #f26464;
+    background: none;
+    background-color: rgb(var(--st-red-hover));
 }
 
 
