@@ -30,6 +30,9 @@
 @import url("./webkit/community/workshop/item.css");
 
 
+/** Mini Profile */
+@import url("./miniprofile.custom.css");
+
 /** Plugins */
 /*^ Extendium */
 @import url("./plugins/extendium/plugins.css");

@@ -1,0 +1,275 @@
+.miniprofile_hover_inner.shadow_content {
+    border-radius: 8px !important;
+    border: 3px solid rgb(var(--st-color-5)) !important;
+    background: none !important;
+    background-color: rgb(var(--st-background)) !important;
+    box-shadow: 0px 8px 24px 0px rgba(var(--st-background), 0.8) !important;
+    overflow: hidden !important;
+}
+
+.miniprofile_container {
+    background: none !important;
+    background-color: transparent !important;
+}
+
+.miniprofile_background {
+    background: none !important;
+    background-image: radial-gradient(
+        at 20% 30%,
+        rgb(var(--st-color-6)) 0%,
+        rgb(var(--st-color-2)) 50%,
+        rgb(var(--st-color-1)) 100%
+    ) !important;
+}
+
+.miniprofile_backgroundblur {
+    opacity: 0.35 !important;
+    filter: brightness(0.6) saturate(1.3) blur(2px) !important;
+    transition: opacity 0.3s ease-in-out, filter 0.3s ease-in-out !important;
+}
+
+.miniprofile_hover_inner:hover .miniprofile_backgroundblur {
+    opacity: 0.45 !important;
+    filter: brightness(0.7) saturate(1.4) blur(1px) !important;
+}
+.miniprofile_nameplatecontainer {
+    overflow: hidden !important;
+}
+
+.miniprofile_nameplate,
+.miniprofile_nameplatecontainer video {
+    filter: brightness(0.5) saturate(1.2) !important;
+    transition: filter 0.3s ease-in-out !important;
+}
+
+.miniprofile_hover_inner:hover .miniprofile_nameplate,
+.miniprofile_hover_inner:hover .miniprofile_nameplatecontainer video {
+    filter: brightness(0.65) saturate(1.3) !important;
+}
+
+.miniprofile_playersection {
+    padding-top: 10px !important;
+    background: none !important;
+    background-color: transparent !important;
+    margin-bottom: 42px;
+    margin-top: 6px;
+}
+
+.miniprofile_playersection.text_shadow {
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9), 0 0 12px rgba(0, 0, 0, 0.5) !important;
+}
+
+.playersection_avatar {
+    border-radius: 8px !important;
+}
+
+.playersection_avatar img {
+    border-radius: 6px !important;
+}
+
+.playersection_avatar_frame {
+    top: 2px !important;
+}
+
+.playersection_avatar_frame img {
+    border-radius: 6px !important;
+}
+
+.playersection_avatar.border_color_online {
+    border-color: rgb(var(--st-blue)) !important;
+    box-shadow: 0 0 10px rgba(var(--st-blue), 0.4) !important;
+}
+
+.playersection_avatar.border_color_in-game {
+    border-color: rgb(var(--st-green)) !important;
+    box-shadow: 0 0 10px rgba(var(--st-green), 0.4) !important;
+}
+
+.playersection_avatar.border_color_offline {
+    border-color: rgb(var(--st-color-5)) !important;
+    box-shadow: none !important;
+}
+.player_content .persona {
+    font-weight: 700 !important;
+    letter-spacing: 0.3px !important;
+}
+
+.player_content .persona.online {
+    color: rgb(var(--st-blue)) !important;
+}
+
+.player_content .persona.in-game {
+    color: rgb(var(--st-green)) !important;
+}
+
+.player_content .persona.offline {
+    color: #b0b0b0 !important;
+}
+.miniprofile_gamesection {
+    border-top: 3px solid rgb(var(--st-color-5)) !important;
+    background: none !important;
+    background-color: rgb(var(--st-color-2)) !important;
+}
+
+.miniprofile_gamesection.miniprofile_backdropblur,
+.miniprofile_gamesection.miniprofile_backdrop {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: none !important;
+    background-color: rgb(var(--st-color-2)) !important;
+}
+
+.miniprofile_gamesection::before,
+.miniprofile_gamesection::after {
+    display: none !important;
+}
+
+.miniprofile_gamesection .game_logo {
+    border-radius: 6px !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4) !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+.miniprofile_game_details .game_state {
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    color: rgb(var(--st-green)) !important;
+}
+
+.miniprofile_game_details .miniprofile_game_name {
+    font-weight: 600 !important;
+    color: #fff !important;
+}
+
+.miniprofile_game_details .rich_presence {
+    color: rgb(var(--st-green), 0.6) !important;
+}
+
+.miniprofile_detailssection {
+    padding: 8px 10px !important;
+    border-top: 3px solid rgb(var(--st-color-5)) !important;
+    background: none !important;
+    background-color: rgb(var(--st-color-1)) !important;
+}
+
+.miniprofile_detailssection.miniprofile_backdropblur {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: none !important;
+    background-color: rgb(var(--st-color-1)) !important;
+}
+
+.miniprofile_featuredcontainer {
+    border-radius: 8px !important;
+    background-color: rgb(var(--st-color-3)) !important;
+    transition: background-color 0.2s ease-in-out !important;
+}
+
+.miniprofile_featuredcontainer:hover {
+    background-color: rgb(var(--st-color-4)) !important;
+}
+
+.miniprofile_featuredcontainer .badge_icon {
+    border-radius: 6px !important;
+}
+
+.miniprofile_featuredcontainer .description .name {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    color: #dcdedf !important;
+}
+
+.miniprofile_featuredcontainer .description .xp {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    color: rgb(var(--st-accent-2)) !important;
+}
+
+.friendPlayerLevel {
+    border-radius: 8px !important;
+    background-image: none !important;
+}
+
+.friendPlayerLevel .friendPlayerLevelNum {
+    font-weight: 800 !important;
+}
+
+.friendPlayerLevel.lvl_0 {
+    background-color: rgb(var(--st-color-5), 0.3) !important;
+    border: 2px solid rgb(var(--st-color-5)) !important;
+}
+.friendPlayerLevel.lvl_0 .friendPlayerLevelNum {
+    color: #969696 !important;
+}
+
+.friendPlayerLevel.lvl_10,
+.friendPlayerLevel.lvl_20 {
+    background-color: rgb(var(--st-blue), 0.15) !important;
+    border: 2px solid rgb(var(--st-blue), 0.4) !important;
+}
+.friendPlayerLevel.lvl_10 .friendPlayerLevelNum,
+.friendPlayerLevel.lvl_20 .friendPlayerLevelNum {
+    color: rgb(var(--st-blue)) !important;
+}
+
+.friendPlayerLevel.lvl_30,
+.friendPlayerLevel.lvl_40 {
+    background-color: rgb(var(--st-green), 0.15) !important;
+    border: 2px solid rgb(var(--st-green), 0.4) !important;
+}
+.friendPlayerLevel.lvl_30 .friendPlayerLevelNum,
+.friendPlayerLevel.lvl_40 .friendPlayerLevelNum {
+    color: rgb(var(--st-green)) !important;
+}
+
+.friendPlayerLevel.lvl_50,
+.friendPlayerLevel.lvl_60 {
+    background-color: rgb(var(--st-yellow), 0.15) !important;
+    border: 2px solid rgb(var(--st-yellow), 0.4) !important;
+}
+.friendPlayerLevel.lvl_50 .friendPlayerLevelNum,
+.friendPlayerLevel.lvl_60 .friendPlayerLevelNum {
+    color: rgb(var(--st-yellow)) !important;
+}
+
+.friendPlayerLevel.lvl_70,
+.friendPlayerLevel.lvl_80,
+.friendPlayerLevel.lvl_90,
+.friendPlayerLevel.lvl_100 {
+    background-color: rgb(var(--st-accent-1), 0.2) !important;
+    border: 2px solid rgb(var(--st-accent-1), 0.5) !important;
+}
+.friendPlayerLevel.lvl_70 .friendPlayerLevelNum,
+.friendPlayerLevel.lvl_80 .friendPlayerLevelNum,
+.friendPlayerLevel.lvl_90 .friendPlayerLevelNum,
+.friendPlayerLevel.lvl_100 .friendPlayerLevelNum {
+    color: rgb(var(--st-accent-2)) !important;
+}
+
+.miniprofile_playtimesection {
+    border-top: 3px solid rgb(var(--st-color-5)) !important;
+    background: none !important;
+    background-color: rgb(var(--st-color-2)) !important;
+}
+
+.miniprofile_playtimesection .gamelogo {
+    border-radius: 6px !important;
+}
+
+.miniprofile_playtimesection .playtimecontent {
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    color: #969696 !important;
+}
+
+.miniprofile_playtimesection .playtimecontent .timeplayed {
+    font-weight: 700 !important;
+    color: rgb(var(--st-accent-2)) !important;
+}
+
+.miniprofile_gamesection:empty {
+    display: none !important;
+}
