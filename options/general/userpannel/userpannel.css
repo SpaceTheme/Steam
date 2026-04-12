@@ -80,10 +80,10 @@
     box-shadow: none;
 }
 ._3yD46y5pd3zOGR7CzKs0mC.online ._3h-QRJGxnVOIExtHD1R0f2 {
-    border: 2px solid rgb(var(--blue));
+    border: 2px solid rgb(var(--st-blue));
 }
 ._3yD46y5pd3zOGR7CzKs0mC.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
-    border: 2px solid rgb(var(--yellow));
+    border: 2px solid rgb(var(--st-yellow));
 }
 ._3yD46y5pd3zOGR7CzKs0mC.offline ._3h-QRJGxnVOIExtHD1R0f2 {
     border: 2px solid #969696;
