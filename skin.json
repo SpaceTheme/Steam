@@ -187,6 +187,9 @@
                 "Montserrat": {
                     "TargetCss": { "affects": [".*"], "src": "options/fonts/montserrat.css" }
                 },
+                "Google Sans": {
+                    "TargetCss": { "affects": [".*"], "src": "options/fonts/googleSans.css" }
+                },
                 "Quicksand": {
                     "TargetCss": { "affects": [".*"], "src": "options/fonts/quicksand.css" }
                 },
