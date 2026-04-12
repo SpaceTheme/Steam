@@ -279,21 +279,6 @@
 
 
 
-        "Store - Max Width": {
-            "description": "This changes the width of the store. Please note that if your lower the width too much, some elements might look weird or be misplaced, the theme is designed for the default width of 1200px.",
-            "default": "1200",
-            "tab": "Store",
-            "section": "Important",
-            "slider": {
-                "cssVariable": "--st-store-max-width",
-                "min": 960,
-                "max": 1200,
-                "step": 20,
-                "unit": "px"
-            }
-        },
-
-
         "Store - Broadcast": {
             "description": "Hide broadcasts on the store gamepage",
             "default": "no",
