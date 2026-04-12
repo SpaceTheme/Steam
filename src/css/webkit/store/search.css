@@ -517,7 +517,7 @@
     margin: 0;
     padding: 12px;
     border-radius: 8px;
-    background-color: #1e1e1e;
+    background-color: rgb(var(--st-color-2));
 }
 
 
