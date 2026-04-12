@@ -1,0 +1,419 @@
+/*
+& XP/LVL Header
+*/
+.maincontent .profile_xp_block {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    border: unset;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+/*
+! Level
+*/
+.maincontent .profile_xp_block_left {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+
+/** Level Text */
+.maincontent .profile_xp_block_left .profile_xp_block_level {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+/** Level Icon */
+.maincontent .profile_xp_block_left .friendPlayerLevel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    line-height: unset;
+}
+
+
+/** XP  */
+.maincontent .profile_xp_block_left .profile_xp_block_xp {
+    width: max-content;
+    margin: 0;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+
+/*
+! Progress Bar
+*/
+.maincontent .profile_xp_block_mid {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    justify-content: center;
+    width: -webkit-fill-available;
+    padding: 0;
+}
+
+
+/** Text */
+.maincontent .profile_xp_block_mid .profile_xp_block_remaining {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+/** Bar */
+.maincontent .profile_xp_block_mid .profile_xp_block_remaining_bar {
+    height: 6px;
+    margin: 0;
+    background-color: rgb(var(--st-background));
+}
+
+/*^ Filling */
+.maincontent .profile_xp_block_mid .profile_xp_block_remaining_bar .profile_xp_block_remaining_bar_progress {
+    height: 100%;
+    background: unset;
+    background-color: rgb(var(--st-accent-1));
+}
+
+
+/*
+! FAQ
+*/
+.maincontent .profile_xp_block_right {
+    order: 1;
+    width: fit-content !important;
+    max-width: 176px;
+    height: fit-content;
+    font-size: 10px;
+    color: #8e8e8e;
+}
+
+
+
+/*
+& Booster Pack buttons
+*/
+
+
+
+/*
+& Header
+*/
+.maincontent .profile_badges_header {
+    margin: unset;
+    line-height: unset;
+}
+
+
+.maincontent .profile_badges_header .profile_badges_header_title {
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+    color: #fff;
+}
+
+
+
+/*
+& Paging
+*/
+.maincontent .profile_paging {
+    height: 28px;
+    margin: 0;
+    padding: 12px 16px;
+    line-height: 28px;
+    border-radius: 8px 8px 0 0;
+    color: #fff;
+    background-color: rgb(var(--st-color-2));
+}
+
+.maincontent .profile_paging:nth-last-child(1) {
+    border-radius: 0 0 8px 8px;
+}
+
+
+/*
+! Buttons
+*/
+.maincontent .profile_paging .pageLinks {
+    display: flex;
+    gap: 2px;
+}
+
+
+.maincontent .profile_paging .pagebtn {
+    box-sizing: border-box;
+    display: flex;
+    width: 42px;
+    height: 28px;
+    padding: 0;
+    font-size: 0;
+    line-height: normal;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-3));
+    align-items: center;
+    justify-content: center;
+}
+.maincontent .profile_paging .pagebtn:not(.disabled):hover {
+    background-color: rgb(var(--st-color-4));
+}
+
+.maincontent .profile_paging .pagebtn::before {
+    content: "\f15c";
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.maincontent .profile_paging .pagebtn:nth-last-child(1)::before {
+    content: "\f182";
+}
+
+
+
+/*
+& List
+*/
+.maincontent .badges_sheet {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 0 12px;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+[id*="image_group_scroll_badge_images_gamebadge"],
+[id*="image_group_scroll_badge_images_badge"] {
+    display: none;
+}
+
+
+/*
+! Cards
+*/
+.maincontent .badges_sheet .badge_row {
+    overflow: hidden;
+    margin: 0;
+    padding: 12px;
+    border: unset;
+    background: unset;
+    background-color: rgb(var(--st-color-1));
+    box-shadow: unset;
+}
+
+.maincontent .badges_sheet .badge_row .badge_row_inner {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 0;
+    background: unset;
+}
+
+
+/** Header */
+.maincontent .badges_sheet .badge_row .badge_title_row {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    height: unset;
+    padding: 0;
+}
+
+/*^ Title */
+.maincontent .badges_sheet .badge_row .badge_title_row .badge_title {
+    font-weight: 500;
+    line-height: unset;
+}
+
+/*^ Details */
+.maincontent .badges_sheet .badge_row .badge_title_row .badge_title_stats {
+    width: -webkit-fill-available;
+    text-align: unset;
+    color: #8e8e8e;
+}
+
+.maincontent .badges_sheet .badge_row .badge_title_row .badge_title_stats .badge_title_stats_content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Playtime */
+.maincontent .badges_sheet .badge_row .badge_title_row .badge_title_stats .badge_title_stats_playtime {
+    margin-left: -6px;
+}
+
+/* Card drops left */
+.maincontent .badges_sheet .badge_row .badge_title_row .badge_title_stats .progress_info_bold {
+    font-weight: 600;
+    color: rgb(var(--st-blue));
+}
+
+/* Play button */
+.maincontent .badges_sheet .badge_row .badge_title_row .badge_title_stats .badge_title_playgame {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.maincontent .badges_sheet .badge_row .badge_title_row .badge_title_stats .badge_title_playgame a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 12px !important;
+}
+
+.maincontent .badges_sheet .badge_row .badge_title_row .badge_title_stats .badge_title_playgame a span {
+    padding: 0;
+    font-weight: 600;
+    line-height: unset;
+}
+
+
+/** Divider */
+.maincontent .badges_sheet .badge_row .badge_title_rule {
+    display: none;
+}
+
+
+/** Content */
+.maincontent .badges_sheet .badge_row .badge_content {
+    display: grid;
+    gap: 12px 0;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+        "badge state"
+        "cards cards";
+    align-items: center;
+    height: -webkit-fill-available;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-4));
+}
+
+.maincontent .badges_sheet .badge_row .badge_content:not(:has(.badge_progress_tasks)) {
+    display: flex;
+}
+
+/*^ Badge */
+.maincontent .badges_sheet .badge_row .badge_content .badge_current {
+    grid-area: badge;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+/* Empty Badge */
+.maincontent .badges_sheet .badge_row .badge_content .badge_current .badge_info,
+.maincontent .badges_sheet .badge_row .badge_content .badge_current .badge_empty {
+    display: flex;
+    align-items: center;
+    border: unset;
+}
+
+
+.maincontent .badges_sheet .badge_row .badge_content .badge_current .badge_info .badge_info_image {
+    width: 68px;
+    height: 68px;
+    margin: 0 12px 0 0;
+}
+.maincontent .badges_sheet .badge_row .badge_content .badge_current .badge_info .badge_info_image img {
+    width: 68px;
+    height: 68px;
+}
+
+.maincontent .badges_sheet .badge_row .badge_content .badge_current .badge_empty .badge_empty_circle {
+    float: unset;
+    width: 54px;
+    height: 54px;
+    margin: 0 12px 0 0;
+    border-radius: 100%;
+    border-color: #8e8e8e;
+}
+
+
+.maincontent .badges_sheet .badge_row .badge_content .badge_current .badge_info .badge_info_description {
+    padding: 0;
+    color: #8e8e8e;
+}
+
+.maincontent .badges_sheet .badge_row .badge_content .badge_current .badge_empty .badge_empty_right {
+    margin: 0;
+}
+
+.maincontent .badges_sheet .badge_row .badge_content .badge_current .badge_empty .badge_empty_name {
+    color: #8e8e8e;
+}
+
+/*^ State */
+.maincontent .badges_sheet .badge_row .badge_content .badge_progress_info {
+    grid-area: state;
+    margin: 0;
+    padding: 0;
+    color: #8e8e8e;
+}
+.maincontent .badges_sheet .badge_row .badge_content:not(:has(.badge_progress_tasks)) .badge_progress_info {
+    display: none;
+}
+
+/*^ Cards */
+.maincontent .badges_sheet .badge_row .badge_content .badge_progress_tasks {
+    grid-area: cards;
+    display: flex;
+    gap: 6px;
+    margin-top: auto;
+}
+
+.maincontent .badges_sheet .badge_row .badge_content .badge_progress_tasks .badge_progress_card {
+    width: auto;
+    height: auto;
+    margin: 0 !important;
+    border: unset;
+    background: unset;
+}
+
+.maincontent .badges_sheet .badge_row .badge_content .badge_progress_tasks .badge_progress_card img {
+    width: 102px;
+    height: auto;
+}
+.maincontent .badges_sheet .badge_row .badge_content .badge_progress_tasks .badge_progress_card.unowned img {
+    opacity: 0.3;
+}
+
+
+
+
+/*
+& remove clear: both
+*/
+[style^="clear: both"] {
+    display: none;
+}

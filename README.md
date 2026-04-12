@@ -79,7 +79,7 @@
   - [ ] Friends
   - [ ] Content (User's screenshots/artworks/videos/...)
   - [x] Awards 
-  - [ ] Badges
+  - [ ] (WIP) Badges
   - [ ] Inventory
   - [ ] Booster Pack Creator
 - [ ] Friends & Chat
