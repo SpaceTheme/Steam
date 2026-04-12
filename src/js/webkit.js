@@ -1,0 +1,1 @@
+import './webkit/community/friendsThatPlayed.js';
