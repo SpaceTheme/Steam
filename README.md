@@ -81,6 +81,7 @@
   - [x] Awards 
   - [ ] Badges
   - [ ] Inventory
+  - [ ] Booster Pack Creator
 - [ ] Friends & Chat
   - [ ] Group chat
 - [ ] Big Picture Mode
