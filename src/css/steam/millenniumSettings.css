@@ -175,7 +175,7 @@ body .MillenniumDesktopSidebar {
     position: absolute;
     width: 100%;
     height: 800px;
-    background-image: url("https://raw.githubusercontent.com/SpaceTheme/Steam/refs/heads/main/.github/assets/preview/libHome.png");
+    background-image: url("https://raw.githubusercontent.com/SpaceTheme/Steam/refs/heads/main/.github/assets/preview/libHome.webp");
     background-size: cover;
     background-position: center;
     transform: rotate(-30deg);
