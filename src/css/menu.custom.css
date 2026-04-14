@@ -5,7 +5,12 @@ body.DesktopUI {
 
 body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
     padding: 0;
+    border-radius: 8px;
     background: unset;
+}
+
+body.DesktopUI :has(.UkR3sY319PuaUNuUWks2K) .PP7LM0Ow1K5qkR8WElLpt {
+    left: calc(16px + 12px) !important;
 }
 
 body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n {
