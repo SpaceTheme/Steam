@@ -9,7 +9,7 @@ body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
     background: unset;
 }
 
-body.DesktopUI :has(.UkR3sY319PuaUNuUWks2K) .PP7LM0Ow1K5qkR8WElLpt {
+body.DesktopUI :has(._1bGewp3tfzqAF6fVTFFUOz:not([style="display: none;"])) .PP7LM0Ow1K5qkR8WElLpt {
     left: calc(16px + 12px) !important;
 }
 
