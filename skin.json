@@ -220,6 +220,20 @@
         },
 
 
+        "General - Scrollbars": {
+            "description": "Hides the scrollbars in the SteamUI",
+            "default": "no",
+            "tab": "General",
+            "section": "Other",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": [".*"], "src": "options/general/hideScrollbars.css" }
+                }
+            }
+        },
+
+
         "General - Mica & Acrylic plugin support": {
             "description": "Support for Mica and Acrylic plugin https://steambrew.app/plugin?id=b4c58634419b (Only works with the standard theme colors)",
             "default": "no",
