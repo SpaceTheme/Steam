@@ -183,12 +183,13 @@ function setupGamesHovers() {
     const widthContainerSelector = '._2SXJM0PeFEi3gbC7V3S5pE';
     const pxPerSec = 70;
     const minDurationSec = 2;
+    const navTextOffset = 5;
     let attrObserver = null;
     let childObserver = null;
     let rafId = 0;
 
     const setHoverVariables = (item, overflow) => {
-        if (overflow <= 0) {
+        if (overflow <= navTextOffset) {
             item.style.removeProperty('--st-game-overflow');
             item.style.removeProperty('--st-game-hover-duration');
             return;
@@ -201,13 +202,13 @@ function setupGamesHovers() {
 
     const getOverflowWidth = (item, itemText, separator) => {
         if (!separator) {
-            return itemText.scrollWidth - itemText.clientWidth + 5;
+            return itemText.scrollWidth - itemText.clientWidth + navTextOffset;
         }
 
         itemText.style.setProperty('padding-right', `${separator.offsetWidth + 4}px`);
         const widthContainer = item.querySelector(widthContainerSelector);
         if (!widthContainer) {
-            return itemText.scrollWidth - itemText.clientWidth + 5;
+            return itemText.scrollWidth - itemText.clientWidth + navTextOffset;
         }
 
         return widthContainer.scrollWidth - widthContainer.clientWidth;
