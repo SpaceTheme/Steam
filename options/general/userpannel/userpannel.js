@@ -52,8 +52,8 @@ const waitForElement = (selector, parent = document) => new Promise((resolve) =>
 
 
     // Download bar
-    //var downloadingText = await waitForElement('._1sCy-pm412Smb0wJx0W-4');
-    //var downloadingIconDiv = await waitForElement('._2VtAqT03BpBsVdmxwptn9D ._1KrJ3sFAqPBN9mfpaNTU5F');
+    var downloadingText = await waitForElement('._1sCy-pm412Smb0wJx0W-4');
+    var downloadingIconDiv = await waitForElement('._2VtAqT03BpBsVdmxwptn9D ._1KrJ3sFAqPBN9mfpaNTU5F');
     
-    //downloadingIconDiv.appendChild(downloadingText);
+    downloadingIconDiv.appendChild(downloadingText);
 })();
