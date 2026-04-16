@@ -242,6 +242,13 @@
     background-color: rgb(var(--st-color-2));
 }
 
+/*
+& Game item text overflow popup
+*/
+
+._3vg1vYU7iTWqONciv9cuJN {
+    display: none;
+}
 
 /*
 ! Collection header
@@ -277,6 +284,12 @@
 /*
 ! Game item
 */
+.ReactVirtualized__Grid .Panel[role="gridcell"] {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
 ._2-O4ZG0KrnSrzISHBKctFQ {
     margin: 0 0 0 6px;
     border: none;
@@ -298,6 +311,52 @@
     align-items: center;
 }
 
+._2-O4ZG0KrnSrzISHBKctFQ span {
+    width: max-content;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: 0;
+    color: transparent;
+    position: relative;
+}
+
+._2-O4ZG0KrnSrzISHBKctFQ span::before {
+    content: attr(data-st-hover-text);
+    display: block;
+    color: #a3aab9;
+    will-change: transform;
+    transform: translate3d(0, -50%, 0);
+    backface-visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9 span::before {
+    color: rgb(var(--st-accent-1));
+}
+
+._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE span::before {
+    color: #f1f7ff;
+}
+
+._2-O4ZG0KrnSrzISHBKctFQ:hover span::before {
+    animation: text-bounce var(--st-game-hover-duration) cubic-bezier(0.45, 0, 0.55, 1) infinite alternate;
+}
+
+@keyframes text-bounce {
+    0%, 12% { transform: translate3d(0, -50%, 0); }
+    88%, 100% { transform: translate3d(calc(-1 * var(--st-game-overflow)), -50%, 0); }
+}
+
+/*
+! Game item title separator
+*/
+._2-O4ZG0KrnSrzISHBKctFQ span._2RggXvVkWMDvvxFegjtKso {
+    position: absolute;
+    visibility: hidden;
+}
 
 /** Icon */
 ._2-O4ZG0KrnSrzISHBKctFQ .ga1hyw11cdBVodrCAidPF ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
