@@ -596,6 +596,22 @@
 
 
 
+        "Hide group chat": {
+            "description": "Hides the group chat section in the friends list",
+            "default": "no",
+            "tab": "Friends & Chat",
+            "section": "Firends list",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": [".friendsui-container"], "src": "options/friendsAndChat/list/hideGroupChats.css" }
+                }
+            }
+        },
+
+
+
+
         "VAC-Ban visibility": {
             "description": "Hide the VAC ban from your profile or on all profiles",
             "default": "Show",
