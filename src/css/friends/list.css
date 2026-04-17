@@ -576,6 +576,7 @@
 
 /** Item */
 .friendlist .friendlistListContainer .friendGroup .friend {
+    align-items: center;
     height: unset;
     margin: unset;
     padding: 6px;
