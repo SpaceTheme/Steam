@@ -351,7 +351,7 @@
     gap: 6px;
     width: -webkit-fill-available;
     margin: 0 0 6px;
-    padding: 12px 12px 6px;
+    padding: 12px 12px 0;
     border-radius: 8px;
     background-color: rgb(var(--st-color-3));
 }
@@ -440,7 +440,6 @@
 
 
 .friendlist .friendlistListContainer {
-    margin-bottom: 16px;
     padding: 12px;
     border-radius: 8px;
     background: unset;
@@ -647,7 +646,7 @@
 */
 .friendlist .friendsListSectionTitle {
     gap: 6px;
-    margin-bottom: 6px;
+    margin: 16px 0 6px;
     padding: 6px 12px;
     border-radius: 8px;
     color: #fff;
@@ -656,7 +655,7 @@
 }
 
 .friendlist .FriendsListChatSection.Collapsed .friendsListSectionTitle {
-    margin: 0;
+    margin: 16px 0 0;
 }
 
 
