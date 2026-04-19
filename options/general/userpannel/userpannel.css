@@ -1,3 +1,33 @@
+@media (max-width: 1080px) {
+    /** Titlebar */
+    ._39oUCO1OuizVPwcnnv88no {
+        height: 80px !important;
+        align-items: flex-start;
+    }
+
+    /*^ Steam Logo / buttons */
+    ._39oUCO1OuizVPwcnnv88no ._1Ky59qmywxOUtNcI1cgmkX {
+        height: 46px;
+    }
+
+    /*^ Navigation */
+    ._3Z3ohQ8-1NKnCZkbS6fvy {
+        position: absolute;
+        top: 36px;
+        left: 0;
+        width: -webkit-fill-available;
+        height: 28px;
+        transform: none;
+    }
+
+    ._3Z3ohQ8-1NKnCZkbS6fvy ._2D64jIEK7wpUR_NlObDW76 {
+        justify-content: center;
+    }
+}
+
+
+
+
 ._1rDh5rXSFZJOqCa4UpnI4z:has(.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]) {
     flex-direction: unset;
 }
