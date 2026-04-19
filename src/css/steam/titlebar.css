@@ -3,6 +3,8 @@
     display: none;
 }
 
+
+
 ._3Z7VQ1IMk4E3HsHvrkLNgo {
     box-shadow: none !important;
     background: none !important;
@@ -11,20 +13,24 @@
     height: 46px;
 }
 
+
+
 /* URL bar */
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
     margin-bottom: 12px;
-    margin-top: 8px;
     padding: 6px;
     border-radius: 8px;
     background-color: rgb(var(--st-color-2));
     box-shadow: none;
 }
 
+
+
 /* wierd top bar */
 ._2CmrnGY-Amtd83ScJkFvx2 {
     display: none !important;
 }
+
 
 /*
 ! Menu
@@ -33,6 +39,10 @@
     gap: unset;
     margin-top: 0 !important;
     padding-left: 16px;
+    background-color: rgb(var(--st-background));
+}
+._1Ky59qmywxOUtNcI1cgmkX:hover {
+    z-index: 1;
 }
 
 /* Item */
@@ -75,6 +85,7 @@
     color: rgb(102, 108, 255);
 }
 
+
 /*
 ! Navigation
 */
@@ -83,10 +94,8 @@
     top: 23px;
     left: 50%;
     width: fit-content;
-    max-width: calc(100% - 620px);
     height: 46px;
     padding: 0;
-    overflow: hidden;
     transform: translate(-50%, -50%);
 }
 
@@ -111,25 +120,12 @@
     background: rgb(var(--st-accent-1));
 }
 
+
 /*
 ! Userpannel
 */
 ._3cykd-VfN_xBxf3Qxriccm {
-    margin: 0 10px 0 10px;
-    min-width: 0;
-    max-width: 320px;
-    transform: translate(-24px, 0px);
-}
-
-._3cykd-VfN_xBxf3Qxriccm ._3yD46y5pd3zOGR7CzKs0mC {
-    min-width: 0;
-    max-width: 220px;
-}
-
-._3cykd-VfN_xBxf3Qxriccm ._3yD46y5pd3zOGR7CzKs0mC span {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    margin: 0 27px 0 10px;
 }
 
 /* Buttons */
@@ -141,23 +137,19 @@
     order: 1;
     display: flex;
     margin-right: 8px;
-    align-self: center;
-}
-
-._39oUCO1OuizVPwcnnv88no ._1-9sir4j_KQiMqdkZjQN0u {
-    margin-right: 120px;
-    transform: none;
 }
 
 ._2Szzh5sKyGgnLUR870zbDE {
     width: 32px;
     height: 24px;
     padding: 0 !important;
+    border-radius: 2px;
     background-color: rgba(103,112,123,.2);
 }
 ._3LKQ3S_yqrebeNLF6aeiog ._34bQcTHo5QKzuujoEyU1tm {
     top: unset;
 }
+
 
 /*
 ! Controls
@@ -165,6 +157,7 @@
 .qP17eBPXkfezFfexZ4hC3 .title-area {
     z-index: 99999;
 }
+
 .qP17eBPXkfezFfexZ4hC3 .title-area .title-bar-actions {
     height: 46px;
 }
@@ -172,57 +165,42 @@
     height: 46px;
 }
 
-@media (max-width: 1520px) {
-    ._39oUCO1OuizVPwcnnv88no {
-        height: 80px !important;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        position: relative;
-    }
-    ._3Z3ohQ8-1NKnCZkbS6fvy {
-        position: absolute !important;
-        top: 38px !important;
-        left: 60px !important;
-        width: calc(100% - 80px) !important;
-        max-width: none !important;
-        transform: none !important;
-        height: 28px !important;
-        overflow: visible !important;
-    }
-    ._39oUCO1OuizVPwcnnv88no ._1-9sir4j_KQiMqdkZjQN0u {
-        margin-right: 110px;
-        transform: translate(-2px, 12px);
-    }
-    ._3cykd-VfN_xBxf3Qxriccm {
-        max-width: 200px;
-        transform: translate(-18px, 12px);
-    }
-    ._1Ky59qmywxOUtNcI1cgmkX {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 46px;
-        display: flex;
-        align-items: center;
-    }
-}
 
-@media (max-width: 1120px) {
-    ._3Z3ohQ8-1NKnCZkbS6fvy {
-        max-width: calc(100% - 500px);
-    }
-    ._3cykd-VfN_xBxf3Qxriccm {
-        max-width: 180px;
-        transform: translate(-18px, 12px);
-    }
-}
 
-@media (max-width: 900px) {
-    ._39oUCO1OuizVPwcnnv88no ._1-9sir4j_KQiMqdkZjQN0u {
-        margin-right: 90px;
-    }
-    ._3cykd-VfN_xBxf3Qxriccm {
-        max-width: 160px;
-        transform: translate(-10px, 12px);
+
+/*
+! Size
+*/
+._3Z7VQ1IMk4E3HsHvrkLNgo:has(._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm) {
+    @media (max-width: 1520px) {
+        /** Titlebar */
+        ._39oUCO1OuizVPwcnnv88no {
+            height: 80px !important;
+            align-items: flex-start;
+        }
+
+        /*^ Steam Logo / buttons */
+        ._39oUCO1OuizVPwcnnv88no ._1Ky59qmywxOUtNcI1cgmkX {
+            height: 46px;
+        }
+
+        /*^ Navigation */
+        ._3Z3ohQ8-1NKnCZkbS6fvy {
+            position: absolute;
+            top: 36px;
+            left: 0;
+            width: -webkit-fill-available;
+            height: 28px;
+            transform: none;
+        }
+
+        ._3Z3ohQ8-1NKnCZkbS6fvy ._2D64jIEK7wpUR_NlObDW76 {
+            justify-content: center;
+        }
+
+        /*^ Userpannel*/
+        ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm {
+            height: 46px;
+        }
     }
 }
