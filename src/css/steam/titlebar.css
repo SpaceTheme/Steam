@@ -32,7 +32,6 @@
 }
 
 
-
 /*
 ! Menu
 */
@@ -40,6 +39,10 @@
     gap: unset;
     margin-top: 0 !important;
     padding-left: 16px;
+    background-color: rgb(var(--st-background));
+}
+._1Ky59qmywxOUtNcI1cgmkX:hover {
+    z-index: 1;
 }
 
 /* Item */
@@ -60,7 +63,6 @@
 ._1Ky59qmywxOUtNcI1cgmkX ._2Lu3d-5qLmW4i19ysTt2jT:hover {
     color: #fff;
 }
-
 
 /* Text Logo */
 .bSKGlAJG2UVWTsntEJY2v {
@@ -84,7 +86,6 @@
 }
 
 
-
 /*
 ! Navigation
 */
@@ -98,7 +99,6 @@
     transform: translate(-50%, -50%);
 }
 
-
 /* Back & Forward */
 ._3Z3ohQ8-1NKnCZkbS6fvy ._2D64jIEK7wpUR_NlObDW76 svg {
     padding: 0 12px;
@@ -106,7 +106,6 @@
 ._3Z3ohQ8-1NKnCZkbS6fvy ._2D64jIEK7wpUR_NlObDW76 svg:nth-child(2) {
     order: 2;
 }
-
 
 ._3Z3ohQ8-1NKnCZkbS6fvy ._7AlhCx3XGzBeIrQaCneUD {
     height: 20px;
@@ -120,7 +119,6 @@
     height: 3.2px;
     background: rgb(var(--st-accent-1));
 }
-
 
 
 /*
@@ -145,12 +143,12 @@
     width: 32px;
     height: 24px;
     padding: 0 !important;
+    border-radius: 2px;
     background-color: rgba(103,112,123,.2);
 }
 ._3LKQ3S_yqrebeNLF6aeiog ._34bQcTHo5QKzuujoEyU1tm {
     top: unset;
 }
-
 
 
 /*
@@ -165,4 +163,44 @@
 }
 .qP17eBPXkfezFfexZ4hC3 .title-area .title-area-icon {
     height: 46px;
+}
+
+
+
+
+/*
+! Size
+*/
+._3Z7VQ1IMk4E3HsHvrkLNgo:has(._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm) {
+    @media (max-width: 1520px) {
+        /** Titlebar */
+        ._39oUCO1OuizVPwcnnv88no {
+            height: 80px !important;
+            align-items: flex-start;
+        }
+
+        /*^ Steam Logo / buttons */
+        ._39oUCO1OuizVPwcnnv88no ._1Ky59qmywxOUtNcI1cgmkX {
+            height: 46px;
+        }
+
+        /*^ Navigation */
+        ._3Z3ohQ8-1NKnCZkbS6fvy {
+            position: absolute;
+            top: 36px;
+            left: 0;
+            width: -webkit-fill-available;
+            height: 28px;
+            transform: none;
+        }
+
+        ._3Z3ohQ8-1NKnCZkbS6fvy ._2D64jIEK7wpUR_NlObDW76 {
+            justify-content: center;
+        }
+
+        /*^ Userpannel*/
+        ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm {
+            height: 46px;
+        }
+    }
 }
