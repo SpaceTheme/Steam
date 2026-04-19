@@ -414,6 +414,6 @@
 /*
 & remove clear: both
 */
-[style^="clear: both"] {
+.maincontent:has(.badges_sheet) [style^="clear: both"] {
     display: none;
 }
