@@ -1,0 +1,182 @@
+/*
+& Profile Header
+*/
+html body:has(.friends_that_play_content) .profile_small_header_bg .profile_small_header_text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: unset;
+    gap: 0;
+}
+
+
+/*
+! Link
+*/
+html body:has(.friends_that_play_content) .profile_small_header_bg .profile_small_header_text .friendSmallText a {
+    font-weight: 600;
+    color: rgb(var(--st-accent-1));
+}
+html body:has(.friends_that_play_content) .profile_small_header_bg .profile_small_header_text .friendSmallText a:hover {
+    color: rgb(var(--st-accent-2));
+}
+
+
+
+/*
+& Firends Header
+*/
+body .friends_that_play_content .friendListSectionHeader {
+    margin: 0;
+    padding: 12px 12px 0;
+    font-weight: 600;
+    border-radius: 8px 8px 0 0;
+    color: #fff;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+/*
+! Link
+*/
+body .friends_that_play_content .friendListSectionHeader a {
+    margin: 0 3px;
+    color: rgb(var(--st-accent-1));
+}
+body .friends_that_play_content .friendListSectionHeader a:hover {
+    color: rgb(var(--st-accent-2));
+}
+
+
+/*
+! Scrore/Count
+*/
+body .friends_that_play_content .friendListSectionHeader .friendscount {
+    display: none;
+}
+
+
+/*
+! Wierd useless underscrore
+*/
+body .friends_that_play_content .friendListSectionHeader .underscoreColor {
+    display: none;
+}
+
+
+/*
+& List
+*/
+body .friends_that_play_content .profile_friends {
+    display: grid;
+    gap: 6px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    margin: 0 0 12px;
+    padding: 6px 12px 12px;
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+/*
+! Card
+*/
+body .friends_that_play_content .profile_friends .friendBlock {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    width: unset;
+    height: unset;
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-color-3));
+}
+body .friends_that_play_content .profile_friends .friendBlock:hover {
+    background-color: rgb(var(--st-color-4));
+}
+
+
+/** Avatar */
+body .friends_that_play_content .profile_friends .friendBlock .playerAvatar {
+    width: 42px;
+    height: 42px;
+    margin: 0;
+    padding: 0;
+    background: unset;
+}
+
+
+body .friends_that_play_content .profile_friends .friendBlock .playerAvatar img {
+    box-sizing: border-box;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    border: 3px solid;
+    border-radius: 8px;
+    background: unset;
+}
+body .friends_that_play_content .profile_friends .friendBlock.online .playerAvatar img {
+    border-color: rgb(var(--st-blue));
+}
+body .friends_that_play_content .profile_friends .friendBlock.awayOrSnooze .playerAvatar img {
+    border-color: rgb(var(--st-yellow));
+}
+body .friends_that_play_content .profile_friends .friendBlock.ingame .playerAvatar img {
+    border-color: rgb(var(--st-green));
+}
+body .friends_that_play_content .profile_friends .friendBlock.offline .playerAvatar img {
+    border-color: #515151;
+}
+
+
+/** Text */
+body .friends_that_play_content .profile_friends .friendBlock .friendBlockContent {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+body .friends_that_play_content .profile_friends .friendBlock.online .friendBlockContent {
+    color: rgb(var(--st-blue));
+}
+body .friends_that_play_content .profile_friends .friendBlock.awayOrSnooze .friendBlockContent {
+    color: rgb(var(--st-yellow));
+}
+body .friends_that_play_content .profile_friends .friendBlock.ingame .friendBlockContent {
+    color: rgb(var(--st-green));
+}
+body .friends_that_play_content .profile_friends .friendBlock.offline .friendBlockContent {
+    color: #515151;
+}
+
+/*^ Small text */
+body .friends_that_play_content .profile_friends .friendBlock .friendBlockContent .friendSmallText {
+    display: flex;
+    gap: 6px;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+    color: #969696;
+}
+
+/* Link */
+body .friends_that_play_content .profile_friends .friendBlock .friendBlockContent .friendSmallText a {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    font-weight: 600;
+    color: rgb(var(--st-accent-1));
+}
+body .friends_that_play_content .profile_friends .friendBlock .friendBlockContent .friendSmallText a:hover {
+    color: rgb(var(--st-accent-2));
+}
+
+
+
+
+
+/*
+! clear:;
+*/
+body .friends_that_play_content .profile_friends div[style*="clear"] {
+    display: none;
+}
