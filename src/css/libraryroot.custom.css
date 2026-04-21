@@ -10,12 +10,14 @@
 
 
 /** Plugins */
-/*^ HLTB for Steam */
 @import url("./plugins/hltb.css");
 @import url("./plugins/sizeOnDisk.css");
 
 
 
+/*
+& Loading Spinner
+*/
 #st-loading-div {
     z-index: 9999;
     position: fixed;
@@ -50,7 +52,9 @@
 
 
 
-/* Base */
+/*
+& Base
+*/
 ._1ENHEsrSLcTRtPQFl1F-wL {
     border: none;
     background-color: rgb(var(--st-background)) !important;
@@ -59,6 +63,17 @@
     margin: 0 16px 16px;
     border-radius: 8px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

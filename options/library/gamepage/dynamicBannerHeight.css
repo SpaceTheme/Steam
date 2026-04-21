@@ -1,0 +1,4 @@
+/* Remove the fixed banner cap so banner height scales with available width. */
+body {
+    --st-gamepage-banner-max-height: none;
+}

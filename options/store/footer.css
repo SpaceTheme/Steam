@@ -1,7 +1,4 @@
-body.responsive_page #footer_spacer {
-    display: none !important;
-}
-body.responsive_page #footer {
+body.responsive_page [data-featuretarget="footer"]:has(footer) {
     display: none !important;
 }
 

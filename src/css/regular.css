@@ -81,4 +81,6 @@ div.ModalPosition_TopBar {
 /* Resize icon */
 .window_resize_grip {
     opacity: 0 !important;
+    width: 16px !important;
+    height: 16px !important;
 }

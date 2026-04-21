@@ -6,6 +6,8 @@ button span,
 .btn_medium span,
 .btn_small,
 .btn_small span,
+[class^="btn_"],
+[class^="btn_"] span,
 [role=button] {
     border-radius: 8px !important;
 }
@@ -25,18 +27,23 @@ button span,
 
 
 .btn_green_steamui,
+[class^="btn_green_"],
 ._5b8C30zCFXs- {
     padding: 0 !important;
     color: #fff !important;
     text-shadow: unset !important;
     border-radius: 8px !important;
+    background: unset !important;
     background-color: rgb(var(--st-green)) !important;
 }
 .btn_green_steamui:hover,
+[class^="btn_green_"]:hover,
 ._5b8C30zCFXs-:hover {
+    background: unset !important;
     background-color: rgb(var(--st-green-hover)) !important;
 }
 .btn_green_steamui span,
+[class^="btn_green_"] span,
 ._5b8C30zCFXs- span {
     background: unset !important;
     background-color: unset !important;
@@ -48,9 +55,11 @@ button span,
     color: #fff !important;
     text-shadow: unset !important;
     border-radius: 8px !important;
+    background: unset !important;
     background-color: rgb(var(--st-blue)) !important;
 }
 .btn_blue_steamui:hover {
+    background: unset !important;
     background-color: rgb(var(--st-blue-hover)) !important;
 }
 .btn_blue_steamui span {

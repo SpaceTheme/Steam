@@ -4,7 +4,13 @@ body.DesktopUI {
 }
 
 body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
+    padding: 0;
+    border-radius: 8px;
     background: unset;
+}
+
+body.DesktopUI :has(._1bGewp3tfzqAF6fVTFFUOz:not([style="display: none;"])) .PP7LM0Ow1K5qkR8WElLpt {
+    left: calc(16px + 12px) !important;
 }
 
 body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n {
@@ -28,8 +34,52 @@ body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover {
     color: #fff;
     background-color: rgb(var(--st-color-2));
 }
+body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
+    color: #9c9c9c;
+    background: rgb(var(--st-color-2));
+}
+
+
 body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI {
     border: none;
+}
+
+
+/*
+! Play/Install/... button
+*/
+body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI {
+    min-width: 146px;
+    font-weight: 700;
+    color: #fff;
+    background: unset;
+}
+
+body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Download) {
+    background-color: rgb(var(--st-blue));
+}
+
+body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Download):hover {
+    background: none;
+    background-color: rgb(var(--st-blue-hover));
+}
+
+body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Play) {
+    background-color: rgb(var(--st-green));
+}
+
+body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Play):hover {
+    background: none;
+    background-color: rgb(var(--st-green-hover));
+}
+
+body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Trash) {
+    background-color: rgb(var(--st-red));
+}
+
+body.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl._1n7Wloe5jZ6fSuvV18NNWI:has(.SVGIcon_Trash):hover {
+    background: none;
+    background-color: rgb(var(--st-red-hover));
 }
 
 

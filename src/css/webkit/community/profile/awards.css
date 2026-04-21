@@ -39,6 +39,7 @@
     background: unset;
     background-color: rgb(var(--st-color-2));
     box-shadow: unset;
+    filter: grayscale(0) !important;
 }
 
 

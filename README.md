@@ -1,14 +1,13 @@
 <div align="center">
-<h3><img height="52px" src="https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/logo.webp"></h3>
+<h3><img height="64px" src="https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/logo.webp"></h3>
+
+[![Discord](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/pills/community.webp)](https://discord.spacetheme.net)
+[![KoFi](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/pills/support.webp)](https://kofi.spacetheme.net)
+[![Website](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/pills/website.webp)](https://spacetheme.net)
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/SpaceTheme?style=for-the-badge&logo=github&labelColor=%23111111&color=%231e1e1e)
-[![root](https://img.shields.io/badge/community-root?style=for-the-badge&logo=rootapp&logoColor=%23fff&labelColor=%235865f2&color=%235865f2)](https://root.spacetheme.net)
-[![KoFi](https://img.shields.io/badge/kofi-dark?style=for-the-badge&logo=kofi&logoColor=%23fff&labelColor=%23ff5e5b&color=%23ff5e5b)](https://kofi.spacetheme.net)
-[![Website](https://img.shields.io/badge/website-back?style=for-the-badge&logo=googlechrome&logoColor=%23ffffff&labelColor=%23111111&color=%23111111)](https://spacetheme.net)
 <hr>
 </div>
-
-## [Support me on Ko-Fi](https://kofi.spacetheme.net)
 
 ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp)
 <details>
@@ -47,6 +46,10 @@
 - Some things only work properly when steam is maximized on a 1920x1080p (or higher) monitor.
   - Smaller monitors may be properly supported later
 
+## Fully supported plugins
+- [HLTB for Steam](https://steambrew.app/plugin?id=f685622bace6)
+- [Size on Disk](https://steambrew.app/plugin?id=e73371b61eef)
+
 ## Roadmap
 - [ ] Store
   - [ ] (WIP) Home
@@ -60,13 +63,14 @@
   - [ ] (WIP) Checkout
   - [ ] Categories page
   - [ ] Personal calendar
-  - [ ] (WIP) Search result list page
+  - [x] Search result list page
   - [ ] Settings
 - [ ] Community
   - [ ] Home
   - [ ] Discussions
   - [ ] Workshop
   - [ ] Market
+    - [ ] (WIP) Home
     - [ ] (WIP) Item page
   - [ ] Broadcast
 - [ ] User
@@ -75,8 +79,9 @@
   - [ ] Friends
   - [ ] Content (User's screenshots/artworks/videos/...)
   - [x] Awards 
-  - [ ] Badges
+  - [ ] (WIP) Badges
   - [ ] Inventory
+  - [ ] Booster Pack Creator
 - [ ] Friends & Chat
   - [ ] Group chat
 - [ ] Big Picture Mode
