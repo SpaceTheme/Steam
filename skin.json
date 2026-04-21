@@ -665,7 +665,7 @@
         {
             "MatchRegexString": "https://steamcommunity\\.com(/.*)?",
             "TargetCss": "src/css/custom/custom.css",
-            "TargetJs": "src/css/custom/custom.js"
+            "TargetJs": "src/js/webkit.js"
         },
         {
             "MatchRegexString": ".ModalDialogPopup",

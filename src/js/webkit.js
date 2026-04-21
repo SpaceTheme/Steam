@@ -1,3 +1,5 @@
+import './webkit/community/friendsThatPlayed.js';
+
 (async function() {
     // should work only on search page
     if (!window.location.pathname.startsWith('/search')) return;

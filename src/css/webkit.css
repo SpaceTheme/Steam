@@ -23,6 +23,7 @@
 
 /*^ Profile */
 @import url("./webkit/community/profile/awards.css");
+@import url("./webkit/community/profile/friendsThatPlay.css");
 @import url("./webkit/community/profile/badges.css");
 @import url("./webkit/community/profile/user.css");
 
@@ -84,11 +85,12 @@ body .market_page_fullwidth,
 body #BG_bottom,
 body .maincontent,
 body ._22xtsolKcQit92o-LBeRWD {
-    position: relative;
+    position: relative !important;
     width: 100% !important;
     max-width: var(--st-store-max-width) !important;
     margin: 0 auto !important;
     padding: 0 !important;
+    background: unset !important;
 }
 
 /*! Steam Replay page */
@@ -698,14 +700,15 @@ body.v6 [class*="skeleton"] {
 /*
 & Profile Pages Header
 */
-body .profile_small_header_bg {
+body.responsive_page .profile_small_header_bg {
     overflow: hidden;
     max-width: var(--st-store-max-width);
     height: unset;
     margin: 0 auto 32px;
+    background: unset;
 }
 
-body .profile_small_header_bg .profile_small_header_texture {
+body.responsive_page .profile_small_header_bg .profile_small_header_texture {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -721,7 +724,7 @@ body .profile_small_header_bg .profile_small_header_texture {
 /*
 ! Avatar
 */
-body .profile_small_header_bg .profile_small_header_avatar {
+body.responsive_page .profile_small_header_bg .profile_small_header_avatar {
     position: unset;
 }
 
@@ -729,7 +732,7 @@ body .profile_small_header_bg .profile_small_header_avatar {
 /*
 ! Text
 */
-body .profile_small_header_bg .profile_small_header_text {
+body.responsive_page .profile_small_header_bg .profile_small_header_text {
     position: unset;
     display: flex;
     align-items: center;
@@ -742,10 +745,28 @@ body .profile_small_header_bg .profile_small_header_text {
 
 
 /** Username */
-body .profile_small_header_bg .profile_small_header_name {
+body.responsive_page .profile_small_header_bg .profile_small_header_name {
     font-size: 28px;
     font-weight: 700;
     line-height: normal;
+}
+
+
+/*
+! Additonal/GameHeader
+*/
+body.responsive_page .profile_small_header_bg .profile_small_header_additional {
+    position: unset;
+    margin-left: auto;
+}
+
+body.responsive_page .profile_small_header_bg .profile_small_header_additional .gameLogo {
+    overflow: hidden;
+    height: 68px;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    background: unset;
 }
 
 
