@@ -206,6 +206,10 @@
     padding: 0 12px;
     background-color: rgb(var(--st-color-2));
 }
+.maincontent:not(:has(.profile_paging)) .badges_sheet {
+    padding: 12px;
+    border-radius: 8px;
+}
 
 
 [id*="image_group_scroll_badge_images_gamebadge"],
