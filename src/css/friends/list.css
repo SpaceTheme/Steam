@@ -443,7 +443,7 @@
     padding: 12px;
     border-radius: 8px;
     background: unset;
-    background-color: rgb(var(--color-3));
+    background-color: rgb(var(--st-color-3));
 }
 
 .friendlist .friendlistListContainer:has(::-webkit-scrollbar) {
@@ -473,7 +473,8 @@
 }
 
 
-.friendlist .friendlistListContainer .friendGroup .groupList:not(:has(*)) {
+.friendlist .friendlistListContainer .friendGroup .groupList:not(:has(*)),
+.friendlist .friendlistListContainer .friendGroup .friendsContainer:not(:has(*)) {
     display: none;
 }
 
@@ -500,6 +501,7 @@
     align-items: center;
     width: 100%;
     height: 18px;
+    margin: 0;
 }
 
 /*^ Number */
@@ -517,6 +519,7 @@
 .friendlist .friendlistListContainer .groupName .groupIcon {
     width: 18px;
     height: 18px;
+    margin: 0;
     border-radius: 4px;
 }
 
@@ -554,6 +557,10 @@
     width: 18px;
     height: 18px;
     margin: 0 0 0 6px;
+}
+
+.friendlist .friendlistListContainer .friendGroup:has(.groupName.Collapsed) .SortByRecent {
+    display: none;
 }
 
 .friendlist .friendlistListContainer .friendGroup .SortByRecent::before {
@@ -740,7 +747,7 @@
     padding: 12px;
     border-radius: 8px;
     background: unset;
-    background-color: rgb(var(--color-3));
+    background-color: rgb(var(--st-color-3));
 }
 .friendlist .chatRoomListContainer[style^="height: 0px;"] {
     padding: 0;
