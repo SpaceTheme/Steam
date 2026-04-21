@@ -19,12 +19,12 @@ function relocatePlaytime() {
 
     const clonedStats = mySmallText.cloneNode(true);
 
-    clonedStats.style.marginTop = '4px';
-    clonedStats.style.color = '#8e8e8e';
-    clonedStats.style.fontSize = '14px';
     clonedStats.style.display = 'flex';
+    clonedStats.style.gap = '12px';
     clonedStats.style.alignItems = 'center';
-    clonedStats.style.gap = '8px';
+    clonedStats.style.fontSize = '14px';
+    clonedStats.style.lineHeight = 'normal';
+    clonedStats.style.color = '#969696';
 
     if (locationArrow) locationArrow.style.display = 'none';
 
