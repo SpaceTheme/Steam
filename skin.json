@@ -424,7 +424,7 @@
             "description": "The best support for https://spacetheme.net/#steam-custom-artworks ",
             "default": "no",
             "tab": "Library",
-            "section": "Pined",
+            "section": "Pinned",
             "values": {
                 "no": {},
                 "yes": {
