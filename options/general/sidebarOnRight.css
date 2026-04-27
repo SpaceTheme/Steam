@@ -1,0 +1,26 @@
+._1rDh5rXSFZJOqCa4UpnI4z ._3xRRJfD2xy95i9NhJxLTp0 {
+    flex-direction: row-reverse;
+}
+
+
+/*
+& When storepage is open
+*/
+._1rDh5rXSFZJOqCa4UpnI4z:has(.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]) {
+    flex-direction: row-reverse !important;
+}
+
+
+/*
+& Only show on hover
+*/
+._1rDh5rXSFZJOqCa4UpnI4z .RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:has(::after) {
+    margin-right: -16px;
+    margin-left: 0;
+    padding-right: 16px;
+    padding-left: 0;
+}
+
+._1rDh5rXSFZJOqCa4UpnI4z .RGNMWtyj73_-WdhflrmuY[style*="display: none;"]::after {
+    margin-left: -6px;
+}

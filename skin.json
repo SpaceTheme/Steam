@@ -43,16 +43,30 @@
         },
 
 
-        "Always show sidebar": {
-            "description": "Always show the sidebar \n (If you have this option on Disabled, and you use the \"Userpannel\" or \"Sidebar only on hover\" option, this option will be overwritten)",
-            "default": "Enabled",
+        "Sidebar on right": {
+            "description": "Show the sidebar on the right side",
+            "default": "yes",
             "tab": "General",
             "section": "Sidebar",
             "values": {
-                "Enabled": {
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/sidebarOnRight.css" }
+                },
+                "no": {}
+            }
+        },
+
+
+        "Always show sidebar": {
+            "description": "Always show the sidebar \n (If you have this option Disabled, and you use the \"Userpannel\" or \"Sidebar only on hover\" option, this option will be overwritten)",
+            "default": "yes",
+            "tab": "General",
+            "section": "Sidebar",
+            "values": {
+                "yes": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/general/alwaysShowSidebar.css" }
                 },
-                "Disabled": {}
+                "no": {}
             }
         },
 
