@@ -3,7 +3,7 @@
 }
 
 ._9Ql-oVe_j8E-vsDdyVdWo ._2bl0iQ9xigbq4Zd1NI6NZl {
-    background-color: rgb(var(--st-color-3)) !important;
+    background-color: rgb(var(--st-color-4)) !important;
 }
 ._9Ql-oVe_j8E-vsDdyVdWo ._2bl0iQ9xigbq4Zd1NI6NZl::before {
     background-color: rgb(var(--st-accent-1)) !important;
@@ -17,7 +17,7 @@
     width: 14px;
     height: 14px;
     margin: 4px;
-    background-color: rgb(var(--st-color-2));
+    background-color: rgb(var(--st-color-5));
     transform: translateX(0px);
     box-shadow: none;
     transition: all 0.2s ease-in-out;
