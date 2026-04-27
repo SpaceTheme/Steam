@@ -264,7 +264,7 @@
 
         "Userpannel": {
             "description": "Moves the user buttons and the download bar to the game sidebar",
-            "default": "no",
+            "default": "yes",
             "tab": "General",
             "section": "Experimental",
             "values": {
