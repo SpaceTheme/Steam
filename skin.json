@@ -49,10 +49,10 @@
             "tab": "General",
             "section": "Sidebar",
             "values": {
+                "no": {},
                 "yes": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/general/sidebarOnRight.css" }
-                },
-                "no": {}
+                }
             }
         },
 
@@ -63,10 +63,10 @@
             "tab": "General",
             "section": "Sidebar",
             "values": {
+                "no": {},
                 "yes": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/general/alwaysShowSidebar.css" }
-                },
-                "no": {}
+                }
             }
         },
 
