@@ -523,13 +523,13 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._1_yS5UP7el0aN4vntx3dx .wi0pDywRgOCxhG7OqQNaA) .
 
 /* Name */
 ._3yD46y5pd3zOGR7CzKs0mC.online {
-    color: rgb(var(--blue));
+    color: rgb(var(--st-blue));
 }
 ._3yD46y5pd3zOGR7CzKs0mC.awayOrSnooze {
-    color: rgb(var(--yellow));
+    color: rgb(var(--st-yellow));
 }
 ._3yD46y5pd3zOGR7CzKs0mC.ingame {
-    color: rgb(var(--green));
+    color: rgb(var(--st-green));
 }
 ._3yD46y5pd3zOGR7CzKs0mC.offline {
     color: #515151;
