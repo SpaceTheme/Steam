@@ -45,7 +45,7 @@
 
         "Sidebar on right": {
             "description": "Show the sidebar on the right side",
-            "default": "yes",
+            "default": "no",
             "tab": "General",
             "section": "Sidebar",
             "values": {
