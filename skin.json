@@ -99,6 +99,20 @@
         },
 
 
+        "Always show download bar": {
+            "description": "Always show the download bar",
+            "default": "no",
+            "tab": "General",
+            "section": "Sidebar",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/alwaysShowDownloadbar.css" }
+                }
+            }
+        },
+
+
         "Wallet balance": {
             "description": "Hide wallet balance",
             "default": "no",
