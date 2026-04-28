@@ -117,58 +117,12 @@
 }
 
 
-/*
-! Userpannel
-*/
-._3cykd-VfN_xBxf3Qxriccm {
-    margin: 0 27px 0 10px;
-}
-
-/* Buttons */
-._39oUCO1OuizVPwcnnv88no ._1-9sir4j_KQiMqdkZjQN0u .Focusable {
-    order: 2;
-}
-._39oUCO1OuizVPwcnnv88no ._1-9sir4j_KQiMqdkZjQN0u .Focusable:nth-child(4),
-._39oUCO1OuizVPwcnnv88no ._1-9sir4j_KQiMqdkZjQN0u .Focusable:nth-child(5) {
-    order: 1;
-    display: flex;
-    margin-right: 8px;
-}
-
-._2Szzh5sKyGgnLUR870zbDE {
-    width: 32px;
-    height: 24px;
-    padding: 0 !important;
-    border-radius: 2px;
-    background-color: rgba(103,112,123,.2);
-}
-._3LKQ3S_yqrebeNLF6aeiog ._34bQcTHo5QKzuujoEyU1tm {
-    top: unset;
-}
-
-
-/*
-! Controls
-*/
-.qP17eBPXkfezFfexZ4hC3 .title-area {
-    z-index: 99999;
-}
-
-.qP17eBPXkfezFfexZ4hC3 .title-area .title-bar-actions {
-    height: 46px;
-}
-.qP17eBPXkfezFfexZ4hC3 .title-area .title-area-icon {
-    height: 46px;
-}
-
-
-
 
 /*
 ! Size
 */
 ._3Z7VQ1IMk4E3HsHvrkLNgo:has(._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm) {
-    @media (max-width: 1520px) {
+    @media (max-width: 1280px) {
         /** Titlebar */
         ._39oUCO1OuizVPwcnnv88no {
             height: 80px !important;
@@ -192,11 +146,6 @@
 
         ._3Z3ohQ8-1NKnCZkbS6fvy ._2D64jIEK7wpUR_NlObDW76 {
             justify-content: center;
-        }
-
-        /*^ Userpannel*/
-        ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm {
-            height: 46px;
         }
     }
 }

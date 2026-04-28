@@ -111,6 +111,3 @@
   - [ ] Steam Settings
   - [ ] Inputs (all types)
   - [ ] Recordings & Screenshots
-
-## Know issue
-- If the "Userpannel & Downloadpannel" option is active and you open the download page and back again, the userpannel & downloadpannel is gone and is only available again after a Steam restart

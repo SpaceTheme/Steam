@@ -58,7 +58,7 @@
 
 
         "Always show sidebar": {
-            "description": "Always show the sidebar \n (If you have this option Disabled, and you use the \"Userpanel\" or \"Sidebar only on hover\" option, this option will be overwritten)",
+            "description": "Always show the sidebar don't matter on which page (Except the download page) \n\n (If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community)",
             "default": "yes",
             "tab": "General",
             "section": "Sidebar",
@@ -271,21 +271,6 @@
                 "no": {},
                 "yes": {
                     "TargetCss": { "affects": [".zXrpABNQHpWKgSzqnGlL"], "src": "options/general/achievementNotifaction.css" }
-                }
-            }
-        },
-
-
-        "Userpannel": {
-            "description": "Moves the user buttons and the download bar to the game sidebar",
-            "default": "yes",
-            "tab": "General",
-            "section": "Experimental",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/userpannel.css" },
-                    "TargetJs": { "affects": ["^Steam$"], "src": "options/general/userpannel/userpannel.js" }
                 }
             }
         },
