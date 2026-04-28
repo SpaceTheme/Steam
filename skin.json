@@ -58,7 +58,7 @@
 
 
         "Always show sidebar": {
-            "description": "Always show the sidebar \n (If you have this option Disabled, and you use the \"Userpannel\" or \"Sidebar only on hover\" option, this option will be overwritten)",
+            "description": "Always show the sidebar \n (If you have this option Disabled, and you use the \"Userpanel\" or \"Sidebar only on hover\" option, this option will be overwritten)",
             "default": "yes",
             "tab": "General",
             "section": "Sidebar",
@@ -103,7 +103,7 @@
             "description": "Hide wallet balance",
             "default": "no",
             "tab": "General",
-            "section": "Userpannel",
+            "section": "Userpanel",
             "values": {
                 "no": {},
                 "yes": {
@@ -114,70 +114,70 @@
 
 
         "Steam VR button": {
-            "description": "Hide Steam VR button from userpannel",
+            "description": "Hide Steam VR button from userpanel",
             "default": "no",
             "tab": "General",
-            "section": "Userpannel",
+            "section": "Userpanel",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/buttons/steamVr.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpanel/buttons/steamVr.css" }
                 }
             }
         },
 
 
         "Big Picture Mode button": {
-            "description": "Hide Big Picture Mode button from userpannel",
+            "description": "Hide Big Picture Mode button from userpanel",
             "default": "no",
             "tab": "General",
-            "section": "Userpannel",
+            "section": "Userpanel",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/buttons/bpm.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpanel/buttons/bpm.css" }
                 }
             }
         },
 
 
         "News button": {
-            "description": "Hide News button from userpannel",
+            "description": "Hide News button from userpanel",
             "default": "no",
             "tab": "General",
-            "section": "Userpannel",
+            "section": "Userpanel",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/buttons/news.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpanel/buttons/news.css" }
                 }
             }
         },
 
 
         "Notification button": {
-            "description": "Hide Notification button from userpannel",
+            "description": "Hide Notification button from userpanel",
             "default": "no",
             "tab": "General",
-            "section": "Userpannel",
+            "section": "Userpanel",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/buttons/notification.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpanel/buttons/notification.css" }
                 }
             }
         },
 
 
         "Friend list button": {
-            "description": "Hide Friend list button from userpannel (only with Userpannel experimental)",
+            "description": "Hide Friend list button from userpanel (only with userpanel experimental)",
             "default": "no",
             "tab": "General",
-            "section": "Userpannel",
+            "section": "Userpanel",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpannel/buttons/friendList.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpanel/buttons/friendList.css" }
                 }
             }
         },
