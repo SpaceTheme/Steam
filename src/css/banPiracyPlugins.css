@@ -1,7 +1,7 @@
-[class*="luatools"],
-[data-theme-name*="luatools"],
+[class*="luatools" i],
+[data-theme-name*="luatools" i],
 [data-manilua-button],
 [data-manilua-modal],
-[data-theme-name*="manilua"] {
+[data-theme-name*="manilua" i] {
     display: none !important;
 }
