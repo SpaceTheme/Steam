@@ -84,3 +84,22 @@ div.ModalPosition_TopBar {
     width: 16px !important;
     height: 16px !important;
 }
+
+
+
+
+
+
+
+/*
+& Ban piracy plugins
+*/
+[class*="luatools" i],
+[data-theme-name*="luatools" i],
+[data-manilua-button],
+[data-manilua-modal],
+[data-theme-name*="manilua" i],
+[data-millennium-plugin*="luatools" i],
+[data-millennium-plugin*="manilua" i] {
+    display: none !important;
+}

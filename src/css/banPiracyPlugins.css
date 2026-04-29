@@ -1,9 +1,9 @@
-body:has([class*="luatools" i]),
-body:has([data-theme-name*="luatools" i]),
-body:has([data-manilua-button]),
-body:has([data-manilua-modal]),
-body:has([data-theme-name*="manilua" i]),
-body:has([data-millennium-plugin*="luatools" i]),
-body:has([data-millennium-plugin*="manilua" i]) {
+[class*="luatools" i],
+[data-theme-name*="luatools" i],
+[data-manilua-button],
+[data-manilua-modal],
+[data-theme-name*="manilua" i],
+[data-millennium-plugin*="luatools" i],
+[data-millennium-plugin*="manilua" i] {
     display: none !important;
 }
