@@ -567,7 +567,7 @@
 
         "Playbar in Banner": {
             "description": "Show playbar in banner",
-            "default": "yes",
+            "default": "no",
             "tab": "Library",
             "section": "Gamepage",
             "values": {
