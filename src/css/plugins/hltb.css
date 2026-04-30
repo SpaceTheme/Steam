@@ -59,3 +59,18 @@
 #hltb-for-millennium .hltb-info ul li .hltb-details-btn:hover::after {
     color: rgb(var(--st-blue));
 }
+
+
+
+/*
+&  Option support
+*/
+@container style(--st-option-playbarInBanner: on) {
+    body #hltb-for-millennium {
+        bottom: calc(16px + 70px + 6px) !important;
+    }
+
+    body .NarrowWindow #hltb-for-millennium {
+        bottom: calc(16px + 56px + 6px) !important;
+    }
+}

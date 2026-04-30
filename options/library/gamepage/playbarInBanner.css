@@ -1,0 +1,27 @@
+:root {
+    --st-option-playbarInBanner: on;
+}
+
+._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi- {
+    position: absolute;
+    top: calc(-70px + -12px + -16px);
+    width: -webkit-fill-available;
+    margin: 0 16px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 50%);
+}
+._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi-._3SSPIdErMyF10Bul9E0qhX {
+    backdrop-filter: unset;
+}
+
+.NarrowWindow ._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi- {
+    top: calc(-56px + -12px + -16px);
+}
+
+
+._3Y87YQY56ZCOqhgcZFaDc5 {
+    background-color: rgb(var(--st-color-1), .65) !important;
+}
+._3SSPIdErMyF10Bul9E0qhX ._3Y87YQY56ZCOqhgcZFaDc5 {
+    background-color: rgb(var(--st-color-2)) !important;
+}

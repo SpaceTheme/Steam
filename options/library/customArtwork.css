@@ -49,3 +49,15 @@
     background-color: #ccc1a1;
     mix-blend-mode: unset;
 }
+
+
+
+/*
+&  Option support
+*/
+@container style(--st-option-playbarInBanner: on) {
+    body .NZMJ6g2iVnFsOOp-lDmIP:has(img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"]) .QlR9EFwTdUNm_J5vx54_Z {
+        box-sizing: border-box;
+        padding-bottom: calc(16px + 56px + 16px);
+    }
+}

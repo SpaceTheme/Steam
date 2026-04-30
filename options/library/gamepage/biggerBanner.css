@@ -5,17 +5,26 @@ body .NZMJ6g2iVnFsOOp-lDmIP {
 body .NZMJ6g2iVnFsOOp-lDmIP._1ZNHIcPSbQl11wXtomcqgH {
     height: calc(var(--header-height) + 46px) !important;
 }
-body ._1SvpjsckP9cPRxO6gCBHrw:has(._1_cYNJSvS6IXs9vLTEYjy5 .z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP {
-    --header-height: calc(100vh - 46px - 16px - 12px - 70px - 6px - 40px - 16px - 16px - 46px) !important;
-}
 body .NarrowWindow .NZMJ6g2iVnFsOOp-lDmIP {
-   --header-height: calc(100vh - 46px - 16px - 12px - 56px - 6px - 40px - 16px - 16px) !important;
-}
-body .NarrowWindow ._1SvpjsckP9cPRxO6gCBHrw:has(._1_cYNJSvS6IXs9vLTEYjy5 .z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP {
-    --header-height: calc(100vh - 46px - 16px - 12px - 56px - 6px - 40px - 16px - 16px - 46px) !important;
+   --header-height: calc(100vh - 32px - 16px - 12px - 70px - 6px - 40px - 16px - 16px) !important;
 }
 
 
 body .NZMJ6g2iVnFsOOp-lDmIP.NZMJ6g2iVnFsOOp-lDmIP ._1IX7FPSY9Jb82KhBVBSkZa {
     max-height: unset !important;
+}
+
+
+
+/*
+&  Option support
+*/
+@container style(--st-option-playbarInBanner: on) {
+    body .NZMJ6g2iVnFsOOp-lDmIP {
+        --header-height: calc(100vh - 46px - 16px - 16px - 16px) !important;
+        max-height: unset !important;
+    }
+    body .NarrowWindow .NZMJ6g2iVnFsOOp-lDmIP {
+        --header-height: calc(100vh - 80px - 16px - 16px - 16px) !important;
+    }
 }
