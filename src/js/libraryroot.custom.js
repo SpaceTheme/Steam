@@ -49,7 +49,6 @@ async function syncWidthIfTargetHidden() {
     };
 
     const removeWidth = () => {
-        targetEl.style.removeProperty('width');
         targetEl.style.removeProperty('flex');
     };
 
