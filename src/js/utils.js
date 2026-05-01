@@ -20,10 +20,18 @@
     });
 });
 
+export const tryPromise = cb => {
+    if (typeof cb !== 'function') return Promise.resolve();
+    if ('try' in Promise) {
+        return Promise.try(cb);
+    }
+    return Promise.resolve().then(cb);
+};
+
 export const createContainerTracker = (selector, { onCleanup, onSetup, onUpdate } = {}) => {
     let container = null;
 
-    const rebind = () => {
+    const rebind = async () => {
         const nextContainer = document.querySelector(selector);
 
         if (nextContainer === container) {
@@ -33,12 +41,12 @@ export const createContainerTracker = (selector, { onCleanup, onSetup, onUpdate 
         container = nextContainer;
 
         if (!container) {
-            onCleanup?.();
+            await tryPromise(onCleanup);
             return;
         }
 
-        onSetup?.();
-        onUpdate?.();
+        await tryPromise(onSetup);
+        await tryPromise(onUpdate);
     };
 
     return {

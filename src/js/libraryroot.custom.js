@@ -31,7 +31,7 @@ waitForElement('.Rp8QOGJ2DypeDniMnRBhr').then(() => {
 
 
 // Store Sidebar Width half fix
-function syncWidthIfTargetHidden() {
+async function syncWidthIfTargetHidden() {
     const sourceClass = '._9sPoVBFyE_vE87mnZJ5aB';
     const targetClass = '.RGNMWtyj73_-WdhflrmuY';
 
@@ -116,13 +116,13 @@ function syncWidthIfTargetHidden() {
         onSetup: setupElements,
     });
 
-    const rootObserver = new MutationObserver(() => sourceTracker.rebind());
+    const rootObserver = new MutationObserver(async () => await sourceTracker.rebind());
     rootObserver.observe(document.body, {
         subtree: true,
         childList: true,
     });
 
-    setupElements();
+    await setupElements();
 }
 syncWidthIfTargetHidden();
 
@@ -130,7 +130,7 @@ syncWidthIfTargetHidden();
 
 
 // Custom hover effect for game items
-function setupGamesHovers() {
+async function setupGamesHovers() {
     const gamesContainerSelector = '._1ijTaXJJA5YWl_fW2IxcaT .ReactVirtualized__Grid__innerScrollContainer';
     const itemSelector = '._2-O4ZG0KrnSrzISHBKctFQ';
     const separatorSelector = '._2RggXvVkWMDvvxFegjtKso';
@@ -232,13 +232,13 @@ function setupGamesHovers() {
         onUpdate: scheduleHoverUpdate,
     });
 
-    const rootObserver = new MutationObserver(() => containerTracker.rebind());
+    const rootObserver = new MutationObserver(async () => await containerTracker.rebind());
     rootObserver.observe(document.body, {
         subtree: true,
         childList: true,
     });
 
-    containerTracker.rebind();
+    await containerTracker.rebind();
 }
 setupGamesHovers();
 
@@ -288,7 +288,7 @@ function syncUserpanelWidth() {
         setWidth();
     };
 
-    const setupElements = async () => {
+    const setupElements = () => {
         sourceEl = document.querySelector(sourceClass);
         userpanelEl = document.querySelector(userpanelSelector);
         downloadBarEl = document.querySelector(downloadBarSelector);
@@ -298,9 +298,7 @@ function syncUserpanelWidth() {
         }
     };
 
-    const rootObserver = new MutationObserver(() => {
-        setupElements();
-    });
+    const rootObserver = new MutationObserver(() => setupElements());
 
     rootObserver.observe(document.body, {
         subtree: true,
