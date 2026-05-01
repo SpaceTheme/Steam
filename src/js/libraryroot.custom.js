@@ -314,12 +314,10 @@ syncUserpanelWidth();
 
 // Create userpanel button container and move buttons
 (async () => {
-    var gameListSidebar = await waitForElement('._3x1HklzyDs4TEjACrRO2tB');
-
+    await waitForElement('._3x1HklzyDs4TEjACrRO2tB'); // wait for game panel to load first
     // Userpanel
-    var userPanel = await waitForElement('._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u');
-    var friendButton = await waitForElement('._1TdaAqMFadi0UTqilrkelR');
-    var parent = await waitForElement('._3cykd-VfN_xBxf3Qxriccm');
+    const friendButton = await waitForElement('._1TdaAqMFadi0UTqilrkelR');
+    const parent = await waitForElement('._3cykd-VfN_xBxf3Qxriccm');
 
     const buttonContainer = document.createElement('div');
     buttonContainer.className = 'userpanel-buttoncontainer';
