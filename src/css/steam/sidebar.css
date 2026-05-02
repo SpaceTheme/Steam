@@ -447,7 +447,27 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._1_yS5UP7el0aN4vntx3dx .wi0pDywRgOCxhG7OqQNaA) .
 ! Steam Client Notice
 */
 div:has(> ._2iJsgdTIX9Tj23rWnB7Q-c) {
-    display: none;
+    position: fixed !important;
+    bottom: calc(16px + 16px);
+    right: 50%;
+    opacity: 1 !important;
+    transform: translateX(50%);
+}
+
+._1_yS5UP7el0aN4vntx3dx ._2iJsgdTIX9Tj23rWnB7Q-c {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(var(--st-blue));
+    box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
+}
+
+._1_yS5UP7el0aN4vntx3dx ._2iJsgdTIX9Tj23rWnB7Q-c ._1sMxtPKaL0DcIZgJCQRduV {
+    min-height: unset;
+}
+
+._1_yS5UP7el0aN4vntx3dx ._2iJsgdTIX9Tj23rWnB7Q-c ._2ohOQgahhMYnIEfAQmv9B8 {
+    padding: 6px 16px;
+    border-radius: 8px;
 }
 
 
