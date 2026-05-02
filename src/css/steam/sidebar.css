@@ -443,6 +443,14 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._1_yS5UP7el0aN4vntx3dx .wi0pDywRgOCxhG7OqQNaA) .
 }
 
 
+/*
+! Steam Client Notice
+*/
+div:has(> ._2iJsgdTIX9Tj23rWnB7Q-c) {
+    display: none;
+}
+
+
 
 /*
 & Userpanel
