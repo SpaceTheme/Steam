@@ -4,6 +4,7 @@ body.DesktopUI {
 }
 
 body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
+    min-width: unset !important;
     padding: 6px !important;
     border: 3px solid rgb(var(--st-color-5));
     border-radius: 8px;
@@ -32,6 +33,11 @@ body.DesktopUI ._1BAKXmqQdWRWmWX9_CbhuY:hover {
 body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
     color: #9c9c9c;
     background: rgb(var(--st-color-2));
+}
+
+
+body.DesktopUI ._3pofGqV0buiKAfMPEs3_82 {
+    background: unset;
 }
 
 
