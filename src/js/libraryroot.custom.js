@@ -255,6 +255,7 @@ function syncUserpanelWidth() {
     let sourceObserver = null;
 
     const setWidth = () => {
+        if (!sourceEl) return;
         const computedWidth = window.getComputedStyle(sourceEl).width;
         if (computedWidth && computedWidth !== 'auto') {
             if (userpanelEl) {
@@ -297,7 +298,9 @@ function syncUserpanelWidth() {
         }
     };
 
-    window.addEventListener('resize', () => sourceEl && setWidth());
+    window.addEventListener('resize', setWidth);
+    new ResizeObserver(setWidth).observe(document.documentElement);
+    window.visualViewport?.addEventListener('resize', setWidth);
 
     const rootObserver = new MutationObserver(() => setupElements());
 
