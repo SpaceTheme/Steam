@@ -10,12 +10,19 @@
     backdrop-filter: blur(4px);
     box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 50%);
 }
+._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi-:has(.z8GYwNt_nbBZrf7OVjs-s) {
+    top: calc(-70px + -12px + -46px + -16px);
+}
+
 ._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi-._3SSPIdErMyF10Bul9E0qhX {
     backdrop-filter: unset;
 }
 
-.NarrowWindow ._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi- {
+.NarrowRightPanel ._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi- {
     top: calc(-56px + -12px + -16px);
+}
+.NarrowRightPanel ._3Yf8b2v5oOD8Wqsxu04ar._1U7LKpx70kEsz3jJwAFOi-:has(.z8GYwNt_nbBZrf7OVjs-s) {
+    top: calc(-56px + -12px + -46px + -16px);
 }
 
 

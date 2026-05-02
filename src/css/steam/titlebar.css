@@ -121,31 +121,26 @@
 /*
 ! Size
 */
-._3Z7VQ1IMk4E3HsHvrkLNgo:has(._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm) {
-    @media (max-width: 1190px) {
-        /** Titlebar */
-        ._39oUCO1OuizVPwcnnv88no {
-            height: 80px !important;
-            align-items: flex-start;
-        }
+body:has(.NarrowRightPanel) ._39oUCO1OuizVPwcnnv88no {
+    height: 80px !important;
+    align-items: flex-start;
+}
 
-        /*^ Steam Logo / buttons */
-        ._39oUCO1OuizVPwcnnv88no ._1Ky59qmywxOUtNcI1cgmkX {
-            height: 46px;
-        }
+/*^ Steam Logo / buttons */
+body:has(.NarrowRightPanel) ._39oUCO1OuizVPwcnnv88no ._1Ky59qmywxOUtNcI1cgmkX {
+    height: 46px;
+}
 
-        /*^ Navigation */
-        ._3Z3ohQ8-1NKnCZkbS6fvy {
-            position: absolute;
-            top: 36px;
-            left: 0;
-            width: -webkit-fill-available;
-            height: 28px;
-            transform: none;
-        }
+/*^ Navigation */
+body:has(.NarrowRightPanel) ._3Z3ohQ8-1NKnCZkbS6fvy {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: -webkit-fill-available;
+    height: 28px;
+    transform: none;
+}
 
-        ._3Z3ohQ8-1NKnCZkbS6fvy ._2D64jIEK7wpUR_NlObDW76 {
-            justify-content: center;
-        }
-    }
+body:has(.NarrowRightPanel) ._3Z3ohQ8-1NKnCZkbS6fvy ._2D64jIEK7wpUR_NlObDW76 {
+    justify-content: center;
 }

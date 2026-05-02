@@ -60,4 +60,9 @@
         box-sizing: border-box;
         padding-bottom: calc(16px + 56px + 16px);
     }
+
+    body:has(.z8GYwNt_nbBZrf7OVjs-s) .NZMJ6g2iVnFsOOp-lDmIP:has(img.HNbe3eZf6H7dtJ042x1vM[src*="/customimages/"]) .QlR9EFwTdUNm_J5vx54_Z {
+        box-sizing: border-box;
+        padding-bottom: calc(16px + 56px + 56px + 16px);
+    }
 }
