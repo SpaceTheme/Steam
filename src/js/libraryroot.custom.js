@@ -297,7 +297,7 @@ function syncUserpanelWidth() {
         }
     };
 
-    window.addEventListener('resize', setWidth);
+    window.addEventListener('resize', () => sourceEl && setWidth());
 
     const rootObserver = new MutationObserver(() => setupElements());
 
