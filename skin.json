@@ -667,6 +667,22 @@
                     "TargetCss": { "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "options/community/profilePagesHeader.css" }
                 }
             }
+        },
+
+        "Old user panel UI": {
+            "description": "Use old user panel UI",
+            "default": "no",
+            "tab": "General",
+            "section": "Userpanel",
+            "values": {
+                "no": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpanel/userpanel.css" },
+                    "TargetJs": { "affects": ["^Steam$"], "src": "options/general/userpanel/userpanel.js" }
+                },
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpanel/userpanelOld.css" }
+                }
+            }
         }
     },
     "RootColors": "./src/css/root.css",
