@@ -681,6 +681,10 @@
             "TargetCss": "src/icons/fluent/fluent.css"
         },
         {
+            "MatchRegexString": ".*",
+            "TargetJs": "src/js/utils.js"
+        },
+        {
             "MatchRegexString": "^Steam$",
             "TargetCss": "src/css/libraryroot.custom.css",
             "TargetJs": "src/js/libraryroot.custom.js"
