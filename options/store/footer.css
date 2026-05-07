@@ -1,4 +1,4 @@
-body.responsive_page [data-featuretarget="footer"]:has(footer) {
+html.responsive body div[data-featuretarget="footer"] {
     display: none !important;
 }
 
