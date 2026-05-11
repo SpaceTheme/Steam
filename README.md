@@ -49,29 +49,63 @@
 - [Size on Disk](https://steambrew.app/plugin?id=e73371b61eef)
 
 ## Roadmap
-- [ ] Store
-  - [ ] (WIP) Home
+<details>
+  <summary>Store</summary>
+  
+  - [ ] Home
   - [ ] (WIP) Navbar
   - [ ] Discovery
   - [ ] (WIP) Pointshop
-  - [ ] Stats
+  - [ ] Charts
   - [ ] (WIP) Gamepage
-  - [ ] Bundle info 
+  - [ ] Bundle info
+  - [ ] Hardware page
+  - [ ] The Steam Awards page
+  - [ ] Steam Replay page
+  - [ ] Steam Labs page
+  - [ ] Tags page
+  - [ ] Community recommends page
+  - [ ] Interactive recommender page
+  - [ ] Among friends page
+  - [ ] Steam curators page
+  - [ ] Gift cards page
   - [x] Cart
+  - [ ] Wishlist rework
   - [ ] (WIP) Checkout
   - [ ] Categories page
   - [ ] Personal calendar
   - [x] Search result list page
   - [ ] Settings
-- [ ] Community
+</details>
+<details>
+  <summary>Library</summary>
+
+  - [ ] Collection page
+  - [ ] Gamepage rework
+</details>
+<details>
+  <summary>Community</summary>
+
   - [ ] Home
+  - [ ] Gamepage
+    - [ ] Screenshots
+    - [ ] Artworks
+    - [ ] Guides
+    - [ ] News
+    - [ ] Reviews
+    - [ ] Videos
+    - [ ] Workshop
+      - [ ] Item page
   - [ ] Discussions
   - [ ] Workshop
   - [ ] Market
     - [ ] (WIP) Home
     - [ ] (WIP) Item page
   - [ ] Broadcast
-- [ ] User
+</details>
+<details>
+  <summary>User</summary>
+
   - [ ] Profile
   - [ ] Activity
   - [ ] Friends
@@ -80,9 +114,17 @@
   - [ ] (WIP) Badges
   - [ ] Inventory
   - [ ] Booster Pack Creator
-- [ ] Friends & Chat
+</details>
+<details>
+  <summary>Friends & Chat</summary>
+
+  - [ ] Compact mode support
+  - [ ] Chat
   - [ ] Group chat
-- [ ] Big Picture Mode
+</details>
+<details>
+  <summary>Big Picture Mode</summary>
+
   - [ ] Home
   - [ ] Sidebar
   - [ ] Gamepage
@@ -92,7 +134,10 @@
   - [ ] Media
   - [ ] Downloads
   - [ ] Settings
-- [ ] Overlay
+</details>
+<details>
+  <summary>Overlay</summary>
+  
   - [ ] Game Overview
   - [ ] Achievements
   - [ ] Notes
@@ -100,12 +145,19 @@
   - [ ] Guides
   - [ ] Discussions
   - [ ] Recordings & Screenshots
-  - [ ] Friends & Chat
   - [ ] Browser
   - [ ] Controller Settings
-  - [ ] Settings
-- [ ] Other
+</details>
+<details>
+  <summary>Other</summary>
+
   - [ ] (WIP) Notifications
   - [ ] Steam Settings
-  - [ ] Inputs (all types)
+  - [ ] (WIP) Inputs (all types)
   - [ ] Recordings & Screenshots
+  - [ ] Update News
+  - [ ] Game server window
+  - [ ] Players window
+  - [ ] Add non-steam game window
+  - [ ] About Steam window
+</details>
