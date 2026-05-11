@@ -15,7 +15,7 @@ body .MillenniumDesktopSidebar {
     --sidebar-width: 700px;
     top: 50%;
     left: 50%;
-    height: 60vh;
+    height: 64vh;
     margin: 16px 0;
     padding: 16px;
     border-radius: 8px;
@@ -136,6 +136,7 @@ body .MillenniumDesktopSidebar {
 .MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg {
     padding: 0 12px 6px;
     background-color: rgb(var(--st-color-2));
+    transform: unset;
 }
 .MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg:has(+ .SettingsDialogSubHeader), .MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg:nth-last-of-type(1) {
     margin-bottom: 12px;
