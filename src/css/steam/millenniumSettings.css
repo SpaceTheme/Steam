@@ -26,8 +26,9 @@ body .MillenniumDesktopSidebar {
 
 
 /*
-! Haeder
+! Manager
 */
+/** Haeder */
 .MillenniumDesktopSidebar .MillenniumDesktopSidebar_Title {
     margin-bottom: 12px;
     padding: 0;
@@ -36,9 +37,7 @@ body .MillenniumDesktopSidebar {
 }
 
 
-/*
-! List
-*/
+/** List */
 .MillenniumDesktopSidebar .MillenniumDesktopSidebar_Content {
     gap: 12px;
     padding: 0 !important;
@@ -56,7 +55,7 @@ body .MillenniumDesktopSidebar {
 }
 
 
-/** Title */
+/*^ Title */
 .MillenniumDesktopSidebar ._1IigUZ3GHaZS2Y-3V3T2rT {
     position: absolute;
     top: 12px;
@@ -65,7 +64,7 @@ body .MillenniumDesktopSidebar {
 }
 
 
-/** Button */
+/*^ Button */
 .MillenniumDesktopSidebar .MillenniumDesktopSidebar_LibraryItemButton {
     gap: 6px !important;
     margin: 0;
@@ -103,6 +102,76 @@ body .MillenniumDesktopSidebar {
 }
 
 
+/*
+! Settings
+*/
+/** Dropdown */
+.MillenniumDesktopSidebar .MillenniumDesktopSidebar_EditorHeader {
+    margin: 0;
+    padding: 0;
+    box-shadow: unset;
+}
+
+
+/** Content */
+.MillenniumDesktopSidebar .MillenniumDesktopSidebar_EditorContent {
+    padding: 0;
+    border-radius: 8px;
+}
+
+/*^ Section title */
+.MillenniumDesktopSidebar .SettingsDialogSubHeader {
+    margin: 0;
+    padding: 12px 12px 6px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: .5px;
+    border-radius: 8px 8px 0 0;
+    color: #fff;
+    background-color: rgb(var(--st-color-2));
+}
+
+/*^ Options */
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg {
+    padding: 0 12px 6px;
+    background-color: rgb(var(--st-color-2));
+}
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg:has(+ .SettingsDialogSubHeader), .MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg:nth-last-of-type(1) {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-radius: 0 0 8px 8px;
+}
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg::after {
+    display: none;
+}
+
+/* Option Item */
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg ._2VcTlXFC64Jtg9gvtT6cmY {
+    position: relative;
+    padding: 12px 12px 0;
+    border-radius: 8px 8px 0 0;
+    background-color: rgb(var(--st-color-3));
+}
+
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg ._1W1to_azoBRG95oNAFpf9Q {
+    margin: 0;
+    padding: 6px 12px 12px;
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(var(--st-color-3));
+}
+
+/* Option Item slider value fix */
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg ._2VcTlXFC64Jtg9gvtT6cmY .MillenniumThemeSliderValue {
+    top: 26px;
+    right: 12px;
+}
+
+
 
 
 /*
@@ -123,6 +192,7 @@ body .MillenniumDesktopSidebar {
 .MillenniumSettings.ModalDialogPopup ._18QCu-7MTzd51UpVbYysDy ._1Hye7o1wYIfc9TE9QKRW4T {
     display: none;
 }
+
 
 
 /*
@@ -165,10 +235,14 @@ body .MillenniumDesktopSidebar {
 
 /* Title */
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .SettingsDialogSubHeader {
-    margin: 0 !important;
-    padding: 12px;
-    line-height: unset;
+    margin: 0;
+    padding: 12px 12px 6px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: .5px;
     border-radius: 8px 8px 0 0;
+    color: #fff;
     background-color: rgb(var(--st-color-2));
 }
 .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .SettingsDialogSubHeader:last-of-type {
