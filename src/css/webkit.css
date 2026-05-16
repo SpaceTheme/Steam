@@ -819,7 +819,7 @@ html body.responsive_page #footer .rule:nth-child(1) {
 [data-millennium-plugin*="manilua" i] body::before,
 [class*="lumea" i] body::before,
 [data-millennium-plugin*="lumea" i] body::before {
-    content: "Get a job, loser!" !important;
+    content: "Pls remove any piracy plugin to use this theme." !important;
     display: block !important;
     position: fixed !important;
     top: 50% !important;
