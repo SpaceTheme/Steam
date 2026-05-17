@@ -877,7 +877,7 @@
 [data-millennium-plugin*="manilua" i] body::before,
 [class*="lumea" i] body::before,
 [data-millennium-plugin*="lumea" i] body::before {
-    content: "Pls remove any piracy plugin to use this theme. \n stable: C:\\Program Files (x86)\\Steam\\plugins \n beta: C:\\Program Files (x86)\\Steam\\millennium\\plugins" !important;
+    content: "Pls remove any piracy plugin to use this theme. stable: C:\\Program Files (x86)\\Steam\\plugins beta: C:\\Program Files (x86)\\Steam\\millennium\\plugins" !important;
     display: block !important;
     position: fixed !important;
     top: 50% !important;
