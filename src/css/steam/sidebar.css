@@ -264,12 +264,13 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._1_yS5UP7el0aN4vntx3dx .wi0pDywRgOCxhG7OqQNaA) .
 ! Collection header
 */
 ._3x1HklzyDs4TEjACrRO2tB ._2sYIghGVXJr6tsQVvcryy8 {
+    align-items: center;
     margin: 0 0 0 6px;
     border: none;
     border-radius: 8px;
     background: none;
     background-color: rgb(var(--st-color-1));
-    align-items: center;
+    box-shadow: unset;
 }
 ._3x1HklzyDs4TEjACrRO2tB ._2sYIghGVXJr6tsQVvcryy8:hover {
     background-color: rgb(var(--st-color-3));
