@@ -1,3 +1,36 @@
+/*
+& Ban piracy plugins
+*/
+[class*="luatools" i] body>div,
+[data-millennium-plugin*="luatools" i] body>div,
+[data-manilua-button],
+[data-manilua-modal],
+[class*="manilua" i] body>div,
+[data-millennium-plugin*="manilua" i] body>div,
+[class*="lumea" i] body>div,
+[data-millennium-plugin*="lumea" i] body>div {
+    display: none !important;
+}
+
+
+[class*="luatools" i] body::before,
+[data-millennium-plugin*="luatools" i] body::before,
+[class*="manilua" i] body::before,
+[data-millennium-plugin*="manilua" i] body::before,
+[class*="lumea" i] body::before,
+[data-millennium-plugin*="lumea" i] body::before {
+    content: "Pls remove any piracy plugin to use this theme. stable: C:\\Program Files (x86)\\Steam\\plugins beta: C:\\Program Files (x86)\\Steam\\millennium\\plugins" !important;
+    display: block !important;
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    text-align: center;
+    transform: translate(-50%, -50%) !important;
+    color: #fff !important;
+}
+
+
+
 .Rp8QOGJ2DypeDniMnRBhr .VZ6x_grhNkIYJG__jEEyp.DesktopUI {
     display: flex;
     flex-direction: column;
@@ -406,41 +439,4 @@
 
 .Rp8QOGJ2DypeDniMnRBhr .lat0M-V5X4uYd6Mpm1DJ1 ._2ltn2BK4fnrPEGzNwxx6bx button::before {
     display: none;
-}
-
-
-
-
-
-
-
-/*
-& Ban piracy plugins
-*/
-[class*="luatools" i] body>div,
-[data-millennium-plugin*="luatools" i] body>div,
-[data-manilua-button],
-[data-manilua-modal],
-[class*="manilua" i] body>div,
-[data-millennium-plugin*="manilua" i] body>div,
-[class*="lumea" i] body>div,
-[data-millennium-plugin*="lumea" i] body>div {
-    display: none !important;
-}
-
-
-[class*="luatools" i] body::before,
-[data-millennium-plugin*="luatools" i] body::before,
-[class*="manilua" i] body::before,
-[data-millennium-plugin*="manilua" i] body::before,
-[class*="lumea" i] body::before,
-[data-millennium-plugin*="lumea" i] body::before {
-    content: "Pls remove any piracy plugin to use this theme. stable: C:\\Program Files (x86)\\Steam\\plugins beta: C:\\Program Files (x86)\\Steam\\millennium\\plugins" !important;
-    display: block !important;
-    position: fixed !important;
-    top: 50% !important;
-    left: 50% !important;
-    text-align: center;
-    transform: translate(-50%, -50%) !important;
-    color: #fff !important;
 }
