@@ -1,11 +1,11 @@
 :root {
-    --st-color-1: 17, 17, 17, 0.5 !important;
-    --st-color-2: 30, 30, 30, 0.5 !important;
-    --st-color-3: 20, 20, 20, 0.5 !important;
-    --st-color-4: 24, 24, 24, 0.5 !important;
-    --st-color-5: 38, 41, 44, 0.5 !important;
-    --st-color-6: 38, 38, 41, 0.5 !important;
-    --st-background: 10, 10, 10, 0.5 !important;
+    --st-color-1: 17, 17, 17, var(--st-mica-transparency, 50%) !important;
+    --st-color-2: 30, 30, 30, var(--st-mica-transparency, 50%) !important;
+    --st-color-3: 20, 20, 20, var(--st-mica-transparency, 50%) !important;
+    --st-color-4: 24, 24, 24, var(--st-mica-transparency, 50%) !important;
+    --st-color-5: 38, 41, 44, var(--st-mica-transparency, 50%) !important;
+    --st-color-6: 38, 38, 41, var(--st-mica-transparency, 50%) !important;
+    --st-background: 10, 10, 10, var(--st-mica-transparency, 50%) !important;
 }
 
 

@@ -276,16 +276,17 @@
         },
 
 
-        "Achievement Notification": {
-            "description": "Hide the Achievment Notification (Sound is still there)",
-            "default": "no",
+        "Mica Transparency": {
+            "description": "This changes the transparency of the Mica effect. The default is 50%.",
+            "default": 50,
             "tab": "General",
             "section": "Other",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": [".zXrpABNQHpWKgSzqnGlL"], "src": "options/general/achievementNotifaction.css" }
-                }
+            "slider": {
+                "cssVariable": "--st-mica-transparency",
+                "min": 20,
+                "max": 100,
+                "step": 10,
+                "unit": "%"
             }
         },
 
