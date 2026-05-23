@@ -39,8 +39,6 @@
 
 
 :root {
-    --st-store-max-width: 1200px;
-
     --store-menu-overlap-height: 90px;
 }
 * {
