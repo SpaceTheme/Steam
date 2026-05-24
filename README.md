@@ -80,7 +80,7 @@
 <details>
   <summary>Library</summary>
 
-  - [ ] Collection page
+  - [ ] (WIP) Collection page
   - [ ] Gamepage rework
 </details>
 <details>
