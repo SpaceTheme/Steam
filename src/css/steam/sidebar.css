@@ -379,10 +379,13 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._1_yS5UP7el0aN4vntx3dx .wi0pDywRgOCxhG7OqQNaA) .
 /*
 & Download bar
 */
-body:not(:has(._1ijTaXJJA5YWl_fW2IxcaT)) ._1_yS5UP7el0aN4vntx3dx {
+body:not(:has(._1ijTaXJJA5YWl_fW2IxcaT)) ._1_yS5UP7el0aN4vntx3dx,
+._1_yS5UP7el0aN4vntx3dx:not(:has(.wi0pDywRgOCxhG7OqQNaA)) {
     visibility: hidden !important;
+    height: 0 !important;
 }
 ._1_yS5UP7el0aN4vntx3dx {
+    visibility: visible;
     position: absolute;
     bottom: calc(16px + 90px + 6px);
     left: 16px;
@@ -394,16 +397,12 @@ body:has(._3E5iVG630BkOHTaJJaMEMw) ._1_yS5UP7el0aN4vntx3dx {
 
 
 ._1_yS5UP7el0aN4vntx3dx ._3vCzSrrXZzZjVJFZNg9SGu {
-    visibility: hidden;
     flex: unset;
     height: 100%;
     padding: 12px;
     border-radius: 8px;
     background-color: rgb(var(--st-color-2));
     box-shadow: unset;
-}
-._1_yS5UP7el0aN4vntx3dx:has(.wi0pDywRgOCxhG7OqQNaA) ._3vCzSrrXZzZjVJFZNg9SGu {
-    visibility: visible;
 }
 
 
