@@ -122,7 +122,7 @@ body .MillenniumDesktopSidebar {
 /*^ Section title */
 .MillenniumDesktopSidebar .SettingsDialogSubHeader {
     margin: 0;
-    padding: 12px 12px 6px;
+    padding: 12px 12px 7px;
     font-size: 16px;
     font-weight: 600;
     line-height: 22px;
@@ -134,6 +134,7 @@ body .MillenniumDesktopSidebar {
 
 /*^ Options */
 .MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg {
+    margin-top: -1px;
     padding: 0 12px 6px;
     background-color: rgb(var(--st-color-2));
     transform: unset;
@@ -154,13 +155,13 @@ body .MillenniumDesktopSidebar {
 /* Option Item */
 .MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg ._2VcTlXFC64Jtg9gvtT6cmY {
     position: relative;
-    padding: 12px 12px 0;
+    padding: 12px 12px 1px;
     border-radius: 8px 8px 0 0;
     background-color: rgb(var(--st-color-3));
 }
 
 .MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg ._1W1to_azoBRG95oNAFpf9Q {
-    margin: 0;
+    margin: -1px 0 0;
     padding: 6px 12px 12px;
     border-radius: 0 0 8px 8px;
     background-color: rgb(var(--st-color-3));
