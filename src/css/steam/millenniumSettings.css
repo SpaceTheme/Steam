@@ -133,34 +133,39 @@ body .MillenniumDesktopSidebar {
 }
 
 /*^ Options */
-.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg {
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI {
     margin-top: -1px;
     padding: 0 12px 6px;
     background-color: rgb(var(--st-color-2));
     transform: unset;
 }
-.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg:has(+ .SettingsDialogSubHeader), .MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg:nth-last-of-type(1) {
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:has(+ .SettingsDialogSubHeader), .MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:nth-last-of-type(1) {
     margin-bottom: 12px;
     padding-bottom: 12px;
     border-radius: 0 0 8px 8px;
 }
-.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg:nth-last-of-type(1) {
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:nth-last-of-type(1) {
     margin-bottom: 0;
 }
 
-.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg::after {
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI::after {
     display: none;
 }
 
 /* Option Item */
-.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg ._2VcTlXFC64Jtg9gvtT6cmY {
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI ._2VcTlXFC64Jtg9gvtT6cmY {
     position: relative;
     padding: 12px 12px 1px;
     border-radius: 8px 8px 0 0;
     background-color: rgb(var(--st-color-3));
 }
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI ._2VcTlXFC64Jtg9gvtT6cmY:has(.SliderControlPanelGroup) {
+    flex-direction: column;
+    gap: 0;
+    align-items: unset;
+}
 
-.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg ._1W1to_azoBRG95oNAFpf9Q {
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI ._1W1to_azoBRG95oNAFpf9Q {
     margin: -1px 0 0;
     padding: 6px 12px 12px;
     border-radius: 0 0 8px 8px;
@@ -168,8 +173,8 @@ body .MillenniumDesktopSidebar {
 }
 
 /* Option Item slider value fix */
-.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._3tB2lyT2Pfvfv-jyuVgUOg ._2VcTlXFC64Jtg9gvtT6cmY .MillenniumThemeSliderValue {
-    top: 26px;
+.MillenniumDesktopSidebar .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI ._2VcTlXFC64Jtg9gvtT6cmY .MillenniumThemeSliderValue {
+    top: 18px;
     right: 12px;
 }
 
