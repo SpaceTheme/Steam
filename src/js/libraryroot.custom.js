@@ -30,7 +30,7 @@ waitForElement('.Rp8QOGJ2DypeDniMnRBhr').then(() => {
 
 
 
-// Store Sidebar Width half fix
+// Store Sidebar Width fix
 async function syncWidthIfTargetHidden() {
     const sourceClass = '._9sPoVBFyE_vE87mnZJ5aB';
     const targetClass = '.RGNMWtyj73_-WdhflrmuY';
@@ -342,40 +342,3 @@ syncUserpanelWidth();
     }
     parent.appendChild(buttonContainer);
 })();
-
-
-
-
-// Move millennium settings options back to the normal place to fix the design
-async function moveSettingsOptions() {
-    const listSelector = '.aFxOaYcllWYkCfVYQJFs0';
-    const cardSelector = '.eKmEXJCm_lgme24Fp_HWt';
-    const elementSelector = '.PSZtxj2h3MlyYv-c9dgke';
-    const titleSelector = '._2VcTlXFC64Jtg9gvtT6cmY';
-    
-    const moveElements = () => {
-        const lists = document.querySelectorAll(listSelector);
-        lists.forEach((list) => {
-            const cards = list.querySelectorAll(cardSelector);
-            cards.forEach((card) => {
-                const elementToMove = card.querySelector(elementSelector);
-                const title = card.querySelector(titleSelector);
-                
-                if (elementToMove && title && !title.contains(elementToMove)) {
-                    title.appendChild(elementToMove);
-                }
-            });
-        });
-    };
-    
-    // Initial run
-    moveElements();
-    
-    // Watch for changes on the entire body and re-run
-    const rootObserver = new MutationObserver(moveElements);
-    rootObserver.observe(document.body, {
-        subtree: true,
-        childList: true
-    });
-}
-moveSettingsOptions();

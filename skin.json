@@ -660,7 +660,8 @@
     "Patches": [
         {
             "MatchRegexString": ".*",
-            "TargetCss": "src/css/regular.css"
+            "TargetCss": "src/css/regular.css",
+            "TargetJs": "src/js/regular.js"
         },
         {
             "MatchRegexString": ".*",
