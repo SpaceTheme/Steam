@@ -340,5 +340,29 @@ syncUserpanelWidth();
     if (familyButton) {
         buttonContainer.appendChild(familyButton);
     }
+
+    // Create custom settings button
+    const settingsButton = document.createElement('div');
+    settingsButton.className = 'tool-tip-source Focusable st-steam-settings';
+    settingsButton.style.order = '999';
+    
+    const settingsIconWrapper = document.createElement('div');
+    settingsIconWrapper.className = '_2Szzh5sKyGgnLUR870zbDE _3LKQ3S_yqrebeNLF6aeiog';
+    
+    const settingsIcon = document.createElement('svg');
+    settingsIcon.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+    settingsIcon.setAttribute('viewBox', '0 0 20 19');
+    settingsIcon.setAttribute('fill', 'none');
+    settingsIcon.setAttribute('class', '_34bQcTHo5QKzuujoEyU1tm');
+    
+    settingsIconWrapper.appendChild(settingsIcon);
+    settingsButton.appendChild(settingsIconWrapper);
+    
+    settingsButton.addEventListener('click', () => {
+        window.opener.SteamClient.URL.ExecuteSteamURL("steam://settings");
+    });
+    
+    buttonContainer.appendChild(settingsButton);
+    
     parent.appendChild(buttonContainer);
 })();
