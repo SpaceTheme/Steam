@@ -152,7 +152,7 @@
   <summary>Other</summary>
 
   - [ ] (WIP) Notifications
-  - [ ] Steam Settings
+  - [ ] (WIP) Steam Settings
   - [ ] (WIP) Inputs (all types)
   - [ ] Recordings & Screenshots
   - [ ] Update News
