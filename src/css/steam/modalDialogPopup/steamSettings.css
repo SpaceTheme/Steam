@@ -1,0 +1,73 @@
+/*
+& Account Tab
+*/
+/*
+! Add Funds & Privacy & Account Details buttons
+*/
+body .DialogBody .onPxgvGKxGbKdE7dDWrMx {
+    gap: 6px;
+    padding: 0 12px 6px;
+    background-color: rgb(var(--st-color-2));
+}
+
+body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P {
+    display: grid;
+    gap: 6px;
+    grid-auto-columns: auto 1fr;
+    grid-auto-rows: auto 1fr;
+    grid-template-areas:
+    "icon title"
+    "desc desc";
+    justify-items: start;
+    margin: 0;
+    padding: 12px;
+    background-color: rgb(var(--st-color-4)) !important;
+    box-shadow: unset !important;
+}
+body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P:hover {
+    background-color: rgb(var(--st-color-3)) !important;
+}
+
+
+/** Custom icons */
+body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P::before {
+    grid-area: icon;
+    opacity: 1;
+    position: unset;
+    font-size: 24px;
+    color: #fff;
+    box-shadow: unset;
+}
+
+body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P svg {
+    display: none;
+}
+
+/*^ Add Funds */
+body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P:nth-child(1)::before {
+    content: "\f55a";
+}
+
+/*^ Privacy */
+body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P:nth-child(2)::before {
+    content: "\f408";
+}
+
+/*^ Account Details */
+body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P:nth-child(3)::before {
+    content: "\e941";
+}
+
+
+/** Title */
+body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P ._3wadwgMy2-9k8uOKh3iSdT {
+    grid-area: title;
+    text-align: left;
+    line-height: 24px;
+}
+
+/** Description */
+body .DialogBody .onPxgvGKxGbKdE7dDWrMx ._2HosnnI_K6IvS1QMGhq46P ._3Wb9yDmYPUJksCr7HmaT9H {
+    grid-area: desc;
+    text-align: left;
+}
