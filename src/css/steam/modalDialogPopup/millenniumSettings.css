@@ -18,7 +18,7 @@ body .MillenniumDesktopSidebar {
     height: 64vh;
     margin: 16px 0;
     padding: 16px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
     transform: translate(-50%, -50%);
     transition: unset;
@@ -50,7 +50,7 @@ body .MillenniumDesktopSidebar {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     margin: 0;
     padding: calc(12px + 20px + 12px) 12px 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -116,7 +116,7 @@ body .MillenniumDesktopSidebar {
 /** Content */
 .MillenniumDesktopSidebar .MillenniumDesktopSidebar_EditorContent {
     padding: 0;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }
 
 .MillenniumDesktopSidebar .MillenniumDesktopSidebar_EditorContent .DialogBody {
@@ -147,7 +147,7 @@ body .MillenniumDesktopSidebar {
 /*^ Divider */
 .MillenniumSettings ._18QCu-7MTzd51UpVbYysDy ._1Hye7o1wYIfc9TE9QKRW4T {
     width: 3px;
-    height: -webkit-fill-available !important;
+    height: initial !important;
     margin: 6px 0 !important;
 }
 
@@ -206,5 +206,5 @@ body .MillenniumColorPicker {
     margin: 0;
 }
 body .MillenniumColorPicker::-webkit-color-swatch {
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }

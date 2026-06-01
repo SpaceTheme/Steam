@@ -5,5 +5,5 @@
     display: block;
     margin-top: 12px;
     padding: 6px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }

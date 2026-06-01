@@ -9,7 +9,7 @@
     margin-bottom: 16px;
     padding: 12px 16px;
     border: unset;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -140,13 +140,13 @@
     margin: 0;
     padding: 12px 16px;
     line-height: 28px;
-    border-radius: 8px 8px 0 0;
+    border-radius: var(--st-border-radius) var(--st-border-radius) 0 0;
     color: #fff;
     background-color: rgb(var(--st-color-2));
 }
 
 .maincontent .profile_paging:nth-last-child(1) {
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 var(--st-border-radius) var(--st-border-radius);
 }
 
 
@@ -167,7 +167,7 @@
     padding: 0;
     font-size: 0;
     line-height: normal;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-3));
     align-items: center;
     justify-content: center;
@@ -208,7 +208,7 @@
 }
 .maincontent:not(:has(.profile_paging)) .badges_sheet {
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }
 
 
@@ -318,7 +318,7 @@
     align-items: center;
     height: -webkit-fill-available;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-4));
 }
 

@@ -147,7 +147,7 @@
 ._2Dd4T78PcCTUVgOtDGFY5j .rz1mrOnj9WN6UErES7qsq {
     margin-top: 12px;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 

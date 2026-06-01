@@ -8,7 +8,7 @@ body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
     max-height: 90%;
     padding: 6px !important;
     border: 3px solid rgb(var(--st-color-5));
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: unset;
     background-color: rgb(var(--st-color-3));
 }
@@ -23,7 +23,7 @@ body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI,
 body.DesktopUI ._1BAKXmqQdWRWmWX9_CbhuY {
     padding: 6px 12px;
     font-weight: 500;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: #9c9c9c;
 }
 body.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover,
@@ -98,7 +98,7 @@ body.DesktopUI ._2kvdTEDgtIT7T9wZIzanom {
     margin: 2px 6px;
     padding: 0;
     border: none;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2)) !important;
 }
 
@@ -113,7 +113,7 @@ body.DesktopUI .WUOrULWKkGLl3ZUQdDXg8:nth-last-child(1) {
 body.DesktopUI ._3EvKu7VyTGMoDtbyugKQ5H {
     margin: 0 6px 0 0;
     padding: 0 6px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-accent-2));
 }
 
@@ -128,7 +128,7 @@ body.DesktopUI ._3EvKu7VyTGMoDtbyugKQ5H {
 body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n .MCa4RMSvWJwwWjcZP2wTT {
     margin-bottom: 6px;
     padding: 6px 6px 6px 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -170,7 +170,7 @@ body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n ._3sTMvhkGXqBzwhsP2-IA5P ._2m6H7Jmk-G-Nr
 body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n ._3sTMvhkGXqBzwhsP2-IA5P :is(.QFW0BtI4l77AFmv1xLAkx, ._3B8wRA4H7e_oSksYNqpSPv, ._2NdiftmP-B3C4LPWnNGTCB, ._25gii5r23MmAqXvLZj24tK, ._3k90ug209sE23xAMqcM74s) {
     height: unset;
     padding: 6px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-4));
 }
 body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n ._3sTMvhkGXqBzwhsP2-IA5P :is(.QFW0BtI4l77AFmv1xLAkx, ._3B8wRA4H7e_oSksYNqpSPv, ._2NdiftmP-B3C4LPWnNGTCB, ._25gii5r23MmAqXvLZj24tK, ._3k90ug209sE23xAMqcM74s):hover {
@@ -192,7 +192,7 @@ body.DesktopUI ._2EstNjFIIZm_WUSKm5Wt7n ._3sTMvhkGXqBzwhsP2-IA5P ._1VRx9qVxigUC4
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-blue), .2);
 }
 

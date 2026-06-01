@@ -22,7 +22,7 @@
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     box-shadow: unset;
     border: 3px solid !important;
 }
@@ -127,7 +127,7 @@
     margin-bottom: 16px;
     padding: 12px;
     border: unset;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -193,7 +193,7 @@
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: #fff;
     background-color: rgb(var(--st-color-2));
     box-shadow: unset;
@@ -271,7 +271,7 @@
 .friendlist .socialListTab .TabSearchButton .inputContainer {
     height: 30px;
     margin: 0;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }
 
 .friendlist .socialListTab .TabSearchButton .inputContainer input {
@@ -352,7 +352,7 @@
     width: -webkit-fill-available;
     margin: 0 0 6px;
     padding: 12px 12px 0;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-3));
 }
 
@@ -441,7 +441,7 @@
 
 .friendlist .friendlistListContainer {
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: unset;
     background-color: rgb(var(--st-color-3));
 }
@@ -468,7 +468,7 @@
     margin: 0 !important;
     padding: 12px;
     border: unset !important;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2)) !important;
 }
 
@@ -520,7 +520,7 @@
     width: 18px;
     height: 18px;
     margin: 0;
-    border-radius: 4px;
+    border-radius: calc(var(--st-border-radius) / 2);
 }
 
 /*^ hr */
@@ -600,7 +600,7 @@
 
 .friendlist .friendlistListContainer .friendGroup .friend .FriendInGameIcon .gameIcon {
     margin: unset;
-    border-radius: 4px;
+    border-radius: calc(var(--st-border-radius) / 2);
     box-shadow: unset;
 }
 
@@ -655,7 +655,7 @@
     gap: 6px;
     margin: 16px 0 6px;
     padding: 6px 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: #fff;
     background-color: rgb(var(--st-color-2)) !important;
     box-shadow: unset;
@@ -745,7 +745,7 @@
 */
 .friendlist .chatRoomListContainer {
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: unset;
     background-color: rgb(var(--st-color-3));
 }
@@ -768,7 +768,7 @@
 .friendlist .chatRoomListContainer .ChatRoomList .ChatRoomListGroupItem_header {
     gap: 6px;
     padding: 6px 12px 6px 6px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 .friendlist .chatRoomListContainer .ChatRoomList .ChatRoomListGroupItem_header:hover {

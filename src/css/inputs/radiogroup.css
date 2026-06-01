@@ -1,7 +1,7 @@
 div[role="radiogroup"] {
     gap: 6px;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-3));
     box-shadow: unset;
 }
@@ -10,7 +10,7 @@ div[role="radiogroup"] div[role="radio"] {
     margin: 0;
     padding: 6px;
     font-weight: 400;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: unset;
     background-color: rgb(var(--st-color-2)) !important;
     text-shadow: unset;

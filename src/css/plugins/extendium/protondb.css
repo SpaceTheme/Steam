@@ -1,7 +1,7 @@
 body.v6 .proton_rating_div {
     margin: 0;
     padding: 6px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }
 
 

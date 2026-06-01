@@ -25,7 +25,7 @@
     margin: 0 3px;
     padding: 6px;
     outline: none;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: rgb(var(--st-blue));
     background-color: rgb(var(--st-color-2));
 }

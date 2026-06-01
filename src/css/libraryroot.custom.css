@@ -94,5 +94,5 @@
 }
 ._1rDh5rXSFZJOqCa4UpnI4z {
     margin: 0 16px 16px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }

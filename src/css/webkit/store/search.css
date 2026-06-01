@@ -69,7 +69,7 @@
     display: flex;
     margin: 0;
     padding: 12px;
-    border-radius: 8px 8px 0 0;
+    border-radius: var(--st-border-radius) var(--st-border-radius) 0 0;
     background-color: rgb(var(--st-color-2));
 }
 
@@ -89,7 +89,7 @@
     height: 30px;
     padding: 0 12px;
     border: unset;
-    border-radius: 8px 0 0 8px;
+    border-radius: var(--st-border-radius) 0 0 var(--st-border-radius);
     color: #dcdedf;
     background-color: rgb(var(--st-color-1));
     box-shadow: unset;
@@ -108,7 +108,7 @@
     height: 30px;
     margin: 0;
     padding: 0;
-    border-radius: 0 8px 8px 0 !important;
+    border-radius: 0 var(--st-border-radius) var(--st-border-radius) 0 !important;
     background: unset !important;
     background-color: rgb(var(--st-color-1)) !important;
 }
@@ -141,7 +141,7 @@
     padding: 6px;
     font-weight: 500;
     border: 3px solid rgb(var(--st-color-5));
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: #fff;
     background-color: rgb(var(--st-color-2));
     box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
@@ -152,7 +152,7 @@
     overflow: hidden;
     padding: 6px;
     text-overflow: ellipsis;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }
 .search_page .searchbar .searchbar_left #term_options li.selected {
     background-color: rgb(var(--st-color-3));
@@ -216,7 +216,7 @@
     padding: 6px;
     font-weight: 500;
     border: 3px solid rgb(var(--st-color-5));
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: #fff;
     background-color: rgb(var(--st-color-2));
     box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
@@ -227,7 +227,7 @@
     padding: 6px;
     font-weight: 500;
     line-height: normal;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: #fff;
 }
 .search_page .dselect_container #sort_by_droplist a.highlighted_selection {
@@ -253,7 +253,7 @@
     justify-content: center;
     align-items: center;
     padding: 6px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }
 .search_page .st-search-view-toggle .st-btn.active {
     background-color: rgb(var(--st-color-1));
@@ -288,7 +288,7 @@
     position: relative;
     margin: 0;
     padding: 0 12px 12px;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 var(--st-border-radius) var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -296,7 +296,7 @@
     padding: 12px 48px 12px 12px;
     font-weight: 800;
     border: 2px solid rgb(var(--st-yellow));
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: #fff;
     background-color: rgb(var(--st-yellow), .2);
 }
@@ -359,7 +359,7 @@
     padding: 12px;
     font-weight: 600;
     border: unset;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 .search_page.st-grid-view #search_result_container .search_result_row {
@@ -381,7 +381,7 @@
     height: 22px;
     padding: 0px;
     font-size: 0;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: unset;
     background-color: rgb(var(--st-green));
 }
@@ -413,7 +413,7 @@
     height: 22px;
     padding: 0px;
     font-size: 0;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: unset;
     background-color: rgb(var(--st-blue));
 }
@@ -438,7 +438,7 @@
     width: 100%;
     height: auto;
     max-height: unset;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }
 
 
@@ -516,7 +516,7 @@
 .search_page #additional_search_options #deck_compatibility_search_filter {
     margin: 0;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -541,7 +541,7 @@
     margin-top: 12px;
     padding: 6px;
     border: unset;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
 
@@ -564,14 +564,14 @@
 }
 .search_page #additional_search_options .range_container .range_input::-webkit-slider-runnable-track {
     height: 4px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-accent-1));
 }
 .search_page #additional_search_options .range_container .range_input::-webkit-slider-thumb {
     height: 16px;
     width: 6px;
     margin-top: -6px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: #fff;
     box-shadow: none;
 }

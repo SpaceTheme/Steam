@@ -32,7 +32,7 @@
     flex-direction: column;
     gap: 12px;
     padding: 12px !important;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2)) !important;
 }
 
@@ -46,7 +46,7 @@
     font-size: 16px !important;
     font-weight: 700;
     border: 3px solid rgb(var(--st-red));
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: rgb(var(--st-red));
     background-color: rgb(var(--st-red), .4);
 }

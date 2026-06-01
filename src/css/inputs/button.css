@@ -9,7 +9,7 @@ button span,
 [class^="btn_"],
 [class^="btn_"] span,
 [role=button] {
-    border-radius: 8px !important;
+    border-radius: var(--st-border-radius) !important;
 }
 
 
@@ -32,7 +32,7 @@ button span,
     padding: 0 !important;
     color: #fff !important;
     text-shadow: unset !important;
-    border-radius: 8px !important;
+    border-radius: var(--st-border-radius) !important;
     background: unset !important;
     background-color: rgb(var(--st-green)) !important;
 }
@@ -54,7 +54,7 @@ button span,
     padding: 0 !important;
     color: #fff !important;
     text-shadow: unset !important;
-    border-radius: 8px !important;
+    border-radius: var(--st-border-radius) !important;
     background: unset !important;
     background-color: rgb(var(--st-blue)) !important;
 }

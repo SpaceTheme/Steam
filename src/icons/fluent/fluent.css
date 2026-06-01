@@ -454,7 +454,7 @@
     font-size: 18px;
     color: rgb(var(--st-accent-1));
     border: 2px solid;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-6));
 }
 ._3IWn-2rn7x98o5fDd0rAxb .sZaUDqkKPd-EtHyaNfoKG>svg {

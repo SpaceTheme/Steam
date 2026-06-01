@@ -42,11 +42,11 @@
 }
   
 *::-webkit-scrollbar-track {
-    border-radius: 8px !important;
+    border-radius: var(--st-border-radius) !important;
 }
   
 *::-webkit-scrollbar-thumb {
-    border-radius: 8px !important;
+    border-radius: var(--st-border-radius) !important;
     border: 4px solid transparent !important;
     background-clip: content-box !important;
     background-color: rgb(var(--st-accent-1)) !important;

@@ -39,7 +39,7 @@
     font-size: 14px;
     font-weight: 700;
     border: 3px solid rgb(var(--st-yellow));
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: #fff;
     background-color: rgb(var(--st-yellow), .3);
 }
@@ -70,7 +70,7 @@
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._3ypRUtQoOfOrCsyHlzfGm4 {
     gap: 12px;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -85,7 +85,7 @@
 /*^ Game */
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD .XjPmFc2t_i1DAuEXEbIX {
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
 /* On Empty Cart */
@@ -104,14 +104,14 @@
 }
 
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2Xz_WXO8PfREP4c9ZWAuNg ._37_1K2XQrVBwncWFXTcpMP {
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }
 
 
 /** Continue & Remove all */
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1Sdz1qnoKoD9eEPpC340Yj {
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -120,7 +120,7 @@
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2rkDlHZ2yi-tFtDk4-CC4U {
     margin-top: 16px;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -157,7 +157,7 @@
 /** Payment */
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2bIzQo07mxubFvscA8RIA8 {
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -182,7 +182,7 @@
     width: 100%;
     height: 3px;
     margin-bottom: 6px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
 
@@ -196,7 +196,7 @@
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD .jY9l4aHTdQLHeTWfPonTr {
     padding: 12px;
     border: 3px solid rgb(var(--st-blue));
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: unset;
     background-color: rgb(var( --st-blue), .3);
 }
@@ -217,7 +217,7 @@
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._2HG7VOroS8aHSg-W3fPyTt {
     margin: 0 0 6px;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: unset;
     background-color: rgb(var(--st-color-2));
 }
@@ -235,7 +235,7 @@
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1k0S-tUF_ENycLJ7PWqbzS {
     margin: 0 0 6px;
     padding: 6px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1k0S-tUF_ENycLJ7PWqbzS:nth-last-child(1) {
@@ -258,7 +258,7 @@
 }
 
 .page_content_ctn ._22xtsolKcQit92o-LBeRWD ._1N0rYLgFmHTfQng24QRoEh ._3JepbxeEa0I4l8TnG9DeT5 {
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     box-shadow: unset;
 }
 

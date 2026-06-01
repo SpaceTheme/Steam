@@ -68,7 +68,7 @@ body .market_header_bg {
     height: unset !important;
     margin: 0 0 12px !important;
     padding: 6px 12px !important;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -94,7 +94,7 @@ body .market_header_bg {
     padding: 0;
     font-weight: 500;
     line-height: unset;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: #fff;
     background: unset;
 }
@@ -114,7 +114,7 @@ body .market_header_bg {
 #myMarketTabs .pick_and_sell_button span {
     padding: 0px;
     font-weight: 800;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-image: unset;
     background-color: rgb(var(--st-green));
 }
@@ -148,7 +148,7 @@ body .market_header_bg {
     gap: 6px;
     margin: 0;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -176,7 +176,7 @@ body .market_header_bg {
     padding: 6px 0 6px 12px;
     font-size: 11px;
     border: unset;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
 #myListings .my_listing_section:has(#my_market_listingstoconfirm_number) .market_listing_table_header {
@@ -188,7 +188,7 @@ body .market_header_bg {
 #myListings .my_listing_section .market_listing_row {
     margin: unset;
     border: unset;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-3));
     transition: unset;
 }

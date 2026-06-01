@@ -29,7 +29,7 @@ body .friends_that_play_content .friendListSectionHeader {
     margin: 0;
     padding: 12px 12px 0;
     font-weight: 600;
-    border-radius: 8px 8px 0 0;
+    border-radius: var(--st-border-radius) var(--st-border-radius) 0 0;
     color: #fff;
     background-color: rgb(var(--st-color-2));
 }
@@ -72,7 +72,7 @@ body .friends_that_play_content .profile_friends {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     margin: 0 0 12px;
     padding: 6px 12px 12px;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 var(--st-border-radius) var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -88,7 +88,7 @@ body .friends_that_play_content .profile_friends .friendBlock {
     height: unset;
     margin: 0;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-3));
 }
 body .friends_that_play_content .profile_friends .friendBlock:hover {
@@ -112,7 +112,7 @@ body .friends_that_play_content .profile_friends .friendBlock .playerAvatar img 
     height: 42px;
     padding: 0;
     border: 3px solid;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: unset;
 }
 body .friends_that_play_content .profile_friends .friendBlock.online .playerAvatar img {

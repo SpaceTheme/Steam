@@ -9,7 +9,7 @@
 html.client_chat_frame body,
 html.web_chat_frame body,
 .ModalPosition_Content {
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-background)) !important;
 }
 
@@ -57,7 +57,7 @@ html .MillenniumSettings {
 body ._2kwFFHckg8jvnwJfg9-la8 {
     min-height: unset !important;
     padding: 0;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -71,7 +71,7 @@ body ._2kwFFHckg8jvnwJfg9-la8 ._18QCu-7MTzd51UpVbYysDy {
 body ._2kwFFHckg8jvnwJfg9-la8 ._18QCu-7MTzd51UpVbYysDy ._1-vlriAtKYDViAEunue4VO {
     gap: 6px;
     padding: 6px 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }
 body ._2kwFFHckg8jvnwJfg9-la8 ._18QCu-7MTzd51UpVbYysDy ._1-vlriAtKYDViAEunue4VO:hover:not(._2DpXjzK3WWsOtUWUrcuOG7) {
     color: #b8bcbf;
@@ -102,7 +102,7 @@ body ._2kwFFHckg8jvnwJfg9-la8 ._18QCu-7MTzd51UpVbYysDy ._1-vlriAtKYDViAEunue4VO.
 body ._2kwFFHckg8jvnwJfg9-la8 ._18QCu-7MTzd51UpVbYysDy ._1Hye7o1wYIfc9TE9QKRW4T {
     height: 3px;
     margin: 0 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-background));
 }
 
@@ -118,7 +118,7 @@ body .DialogContent {
 }
 
 body .DialogContent_InnerWidth {
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
 
@@ -143,16 +143,16 @@ body .SettingsDialogSubHeader {
     font-weight: 600;
     line-height: 22px;
     letter-spacing: .5px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: var(--st-border-radius);
+    border-top-right-radius: var(--st-border-radius);
     color: #fff;
     background-color: rgb(var(--st-color-2));
 }
 body .DialogSubHeader:last-of-type,
 body .SettingsDialogSubHeader:last-of-type,
 body .DialogBody .DialogBodyText:last-of-type {
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: var(--st-border-radius);
+    border-bottom-right-radius: var(--st-border-radius);
 }
 
 
@@ -182,8 +182,8 @@ body .DialogBody .DialogControlsSection>.Panel {
 body .DialogBody > .Panel:first-child,
 body .DialogBody .DialogControlsSection>.Panel:first-child {
     padding-top: 12px !important;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: var(--st-border-radius);
+    border-top-right-radius: var(--st-border-radius);
 }
 body .DialogBody > .Panel:has(+ .DialogControlsSection),
 body .DialogBody > .Panel:has(+ .SettingsDialogSubHeader),
@@ -192,22 +192,22 @@ body .DialogBody .DialogControlsSection > .Panel:has(+ .SettingsDialogSubHeader)
 body .DialogBody .DialogControlsSection > .Panel:last-of-type {
     margin-bottom: 12px !important;
     padding-bottom: 12px !important;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: var(--st-border-radius);
+    border-bottom-right-radius: var(--st-border-radius);
 }
 
 /*^ Dialog control items */
 body .DialogBody .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY {
     position: relative;
     padding: 12px 12px 1px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: var(--st-border-radius);
+    border-top-right-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-3));
 }
 body .DialogBody .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG:not(:has(._1W1to_azoBRG95oNAFpf9Q)) ._2VcTlXFC64Jtg9gvtT6cmY {
     padding: 12px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: var(--st-border-radius);
+    border-bottom-right-radius: var(--st-border-radius);
 }
 body .DialogBody .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY:has(.SliderControlPanelGroup) {
     flex-direction: column;
@@ -218,8 +218,8 @@ body .DialogBody .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg
 body .DialogBody .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._1W1to_azoBRG95oNAFpf9Q {
     margin: -1px 0 0;
     padding: 6px 12px 12px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: var(--st-border-radius);
+    border-bottom-right-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-3));
 }
 

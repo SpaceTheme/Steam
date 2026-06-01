@@ -9,7 +9,7 @@
     display: block;
     width: 100vw;
     height: 100vh;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
 
@@ -37,7 +37,7 @@
 .gQWgnAxVrOM- .G-xGsXlx-Sw- {
     margin: 0;
     padding: 12px;
-    border-radius: 8px 8px 0 0;
+    border-radius: var(--st-border-radius) var(--st-border-radius) 0 0;
     background-color: rgb(var(--st-color-2));
 }
 
@@ -80,7 +80,7 @@
     gap: 12px;
     margin: 0 0 16px;
     padding: 0 12px 12px;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 var(--st-border-radius) var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -97,7 +97,7 @@
     padding: 0 0 0 12px;
     outline: none;
     border: none;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
     box-shadow: none;
 }
@@ -123,7 +123,7 @@
     margin: 6px auto 0;
     padding: 12px;
     border: 2px solid rgb(var(--st-color-5));
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     box-shadow: 0px 0px 16px 0px rgb(0, 0, 0);
     background-color: rgb(var(--st-color-2));
 }
@@ -138,14 +138,14 @@
     display: block;
     margin: 0 0 16px;
     padding: 0 12px 12px;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 var(--st-border-radius) var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
 .gQWgnAxVrOM- .Wh-OfiQaHSM- {
     margin: 0;
     padding: 6px 28px 6px 6px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-3));
     background-position: right 6px top 8px;
 }
@@ -189,7 +189,7 @@
     height: -webkit-fill-available;
     padding: 6px;
     border: none;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -216,7 +216,7 @@
 /** Input */
 .gQWgnAxVrOM- .MAMcEvZCSmY-:hover .oSpPXI7jWxI->input {
     outline: 2px solid rgb(var(--st-color-5));
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: unset;
     box-shadow: unset;
 }
@@ -262,7 +262,7 @@
 }
 
 .gQWgnAxVrOM- .c-Pw-ER6JnA- .J-rmzQeQW-A- img {
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
 }
 
 

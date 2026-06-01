@@ -28,7 +28,7 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
     font-weight: 800;
     white-space: pre-wrap;
     border: 3px solid rgb(var(--st-red));
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     color: rgb(var(--st-red));
     background-color: rgb(var(--st-red), 0.17);
 }
@@ -41,7 +41,7 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
     width: 800px;
     height: -webkit-fill-available;
     margin: 16px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: unset;
     background-color: rgb(var(--st-background));
     box-shadow: unset;
@@ -75,7 +75,7 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
     height: unset;
     margin: 12px;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
 ._1EI98QaSW75zbVd3gxgBfS ._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n::-webkit-scrollbar {
@@ -92,7 +92,7 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
     background-color: rgb(var(--st-color-5));
 }
 ._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn {
-    border-radius: 16px;
+    border-radius: calc(var(--st-border-radius) * 2);
 }
 
 
@@ -108,7 +108,7 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
     max-height: unset;
     margin: 12px 12px 12px 0;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
 
@@ -130,7 +130,7 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
 .fi6UDkxJq66MLo2z9wabQ ._2uM3ouyTdzAtXR3ffa7oRg ._2LJMRr1_5XUK4wlt7YMyPi .mh8m9p4PBg_Qrev1bfTzc {
     margin: 0;
     outline: 2px solid rgb(var(--st-color-5)) !important;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
 
@@ -154,7 +154,7 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
     max-width: unset;
     height: 200px;
     padding: 0;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: linear-gradient(180.00deg, rgb(var(--st-accent-1), .6),rgb(var(--st-color-1)) 112%);
 }
 
@@ -173,7 +173,7 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
     align-items: center;
     width: 100%;
     height: 100%;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
@@ -197,7 +197,7 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
 .fi6UDkxJq66MLo2z9wabQ .vCykYvbW9JAoUuOZK3L8M .BoygotvcKo4DC4dSix8G3 {
     position: absolute;
     bottom: 16px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
     filter: none;
 }
