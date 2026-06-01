@@ -152,6 +152,40 @@ body .MillenniumDesktopSidebar {
 }
 
 
+/*
+! Custom icons
+*/
+/*^ General */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/millennium/settings/general"] ._1rD8X96FdnksZLvRRlEiCR svg{
+    display: block;
+}
+
+/*^ Themes */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/themes"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f2f6";
+}
+
+/*^ Quickcss */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/quickcss"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f2cd";
+}
+
+/*^ Plugins */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/plugins"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f614";
+}
+
+/*^ Updates */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/updates"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f191";
+}
+
+/*^ Logs */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/logs"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\e4f8";
+}
+
+
 
 /*
 & Main
