@@ -1,4 +1,5 @@
-html.responsive body div[data-featuretarget="footer"] {
+html.responsive body div[data-featuretarget="footer"],
+html.responsive body #footer {
     display: none !important;
 }
 
