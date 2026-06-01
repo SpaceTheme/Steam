@@ -750,10 +750,6 @@
             "TargetCss": "src/css/startupLogin.custom.css"
         },
         {
-            "MatchRegexString": "^Steam Settings",
-            "TargetCss": "src/css/steam/settings.css"
-        },
-        {
             "MatchRegexString": "[href=\"/css/gamerecording.css\"]",
             "TargetCss": "src/css/steam/screenshotManager.css"
         }
