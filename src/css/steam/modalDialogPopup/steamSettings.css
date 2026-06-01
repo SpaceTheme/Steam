@@ -1,4 +1,133 @@
 /*
+& Custom sidebar icons
+*/
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR::before {
+    font-size: 18px;
+    color: #b8bcbf;
+}
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO:hover ._1rD8X96FdnksZLvRRlEiCR::before {
+    color: #fff;
+}
+
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR svg {
+    display: none;
+}
+
+/*^ Account tab */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/account"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\e93b";
+}
+
+/*^ Friends & Chat */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/friends"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f5b3";
+}
+
+/*^ Family */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/family"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f5c3";
+}
+
+/*^ Security */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/security"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f6c8";
+}
+
+/*^ Notifications */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/notifications"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\e019";
+}
+
+/*^ Interface */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/interface"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f05f6";
+}
+
+/*^ Store */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/store"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f26b";
+}
+
+/*^ Library */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/library"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f4dd";
+}
+
+/*^ Downloads */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/downloads"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f151";
+}
+
+/*^ Storage */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/storage"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f0319";
+}
+
+/*^ Cloud */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/cloud"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\e3c4";
+}
+
+/*^ Ingame */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/ingame"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\eeb9";
+}
+
+/*^ Compatibility */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/compatibility"] ._1rD8X96FdnksZLvRRlEiCR svg {
+    display: block;
+}
+
+/*^ Accessibility */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/accessibility"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f104";
+}
+
+/*^ Controller */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/controller"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\eeb9";
+}
+
+/*^ Gamerecording */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/gamerecording"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f662";
+    font-family: FluentSystemIcons-Regular !important;
+}
+
+/*^ Voice */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/voice"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f552";
+}
+
+/*^ Remoteplay */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/remoteplay"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\e455";
+}
+
+/*^ Broadcast */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/broadcast"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f4fb";
+}
+
+/*^ Music */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/music"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\e863";
+}
+
+/*^ Developer */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/developer"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f2f0";
+}
+
+/*^ Valve Internal */
+body ._2kwFFHckg8jvnwJfg9-la8 ._1-vlriAtKYDViAEunue4VO[id*="/settings/internal"] ._1rD8X96FdnksZLvRRlEiCR::before {
+    content: "\f2f0";
+}
+
+
+
+
+/*
 & Account Tab
 */
 /*
