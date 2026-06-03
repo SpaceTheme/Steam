@@ -26,6 +26,9 @@
     box-shadow: unset;
     border: 3px solid !important;
 }
+.friendlist .CompactFriendsList ._3h-QRJGxnVOIExtHD1R0f2 {
+    border-width: 2px !important;
+}
 .friendlist .nibodjvvrm86uCfnnAn4g:has(.avatarFrame) ._3h-QRJGxnVOIExtHD1R0f2 {
     width: 100%;
     height: 100%;
@@ -402,6 +405,9 @@
     height: 100%;
     margin: 0;
 }
+.friendlist .quickAccessFriends.compactQuickAccess .quickAccessFriend {
+    width: auto;
+}
 
 .friendlist .quickAccessFriends .quickAccessFriend>div {
     box-sizing: border-box;
@@ -436,7 +442,7 @@
 
 .friendlist .quickAccessFriends .quickAccessFriend ._3h-QRJGxnVOIExtHD1R0f2 {
     box-sizing: border-box;
-    width: 100%;
+    width: 100% !important;
     height: 100%;
 }
 
@@ -610,11 +616,18 @@
 
 
 /** Item */
+.friendlist .CompactFriendsList .friendlistListContainer .friendGroup .friendsContainer {
+    padding: 0;
+}
+
 .friendlist .friendlistListContainer .friendGroup .friend {
     align-items: center;
     height: unset;
     margin: unset;
     padding: 6px;
+}
+.friendlist .CompactFriendsList .friendlistListContainer .friendGroup .friend {
+    padding: 2px;
 }
 .friendlist .friendlistListContainer .friendGroup .friend:hover {
     background-color: rgb(var(--st-color-4));
@@ -638,6 +651,10 @@
     padding: 0;
     transform: unset;
 }
+.friendlist .CompactFriendsList .friendlistListContainer .friend .nibodjvvrm86uCfnnAn4g {
+    width: 32px;
+    height: 32px;
+}
 
 .friendlist .friendlistListContainer .friend:has(.avatarFrame) ._3h-QRJGxnVOIExtHD1R0f2 {
     transform: scale(0.8);
@@ -646,6 +663,12 @@
 /* Frame */
 .friendlist .friendlistListContainer .friend .X_mJE4BYV5StDPwZhSiAu {
     transform: scale(1);
+}
+
+/*^ Text */
+.friendlist .friendlistListContainer .friend .labelHolder {
+    height: 100%;
+    padding: 0;
 }
 
 /*^ Unread */
