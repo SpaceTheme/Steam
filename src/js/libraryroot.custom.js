@@ -359,7 +359,7 @@ syncUserpanelWidth();
     settingsButton.appendChild(settingsIconWrapper);
     
     settingsButton.addEventListener('click', () => {
-        window.opener.SteamClient.URL.ExecuteSteamURL("steam://settings");
+        window.opener.SteamClient.URL.ExecuteSteamURL("steam://millennium/sidebar");
     });
     
     buttonContainer.appendChild(settingsButton);
