@@ -118,7 +118,7 @@
 <details>
   <summary>Friends & Chat</summary>
 
-  - [ ] Compact mode support
+  - [x] Compact mode support
   - [ ] Chat
   - [ ] Group chat
 </details>
