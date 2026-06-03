@@ -1,6 +1,8 @@
 @import url("./modalDialogPopup/steamSettings.css");
 @import url("./modalDialogPopup/millenniumSettings.css");
+
 @import url("./modalDialogPopup/screenshotManager.css");
+@import url("./modalDialogPopup/aboutSteam.css");
 
 
 /*
@@ -118,6 +120,8 @@ body .DialogContent {
 }
 
 body .DialogContent_InnerWidth {
+    box-sizing: border-box;
+    height: 100%;
     border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
