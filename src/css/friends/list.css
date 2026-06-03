@@ -309,6 +309,35 @@
 
 
 /*
+! Requests Button
+*/
+.friendlist .socialListTab .friendRequestButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/** Icon */
+.friendlist .socialListTab .friendRequestButton::before {
+    content: "\e94b" !important;
+    font-size: 22px;
+    color: #fff;
+}
+.friendlist .socialListTab .friendRequestButton:hover::before {
+    color: #969696;
+}
+
+.friendlist .socialListTab .friendRequestButton svg {
+    display: none;
+}
+
+
+/*
 ! Add Friend Button
 */
 .friendlist .socialListTab a:has(.addFriendButton) {
