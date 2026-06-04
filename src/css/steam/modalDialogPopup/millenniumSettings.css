@@ -10,6 +10,11 @@
 /*
 & Sidebar
 */
+body .MillenniumDesktopSidebar_Overlay {
+    opacity: 1 !important;
+    transition: unset !important;
+}
+
 body .MillenniumDesktopSidebar {
     box-sizing: border-box;
     --sidebar-width: 700px;
