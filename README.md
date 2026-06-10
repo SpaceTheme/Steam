@@ -99,8 +99,8 @@
   - [ ] Discussions
   - [ ] Workshop
   - [ ] Market
-    - [ ] (WIP) Home
-    - [ ] (WIP) Item page
+    - [ ] Home
+    - [ ] Item page
   - [ ] Broadcast
 </details>
 <details>
