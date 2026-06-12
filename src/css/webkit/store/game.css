@@ -1412,33 +1412,9 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 
 /* on Wishlist icon */
 .game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .ds_wishlist_flag {
-    position: absolute;
-    top: -6px;
-    left: -6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: unset;
-    width: 22px;
-    height: 22px;
-    padding: 0px;
-    font-size: 0;
-    border-radius: var(--st-border-radius);
-    background: unset;
-    background-color: rgb(var(--st-blue));
+    top: -6px !important;
+    left: -6px !important;
 }
-.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .ds_wishlist_flag::before {
-    content: "\f1f6";
-    position: absolute;
-    font-size: 14px;
-    color: #fff;
-    font-family: FluentSystemIcons-Filled !important;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
 }
 
 /* List more icon */

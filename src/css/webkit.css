@@ -806,6 +806,75 @@ html body.v6 .ds_options_tooltip .option:hover {
 
 
 /*
+& DS flags
+*/
+/** Owned */
+html body.v6 .ds_owned_flag {
+    position: absolute !important;
+    top: 6px;
+    left: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: unset !important;
+    width: 26px;
+    height: 26px !important;
+    padding: 0px !important;
+    font-size: 0 !important;
+    border-radius: var(--st-border-radius) !important;
+    background: unset;
+    background-color: rgb(var(--st-green)) !important;
+}
+html body.v6 .ds_owned_flag::before {
+    content: "\f4dd";
+    position: absolute;
+    font-size: 16px;
+    color: #fff;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/** In Wishlist */
+html body.v6 .ds_wishlist_flag {
+    position: absolute !important;
+    top: 6px;
+    left: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: unset !important;
+    width: 26px;
+    height: 26px !important;
+    padding: 0px !important;
+    font-size: 0 !important;
+    border-radius: var(--st-border-radius) !important;
+    background: unset;
+    background-color: rgb(var(--st-blue)) !important;
+}
+html body.v6 .ds_wishlist_flag::before {
+    content: "\f1f6";
+    position: absolute;
+    font-size: 16px;
+    color: #fff;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+/*
 & Skeleton
 */
 body.v6 [class*="skeleton"] {
