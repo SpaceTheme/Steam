@@ -734,14 +734,23 @@ html body.v6 .game_review_summary  {
     color: rgb(var(--st-red));
 }
 
+
 /** Mixed */
 html body.v6 .game_review_summary.mixed {
     color: rgb(var(--st-yellow));
 }
 
+
 /** Positive */
 html body.v6 .game_review_summary.positive {
     color: rgb(var(--st-green));
+}
+
+
+/** No/not enough reviews */
+html body.v6 .game_review_summary.no_reviews,
+html body.v6 .game_review_summary.not_enough_reviews {
+    color: #929396;
 }
 
 
