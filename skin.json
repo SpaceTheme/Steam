@@ -610,6 +610,20 @@
         },
 
 
+        "Playbar play button center": {
+            "description": "Center text and icon in the play/install button",
+            "default": "no",
+            "tab": "Library",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/playbarCenterPlayButton.css" }
+                }
+            }
+        },
+
+
         "Always show game infos": {
             "description": "Always show game infos on the game page",
             "default": "no",
