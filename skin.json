@@ -610,6 +610,20 @@
         },
 
 
+        "Playbar play button only icon": {
+            "description": "Show only the icon in the play/install button",
+            "default": "no",
+            "tab": "Library",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/playbarOnlyIconPlayButton.css" }
+                }
+            }
+        },
+
+
         "Playbar play button center": {
             "description": "Center text and icon in the play/install button",
             "default": "no",
