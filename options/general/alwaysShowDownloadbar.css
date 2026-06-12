@@ -7,7 +7,13 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._3E5iVG630BkOHTaJJaMEMw) ._3x1HklzyDs4TEjACrRO2t
 }
 
 
+body:not(:has(._1ijTaXJJA5YWl_fW2IxcaT)) ._1_yS5UP7el0aN4vntx3dx,
 body ._1_yS5UP7el0aN4vntx3dx:not(:has(.wi0pDywRgOCxhG7OqQNaA)) {
-    visibility: visible !important;
     height: 49px !important;
+}
+
+body:not(:has(._1ijTaXJJA5YWl_fW2IxcaT)) ._1_yS5UP7el0aN4vntx3dx ._3vCzSrrXZzZjVJFZNg9SGu,
+body ._1_yS5UP7el0aN4vntx3dx:not(:has(.wi0pDywRgOCxhG7OqQNaA)) ._3vCzSrrXZzZjVJFZNg9SGu {
+    visibility: visible !important;
+    height: 100% !important;
 }

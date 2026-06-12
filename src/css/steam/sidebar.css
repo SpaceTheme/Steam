@@ -381,11 +381,10 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._1_yS5UP7el0aN4vntx3dx .wi0pDywRgOCxhG7OqQNaA) .
 */
 body:not(:has(._1ijTaXJJA5YWl_fW2IxcaT)) ._1_yS5UP7el0aN4vntx3dx,
 ._1_yS5UP7el0aN4vntx3dx:not(:has(.wi0pDywRgOCxhG7OqQNaA)) {
-    visibility: hidden !important;
     height: 0 !important;
 }
+
 ._1_yS5UP7el0aN4vntx3dx {
-    visibility: visible;
     position: absolute;
     bottom: calc(16px + 90px + 6px);
     left: 16px;
@@ -396,7 +395,13 @@ body:has(._3E5iVG630BkOHTaJJaMEMw) ._1_yS5UP7el0aN4vntx3dx {
 }
 
 
+body:not(:has(._1ijTaXJJA5YWl_fW2IxcaT)) ._1_yS5UP7el0aN4vntx3dx ._3vCzSrrXZzZjVJFZNg9SGu,
+._1_yS5UP7el0aN4vntx3dx:not(:has(.wi0pDywRgOCxhG7OqQNaA)) ._3vCzSrrXZzZjVJFZNg9SGu {
+    visibility: hidden !important;
+    height: 0 !important;
+}
 ._1_yS5UP7el0aN4vntx3dx ._3vCzSrrXZzZjVJFZNg9SGu {
+    visibility: visible;
     flex: unset;
     height: 100%;
     padding: 12px;
@@ -463,7 +468,11 @@ div:has(> ._2iJsgdTIX9Tj23rWnB7Q-c) {
     bottom: calc(16px + 16px);
     right: 50%;
     opacity: 1 !important;
+    overflow: visible !important;
     transform: translateX(50%);
+}
+div[style*="height: 0px;"]:has(> ._2iJsgdTIX9Tj23rWnB7Q-c) {
+    overflow: hidden !important;
 }
 
 ._1_yS5UP7el0aN4vntx3dx ._2iJsgdTIX9Tj23rWnB7Q-c {
