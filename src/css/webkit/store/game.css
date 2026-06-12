@@ -1481,12 +1481,6 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
     border-radius: var(--st-border-radius);
 }
 
-/* Options */
-.game_bg.application .game_description_column .game_area_purchase .bundle_contents_preview .ds_options,
-.game_bg.application .game_description_column .game_area_purchase .package_contents_capsules_ctn .ds_options {
-    display: none;
-}
-
 
 
 /*^ Platform */
