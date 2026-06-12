@@ -980,21 +980,6 @@ body.v6 div.leftcol:has(.highlight_ctn) {
     top: -4px;
 }
 
-/*^ Negative */
-.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary  {
-    color: rgb(var(--st-red));
-}
-
-/*^ Mixed */
-.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary.mixed {
-    color: rgb(var(--st-yellow));
-}
-
-/*^ Positive */
-.game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .user_reviews .game_review_summary.positive {
-    color: rgb(var(--st-green));
-}
-
 
 /** Release Date */
 .game_bg.application #game_highlights .rightcol .glance_ctn_responsive_left .release_date {

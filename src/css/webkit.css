@@ -717,6 +717,29 @@ html body.v6 .broadcast_live_stream_icon::before {
 
 
 
+
+/*
+& Reviews
+*/
+/** Negative */
+html body.v6 .game_review_summary  {
+    font-weight: 600;
+    color: rgb(var(--st-red));
+}
+
+/** Mixed */
+html body.v6 .game_review_summary.mixed {
+    color: rgb(var(--st-yellow));
+}
+
+/** Positive */
+html body.v6 .game_review_summary.positive {
+    color: rgb(var(--st-green));
+}
+
+
+
+
 /*
 & DS option
 */
