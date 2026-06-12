@@ -1120,7 +1120,7 @@
 .A6G1leLXs7Vqw45hoXg-l ._1Q2q_tQ9_Eq8YdEHNAHS3F._3jY6xWI4URhFyYsanh9VKL {
     margin: 0;
     padding: 12px;
-    border-radius: 8var(--st-border-radius);
+    border-radius: var(--st-border-radius);
     background: none;
     background-color: rgb(var(--st-color-2));
 }
