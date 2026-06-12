@@ -1415,6 +1415,11 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
     top: -6px !important;
     left: -6px !important;
 }
+
+/* ds_option */
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper .ds_options {
+    top: -12px !important;
+    right: -12px !important;
 }
 
 /* List more icon */

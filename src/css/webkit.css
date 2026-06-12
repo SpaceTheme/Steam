@@ -743,15 +743,19 @@ html body.v6 .game_review_summary.positive {
 /*
 & DS option
 */
+html body.v6 .ds_options {
+    right: -5px !important;
+}
+
+
 html body.v6 .ds_options>div {
-    aspect-ratio: 1 / 1;
     top: 6px;
-    right: 6px;
+    right: 6px !important;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 26px;
-    height: unset;
+    height: 26px;
     border-radius: 8px;
     background: unset;
     background-color: rgb(var(--st-color-5));
