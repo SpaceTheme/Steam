@@ -704,6 +704,11 @@ html body.v6 .broadcast_live_stream_icon {
     box-shadow: unset;
 }
 
+html body.v6 .ds_flagged ._2R1rYdwKuMFLsEb4WvJYdD,
+html body.v6 .ds_flagged .broadcast_live_stream_icon {
+    left: calc(6px + 26px + 6px);
+}
+
 html body.v6 ._2R1rYdwKuMFLsEb4WvJYdD::before,
 html body.v6 .broadcast_live_stream_icon::before {
     content: "";
