@@ -5,3 +5,13 @@
 .game_bg.application .es_regional--always.svelte-tc81l5 {
     float: left !important;
 }
+
+
+
+
+/*
+! Quick fix for store gamepage in info sidebar
+*/
+.appPage.svelte-1dpbpco {
+    margin: 0 !important;
+}
