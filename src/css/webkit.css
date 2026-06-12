@@ -775,6 +775,34 @@ html body.v6 .ds_options>div:hover::before {
 }
 
 
+/*
+!  Tooltip/Menu
+*/
+html body.v6 .ds_options_tooltip {
+    min-width: unset !important;
+    max-height: 90%;
+    padding: 6px !important;
+    border: 3px solid rgb(var(--st-color-5)) !important;
+    border-radius: var(--st-border-radius);
+    background: unset;
+    background-color: rgb(var(--st-color-3));
+}
+
+
+/** Items */
+html body.v6 .ds_options_tooltip .option {
+    margin: 0;
+    padding: 6px 12px;
+    font-weight: 500;
+    border-radius: var(--st-border-radius);
+    color: #9c9c9c;
+}
+html body.v6 .ds_options_tooltip .option:hover {
+    color: #fff;
+    background-color: rgb(var(--st-color-2));
+}
+
+
 
 
 /*
