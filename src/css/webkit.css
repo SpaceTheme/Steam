@@ -688,13 +688,15 @@ html body.v6 .StoreMenuLoadingPlaceholder .PlaceholderInner {
 */
 html body.v6 ._2R1rYdwKuMFLsEb4WvJYdD,
 html body.v6 .broadcast_live_stream_icon {
+    top: 6px;
+    left: 6px;
     display: inline-flex;
     height: max-content;
     margin-right: 12px;
     padding: 6px;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 800;
-    line-height: 13px;
+    line-height: 8px;
     letter-spacing: 0px;
     border: 3px solid rgb(var(--st-red));
     border-radius: var(--st-border-radius);
@@ -713,9 +715,9 @@ html body.v6 ._2R1rYdwKuMFLsEb4WvJYdD::before,
 html body.v6 .broadcast_live_stream_icon::before {
     content: "";
     display: flex;
-    width: 12px;
-    height: 12px;
-    margin-right: 6px;
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
     border-radius: 80px;
     background-color: rgb(var(--st-red));
 }
