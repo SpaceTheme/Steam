@@ -27,8 +27,6 @@
                 }
             }
         },
-
-
         "Navigation buttons": {
             "description": "Hide Navigation buttons",
             "default": "no",
@@ -42,7 +40,6 @@
             }
         },
 
-
         "Sidebar on right": {
             "description": "Show the sidebar on the right side",
             "default": "no",
@@ -55,10 +52,8 @@
                 }
             }
         },
-
-
         "Always show sidebar": {
-            "description": "Always show the sidebar don't matter on which page (Except the download page) \n\n (If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community)",
+            "description": "Always show the sidebar don't matter on which page (Except the download page) \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
             "default": "yes",
             "tab": "General",
             "section": "Sidebar",
@@ -69,8 +64,6 @@
                 }
             }
         },
-
-
         "Sidebar only on hover": {
             "description": "Shows only the sidebar in the store on hover",
             "default": "no",
@@ -83,8 +76,6 @@
                 }
             }
         },
-
-
         "Friend icon": {
             "description": "Hide the friend icon from the game item",
             "default": "no",
@@ -97,8 +88,6 @@
                 }
             }
         },
-
-
         "Always show download bar": {
             "description": "Always show the download bar",
             "default": "no",
@@ -112,7 +101,6 @@
             }
         },
 
-
         "Wallet balance": {
             "description": "Hide wallet balance",
             "default": "no",
@@ -125,8 +113,6 @@
                 }
             }
         },
-
-
         "Steam VR button": {
             "description": "Hide Steam VR button from userpanel",
             "default": "no",
@@ -139,8 +125,6 @@
                 }
             }
         },
-
-
         "Big Picture Mode button": {
             "description": "Hide Big Picture Mode button from userpanel",
             "default": "no",
@@ -153,8 +137,6 @@
                 }
             }
         },
-
-
         "News button": {
             "description": "Hide News button from userpanel",
             "default": "no",
@@ -167,8 +149,6 @@
                 }
             }
         },
-
-
         "Notification button": {
             "description": "Hide Notification button from userpanel",
             "default": "no",
@@ -181,10 +161,8 @@
                 }
             }
         },
-
-
         "Friend list button": {
-            "description": "Hide Friend list button from userpanel (only with userpanel experimental)",
+            "description": "Hide Friend list button from userpanel",
             "default": "no",
             "tab": "General",
             "section": "Userpanel",
@@ -195,7 +173,6 @@
                 }
             }
         },
-
 
         "Font": {
             "description": "Use a different font for the SteamUI",
@@ -232,10 +209,8 @@
                 }
             }
         },
-
-
         "Border radius": {
-            "description": "This changes the border radius of all elements. The default is 8px.",
+            "description": "This changes the border radius of all elements. \n[i]Default: 8px[/i]",
             "default": 8,
             "tab": "General",
             "section": "Other",
@@ -247,10 +222,8 @@
                 "unit": "px"
             }
         },
-
-
         "System accent colors": {
-            "description": "Replaces the SpaceTheme accent colors with your system accent colors (Only works on Windows)",
+            "description": "Replaces the SpaceTheme accent colors with your system accent colors \n[i]Only works on Windows[/i]",
             "default": "no",
             "tab": "General",
             "section": "Other",
@@ -261,8 +234,6 @@
                 }
             }
         },
-
-
         "Scrollbars": {
             "description": "Hides the scrollbars in the SteamUI",
             "default": "no",
@@ -275,10 +246,8 @@
                 }
             }
         },
-
-
         "Mica & Acrylic plugin support": {
-            "description": "Support for Mica and Acrylic plugin https://steambrew.app/plugin?id=b4c58634419b (Only works with the standard theme colors)",
+            "description": "Support for Mica and Acrylic plugin [url=https://steambrew.app/plugin?id=b4c58634419b]https://steambrew.app/plugin?id=b4c58634419b[/url] \n[i]Only works with the standard theme colors[/i]",
             "default": "no",
             "tab": "General",
             "section": "Other",
@@ -289,10 +258,8 @@
                 }
             }
         },
-
-
         "Mica Transparency": {
-            "description": "This changes the transparency of the Mica effect. The default is 50%.",
+            "description": "This changes the transparency of the Mica effect. \n[i]Default: 50%[/i]",
             "default": 50,
             "tab": "General",
             "section": "Other",
@@ -304,7 +271,6 @@
                 "unit": "%"
             }
         },
-
 
         "Game Overlay": {
             "description": "Game Overlay from the concept",
@@ -320,10 +286,8 @@
         },
 
 
-
-
         "Max Width": {
-            "description": "This changes the width of the store. Please note that if your lower the width too much, some elements might look weird or be misplaced, the theme is designed for the default width of 1200px.",
+            "description": "This changes the width of the store. \n[i]Please note that if your lower the width too much, some elements might look weird or be misplaced, the theme is designed for the default width of 1200px.[/i]",
             "default": 1200,
             "tab": "Store",
             "section": "Pinned",
@@ -335,7 +299,6 @@
                 "unit": "px"
             }
         },
-
 
         "Broadcast": {
             "description": "Hide broadcasts on the store gamepage",
@@ -349,8 +312,6 @@
                 }
             }
         },
-
-
         "Info sidebar on right": {
             "description": "Changes the info sidebar from right to left",
             "default": "no",
@@ -363,8 +324,6 @@
                 }
             }
         },
-
-
         "Write a Review": {
             "description": "Hide the Write a Review section",
             "default": "no",
@@ -378,7 +337,6 @@
             }
         },
 
-
         "Recommendations": {
             "description": "Hide recommendations in the cart",
             "default": "no",
@@ -391,8 +349,6 @@
                 }
             }
         },
-
-
         "Digital product info": {
             "description": "Hides the info that the purchase is a digital product",
             "default": "no",
@@ -405,8 +361,6 @@
                 }
             }
         },
-
-
         "Follow the creators": {
             "description": "Hide Follow the creators",
             "default": "no",
@@ -419,7 +373,6 @@
                 }
             }
         },
-
 
         "Landing Header": {
             "description": "Hide the landing header (this with the big coin)",
@@ -434,7 +387,6 @@
             }
         },
 
-
         "URL bar": {
             "description": "Hide URL bar",
             "default": "no",
@@ -447,8 +399,6 @@
                 }
             }
         },
-
-
         "Footer": {
             "description": "Hide Valve/Steam footer",
             "default": "no",
@@ -463,9 +413,8 @@
         },
 
 
-
         "Steam-Custom-Artworks Support": {
-            "description": "The best support for https://spacetheme.net/#steam-custom-artworks ",
+            "description": "The best support for [url=https://spacetheme.net/#steam-custom-artworks]https://spacetheme.net/#steam-custom-artworks[/url]",
             "default": "no",
             "tab": "Library",
             "section": "Pinned",
@@ -477,7 +426,6 @@
             }
         },
 
-        
         "What's New": {
             "description": "Customize the What's New section",
             "default": "Compact",
@@ -493,8 +441,6 @@
                 }
             }
         },
-
-
         "Add shelf button": {
             "description": "Hide Add shelf button in Library",
             "default": "no",
@@ -507,8 +453,6 @@
                 }
             }
         },
-
-
         "Game cover shiny effect": {
             "description": "Hide shiny effect on game covers",
             "default": "no",
@@ -521,8 +465,6 @@
                 }
             }
         },
-
-
         "Darken not installed games": {
             "description": "Darkens game cards when they are not installed",
             "default": "yes",
@@ -535,7 +477,6 @@
                 "yes": {}
             }
         },
-
 
         "Banner position": {
             "description": "Change the position of the banner (applies to all banners)",
@@ -552,8 +493,6 @@
                 }
             }
         },
-
-
         "Bigger banner": {
             "description": "Bigger banner on the game page",
             "default": "no",
@@ -566,8 +505,6 @@
                 }
             }
         },
-
-
         "Dynamic banner height": {
             "description": "Scale gamepage banner height with window size to preserve full banner aspect ratio",
             "default": "no",
@@ -580,8 +517,6 @@
                 }
             }
         },
-        
-
         "Banner Infos": {
             "description": "Only show banner infos (collection, hltb plugin infos) on hover",
             "default": "no",
@@ -594,8 +529,6 @@
                 }
             }
         },
-
-
         "Playbar in Banner": {
             "description": "Show playbar in banner",
             "default": "no",
@@ -608,8 +541,6 @@
                 }
             }
         },
-
-
         "Playbar play button only icon": {
             "description": "Show only the icon in the play/install button",
             "default": "no",
@@ -622,8 +553,6 @@
                 }
             }
         },
-
-
         "Playbar play button center": {
             "description": "Center text and icon in the play/install button",
             "default": "no",
@@ -636,8 +565,6 @@
                 }
             }
         },
-
-
         "Always show game infos": {
             "description": "Always show game infos on the game page",
             "default": "no",
@@ -650,8 +577,6 @@
                 }
             }
         },
-
-
         "Game info box artwork": {
             "description": "Hide Artwork in game info box",
             "default": "no",
@@ -664,8 +589,6 @@
                 }
             }
         },
-
-
         "Sidebar on left": {
             "description": "Changes the sidebar on the game page from right to left",
             "default": "no",
@@ -680,8 +603,6 @@
         },
 
 
-
-
         "Hide group chat": {
             "description": "Hides the group chat section in the friends list",
             "default": "no",
@@ -694,8 +615,6 @@
                 }
             }
         },
-
-
 
 
         "VAC-Ban visibility": {
@@ -713,7 +632,6 @@
                 }
             }
         },
-
 
         "Profile pages header": {
             "description": "Hide the profile pages header",
