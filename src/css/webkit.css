@@ -772,7 +772,7 @@ html body.v6 .ds_options>div {
     justify-content: center;
     width: 26px;
     height: 26px;
-    border-radius: 8px;
+    border-radius: var(--st-border-radius);
     background: unset;
     background-color: rgb(var(--st-color-5));
     box-shadow: 0px 4px 8px 0px rgba(var(--st-background), 0.5);
