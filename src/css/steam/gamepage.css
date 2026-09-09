@@ -306,24 +306,24 @@
     margin: 0;
     border-radius: var(--st-border-radius);
     background: unset;
-    background-color: #4B89EF;
+    background-color: rgb(var(--st-blue));
 }
 ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi:hover {
     background: unset;
-    background-color: #649af2;
+    background-color: rgb(var(--st-blue-hover));
 }
 ._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Play) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
     background: none;
-    background-color: #23A559;
+    background-color: rgb(var(--st-green));
 }
 ._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Play) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi:hover {
-    background-color: #27b964;
+    background-color: rgb(var(--st-green-hover));
 }
 ._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Trash) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
-    background-color: #EF4B4B;
+    background-color: rgb(var(--st-red));
 }
 ._1FnJ6dPuknQFQ2RTpKTI16:has(.SVGIcon_Trash) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi:hover {
-    background-color: #f26464;
+    background-color: rgb(var(--st-red-hover));
 }
 
 
