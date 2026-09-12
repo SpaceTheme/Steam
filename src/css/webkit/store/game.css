@@ -1284,6 +1284,12 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
     flex-direction: column;
 }
 
+.game_bg.application .game_description_column .game_area_purchase .game_area_purchase_game_wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+}
+
 
 /** Buy Game */
 .game_bg.application .game_description_column .game_area_purchase_game {
@@ -1299,7 +1305,7 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 }
 
 /*^ Complete banner */
-.game_bg.application .game_description_column .game_area_purchase_game_wrapper .ds_flag {
+.game_bg.application .game_description_column .game_area_purchase_game_wrapper .ds_flag.ds_completetheset {
     position: unset;
     z-index: unset;
     text-align: center;
