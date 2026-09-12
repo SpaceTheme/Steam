@@ -153,10 +153,12 @@ body .avatarHolder:has(.avatarFrame) .avatar {
 
 
 /* Links */
-body a[href]:not(:has(> *)) {
+body :not(:has(ul>li))>a[href]:not(:has(> *)) {
     font-weight: 400 !important;
+}
+body :not(:has(ul>li))>a[href]:not(:has(> *), .whiteLink) {
     color: rgb(var(--st-blue)) !important;
 }
-body a[href]:not(:has(> *)):hover {
+body :not(:has(ul>li))>a[href]:not(:has(> *)):hover {
     color: rgb(var(--st-blue-hover)) !important;
 }
