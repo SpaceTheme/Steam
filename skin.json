@@ -101,18 +101,6 @@
                 "unit": "px"
             }
         },
-        "Always show download bar": {
-            "description": "Always show the download bar",
-            "default": "no",
-            "tab": "General",
-            "section": "Sidebar",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/alwaysShowDownloadbar.css" }
-                }
-            }
-        },
         "Friend icon": {
             "description": "Hide the friend icon from the game item",
             "default": "no",
@@ -122,6 +110,18 @@
                 "no": {},
                 "yes": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/general/friendIcon.css" }
+                }
+            }
+        },
+        "Always show download bar": {
+            "description": "Always show the download bar",
+            "default": "no",
+            "tab": "General",
+            "section": "Sidebar",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/alwaysShowDownloadbar.css" }
                 }
             }
         },
