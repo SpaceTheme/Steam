@@ -40,6 +40,18 @@
             }
         },
 
+        "Always show sidebar": {
+            "description": "Always show the sidebar don't matter on which page (Except the download page) \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
+            "default": "yes",
+            "tab": "General",
+            "section": "Sidebar",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/alwaysShowSidebar.css" }
+                }
+            }
+        },
         "Sidebar on right": {
             "description": "Show the sidebar on the right side",
             "default": "no",
@@ -49,6 +61,18 @@
                 "no": {},
                 "yes": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/general/sidebarOnRight.css" }
+                }
+            }
+        },
+        "Sidebar only on hover": {
+            "description": "Shows only the sidebar in the store on hover",
+            "default": "no",
+            "tab": "General",
+            "section": "Sidebar",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/showSidebarOnHover.css" }
                 }
             }
         },
@@ -77,27 +101,15 @@
                 "unit": "px"
             }
         },
-        "Always show sidebar": {
-            "description": "Always show the sidebar don't matter on which page (Except the download page) \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
-            "default": "yes",
-            "tab": "General",
-            "section": "Sidebar",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/alwaysShowSidebar.css" }
-                }
-            }
-        },
-        "Sidebar only on hover": {
-            "description": "Shows only the sidebar in the store on hover",
+        "Always show download bar": {
+            "description": "Always show the download bar",
             "default": "no",
             "tab": "General",
             "section": "Sidebar",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/showSidebarOnHover.css" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/alwaysShowDownloadbar.css" }
                 }
             }
         },
@@ -110,18 +122,6 @@
                 "no": {},
                 "yes": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/general/friendIcon.css" }
-                }
-            }
-        },
-        "Always show download bar": {
-            "description": "Always show the download bar",
-            "default": "no",
-            "tab": "General",
-            "section": "Sidebar",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/alwaysShowDownloadbar.css" }
                 }
             }
         },
