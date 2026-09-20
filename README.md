@@ -1,7 +1,7 @@
 <div align="center">
 <h3><img height="76px" src="https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/logo.webp"></h3>
 
-[Community](https://discord.spacetheme.net) | [Support the Poject](https://kofi.spacetheme.net) | [Website](https://spacetheme.net)
+[Community](https://discord.spacetheme.net) | [Support the Project](https://kofi.spacetheme.net) | [Website](https://spacetheme.net)
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/SpaceTheme?style=for-the-badge&logo=github&labelColor=%23111111&color=%231e1e1e)
 <hr>
