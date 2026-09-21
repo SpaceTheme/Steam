@@ -148,7 +148,7 @@
 
 
 
-/* 
+/*
 ! Info tags
 */
 /*! adding soon
@@ -633,6 +633,8 @@
 /* Achievements */
 ._1r3z58m4uvAtp2Nfee0kDg {
     margin: 0;
+    grid-auto-rows: 1fr;
+    grid-template-rows: unset;
 }
 
 /* Screenshots */
@@ -780,6 +782,12 @@
 }
 .UVeN0kaD3zv1feMj_mMw5._39Zk32AvV5cr6g-83IVRVS:hover {
     background-color: #199fff40;
+}
+.UVeN0kaD3zv1feMj_mMw5 .NEMXhMlqXOCJwfgWlHXhT {
+    height: unset !important;
+    margin-top: 8px;
+    border-radius: var(--st-border-radius);
+    background: rgb(var(--st-color-1)) none;
 }
 
 ._3oMUSjOFNB0E9LWcL2sE7 {
