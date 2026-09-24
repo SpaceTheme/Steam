@@ -1828,6 +1828,15 @@ body.v6.game_bg.application .game_area_already_owned.page_content {
 
 
 /*
+& Steam Deck Compatibility
+*/
+.game_bg.application ._2gXzKgnqPNSUzBWEYvQ4OP,
+.game_bg.application ._2gXzKgnqPNSUzBWEYvQ4OP:hover {
+    color: #fff !important;
+}
+
+
+/*
 & Details on Top
 
 .game_bg.application .game_background_glow #game_highlights {
