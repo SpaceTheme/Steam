@@ -862,7 +862,7 @@ html body.v6 .ds_wishlist_flag {
     padding: 0px !important;
     font-size: 0 !important;
     border-radius: var(--st-border-radius) !important;
-    background: unset;
+    background: unset !important;
     background-color: rgb(var(--st-blue)) !important;
 }
 html body.v6 .ds_wishlist_flag::before {
