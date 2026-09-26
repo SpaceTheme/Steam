@@ -12,6 +12,7 @@
 }
 
 
+
 ._1rDh5rXSFZJOqCa4UpnI4z {
     overflow: unset;
 }
@@ -25,12 +26,15 @@
     height: 100%;
     margin-left: -16px;
     padding-left: 16px;
-    transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out 0.12s;
 }
 
-.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:hover {
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:hover,
+body:has(._3cykd-VfN_xBxf3Qxriccm:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"],
+body:has(._1_yS5UP7el0aN4vntx3dx:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"] {
     padding-left: 16px;
     min-width: 272px !important;
+    transition-delay: 0s;
 }
 
 
@@ -53,6 +57,8 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:hover::after {
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:hover::after,
+body:has(._3cykd-VfN_xBxf3Qxriccm:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"]::after,
+body:has(._1_yS5UP7el0aN4vntx3dx:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"]::after {
     opacity: 0;
 }
