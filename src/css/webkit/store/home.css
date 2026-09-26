@@ -40,6 +40,101 @@
 
 
 /*
+& Your Personal Calendar
+*/
+.home_page_body_ctn .personal_calendar_ctn ._326_uhqq2I-hJwNRSqIZK4 {
+    gap: 0;
+}
+
+
+/** Background image */
+.home_page_body_ctn .personal_calendar_ctn .personal_calendar_background {
+    display: none;
+}
+
+
+/** Header */
+.home_page_body_ctn .personal_calendar_ctn ._2su8lGbBoTlZdVmMWOxDR3 {
+    padding: 12px;
+    border-radius: var(--st-border-radius) var(--st-border-radius) 0 0;
+    background-color: rgb(var(--st-color-2));
+}
+
+/*^ New tag */
+.home_page_body_ctn .personal_calendar_ctn ._2su8lGbBoTlZdVmMWOxDR3 .lX3GvxrkYaEqKJRpIhPsk {
+    align-items: center;
+    padding: 0 6px;
+        font-size: 13px;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-accent-2));
+}
+
+/*^ Title */
+.home_page_body_ctn .personal_calendar_ctn ._2su8lGbBoTlZdVmMWOxDR3 ._3RqS6vEZhqX3_4AIeJFajW {
+    margin-bottom: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+/*^ Desciption */
+.home_page_body_ctn .personal_calendar_ctn ._2su8lGbBoTlZdVmMWOxDR3 ._1qbTrTsvR9qbMi-Navsk-D {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #a9a9a9;
+}
+
+
+/** Content */
+.home_page_body_ctn .personal_calendar_ctn ._2M3SnYGvMvplWUC8yGhowo {
+    padding: 0 12px 12px;
+    border-radius: 0 0 var(--st-border-radius) var(--st-border-radius);
+    background-color: rgb(var(--st-color-2));
+}
+
+.home_page_body_ctn .personal_calendar_ctn ._2M3SnYGvMvplWUC8yGhowo ._3J8-bW87K3pb8EpRNYq0JG {
+    gap: 6px;
+}
+
+
+/** Card */
+.home_page_body_ctn .personal_calendar_ctn ._2VUpHDtxN8lR1LDahY_cI2>* {
+    margin: 0;
+}
+
+.home_page_body_ctn .personal_calendar_ctn ._3Cc2bMRML2lEkSyi2IAZ9G .tqaXEuWN2wV5_8lmSkMng {
+    gap: 6px;
+    padding: 12px;
+    border-radius: var(--st-border-radius);
+    background: unset;
+    background-color: rgb(var(--st-color-3));
+}
+
+/*^ Games */
+.home_page_body_ctn .personal_calendar_ctn ._3Cc2bMRML2lEkSyi2IAZ9G ._2nBfmktG8nbBOFnhjq6OS5 {
+    gap: 6px;
+    padding: 0;
+}
+
+/* Image */
+.home_page_body_ctn .personal_calendar_ctn ._3Cc2bMRML2lEkSyi2IAZ9G img,
+.home_page_body_ctn .personal_calendar_ctn ._3Cc2bMRML2lEkSyi2IAZ9G video {
+    border-radius: var(--st-border-radius);
+}
+
+/*^ More */
+.home_page_body_ctn .personal_calendar_ctn ._3Cc2bMRML2lEkSyi2IAZ9G ._1wt5Ne6MrJfPVdFz5fGlop {
+    padding: 4px 12px;
+    color: #fff !important;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-5));
+    box-shadow: unset;
+}
+
+
+
+/*
 & Discovery
 */
 .home_page_body_ctn ._3PAP1PfUymQrLEveRsxQxP {
