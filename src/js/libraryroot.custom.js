@@ -1,4 +1,4 @@
-import { waitForElement, createContainerTracker } from './utils.js';
+import { waitForElement, createContainerTracker, CssClassNames } from './utils.js';
 
 // Create Loading Screen
 const createLoadingDiv = () => {
@@ -21,7 +21,7 @@ const createLoadingDiv = () => {
 };
 
 // Patch to body
-waitForElement('.Rp8QOGJ2DypeDniMnRBhr').then(() => {
+waitForElement(CssClassNames.Root).then(() => {
     if (!document.getElementById('st-loading-div')) {
         createLoadingDiv();
     }
@@ -32,8 +32,8 @@ waitForElement('.Rp8QOGJ2DypeDniMnRBhr').then(() => {
 
 // Store Sidebar Width fix
 async function syncWidthIfTargetHidden() {
-    const sourceClass = '._9sPoVBFyE_vE87mnZJ5aB';
-    const targetClass = '.RGNMWtyj73_-WdhflrmuY';
+    const sourceClass = CssClassNames.Library.Body;
+    const targetClass = CssClassNames.MainBody;
 
     let sourceEl = null;
     let targetEl = null;
@@ -130,10 +130,10 @@ syncWidthIfTargetHidden();
 
 // Custom hover effect for game items
 async function setupGamesHovers() {
-    const gamesContainerSelector = '._1ijTaXJJA5YWl_fW2IxcaT .ReactVirtualized__Grid__innerScrollContainer';
-    const itemSelector = '._2-O4ZG0KrnSrzISHBKctFQ';
-    const separatorSelector = '._2RggXvVkWMDvvxFegjtKso';
-    const widthContainerSelector = '._2SXJM0PeFEi3gbC7V3S5pE';
+    const gamesContainerSelector = `${CssClassNames.Library.Games.Container} .ReactVirtualized__Grid__innerScrollContainer`;
+    const itemSelector = CssClassNames.Library.Games.Game;
+    const separatorSelector = CssClassNames.Library.Games.Separator;
+    const widthContainerSelector = CssClassNames.Library.Games.Name;
     const pxPerSec = 70;
     const minDurationSec = 2;
     const navTextOffset = 5;
@@ -243,14 +243,14 @@ setupGamesHovers();
 
 
 
-// Sync Userpanel and Downloadbar width with Store sidebar
-function syncUserpanelWidth() {
-    const sourceClass = '._9sPoVBFyE_vE87mnZJ5aB';
-    const userpanelSelector = '._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u';
-    const downloadBarSelector = '._1_yS5UP7el0aN4vntx3dx';
+// Sync User panel and Download bar width with Store sidebar
+function syncUserPanelWidth() {
+    const sourceClass = CssClassNames.Library.Body;
+    const userPanelSelector = CssClassNames.UserPanel.Container;
+    const downloadBarSelector = CssClassNames.DownloadBar;
 
     let sourceEl = null;
-    let userpanelEl = null;
+    let userPanelEl = null;
     let downloadBarEl = null;
     let sourceObserver = null;
 
@@ -258,8 +258,8 @@ function syncUserpanelWidth() {
         if (!sourceEl) return;
         const computedWidth = window.getComputedStyle(sourceEl).width;
         if (computedWidth && computedWidth !== 'auto') {
-            if (userpanelEl) {
-                userpanelEl.style.width = computedWidth;
+            if (userPanelEl) {
+                userPanelEl.style.width = computedWidth;
             }
             if (downloadBarEl) {
                 downloadBarEl.style.width = computedWidth;
@@ -268,7 +268,7 @@ function syncUserpanelWidth() {
     };
 
     const bindObservers = () => {
-        if (!sourceEl || (!userpanelEl && !downloadBarEl)) return;
+        if (!sourceEl || (!userPanelEl && !downloadBarEl)) return;
 
         sourceObserver?.disconnect();
 
@@ -290,10 +290,10 @@ function syncUserpanelWidth() {
 
     const setupElements = () => {
         sourceEl = document.querySelector(sourceClass);
-        userpanelEl = document.querySelector(userpanelSelector);
+        userPanelEl = document.querySelector(userPanelSelector);
         downloadBarEl = document.querySelector(downloadBarSelector);
 
-        if (sourceEl && (userpanelEl || downloadBarEl)) {
+        if (sourceEl && (userPanelEl || downloadBarEl)) {
             bindObservers();
         }
     };
@@ -311,31 +311,31 @@ function syncUserpanelWidth() {
 
     setupElements();
 }
-syncUserpanelWidth();
+syncUserPanelWidth();
 
 
 
 
 // Create userpanel button container and move buttons
 (async () => {
-    await waitForElement('._3x1HklzyDs4TEjACrRO2tB'); // wait for game panel to load first
+    await waitForElement(CssClassNames.Library.Container); // wait for game panel to load first
     // Userpanel
-    const friendButton = await waitForElement('._1TdaAqMFadi0UTqilrkelR');
-    const familyButton = document.querySelector('._13vrqU6oOqmmxrsZSW5O39');
-    const parent = await waitForElement('._3cykd-VfN_xBxf3Qxriccm');
+    const friendButton = await waitForElement(CssClassNames.UserPanel.FriendButton);
+    const familyButton = document.querySelector(CssClassNames.UserPanel.FamilyButton);
+    const parent = await waitForElement(CssClassNames.UserPanel.Container);
 
     const buttonContainer = document.createElement('div');
     buttonContainer.className = 'userpanel-buttoncontainer';
-  
-    const buttons = parent.querySelectorAll('div._3cykd-VfN_xBxf3Qxriccm > div');
+
+    const buttons = parent.querySelectorAll(`div${CssClassNames.UserPanel.Container} > div`);
     const buttonsToMove = Array.from(buttons).filter((button) => {
-        return button.querySelector('._2Szzh5sKyGgnLUR870zbDE');
+        return button.querySelector(CssClassNames.UserPanel.Button);
     });
-  
+
     buttonsToMove.forEach((button) => {
         buttonContainer.appendChild(button);
     });
-    
+
     buttonContainer.appendChild(friendButton);
     if (familyButton) {
         buttonContainer.appendChild(familyButton);
@@ -345,24 +345,110 @@ syncUserpanelWidth();
     const settingsButton = document.createElement('div');
     settingsButton.className = 'tool-tip-source Focusable st-steam-settings';
     settingsButton.style.order = '999';
-    
+
     const settingsIconWrapper = document.createElement('div');
-    settingsIconWrapper.className = '_2Szzh5sKyGgnLUR870zbDE _3LKQ3S_yqrebeNLF6aeiog';
-    
+    settingsIconWrapper.className = `${CssClassNames.UserPanel.Button.slice(1)} _3LKQ3S_yqrebeNLF6aeiog`;
+
     const settingsIcon = document.createElement('svg');
     settingsIcon.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
     settingsIcon.setAttribute('viewBox', '0 0 20 19');
     settingsIcon.setAttribute('fill', 'none');
     settingsIcon.setAttribute('class', '_34bQcTHo5QKzuujoEyU1tm');
-    
+
     settingsIconWrapper.appendChild(settingsIcon);
     settingsButton.appendChild(settingsIconWrapper);
-    
+
     settingsButton.addEventListener('click', () => {
         window.opener.SteamClient.URL.ExecuteSteamURL("steam://millennium/sidebar");
     });
-    
+
     buttonContainer.appendChild(settingsButton);
-    
+
     parent.appendChild(buttonContainer);
+})();
+
+
+
+// Custom side panel resize behaviour
+(async () => {
+    const containerSelector = CssClassNames.MainBody;
+    const panelSelector = CssClassNames.Library.Container;
+    const panelBodySelector = CssClassNames.Library.Body;
+    const panelResizerSelector = CssClassNames.Library.Divider;
+
+    await waitForElement(panelSelector);
+
+    let container = null;
+    let body = null;
+    let resizer = null;
+
+    const minWidthPx = 256;
+    let isResizing = false;
+    let startX = 0;
+    let startWidthPx = 0;
+    let containerWidthPx = 0;
+    let resizeDirection = 1;
+
+    const handleUpdate = () => {
+        resizer.onmousedown = null;
+        resizer.onpointerdown = null;
+        resizer.onclick = null;
+
+        resizer.addEventListener('mousedown', e => {
+            e.stopPropagation();
+            isResizing = true;
+
+            const containerRect = container.getBoundingClientRect();
+            const bodyRect = body.getBoundingClientRect();
+
+            startX = e.clientX;
+            startWidthPx = bodyRect.width;
+            containerWidthPx = containerRect.width;
+
+            const containerCenterX = containerRect.left + containerRect.width / 2;
+            const bodyCenterX = bodyRect.left + bodyRect.width / 2;
+
+            const panelIsOnLeft = bodyCenterX < containerCenterX;
+
+            resizeDirection = panelIsOnLeft ? 1 : -1;
+        });
+
+        document.addEventListener("mousemove", e => {
+            if (!isResizing) return;
+
+            const dx = (e.clientX - startX) * resizeDirection;
+
+            let newWidthPx = startWidthPx + dx;
+
+            newWidthPx = Math.max(minWidthPx, newWidthPx);
+            newWidthPx = Math.min(containerWidthPx, newWidthPx);
+
+            const newWidthPercent = (newWidthPx / containerWidthPx) * 100;
+
+            body.style.width = `${newWidthPercent}%`;
+        });
+
+        document.addEventListener("mouseup", () => {
+            if (!isResizing) return;
+            isResizing = false;
+        });
+    }
+
+    const handleSetup = async () => {
+        container = await waitForElement(containerSelector);
+        body = await waitForElement(panelBodySelector);
+        resizer = await waitForElement(panelResizerSelector);
+    };
+
+    const containerTracker = createContainerTracker(panelSelector, {
+        onSetup: handleSetup,
+        onUpdate: handleUpdate
+    });
+
+    const rootObserver = new MutationObserver(async () => await containerTracker.rebind());
+    rootObserver.observe(document.body, {
+        subtree: true,
+        childList: true,
+    });
+    await containerTracker.rebind();
 })();
