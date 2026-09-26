@@ -451,6 +451,13 @@
     border-radius: 8px;
 }
 
+.home_page_body_ctn .home_tab_bg_ctn .home_tabs_columns #tab_preview_container .tab_screenshots_ctn .screenshot.empty {
+    text-align: center;
+    font-weight: 600;
+    color: #8e8e8e;
+    background-color: rgb(var(--st-background));
+}
+
 
 /*
 ! See more
