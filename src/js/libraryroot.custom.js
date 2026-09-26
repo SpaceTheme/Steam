@@ -418,7 +418,7 @@ syncUserPanelWidth();
         newWidthPx = Math.max(minWidthPx, newWidthPx);
         newWidthPx = Math.min(containerWidthPx, newWidthPx);
 
-        const newWidthPercent = (newWidthPx / containerWidthPx) * 100;
+        const newWidthPercent = Math.min((newWidthPx / containerWidthPx) * 100, 50);
 
         body.style.width = `${newWidthPercent}%`;
     };
