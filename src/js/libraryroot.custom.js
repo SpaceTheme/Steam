@@ -21,7 +21,7 @@ const createLoadingDiv = () => {
 };
 
 // Patch to body
-waitForElement(CssClassNames.Root).then(() => {
+waitForElement(CssClassNames.HtmlRoot).then(() => {
     if (!document.getElementById('st-loading-div')) {
         createLoadingDiv();
     }
@@ -371,7 +371,7 @@ syncUserPanelWidth();
 
 // Custom side panel resize behaviour
 (async () => {
-    const containerSelector = CssClassNames.MainBody;
+    const containerSelector = CssClassNames.WebkitRoot;
     const panelSelector = CssClassNames.Library.Container;
     const panelBodySelector = CssClassNames.Library.Body;
     const panelResizerSelector = CssClassNames.Library.Divider;
@@ -389,49 +389,52 @@ syncUserPanelWidth();
     let containerWidthPx = 0;
     let resizeDirection = 1;
 
+    const clickCallback = e => {
+        e.stopPropagation();
+        isResizing = true;
+
+        const containerRect = container.getBoundingClientRect();
+        const bodyRect = body.getBoundingClientRect();
+
+        startX = e.clientX;
+        startWidthPx = bodyRect.width;
+        containerWidthPx = containerRect.width;
+
+        const containerCenterX = containerRect.left + containerRect.width / 2;
+        const bodyCenterX = bodyRect.left + bodyRect.width / 2;
+
+        const panelIsOnLeft = bodyCenterX < containerCenterX;
+
+        resizeDirection = panelIsOnLeft ? 1 : -1;
+    };
+
+    const moveCallback = e => {
+        if (!isResizing) return;
+
+        const dx = (e.clientX - startX) * resizeDirection;
+
+        let newWidthPx = startWidthPx + dx;
+
+        newWidthPx = Math.max(minWidthPx, newWidthPx);
+        newWidthPx = Math.min(containerWidthPx, newWidthPx);
+
+        const newWidthPercent = (newWidthPx / containerWidthPx) * 100;
+
+        body.style.width = `${newWidthPercent}%`;
+    };
+    const releaseCallback = () => {
+        if (!isResizing) return;
+        isResizing = false;
+    };
+
     const handleUpdate = () => {
         resizer.onmousedown = null;
         resizer.onpointerdown = null;
         resizer.onclick = null;
 
-        resizer.addEventListener('mousedown', e => {
-            e.stopPropagation();
-            isResizing = true;
-
-            const containerRect = container.getBoundingClientRect();
-            const bodyRect = body.getBoundingClientRect();
-
-            startX = e.clientX;
-            startWidthPx = bodyRect.width;
-            containerWidthPx = containerRect.width;
-
-            const containerCenterX = containerRect.left + containerRect.width / 2;
-            const bodyCenterX = bodyRect.left + bodyRect.width / 2;
-
-            const panelIsOnLeft = bodyCenterX < containerCenterX;
-
-            resizeDirection = panelIsOnLeft ? 1 : -1;
-        });
-
-        document.addEventListener("mousemove", e => {
-            if (!isResizing) return;
-
-            const dx = (e.clientX - startX) * resizeDirection;
-
-            let newWidthPx = startWidthPx + dx;
-
-            newWidthPx = Math.max(minWidthPx, newWidthPx);
-            newWidthPx = Math.min(containerWidthPx, newWidthPx);
-
-            const newWidthPercent = (newWidthPx / containerWidthPx) * 100;
-
-            body.style.width = `${newWidthPercent}%`;
-        });
-
-        document.addEventListener("mouseup", () => {
-            if (!isResizing) return;
-            isResizing = false;
-        });
+        resizer.addEventListener('mousedown', clickCallback);
+        document.addEventListener("mousemove", moveCallback);
+        document.addEventListener("mouseup", releaseCallback);
     }
 
     const handleSetup = async () => {
@@ -440,9 +443,16 @@ syncUserPanelWidth();
         resizer = await waitForElement(panelResizerSelector);
     };
 
+    const handleCleanup = () => {
+        resizer.removeEventListener('mousedown', clickCallback);
+        document.removeEventListener("mousemove", moveCallback);
+        document.removeEventListener("mouseup", releaseCallback);
+    };
+
     const containerTracker = createContainerTracker(panelSelector, {
         onSetup: handleSetup,
-        onUpdate: handleUpdate
+        onUpdate: handleUpdate,
+        onCleanup: handleCleanup
     });
 
     const rootObserver = new MutationObserver(async () => await containerTracker.rebind());

@@ -57,7 +57,8 @@ export const createContainerTracker = (selector, { onCleanup, onSetup, onUpdate 
 };
 
 export const CssClassNames = {
-    Root: '.Rp8QOGJ2DypeDniMnRBhr',
+    HtmlRoot: '.Rp8QOGJ2DypeDniMnRBhr',
+    WebkitRoot: '._1rDh5rXSFZJOqCa4UpnI4z',
     MainBody: '.RGNMWtyj73_-WdhflrmuY',
     Library: {
         Body: '._9sPoVBFyE_vE87mnZJ5aB',
