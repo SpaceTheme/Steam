@@ -361,6 +361,26 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._1_yS5UP7el0aN4vntx3dx .wi0pDywRgOCxhG7OqQNaA) .
     88%, 100% { transform: translate3d(calc(-1 * var(--st-game-overflow)), -50%, 0); }
 }
 
+
+/** Game update icon */
+._3x1HklzyDs4TEjACrRO2tB ._2-O4ZG0KrnSrzISHBKctFQ ._3uk3F1BmAJQR6rl1TPcaif {
+    margin: 0;
+    font-size: 0;
+}
+._3x1HklzyDs4TEjACrRO2tB ._2-O4ZG0KrnSrzISHBKctFQ ._3uk3F1BmAJQR6rl1TPcaif::after {
+    content: "\f13e";
+    font-size: 16px;
+    color: rgb(var(--st-blue));
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+
 /*
 ! Game item title separator
 */
