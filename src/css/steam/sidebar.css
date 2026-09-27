@@ -362,7 +362,14 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._1_yS5UP7el0aN4vntx3dx .wi0pDywRgOCxhG7OqQNaA) .
 }
 
 
-/** Game update icon */
+/** Update logo circle */
+._3x1HklzyDs4TEjACrRO2tB ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 svg:not(.SVGIcon_FriendIcon) circle {
+    fill: none;
+    stroke: rgb(var(--st-blue));
+}
+
+
+/** Update icon */
 ._3x1HklzyDs4TEjACrRO2tB ._2-O4ZG0KrnSrzISHBKctFQ ._3uk3F1BmAJQR6rl1TPcaif {
     margin: 0;
     font-size: 0;
