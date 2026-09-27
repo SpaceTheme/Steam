@@ -1,0 +1,7 @@
+/*
+& Dropdown
+*/
+/** Popup list (Steam's default has square corners) */
+.DialogMenuPosition ._DialogInputContainer {
+    border-radius: var(--st-border-radius);
+}
