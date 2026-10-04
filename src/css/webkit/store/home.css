@@ -17,6 +17,9 @@
     background: unset;
     background-color: rgb(var(--st-blue), .4);
 }
+.home_page_body_ctn .home_gift_card_link:hover {
+    box-shadow: 0 6px 24px -8px rgb(var(--st-blue), .4);
+}
 
 
 /** Image */
