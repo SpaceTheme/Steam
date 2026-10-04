@@ -1,0 +1,11 @@
+.chatWindow .chatHeader {
+    background: unset;
+}
+
+.chatWindow .chatHeader .chatRoomGroupHeader {
+    margin-bottom: 12px;
+    padding: 6px;
+    border: 0;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-2));
+}

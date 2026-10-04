@@ -102,7 +102,7 @@
     background: rgb(var(--st-color-1));
 }
 
-.chatWindow .chatHeader {
+.chatWindow .chatHeader:not(.titleBarContainer) {
     display: none;
 }
 
