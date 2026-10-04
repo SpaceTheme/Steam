@@ -653,6 +653,18 @@
         },
 
 
+        "Favorite friends status background": {
+            "description": "When the \"Compact favorite friends area\" is on then the cards will show a status background so you know if the user is online/offline/ingame",
+            "default": "yes",
+            "tab": "Friends & Chat",
+            "section": "Firends list",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": [".friendsui-container"], "src": "options/friendsAndChat/list/compactFavFriendsStatusBackground.css" }
+                }
+            }
+        },
         "Hide group chat": {
             "description": "Hides the group chat section in the friends list",
             "default": "no",
