@@ -4,10 +4,32 @@
 
 
 
+/*
+& Send a Gift Card button
+*/
+.home_page_body_ctn .home_gift_card_link {
+    overflow: hidden;
+    flex-direction: row-reverse;
+    gap: 6px;
+    margin: 0 0 12px auto;
+    padding: 6px 12px;
+    border-radius: var(--st-border-radius);
+    background: unset;
+    background-color: rgb(var(--st-blue), .4);
+}
+
+
+/** Image */
+.home_page_body_ctn .home_gift_card_link .home_gift_card_img {
+    height: 46px;
+    margin-right: -23px;
+}
 
 
 
-/* Banner */
+/*
+& Banner
+*/
 .menu_takeover_background {
     display: none;
 }
