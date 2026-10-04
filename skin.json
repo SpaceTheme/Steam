@@ -337,6 +337,18 @@
                 }
             }
         },
+        "Send a Gift Card button": {
+            "description": "Hide the Send a Gift Card button",
+            "default": "no",
+            "tab": "Store",
+            "section": "Home",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "options/store/home/giftCardButton.css" }
+                }
+            }
+        },
 
         "Broadcast": {
             "description": "Hide broadcasts on the store gamepage",
