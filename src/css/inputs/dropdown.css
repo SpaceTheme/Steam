@@ -77,10 +77,11 @@
 /** Divider */
 .DesktopUI .DialogMenuPosition.visible ._DialogInputContainer ._2oAiZidGyUxL-hfupFDQ2m._2U_Y7A-0lddoJdrJBvf8JE {
     overflow: visible !important;
+    position: relative !important;
     margin-top: 7px !important;
     border: unset !important;
 }
-DesktopUI .DialogMenuPosition.visible ._DialogInputContainer ._2oAiZidGyUxL-hfupFDQ2m._2U_Y7A-0lddoJdrJBvf8JE::before {
+.DesktopUI .DialogMenuPosition.visible ._DialogInputContainer ._2oAiZidGyUxL-hfupFDQ2m._2U_Y7A-0lddoJdrJBvf8JE::before {
     content: "";
     position: absolute;
     top: -5px;
