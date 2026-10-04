@@ -1,3 +1,8 @@
+/* Scrollbar */
 html *::-webkit-scrollbar-thumb {
+    background-color: unset !important;
+}
+  
+html *::-webkit-scrollbar-thumb:hover {
     background-color: unset !important;
 }
