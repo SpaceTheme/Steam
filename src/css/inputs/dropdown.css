@@ -1,0 +1,97 @@
+/*
+! Dropdown button
+*/
+._DialogInputContainer {
+    gap: 6px !important;
+    background: unset !important;
+    background-color: rgb(var(--st-color-4)) !important;
+    box-shadow: unset !important;
+}
+._DialogInputContainer:hover {
+    background-color: rgb(var(--st-color-4), .8) !important;
+}
+
+._1YdRdM9TZ_3Xolwv9aVEv- ._DialogInputContainer,
+._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer {
+    padding: 6px !important;
+}
+
+
+/** Current Display */
+._DialogInputContainer .DialogDropDown_CurrentDisplay {
+    padding: 0 !important;
+    background: unset !important;
+}
+
+
+/** Arrow */
+/* Down */
+._DialogInputContainer .DialogDropDown_Arrow {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 16px !important;
+    width: 16px !important;
+    padding: 0 !important;
+    background: unset !important;
+}
+._DialogInputContainer .DialogDropDown_Arrow::before {
+    content: "\f2a4" !important;
+    font-size: 16px !important;
+    color: #9c9c9c !important;
+}
+._DialogInputContainer .DialogDropDown_Arrow svg {
+    display: none !important;
+}
+
+
+/*
+! Dropdown menu
+*/
+.DesktopUI .DialogMenuPosition.visible ._DialogInputContainer {
+    overflow-x: auto !important;
+    min-width: unset !important;
+    max-height: 90% !important;
+    padding: 6px !important;
+    border: 3px solid rgb(var(--st-color-5)) !important;
+    border-radius: var(--st-border-radius) !important;
+    background: unset !important;
+    background-color: rgb(var(--st-color-3)) !important;
+}
+
+
+/** Items */
+.DesktopUI .DialogMenuPosition.visible ._DialogInputContainer ._2oAiZidGyUxL-hfupFDQ2m {
+    margin: 0 !important;
+    padding: 6px 12px !important;
+    font-weight: 500 !important;
+    color: #9c9c9c !important;
+    background: unset !important;
+}
+.DesktopUI .DialogMenuPosition.visible ._DialogInputContainer ._2oAiZidGyUxL-hfupFDQ2m:hover {
+    color: #fff !important;
+    background-color: rgb(var(--st-color-2)) !important;
+}
+
+
+/** Divider */
+.DesktopUI .DialogMenuPosition.visible ._DialogInputContainer ._2oAiZidGyUxL-hfupFDQ2m._2U_Y7A-0lddoJdrJBvf8JE {
+    overflow: visible !important;
+    position: relative !important;
+    margin-top: 7px !important;
+    border: unset !important;
+}
+.DesktopUI .DialogMenuPosition.visible ._DialogInputContainer ._2oAiZidGyUxL-hfupFDQ2m._2U_Y7A-0lddoJdrJBvf8JE::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    display: block;
+    width: -webkit-fill-available;
+    height: 3px;
+    margin: 0 6px;
+    padding: 0;
+    border: none;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-2)) !important;
+}
