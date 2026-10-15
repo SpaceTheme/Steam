@@ -29,11 +29,16 @@
     transition: all .2s ease-in-out;
 }
 
-.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:hover,
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:is(:hover, :active),
 body:has(._3cykd-VfN_xBxf3Qxriccm:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"],
 body:has(._1_yS5UP7el0aN4vntx3dx:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"] {
     padding-left: 16px;
-    min-width: 272px !important;
+    min-width: max(272px, calc(var(--st-sidebar-width, 0px) + 16px)) !important;
+}
+
+/* Follow the mouse directly while resizing */
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:active {
+    transition: none;
 }
 
 
@@ -56,8 +61,68 @@ body:has(._1_yS5UP7el0aN4vntx3dx:is(:hover, :focus-within)) .RGNMWtyj73_-Wdhflrm
     -webkit-font-smoothing: antialiased;
 }
 
-.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:hover::after,
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:is(:hover, :active)::after,
 body:has(._3cykd-VfN_xBxf3Qxriccm:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"]::after,
 body:has(._1_yS5UP7el0aN4vntx3dx:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"]::after {
     opacity: 0;
+}
+
+
+/* Hide the content while collapsed, otherwise parts of it overflow into the visible edge */
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"] > * {
+    visibility: hidden;
+    transition: visibility 0s .2s;
+}
+
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:is(:hover, :active) > *,
+body:has(._3cykd-VfN_xBxf3Qxriccm:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"] > *,
+body:has(._1_yS5UP7el0aN4vntx3dx:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"] > * {
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+
+
+/*
+& Userpanel and downloadbar
+*/
+/* Only visible with the expanded sidebar, otherwise a part of them shows at the window edge */
+body:has(.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]) ._3cykd-VfN_xBxf3Qxriccm,
+body:has(.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]) ._1_yS5UP7el0aN4vntx3dx {
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+}
+
+body:has(.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:is(:hover, :active)) ._3cykd-VfN_xBxf3Qxriccm,
+body:has(.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:is(:hover, :active)) ._1_yS5UP7el0aN4vntx3dx,
+body:has(._3cykd-VfN_xBxf3Qxriccm:is(:hover, :focus-within)) ._3cykd-VfN_xBxf3Qxriccm,
+body:has(._3cykd-VfN_xBxf3Qxriccm:is(:hover, :focus-within)) ._1_yS5UP7el0aN4vntx3dx,
+body:has(._1_yS5UP7el0aN4vntx3dx:is(:hover, :focus-within)) ._3cykd-VfN_xBxf3Qxriccm,
+body:has(._1_yS5UP7el0aN4vntx3dx:is(:hover, :focus-within)) ._1_yS5UP7el0aN4vntx3dx {
+    opacity: 1;
+}
+
+
+
+/*
+& Sidebar on right
+*/
+@container style(--st-option-sidebarOnRight: on) {
+    .RGNMWtyj73_-WdhflrmuY[style*="display: none;"] {
+        margin-right: -16px;
+        margin-left: 0;
+        padding-right: 16px;
+        padding-left: 0;
+    }
+
+    .RGNMWtyj73_-WdhflrmuY[style*="display: none;"]:is(:hover, :active),
+    body:has(._3cykd-VfN_xBxf3Qxriccm:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"],
+    body:has(._1_yS5UP7el0aN4vntx3dx:is(:hover, :focus-within)) .RGNMWtyj73_-WdhflrmuY[style*="display: none;"] {
+        padding-right: 16px;
+        padding-left: 0;
+    }
+
+    .RGNMWtyj73_-WdhflrmuY[style*="display: none;"]::after {
+        margin-left: -6px;
+    }
 }

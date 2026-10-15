@@ -26,6 +26,8 @@
 ._3KDkLoCR8OM8xfdQysKn9t._1ashwbbBZrppDqaals3644 {
     overflow: hidden;
     height: -webkit-fill-available;
+    flex-shrink: 1;
+    min-width: 0;
     margin: 12px 0 12px 12px;
     border-radius: var(--st-border-radius);
 }
@@ -66,7 +68,14 @@
 ! Stats
 */
 ._20JlDJD9-uoCjNLGp_8mY6 {
-    padding: 12px;
+    min-width: max-content;
+    padding: 12px 48px 12px 12px; /* space for the settings icon */
+}
+._20JlDJD9-uoCjNLGp_8mY6 ._2XqX2Zbz7zS2_xq8AksGCu {
+    min-width: max-content;
+}
+._20JlDJD9-uoCjNLGp_8mY6 ._26UBk-6weCeV-VClfXNWJZ {
+    flex-shrink: 0;
 }
 
 

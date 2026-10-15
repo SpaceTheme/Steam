@@ -1,4 +1,4 @@
-import { waitForElement, createContainerTracker, CssClassNames } from './utils.js';
+import { waitForElement, createContainerTracker, getFiber, CssClassNames } from './utils.js';
 
 // Create Loading Screen
 const createLoadingDiv = () => {
@@ -45,11 +45,19 @@ async function syncWidthIfTargetHidden() {
         const scrollbarWidth = '16px';
         if (width) {
             targetEl.style.flex = `0 0 calc(${width} + ${scrollbarWidth})`;
+            // Used by the "Sidebar only on hover" option for the expanded width.
+            // Only set on changes, every style change triggers the observer below again.
+            if (targetEl.style.getPropertyValue('--st-sidebar-width') !== width) {
+                targetEl.style.setProperty('--st-sidebar-width', width);
+            }
         }
     };
 
     const removeWidth = () => {
         targetEl.style.removeProperty('flex');
+        if (targetEl.style.getPropertyValue('--st-sidebar-width')) {
+            targetEl.style.removeProperty('--st-sidebar-width');
+        }
     };
 
     const handleTargetDisplayChange = () => {
@@ -253,6 +261,7 @@ function syncUserPanelWidth() {
     let userPanelEl = null;
     let downloadBarEl = null;
     let sourceObserver = null;
+    let sourceResizeObserver = null;
 
     const setWidth = () => {
         if (!sourceEl) return;
@@ -284,6 +293,11 @@ function syncUserPanelWidth() {
             attributes: true,
             attributeFilter: ['style'],
         });
+
+        // Width changes through CSS, e.g. the sidebar expanding on hover
+        sourceResizeObserver?.disconnect();
+        sourceResizeObserver = new ResizeObserver(setWidth);
+        sourceResizeObserver.observe(sourceEl);
 
         setWidth();
     };
@@ -369,6 +383,192 @@ syncUserPanelWidth();
 
 
 
+// Sidebar width
+// The custom resize behaviour only changes the element's style, so the width is saved here and given to Steam's library too.
+// Otherwise the library falls back to its own width every time it gets mounted again (e.g. after the downloads page).
+// Steam itself only restores whole percentages, so the exact width is kept in an own key.
+const sidebarWidthKey = 'st-sidebar-width';
+
+const getSidebarWidth = () => {
+    const width = parseFloat(localStorage.getItem(sidebarWidthKey) ?? localStorage.getItem('GameListWidthPercentage'));
+    return Number.isNaN(width) ? null : width;
+};
+
+const getLibraryInstance = body => {
+    for (let fiber = getFiber(body); fiber; fiber = fiber.return) {
+        if (fiber.stateNode?.SetGameListWidth) return fiber.stateNode;
+    }
+    return null;
+};
+
+const applySidebarWidth = body => {
+    const width = getSidebarWidth();
+    if (width === null) return;
+
+    const library = getLibraryInstance(body);
+    if (!library) {
+        body.style.width = `${width}%`;
+    } else if (library.state.nListWidthPercentage !== width) {
+        library.setState({ nListWidthPercentage: width });
+    }
+};
+
+const saveSidebarWidth = (body, width) => {
+    localStorage.setItem(sidebarWidthKey, width);
+    localStorage.setItem('GameListWidthPercentage', width);
+    getLibraryInstance(body)?.setState({ nListWidthPercentage: width });
+};
+
+
+
+// Game sidebar on the downloads page
+// Steam routes the downloads page next to the library instead of inside it, so the game list is never rendered there.
+// The downloads page component gets patched to render the game list through a portal into a container
+// that mirrors the library's left list, so the sidebar styles, width sync and resize behaviour apply to it as well.
+(() => {
+    const React = window.opener?.SP_REACT;
+    const ReactDOM = window.opener?.SP_REACTDOM;
+    if (!React || !ReactDOM) return;
+
+    let libraryParts = null;
+    let downloadsPatched = false;
+
+    const findFiberDown = (fiber, predicate, depth = 0) => {
+        for (let f = fiber; f && depth < 60; f = f.sibling) {
+            if (predicate(f)) return f;
+            const found = findFiberDown(f.child, predicate, depth + 1);
+            if (found) return found;
+        }
+        return null;
+    };
+
+    // Steam's route switch with the downloads and the library route, exists on both pages
+    const isRouteSwitch = fiber => {
+        const children = fiber.memoizedProps?.children;
+        return Array.isArray(children) && children.some(child => child?.props?.children?.type?.WrappedComponent);
+    };
+
+    // Render the library component once to get the game list and its wrappers, the library doesn't have to be open for it
+    const getLibraryParts = () => {
+        const fiber = findFiberDown(getFiber(document.querySelector(CssClassNames.MainBody)), isRouteSwitch);
+        if (!fiber) return null;
+
+        const libraryElement = fiber.memoizedProps.children.find(child => child?.props?.children?.type?.WrappedComponent).props.children;
+        const library = libraryElement.type.WrappedComponent;
+        const tree = library.prototype.render.call({ props: { ...libraryElement.props }, state: { loaded: true }, context: {} });
+
+        let gameList = null;
+        const walk = node => {
+            if (!node || gameList || typeof node !== 'object') return;
+            if (Array.isArray(node)) return node.forEach(walk);
+            if (node.props?.bSmallMode === false) {
+                gameList = node.type;
+                return;
+            }
+            walk(node.props?.children);
+        };
+        walk(tree);
+        if (!gameList) return null;
+
+        const [keyHandler] = [].concat(tree.props.children);
+        return { wrapper: tree.type, keyHandler: keyHandler.type, gameList };
+    };
+
+    const renderSidebar = () => React.createElement(libraryParts.wrapper, null,
+        React.createElement(libraryParts.keyHandler, { key: 'keys' }),
+        React.createElement(libraryParts.gameList, { key: 'games', bSmallMode: false }),
+    );
+
+    const createSidebarElements = () => {
+        const sidebar = document.createElement('div');
+        sidebar.className = `${CssClassNames.Library.Body.slice(1)} st-downloads-sidebar`;
+        const width = getSidebarWidth();
+        if (width !== null) sidebar.style.width = `${width}%`;
+
+        const divider = document.createElement('div');
+        divider.className = CssClassNames.Library.Divider.slice(1);
+
+        return { sidebar, divider };
+    };
+
+    const attachSidebar = instance => {
+        const elements = instance.stSidebarElements;
+        if (!elements || elements.sidebar.isConnected) return;
+
+        const rightPanel = document.querySelector(`${CssClassNames.MainBody} > ${CssClassNames.RightPanel}`);
+        if (!rightPanel) return;
+
+        rightPanel.before(elements.sidebar, elements.divider);
+    };
+
+    const patchDownloadsPage = downloadsPage => {
+        const proto = downloadsPage.prototype;
+        const { render, componentDidMount, componentDidUpdate, componentWillUnmount } = proto;
+
+        proto.render = function (...args) {
+            const result = render.apply(this, args);
+            if (this.props.bInGamepadUI || !libraryParts) return result;
+
+            this.stSidebarElements ??= createSidebarElements();
+            return React.createElement(React.Fragment, null, result, ReactDOM.createPortal(renderSidebar(), this.stSidebarElements.sidebar));
+        };
+
+        proto.componentDidMount = function (...args) {
+            attachSidebar(this);
+            return componentDidMount?.apply(this, args);
+        };
+
+        proto.componentDidUpdate = function (...args) {
+            attachSidebar(this);
+            return componentDidUpdate?.apply(this, args);
+        };
+
+        proto.componentWillUnmount = function (...args) {
+            this.stSidebarElements?.sidebar.remove();
+            this.stSidebarElements?.divider.remove();
+            return componentWillUnmount?.apply(this, args);
+        };
+    };
+
+    // The downloads page component can only be found while it's open, so wait for it and patch it on the first visit
+    const tryPatch = () => {
+        if (downloadsPatched) return;
+
+        try {
+            libraryParts ??= getLibraryParts();
+        } catch (error) {
+            console.error('[SpaceTheme] Could not find the game list', error);
+        }
+        if (!libraryParts) return;
+
+        const rightPanel = document.querySelector(`${CssClassNames.MainBody} > ${CssClassNames.RightPanel}`);
+        const downloadsFiber = findFiberDown(getFiber(rightPanel), fiber =>
+            fiber.tag === 1 && 'bOffline' in (fiber.memoizedProps || {}) && 'onShowRemoteClientMenu' in fiber.memoizedProps);
+        if (!downloadsFiber) return;
+
+        downloadsPatched = true;
+        patchDownloadsPage(downloadsFiber.type);
+        downloadsFiber.stateNode.forceUpdate();
+    };
+
+    let rafId = 0;
+    const rootObserver = new MutationObserver(() => {
+        if (rafId) return;
+        rafId = requestAnimationFrame(() => {
+            rafId = 0;
+            tryPatch();
+        });
+    });
+    rootObserver.observe(document.body, {
+        subtree: true,
+        childList: true,
+    });
+
+    tryPatch();
+})();
+
+
+
 // Custom side panel resize behaviour
 (async () => {
     const containerSelector = CssClassNames.WebkitRoot;
@@ -425,6 +625,9 @@ syncUserPanelWidth();
     const releaseCallback = () => {
         if (!isResizing) return;
         isResizing = false;
+
+        const width = parseFloat(body.style.width);
+        if (!Number.isNaN(width)) saveSidebarWidth(body, width);
     };
 
     const handleUpdate = () => {
@@ -441,6 +644,7 @@ syncUserPanelWidth();
         container = await waitForElement(containerSelector);
         body = await waitForElement(panelBodySelector);
         resizer = await waitForElement(panelResizerSelector);
+        applySidebarWidth(body);
     };
 
     const handleCleanup = () => {

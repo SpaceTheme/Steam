@@ -41,7 +41,7 @@
         },
 
         "Always show sidebar": {
-            "description": "Always show the sidebar don't matter on which page (Except the download page) \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
+            "description": "Always show the sidebar don't matter on which page \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
             "default": "yes",
             "tab": "General",
             "section": "Sidebar",

@@ -3,6 +3,22 @@
 }
 
 
+/*
+& Downloads page
+*/
+.RGNMWtyj73_-WdhflrmuY:has(> .st-downloads-sidebar) {
+    flex-direction: row;
+}
+.RGNMWtyj73_-WdhflrmuY:has(> .st-downloads-sidebar) > ._3BFcmjAaMyP6GTPwc0VyWi {
+    min-width: 0;
+}
+
+/** Store page opened from the downloads page */
+.RGNMWtyj73_-WdhflrmuY[style*="display: none;"] > .st-downloads-sidebar {
+    flex-shrink: 1;
+}
+
+
 
 /*
 & Home and Collections

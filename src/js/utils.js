@@ -28,7 +28,13 @@ export const tryPromise = cb => {
     return Promise.resolve().then(cb);
 };
 
-export const createContainerTracker = (selector, { onCleanup, onSetup, onUpdate } = {}) => {
+export const getFiber = el => {
+    if (!el) return null;
+    const key = Object.keys(el).find(k => k.startsWith('__reactFiber'));
+    return key ? el[key] : null;
+};
+
+export const createContainerTracker =(selector, { onCleanup, onSetup, onUpdate } = {}) => {
     let container = null;
 
     const rebind = async () => {
@@ -60,6 +66,7 @@ export const CssClassNames = {
     HtmlRoot: '.Rp8QOGJ2DypeDniMnRBhr',
     WebkitRoot: '._1rDh5rXSFZJOqCa4UpnI4z',
     MainBody: '.RGNMWtyj73_-WdhflrmuY',
+    RightPanel: '._3BFcmjAaMyP6GTPwc0VyWi',
     Library: {
         Body: '._9sPoVBFyE_vE87mnZJ5aB',
         Container: '._3x1HklzyDs4TEjACrRO2tB',
