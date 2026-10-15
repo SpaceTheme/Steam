@@ -359,7 +359,7 @@ syncUserPanelWidth();
     settingsButton.appendChild(settingsIconWrapper);
 
     settingsButton.addEventListener('click', () => {
-        window.opener.SteamClient.URL.ExecuteSteamURL("steam://millennium/sidebar");
+        window.opener.MILLENNIUM_API.openQuickAccess({ theme: "SpaceTheme for Steam" });
     });
 
     buttonContainer.appendChild(settingsButton);
