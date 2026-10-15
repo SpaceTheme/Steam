@@ -2,9 +2,9 @@ import { waitForElement, createContainerTracker } from './utils.js';
 
 // Move setting option input element into the title element for better styling
 async function moveSettingsOptions() {
-    const listSelector = '.aFxOaYcllWYkCfVYQJFs0';
+    const listSelector = '.aFxOaYcllWYkCfVYQJFs0, .MillenniumDesktopSidebar_EditorContent';
     const cardSelector = '.eKmEXJCm_lgme24Fp_HWt';
-    const elementSelector = '.PSZtxj2h3MlyYv-c9dgke';
+    const elementSelector = '.PSZtxj2h3MlyYv-c9dgke, ._2tALpM7z8naXJ35Pp5fNAG > ._1aw7cA3mAZfWt8idAlVJWi';
     const titleSelector = '._2VcTlXFC64Jtg9gvtT6cmY';
     
     const moveElements = () => {

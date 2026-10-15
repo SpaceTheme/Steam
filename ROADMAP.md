@@ -100,18 +100,18 @@ My deadline is 1 April 2027, i planned to finish this theme until then. When i d
 - [ ] (WIP) Steam Settings
   - [x] Account
   - [x] Family
-  - [ ] Notifications
-  - [ ] Library
-  - [ ] Download
+  - [x] Notifications
+  - [x] Library
+  - [x] Download
   - [ ] Storage
-  - [ ] In Game
-  - [ ] Compatibility
-  - [ ] Accessibility
-  - [ ] Controller
-  - [ ] Game Recording
-  - [ ] Voice
-  - [ ] Remote Play
-  - [ ] Music
+  - [x] In Game
+  - [x] Compatibility
+  - [x] Accessibility
+  - [x] Controller
+  - [x] Game Recording
+  - [x] Voice
+  - [x] Remote Play
+  - [x] Music
 - [ ] (WIP) Inputs
   - [ ] (WIP) Button
   - [ ] Dropdown

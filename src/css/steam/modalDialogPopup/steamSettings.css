@@ -333,3 +333,158 @@ body .DialogBody ._3RNLmzBdpcg55exL2SwhT1 .DialogSettingsSection ._2LyGIHuQ8SFKb
     color: #fff;
     background-color: rgb(var(--st-green));
 }
+
+
+
+/*
+& Notifications
+*/
+/*
+! Client & Friend Notifications header
+*/
+body .DialogBody ._2zGUtyw-lRSsEUPY1qaqf7 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 24px 0 0;
+    border-top-left-radius: var(--st-border-radius);
+    border-top-right-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-2));
+}
+
+body .DialogBody ._2zGUtyw-lRSsEUPY1qaqf7 .SettingsDialogSubHeader {
+    border-radius: 0;
+    background: none;
+}
+
+/*^ Show Toast / Play Sound labels */
+body .DialogBody ._2zGUtyw-lRSsEUPY1qaqf7 ._27r3CjIYhU20TsukVgm25C {
+    padding-bottom: 6px;
+}
+
+
+/*
+! Flash window
+*/
+body .DialogBody .DialogControlsSection > ._1RCWDLVLFja1TdD1P53BMq {
+    margin: 0;
+    padding: 12px 12px 6px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: .5px;
+    border-top-left-radius: var(--st-border-radius);
+    border-top-right-radius: var(--st-border-radius);
+    color: #fff;
+    background-color: rgb(var(--st-color-2));
+}
+
+body .DialogBody .DialogControlsSection > .Panel > .Shared_Radio_Group {
+    margin: 0;
+    padding: 12px;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-3));
+}
+
+
+/*
+! Store News & Personal Activity
+*/
+body .DialogBody .kslgScf2gDsE4jgFDZHEW ._3yay2uMeJpDxY5cg2GaJp4 {
+    display: none;
+}
+
+/*^ Notify me via / Email / Toast / Mobile / Feed labels */
+body .DialogBody .kslgScf2gDsE4jgFDZHEW .HVw3CRf81mlOgayKXNIIB {
+    margin: -1px 0 0;
+    padding: 0 24px 6px;
+    background-color: rgb(var(--st-color-2));
+}
+
+/*^ Items full width with checkboxes on the right */
+body .DialogBody .kslgScf2gDsE4jgFDZHEW .Jgod1QRim6eNfvia2_3Ac ._2tALpM7z8naXJ35Pp5fNAG {
+    flex: 1;
+    width: 100%;
+}
+
+body .DialogBody .kslgScf2gDsE4jgFDZHEW .Jgod1QRim6eNfvia2_3Ac ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body .DialogBody .kslgScf2gDsE4jgFDZHEW .Jgod1QRim6eNfvia2_3Ac ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY .PSZtxj2h3MlyYv-c9dgke {
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+
+
+/*
+& Library
+*/
+/*
+! Display size
+*/
+body .DialogBody .DialogControlsSection > .DialogBodyText._2NyRKE2oI1jbaiJwFLf7CY {
+    margin: 0;
+    padding: 12px 12px 6px;
+    border-top-left-radius: var(--st-border-radius);
+    border-top-right-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-2));
+}
+
+body .DialogBody .DialogControlsSection > .Panel:has(+ ._3pM_dXquibd9REIjArfe7m) {
+    margin-bottom: 12px !important;
+    padding-bottom: 12px !important;
+    border-bottom-left-radius: var(--st-border-radius);
+    border-bottom-right-radius: var(--st-border-radius);
+}
+
+/*^ Separator */
+body .DialogBody .DialogControlsSection > ._3pM_dXquibd9REIjArfe7m {
+    display: none;
+}
+
+
+
+/*
+& Downloads
+*/
+/*
+! Game update timing
+*/
+body .DialogBody .DialogControlsSection > ._3Vl2zkYPoCpw1q_1n28D3z {
+    margin: -1px 0 0;
+    padding: 0 12px 6px;
+    background-color: rgb(var(--st-color-2));
+}
+
+/** Title */
+body .DialogBody .DialogControlsSection > ._3Vl2zkYPoCpw1q_1n28D3z > ._1RCWDLVLFja1TdD1P53BMq {
+    margin: 0;
+    padding: 12px 12px 1px;
+    font-weight: 500;
+    border-top-left-radius: var(--st-border-radius);
+    border-top-right-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-3));
+}
+
+/** Description */
+body .DialogBody .DialogControlsSection > ._3Vl2zkYPoCpw1q_1n28D3z > ._3w92Ej5Kq7nbt5WACQ6jwI {
+    margin: -1px 0 0;
+    padding: 6px 12px 0;
+    background-color: rgb(var(--st-color-3));
+}
+
+/** Dropdown & exceptions button */
+body .DialogBody .DialogControlsSection > ._3Vl2zkYPoCpw1q_1n28D3z > ._1m4hl8tdIUyt1rAnE4y5ZQ {
+    margin: -1px 0 0;
+    padding: 12px;
+    border-bottom-left-radius: var(--st-border-radius);
+    border-bottom-right-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-3));
+}

@@ -137,6 +137,9 @@ body .DialogHeader {
     margin: 0 !important;
     padding: 16px 16px 0;
 }
+body .DialogBody .DialogHeader {
+    padding: 0 0 16px;
+}
 
 
 /** Dialog subheader */
@@ -159,6 +162,11 @@ body .DialogBody .DialogBodyText:last-of-type {
     border-bottom-left-radius: var(--st-border-radius);
     border-bottom-right-radius: var(--st-border-radius);
 }
+/* Subheader in its own section followed by content */
+body .DialogControlsSection:not(:last-child) > .SettingsDialogSubHeader:only-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
 
 
 /** Dialog body */
@@ -169,23 +177,24 @@ body .DialogBody {
 }
 
 
-body .DialogBody .DialogControlsSection:not(:first-child),
-body .DialogBody .DialogControlsSectionHeader:not(:first-child),
-body .DialogBody .DialogHeader:not(:first-child),
-body .DialogBody .DialogSubHeader:not(:first-child) {
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogControlsSection:not(:first-child),
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogControlsSectionHeader:not(:first-child),
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogHeader:not(:first-child),
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogSubHeader:not(:first-child) {
     margin-top: 0 !important;
 }
 
 /*^ Dialog control sections */
 body .DialogBody > .Panel,
-body .DialogBody .DialogControlsSection>.Panel {
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogControlsSection>.Panel {
     margin-top: -1px !important;
     padding: 0 12px 6px !important;
     background-color: rgb(var(--st-color-2));
     transform: unset;
 }
 body .DialogBody > .Panel:first-child,
-body .DialogBody .DialogControlsSection>.Panel:first-child {
+body .DialogBody > .DialogControlsSection + .Panel,
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogControlsSection>.Panel:first-child {
     padding-top: 12px !important;
     border-top-left-radius: var(--st-border-radius);
     border-top-right-radius: var(--st-border-radius);
@@ -193,44 +202,136 @@ body .DialogBody .DialogControlsSection>.Panel:first-child {
 body .DialogBody > .Panel:has(+ .DialogControlsSection),
 body .DialogBody > .Panel:has(+ .SettingsDialogSubHeader),
 body .DialogBody > .Panel:last-of-type,
-body .DialogBody .DialogControlsSection > .Panel:has(+ .SettingsDialogSubHeader),
-body .DialogBody .DialogControlsSection > .Panel:last-of-type {
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogControlsSection > .Panel:has(+ .SettingsDialogSubHeader),
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogControlsSection > .Panel:last-of-type {
+    margin-bottom: 12px !important;
+    padding-bottom: 12px !important;
+    border-bottom-left-radius: var(--st-border-radius);
+    border-bottom-right-radius: var(--st-border-radius);
+}
+/* Items wrapped in a div inside sections (e.g. collapsible options) */
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogControlsSection > div:not(.Panel):has(> .eKmEXJCm_lgme24Fp_HWt) {
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogControlsSection > div:not(.Panel) > .eKmEXJCm_lgme24Fp_HWt {
+    margin: -1px 0 0 !important;
+    padding: 0 12px 6px !important;
+    background-color: rgb(var(--st-color-2));
+    transform: unset;
+}
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogControlsSection > div:not(.Panel):last-child > .eKmEXJCm_lgme24Fp_HWt:last-child {
     margin-bottom: 12px !important;
     padding-bottom: 12px !important;
     border-bottom-left-radius: var(--st-border-radius);
     border-bottom-right-radius: var(--st-border-radius);
 }
 
+/* Wrapper panel around sections */
+body .DialogBody > .Panel:has(> .DialogControlsSection) {
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 0;
+    background: none;
+}
+
+/*^ Section description */
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .DialogControlsSection ._3w92Ej5Kq7nbt5WACQ6jwI {
+    margin: -1px 0 0;
+    padding: 0 12px 6px;
+    background-color: rgb(var(--st-color-2));
+}
+
 /*^ Dialog control items */
-body .DialogBody .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY {
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY {
     position: relative;
     padding: 12px 12px 1px;
     border-top-left-radius: var(--st-border-radius);
     border-top-right-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-3));
 }
-body .DialogBody .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG:not(:has(._1W1to_azoBRG95oNAFpf9Q)) ._2VcTlXFC64Jtg9gvtT6cmY {
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG:not(:has(> ._1W1to_azoBRG95oNAFpf9Q)) ._2VcTlXFC64Jtg9gvtT6cmY {
     padding: 12px;
     border-bottom-left-radius: var(--st-border-radius);
     border-bottom-right-radius: var(--st-border-radius);
 }
-body .DialogBody .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY:has(.SliderControlPanelGroup) {
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY:has(.SliderControlPanelGroup) {
     flex-direction: column;
     gap: 0;
     align-items: unset;
 }
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY:has(.SliderControlPanelGroup) :is(.PSZtxj2h3MlyYv-c9dgke, ._1aw7cA3mAZfWt8idAlVJWi, ._2o2fXzn99OddeqZMjbDuxQ, .SliderControlPanelGroup) {
+    flex: 1;
+    width: 100%;
+    max-width: none;
+}
 
 /* Title */
-body .DialogBody .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo {
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo {
     font-weight: 500;
 }
 
-body .DialogBody .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG ._1W1to_azoBRG95oNAFpf9Q {
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG > ._1W1to_azoBRG95oNAFpf9Q {
     margin: -1px 0 0;
     padding: 6px 12px 12px;
     border-bottom-left-radius: var(--st-border-radius);
     border-bottom-right-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-3));
+}
+
+/* Slider items with description */
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt._37xzVt6arvEzyNdW5GxK8f ._2tALpM7z8naXJ35Pp5fNAG {
+    gap: 0;
+}
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt._37xzVt6arvEzyNdW5GxK8f ._2tALpM7z8naXJ35Pp5fNAG ._2VcTlXFC64Jtg9gvtT6cmY {
+    margin: 0;
+}
+
+/* Radio groups */
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._2yIYlyTI_p0fKMvIIjaAwC,
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._2yIYlyTI_p0fKMvIIjaAwC > .Panel,
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY .Shared_Radio_Group {
+    margin: 0;
+    padding: 0;
+}
+
+/* Items without title (e.g. microphone test, remote play presets) */
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG:empty {
+    display: none;
+}
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt:has(> .PSZtxj2h3MlyYv-c9dgke) {
+    display: flex !important;
+}
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt > .PSZtxj2h3MlyYv-c9dgke,
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG:not(:has(> ._2VcTlXFC64Jtg9gvtT6cmY)) > ._1aw7cA3mAZfWt8idAlVJWi {
+    flex: 1 1 100% !important;
+    box-sizing: border-box;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0;
+    padding: 12px;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-3));
+}
+
+/*^ Button groups (e.g. remote play presets) */
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG:not(:has(> ._2VcTlXFC64Jtg9gvtT6cmY)) > ._1aw7cA3mAZfWt8idAlVJWi ._2o2fXzn99OddeqZMjbDuxQ,
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG:not(:has(> ._2VcTlXFC64Jtg9gvtT6cmY)) > ._1aw7cA3mAZfWt8idAlVJWi ._2XSsNSGcWjGZ6z3fvqaRd5 {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    max-width: none !important;
+}
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG:not(:has(> ._2VcTlXFC64Jtg9gvtT6cmY)) > ._1aw7cA3mAZfWt8idAlVJWi ._2XSsNSGcWjGZ6z3fvqaRd5 ._2LQjjxR3ZOcEZU73abIsw- {
+    flex: 1 1 0 !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+}
+body :is(.DialogBody, .MillenniumDesktopSidebar_EditorContent) .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG:not(:has(> ._2VcTlXFC64Jtg9gvtT6cmY)) > ._1aw7cA3mAZfWt8idAlVJWi ._2XSsNSGcWjGZ6z3fvqaRd5 ._2LQjjxR3ZOcEZU73abIsw- .DialogButton {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
 }
 
 
