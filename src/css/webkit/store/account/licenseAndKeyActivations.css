@@ -1,0 +1,154 @@
+.account .youraccount_page {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*
+& Page Navigator
+*/
+.account .youraccount_page .license_paginator_ctn {
+    gap: 6px;
+    justify-content: center;
+    padding: 12px;
+    border-radius: var(--st-border-radius) var(--st-border-radius) 0 0;
+    background-color: rgb(var(--st-color-2));
+}
+
+
+/** Text */
+.account .youraccount_page .license_paginator_ctn span {
+    color: #9c9c9c;
+}
+
+
+/** Next button */
+.account .youraccount_page .license_paginator_ctn .license_paginator_next {
+    padding: 0;
+    font-size: 0;
+    background: unset;
+}
+
+/*^ Icon */
+.account .youraccount_page .license_paginator_ctn .license_paginator_next::before {
+    content: "\f26a";
+    font-size: 22px;
+    color: #9c9c9c;
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.account .youraccount_page .license_paginator_ctn .license_paginator_next:hover::before {
+    color: #fff;
+}
+
+.account .youraccount_page .license_paginator_ctn .license_paginator_next img {
+    display: none;
+}
+
+
+
+/*
+& List
+*/
+.account .youraccount_page .account_table_ctn {
+    border: unset;
+}
+
+.account .youraccount_page .account_table tbody {
+    display: flex;
+    flex-direction: column;
+}
+
+/** Header */
+.account .youraccount_page .account_table tr:nth-child(1) {
+    display: flex;
+    margin-bottom: 6px;
+    padding: 0 16px 12px;
+    line-height: unset;
+    border: 0;
+    border-radius: 0 0 var(--st-border-radius) var(--st-border-radius);
+    background-color: rgb(var(--st-color-2));
+}
+
+.account .youraccount_page .account_table tr:nth-child(1) th {
+    flex: 1;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: unset;
+}
+.account .youraccount_page .account_table tr:nth-child(1) th.license_date_col,
+.account .youraccount_page .account_table tr:nth-child(1) th.license_acquisition_col {
+    text-align: unset;
+}
+.account .youraccount_page .account_table tr:nth-child(1) th.license_acquisition_col {
+    margin: 0 calc(32px + 12px) 0 12px;
+}
+
+
+/** Items */
+.account .youraccount_page .account_table tr {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-bottom: 6px;
+    padding: 12px 16px;
+    line-height: unset;
+    border: unset;
+    background-color: rgb(var(--st-color-4));
+}
+
+.account .youraccount_page .account_table td {
+    flex: 1;
+    padding: 0;
+}
+.account .youraccount_page .account_table td.license_date_col,
+.account .youraccount_page .account_table td.license_acquisition_col {
+    text-align: unset;
+}
+.account .youraccount_page .account_table td.license_acquisition_col {
+    margin: 0 calc(32px + 12px) 0 12px;
+}
+
+/*^ Remove button */
+.account .youraccount_page .account_table td .free_license_remove_link {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    width: 32px;
+    height: 32px;
+    transform: translateY(-50%);
+}
+
+.account .youraccount_page .account_table td .free_license_remove_link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    font-size: 0;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-red), .4);
+}
+.account .youraccount_page .account_table td .free_license_remove_link a:hover {
+    background-color: rgb(var(--st-red-hover), .4);
+}
+.account .youraccount_page .account_table td .free_license_remove_link a::before {
+    content: "\f34d";
+    font-size: 18px;
+    color: rgb(var(--st-red));
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}

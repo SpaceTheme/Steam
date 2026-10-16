@@ -11,6 +11,16 @@
 @import url("./webkit/store/stats.css");
 @import url("./webkit/store/wishlist.css");
 
+/*^ Account */
+@import url("./webkit/store/account/account.css");
+@import url("./webkit/store/account/addFunds.css");
+@import url("./webkit/store/account/cartHistory.css");
+@import url("./webkit/store/account/giftCards.css");
+@import url("./webkit/store/account/licenseAndKeyActivations.css");
+@import url("./webkit/store/account/manageSubscriptions.css");
+@import url("./webkit/store/account/purchaseHistory.css");
+@import url("./webkit/store/account/redeem.css");
+
 
 /** Community */
 /*^ Home */
