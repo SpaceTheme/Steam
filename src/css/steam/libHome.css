@@ -197,7 +197,7 @@
     opacity: 1;
     width: 100%;
     margin: 0 0 16px;
-    padding: 8px;
+    padding: 12px;
     border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
