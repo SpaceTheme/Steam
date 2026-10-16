@@ -1,0 +1,6 @@
+/*
+& Header
+*/
+.account .page_header_ctn:has(.breadcrumbs) {
+    display: none;
+}
