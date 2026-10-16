@@ -141,6 +141,8 @@
     position: absolute;
     top: -18px;
     left: 0;
+    font-weight: 400;
+    color: #67707b;
 }
 
 /* Cards */
@@ -395,6 +397,12 @@
     padding-bottom: 16px;
 }
 
+/* Day text */
+._1esfEVxhqNfh8fzr_kEGKa ._1ANYFgwMyPpwJjIndAdGSr {
+    font-weight: 400;
+    color: #67707b;
+}
+
 
 /*
 ! Slider Shelf last item
@@ -443,6 +451,10 @@
 }
 
 /* Info */
+._2XftMcBO9aY7VXCivzuW7- {
+    margin-top: 3px;
+}
+
 ._2XftMcBO9aY7VXCivzuW7-:has(._3VOR2AeYATx3qSE0I-Pm-5),
 ._2AcrNSWTpZfTiTG4z0ZQpk:has(._3VOR2AeYATx3qSE0I-Pm-5) {
     width: -webkit-fill-available !important;
