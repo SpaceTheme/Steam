@@ -145,6 +145,7 @@ My deadline is 1 April 2027, i planned to finish this theme until then. When i d
 - [ ] Recordings & Screenshots
 - [ ] (WIP) Special Offers
 - [ ] Change preferred copy window
+- [ ] (WIP) Play on another device with Remote Play window
 - [ ] Game server window
 - [ ] Players window
 - [ ] Add non-steam game window
