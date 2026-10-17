@@ -639,6 +639,18 @@
                 }
             }
         },
+        "Links panel buttons": {
+            "description": "Show the links in the links panel (Store Page, DLC, Community Hub, ...) in full width",
+            "default": "no",
+            "tab": "Library",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/linksButtonFullWidth.css"}
+                }
+            }
+        },
         "Sidebar on left": {
             "description": "Changes the sidebar on the game page from right to left",
             "default": "no",

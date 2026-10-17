@@ -41,7 +41,7 @@ My deadline is 1 April 2027, i planned to finish this theme until then. When i d
 - [ ] (WIP) Gamepage rework/improvements
   - [x] Playbar panel
   - [ ] Info panel
-  - [ ] Links panel
+  - [x] Links panel
   - [ ] Check out the full game panel
   - [ ] Activity
     - [ ] Input

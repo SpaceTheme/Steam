@@ -180,11 +180,10 @@
 
 
 /*
-& Gamepage info bar
+& Gamepage play bar
 */
-
 /*
-! Better Sticky info bar
+! Better Sticky play bar
 */
 ._2L3s2nzh7yCnNESfI5_dN1.jnXtv79jL6SXXwlJYPtQz {
     z-index: -999;
@@ -470,10 +469,11 @@
 
 
 /*
-! Gamepage game links bar
-*/  /*todo: add comments*/
+& Gamepage game links bar
+*/
 ._2r4TK4BAuU-J4FuF_O7v_5 {
     z-index: unset !important;
+    margin: 0;
     padding: 0;
 }
 
@@ -491,28 +491,36 @@
 
 ._3-V8vjmrwuJM6Ws3tsjFJj .DgVQapkBmhAW6oPY5rPZo {
     display: flex;
+    gap: 6px;
     height: unset !important;
 }
 
 
+/*
+! Links button
+*/
 ._7k4qmaN8SUMvv6u-L81uk {
     position: unset;
-    margin-right: 6px;
+    margin-right: 0;
     padding: 0;
 }
 
-.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ {
+._7k4qmaN8SUMvv6u-L81uk .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ {
     padding: 6px 12px;
     border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-4));
 }
-.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover {
+._7k4qmaN8SUMvv6u-L81uk .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover {
     background-color: rgb(var(--st-color-3));
 }
 
-._1bIMOmWaxKrMdVMWU21ku {
-    position: absolute;
-    right: 0;
+/** Text */
+._7k4qmaN8SUMvv6u-L81uk .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ ._2sNDjgK9EWiPLdNGkjun-w {
+    font-weight: 500;
+    color: #666666;
+}
+._7k4qmaN8SUMvv6u-L81uk .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover ._2sNDjgK9EWiPLdNGkjun-w {
+    color: #fff;
 }
 
 
