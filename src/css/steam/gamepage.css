@@ -265,6 +265,7 @@
     min-width: 180px;
     gap: 6px;
     justify-content: flex-start;
+    margin-right: 12px;
     padding: 12px 16px;
     background: unset;
     background-color: rgb(var(--st-blue));
@@ -296,7 +297,7 @@
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX ._33cnXIqTRgRr49_FNXIHj6 {
-    font-weight: 500;
+    font-weight: 600;
     line-height: 20px;
     letter-spacing: 0;
 }
@@ -328,14 +329,54 @@
 
 
 /*
-! Achievements progressbar
+! Info
 */
-._25YVDTaClw6Y2COPsU0UaV {
-    background-color: rgb(var(--st-background));
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws {
+    gap: 16px;
+    align-items: center;
 }
 
-._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6 {
-    background-color: rgb(var(--st-accent-1));
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws>div:not(:has(*)) {
+    display: none;
+}
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._1kiZKVbDe-9Ikootk57kpA {
+    margin: 0;
+    padding: 0;
+}
+
+
+/** Icons */
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._1tIg-QIrwMNtCm7NcYADyi,
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._3bkqc-SsCg0b3FTEuewlK8 {
+    display: none;
+}
+
+
+/** Content */
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._1kiZKVbDe-9Ikootk57kpA ._3m_zjRTQBqcfzCjXLXUHcR {
+    flex-direction: column-reverse;
+    padding: 0;
+}
+
+/*^ Info content */
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._3m_zjRTQBqcfzCjXLXUHcR ._2TYVGoD27ZMfjRirKQNLfk {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/*^ Info title */
+._3Y87YQY56ZCOqhgcZFaDc5 ._1mDAVT4sTzFRwJtlKCw2Ws ._3m_zjRTQBqcfzCjXLXUHcR ._34lrt5-Fc3usZU6trA1P0- {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: normal;
+    color: #666666;
+}
+
+
+/*^ Achievements progressbar */
+._25YVDTaClw6Y2COPsU0UaV {
+    display: none;
 }
 
 
@@ -348,12 +389,28 @@
 
 .lO1IF132jJ1gc9yz2HYvV ._3qDWQGB0rtwM3qpXTb11Q- {
     margin: 0;
-    padding: 6px;
-    border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
 }
 .lO1IF132jJ1gc9yz2HYvV ._3qDWQGB0rtwM3qpXTb11Q-:hover {
     background-color: rgb(var(--st-color-3));
+}
+
+
+/*
+! From you Steam library
+*/
+._3Y87YQY56ZCOqhgcZFaDc5 .z8GYwNt_nbBZrf7OVjs-s {
+    gap: 6px;
+    min-height: unset;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/** Button */
+._3Y87YQY56ZCOqhgcZFaDc5 .z8GYwNt_nbBZrf7OVjs-s ._2g3Gley034M1ZGhcq005s {
+    font-weight: 600 !important;
 }
 
 
