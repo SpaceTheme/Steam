@@ -488,3 +488,23 @@ body .DialogBody .DialogControlsSection > ._3Vl2zkYPoCpw1q_1n28D3z > ._1m4hl8tdI
     border-bottom-right-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-3));
 }
+
+
+
+/*
+& In Game
+*/
+/*
+! Toolbar Preferences
+*/
+body .DialogBody .DialogControlsSection div[data-rbd-droppable-id="tablist"]:has(._3e--AJv1pErMz7ete-Hprz.eKmEXJCm_lgme24Fp_HWt) {
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-radius: 0 0 var(--st-border-radius) var(--st-border-radius);
+    background-color: rgb(var(--st-color-2));
+}
+
+body .DialogBody .DialogControlsSection ._3e--AJv1pErMz7ete-Hprz.eKmEXJCm_lgme24Fp_HWt {
+    padding: 0 12px 6px;
+    background-color: unset;
+}

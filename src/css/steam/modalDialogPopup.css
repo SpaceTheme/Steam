@@ -174,7 +174,9 @@ body .DialogControlsSection:not(:last-child) > .SettingsDialogSubHeader:only-chi
 body .DialogBody {
     overflow: overlay !important;
     padding: 16px !important;
-    -webkit-mask-image: linear-gradient(to bottom, transparent, black 16px), linear-gradient(to left, black 0px 14px, transparent 14px) !important;
+    /*! Remove when other things breaks */
+    -webkit-mask-image: unset !important;
+    /*-webkit-mask-image: linear-gradient(to bottom, transparent, black 16px), linear-gradient(to left, black 0px 14px, transparent 14px) !important;*/
 }
 
 
