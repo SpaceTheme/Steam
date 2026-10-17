@@ -38,7 +38,25 @@ My deadline is 1 April 2027, i planned to finish this theme until then. When i d
 
 ## Library
 - [ ] (WIP) Collection page
-- [ ] Gamepage rework
+- [ ] (WIP) Gamepage rework/improvements
+  - [x] Playbar panel
+  - [ ] Info panel
+  - [ ] Links panel
+  - [ ] Check out the full game panel
+  - [ ] Activity
+    - [ ] Input
+    - [ ] (WIP) Feed
+  - [ ] Side content
+    - [ ] Friends who play
+    - [ ] Additional content
+    - [ ] Achievements
+    - [ ] Notes
+    - [ ] Steam workshop
+    - [ ] Trading cards
+    - [ ] DLC
+    - [ ] Recordings and screenshots
+    - [ ] My review
+  - [ ] Community content section
 
 ## Community
 - [ ] Home
@@ -124,7 +142,8 @@ My deadline is 1 April 2027, i planned to finish this theme until then. When i d
   - [x] Radiogroup
   - [ ] (WIP) Range
 - [ ] Recordings & Screenshots
-- [x] Special Offers
+- [ ] (WIP) Special Offers
+- [ ] Change preferred copy window
 - [ ] Game server window
 - [ ] Players window
 - [ ] Add non-steam game window
