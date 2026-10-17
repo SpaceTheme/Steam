@@ -47,6 +47,7 @@ My deadline is 1 April 2027, i planned to finish this theme until then. When i d
     - [ ] Input
     - [ ] (WIP) Feed
   - [ ] Side content
+    - [ ] Controller
     - [ ] Friends who play
     - [ ] Additional content
     - [ ] Achievements
