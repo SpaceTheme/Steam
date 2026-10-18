@@ -198,6 +198,18 @@
                 }
             }
         },
+        "Settings button": {
+            "description": "Hide Settings button from userpanel",
+            "default": "no",
+            "tab": "General",
+            "section": "Userpanel",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/userpanel/buttons/stSettings.css" }
+                }
+            }
+        },
 
         "Font": {
             "description": "Use a different font for the SteamUI",
