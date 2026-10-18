@@ -45,3 +45,12 @@
 #st-loading-div {
     background-color: rgba(10,10,10) !important;
 }
+
+
+
+/*
+& Library Dropdown
+*/
+body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
+    backdrop-filter: blur(4px) !important;
+}
