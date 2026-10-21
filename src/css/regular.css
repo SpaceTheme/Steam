@@ -103,7 +103,8 @@ body .avatarHolder:has(.avatarFrame) {
 }
 
 
-body .avatarHolder .avatarStatus.right {
+body .avatarHolder .avatarStatus.right,
+body .avatarHolder .avatarStatus.bottom {
     display: none !important;
 }
 
