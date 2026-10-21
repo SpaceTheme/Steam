@@ -475,6 +475,7 @@
         },
 
 
+
         "Steam-Custom-Artworks Support": {
             "description": "The best support for [url=https://spacetheme.net/#steam-custom-artworks]https://spacetheme.net/#steam-custom-artworks[/url]",
             "default": "no",
@@ -528,18 +529,45 @@
             }
         },
         "Darken not installed games": {
-            "description": "Darkens game cards when they are not installed",
-            "default": "yes",
+            "description": "Darkens game cards when they are not installed. 20% means darken 100% no darken \n[i]Default: 60%[/i]",
+            "default": 60,
             "tab": "Library",
-            "section": "Home",
-            "values": {
-                "no": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/home/undarkUninstalled.css" }
-                },
-                "yes": {}
+            "section": "Other",
+            "slider": {
+                "cssVariable": "--st-darken-not-installed",
+                "min": 20,
+                "max": 100,
+                "step": 10,
+                "unit": "%"
+            }
+        },
+        "Darken installed games": {
+            "description": "Darkens game cards when they are installed. 20% means darken 100% no darken \n[i]Default: 100%[/i]",
+            "default": 100,
+            "tab": "Library",
+            "section": "Other",
+            "slider": {
+                "cssVariable": "--st-darken-installed",
+                "min": 20,
+                "max": 100,
+                "step": 10,
+                "unit": "%"
             }
         },
 
+        "Darken gamepage banner": {
+            "description": "Darkens game banners when they are installed. 20% means darken 100% no darken \n[i]Default: 100%[/i]",
+            "default": 100,
+            "tab": "Library",
+            "section": "Gamepage",
+            "slider": {
+                "cssVariable": "--st-darken-banner",
+                "min": 20,
+                "max": 100,
+                "step": 10,
+                "unit": "%"
+            }
+        },
         "Banner position": {
             "description": "Change the position of the banner (applies to all banners)",
             "default": "Middle (default)",

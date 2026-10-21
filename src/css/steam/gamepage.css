@@ -34,6 +34,7 @@
     overflow: hidden;
     height: 100%;
     border-radius: var(--st-border-radius);
+    filter: brightness(var(--st-darken-banner));
 }
 .HNbe3eZf6H7dtJ042x1vM {
     width: 100%;

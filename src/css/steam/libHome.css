@@ -509,10 +509,6 @@
 /*
 ! Game card
 */
-._1pwP4eeP1zQD7PEgmsep0W:has(.mA39Hqv8LacDppegb_Q_Z) {
-    opacity: .6;
-}
-
 .WYgDg9NyCcMIVuMyZ_NBC {
     border: none;
     border-radius: var(--st-border-radius);
@@ -520,6 +516,15 @@
 
 ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
     border-radius: var(--st-border-radius);
+}
+
+/* Images */
+.WYgDg9NyCcMIVuMyZ_NBC img {
+    filter: brightness(var(--st-darken-installed));
+}
+
+.WYgDg9NyCcMIVuMyZ_NBC:has(.mA39Hqv8LacDppegb_Q_Z) img {
+    filter: brightness(var(--st-darken-not-installed));
 }
 
 /* New to library */
@@ -641,9 +646,6 @@
     width: calc(100% - 38px);
     margin-right: 30px;
 }
-
-
-
 
 /* Playtime/Date etc. */
 ._1LJqx_qFOC8199RBQO5kU8 {
