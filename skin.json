@@ -532,7 +532,7 @@
             "description": "Darkens game cards when they are not installed. 20% means darken 100% no darken \n[i]Default: 60%[/i]",
             "default": 60,
             "tab": "Library",
-            "section": "Other",
+            "section": "Home",
             "slider": {
                 "cssVariable": "--st-darken-not-installed",
                 "min": 20,
@@ -545,7 +545,7 @@
             "description": "Darkens game cards when they are installed. 20% means darken 100% no darken \n[i]Default: 100%[/i]",
             "default": 100,
             "tab": "Library",
-            "section": "Other",
+            "section": "Home",
             "slider": {
                 "cssVariable": "--st-darken-installed",
                 "min": 20,
@@ -652,6 +652,18 @@
                 "no": {},
                 "yes": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/playbarCenterPlayButton.css" }
+                }
+            }
+        },
+        "Hide playbar info icons": {
+            "description": "Hides the icons that are displayed in the playbar for the infos like playtime/...",
+            "default": "yes",
+            "tab": "Library",
+            "section": "Gamepage",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/hideIconsInPlayPanel.css" }
                 }
             }
         },
