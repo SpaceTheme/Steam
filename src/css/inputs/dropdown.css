@@ -48,15 +48,22 @@
 /*
 ! Dropdown menu
 */
-.DesktopUI .DialogMenuPosition.visible ._DialogInputContainer {
-    overflow-x: auto !important;
-    min-width: unset !important;
-    max-height: 90% !important;
-    padding: 6px !important;
+.DesktopUI .DialogMenuPosition.visible:has(> ._DialogInputContainer) {
+    box-sizing: border-box !important;
+    overflow: auto !important;
     border: 3px solid rgb(var(--st-color-5)) !important;
     border-radius: var(--st-border-radius) !important;
-    background: unset !important;
     background-color: rgb(var(--st-color-3)) !important;
+}
+
+.DesktopUI .DialogMenuPosition.visible ._DialogInputContainer {
+    overflow: visible !important;
+    min-width: unset !important;
+    max-height: none !important;
+    padding: 6px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background: unset !important;
 }
 
 
