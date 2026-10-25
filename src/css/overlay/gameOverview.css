@@ -1,0 +1,121 @@
+.st-overlay-GameOverview .C9tvuqqEXGcrkcAtHrQ_R._290hvyptb3mP0rOSaapjgZ {
+    height: -webkit-fill-available;
+    padding: 0;
+    background: unset;
+}
+
+
+
+/*
+& Title Bar
+*/
+.st-overlay-GameOverview ._2O7tjQ9VWj5nhZ0y-pdpX2,
+.st-overlay-GameOverview ._2heIyaBp5LdaF76WpjYU4R {
+    display: none !important;
+}
+
+
+
+/*
+& List
+*/
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l {
+    gap: 6px;
+    margin: 0 12px 12px;
+    padding: 0;
+    background: unset;
+}
+
+
+/*
+! Content Items
+*/
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l>div:not(:has(*)) {
+    display: none;
+}
+
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    padding: 12px;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-3));
+}
+
+
+/** Header */
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._2wBK7MqJSrj6QCxf3357yL {
+    justify-content: unset;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: unset;
+    background: unset;
+}
+
+/*^ Icons */
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._2wBK7MqJSrj6QCxf3357yL svg {
+    display: none;
+}
+
+
+/** Content */
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._17TJ4vdOZjHL-bjbRUKzxp {
+    gap: 6px;
+    padding: 0 !important;
+}
+
+/*^ Playtime */
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._1g_TUEp_Z0N96bj-QwdYKO {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._1g_TUEp_Z0N96bj-QwdYKO>div {
+    display: flex;
+    justify-content: center;
+    width: -webkit-fill-available;
+    padding: 12px;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-2));
+}
+
+/*^ Your Screenshots */
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l .ZLlpmN3vSIU5A2UxyOrsd {
+    gap: 12px;
+    padding: 12px;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-2));
+}
+
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l .ZLlpmN3vSIU5A2UxyOrsd .f99W0tT-JFL_k2wpg5n07 {
+    display: flex;
+    margin: 0;
+}
+
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l .ZLlpmN3vSIU5A2UxyOrsd .f99W0tT-JFL_k2wpg5n07 img {
+    width: 100%;
+    max-width: unset;
+    border: unset;
+    border-radius: var(--st-border-radius);
+}
+
+/*^ Guide items */
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._2OwqXw1nhBL430bsYTeEr- {
+    gap: 12px;
+    margin: 0;
+    padding: 12px;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-2));
+}
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._2OwqXw1nhBL430bsYTeEr-:hover {
+    background-color: rgb(var(--st-color-4));
+}

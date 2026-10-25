@@ -1,19 +1,4 @@
-@import url("./overlay/achievements.css");
-@import url("./overlay/clock.css");
-@import url("./overlay/controllerSettings.css");
-@import url("./overlay/discussions.css");
-@import url("./overlay/dlc.css");
-@import url("./overlay/friends.css");
-@import url("./overlay/gameOverview.css");
-@import url("./overlay/guides.css");
-@import url("./overlay/notes.css");
-@import url("./overlay/recording.css");
-@import url("./overlay/screenshotManager.css");
-@import url("./overlay/settings.css");
-@import url("./overlay/webBrowser.css");
-
-
-
+/* The overlay windows are separate popups, their styles are imported in regular.css */
 body.QsvsRVwbsApgKt1MhM0fz.DesktopUI {
     background: radial-gradient(#000000aa, #000000ee);
 }
@@ -95,6 +80,11 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
     border-radius: calc(var(--st-border-radius) * 2);
 }
 
+/* Minimize windows (overlay.js turns a copy of it into the home button) and the windows that live in home */
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n > :is(:last-child, :has(> :is(.GameOverview, .Notes))) {
+    display: none;
+}
+
 
 
 /*
@@ -155,12 +145,15 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
     height: 200px;
     padding: 0;
     border-radius: var(--st-border-radius);
-    background: linear-gradient(180.00deg, rgb(var(--st-accent-1), .6),rgb(var(--st-color-1)) 112%);
+    background-image: var(--st-game-hero, none), linear-gradient(180.00deg, rgb(var(--st-accent-1), .6),rgb(var(--st-color-1)) 112%);
+    background-position: center;
+    background-size: cover;
 }
 
 
 .fi6UDkxJq66MLo2z9wabQ .iu7jaxFxWk1sYge_kwKmz._3KwfoP3QLtY80hx0gtZBZ4 ._3d_bT685lnWotXxgzKW6am {
-    transform: scale(.5);
+    max-width: 400px;
+    max-height: 160px;
 }
 
 
@@ -169,13 +162,29 @@ body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
 */
 .fi6UDkxJq66MLo2z9wabQ .vCykYvbW9JAoUuOZK3L8M {
     position: relative;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding-top: 32px;
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
     border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
+
+
+/* Home, overlay.js puts each home window on its slot */
+.fi6UDkxJq66MLo2z9wabQ .vCykYvbW9JAoUuOZK3L8M .st-overlay-home {
+    display: grid;
+    grid-template:
+        "overview" 1fr
+        "notes" 1fr;
+    flex: 1;
+    align-self: stretch;
+    margin: 16px 0 64px;
+}
+.st-overlay-home [data-st-overlay-slot="GameOverview"] { grid-area: overview; }
+.st-overlay-home [data-st-overlay-slot="GameNotes"] { grid-area: notes; }
 
 
 /* Time */

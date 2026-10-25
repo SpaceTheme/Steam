@@ -317,7 +317,8 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^SP Overlay:"], "src": "src/css/overlay.custom.css" }
+                    "TargetCss": { "affects": ["^SP Overlay:"], "src": "src/css/overlay.custom.css" },
+                    "TargetJs": { "affects": [".*"], "src": "src/js/overlay.js" }
                 }
             }
         },

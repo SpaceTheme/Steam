@@ -85,4 +85,10 @@ export const CssClassNames = {
         FamilyButton: '._13vrqU6oOqmmxrsZSW5O39',
     },
     DownloadBar: '._1_yS5UP7el0aN4vntx3dx',
+    Overlay: {
+        Clock: '.vCykYvbW9JAoUuOZK3L8M',
+        Sidebar: '.fbu3l7kPiBeb3EKCjIb8n',
+        ActiveButton: '._1BXjK5v8XI_SEhGola5ftn',
+        PinnedButton: '._3EcEdRFCaMHk3xQ16qirtm._1dJ6yrpvLYTTBOt2IhFPua',
+    },
 };

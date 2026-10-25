@@ -1,6 +1,21 @@
 @import url("./inputs/inputs.css");
 @import url("./steam/modalDialogPopup.css");
 
+/* Game overlay windows, every window loads these, so scope rules with .st-overlay-<type> (see overlay.js) */
+@import url("./overlay/achievements.css");
+@import url("./overlay/clock.css");
+@import url("./overlay/controllerSettings.css");
+@import url("./overlay/discussions.css");
+@import url("./overlay/dlc.css");
+@import url("./overlay/friends.css");
+@import url("./overlay/gameOverview.css");
+@import url("./overlay/guides.css");
+@import url("./overlay/notes.css");
+@import url("./overlay/recording.css");
+@import url("./overlay/screenshotManager.css");
+@import url("./overlay/settings.css");
+@import url("./overlay/webBrowser.css");
+
 
 
 /* Scrollbar */
@@ -37,6 +52,29 @@
 }
 div.ModalPosition_TopBar {
     display: none;
+}
+
+/* Docked overlay windows stay where overlay.js puts them, only pinned ones can be dragged and resized */
+.st-overlay-window:not(:has(._3EcEdRFCaMHk3xQ16qirtm._1dJ6yrpvLYTTBOt2IhFPua)) :is(.title-area, .title-area-children) {
+    -webkit-app-region: no-drag;
+}
+/* visibility, not display: Steam sizes the native grip from this element's position */
+.st-overlay-window:not(:has(._3EcEdRFCaMHk3xQ16qirtm._1dJ6yrpvLYTTBOt2IhFPua)) .window_resize_grip {
+    visibility: hidden;
+}
+/* Windows that size themselves to their content fill their spot instead */
+.st-overlay-window:not(:has(._3EcEdRFCaMHk3xQ16qirtm._1dJ6yrpvLYTTBOt2IhFPua)) .PopupFullWindow.FitToContent {
+    width: 100%;
+    height: 100%;
+}
+
+/* Overlay windows sit on the overlay clock box, so they get its corners */
+.st-overlay-window:has(.title-area) body {
+    clip-path: inset(0 round var(--st-border-radius));
+}
+/* The friends list window isn't transparent, so its corners show the overlay panel colour instead */
+.st-overlay-friendslist {
+    background-color: rgb(var(--st-color-1));
 }
 
 /* Buttons */
