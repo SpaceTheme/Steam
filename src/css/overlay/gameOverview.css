@@ -35,6 +35,7 @@
 }
 
 .st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -114,8 +115,33 @@
     margin: 0;
     padding: 12px;
     border-radius: var(--st-border-radius);
+    color: #fff !important;
     background-color: rgb(var(--st-color-2));
 }
 .st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._2OwqXw1nhBL430bsYTeEr-:hover {
     background-color: rgb(var(--st-color-4));
+}
+
+/* Text */
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._2OwqXw1nhBL430bsYTeEr- ._1MjGj-PnZrDcvW3E-icWTI {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Stars */
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._2OwqXw1nhBL430bsYTeEr- ._1lO3nzLgKqAhfY2uJwky4f {
+    color: rgb(var(--st-accent-1));
+}
+
+/*^ Players */
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6:has(._2fYjCJSwdJxdjbi7ysISdL) ._2wBK7MqJSrj6QCxf3357yL {
+    align-items: center;
+    height: 32px;
+}
+
+/* Button */
+.st-overlay-GameOverview ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6:has(._2fYjCJSwdJxdjbi7ysISdL) ._17TJ4vdOZjHL-bjbRUKzxp {
+    position: absolute;
+    top: 12px;
+    right: 12px;
 }
