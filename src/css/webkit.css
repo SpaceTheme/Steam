@@ -896,7 +896,8 @@ html body.v6 .ds_wishlist_flag::before {
 & Carousel container
 */
 .carousel_container .carousel_thumbs,
-.carousel ._3HjnEmKg66o82ah74EIvmq {
+.carousel ._3HjnEmKg66o82ah74EIvmq,
+.carousel .I8j65FBXdOY- {
     display: flex;
     gap: 6px;
     width: fit-content;
@@ -909,7 +910,8 @@ html body.v6 .ds_wishlist_flag::before {
 }
 
 .carousel_container .carousel_thumbs > div,
-.carousel ._3HjnEmKg66o82ah74EIvmq > button {
+.carousel ._3HjnEmKg66o82ah74EIvmq > button,
+.carousel .I8j65FBXdOY- > button {
     display: block;
     width: 12px;
     height: 12px;
@@ -920,12 +922,14 @@ html body.v6 .ds_wishlist_flag::before {
 }
 
 .carousel_container .carousel_thumbs > div.focus,
-.carousel ._3HjnEmKg66o82ah74EIvmq > button.carousel__dot--selected {
+.carousel ._3HjnEmKg66o82ah74EIvmq > button.carousel__dot--selected,
+.carousel .I8j65FBXdOY- > button.carousel__dot--selected {
     width: 24px;
     background-color: rgb(var(--st-accent-1));
 }
 
-.carousel ._3HjnEmKg66o82ah74EIvmq > button > svg {
+.carousel ._3HjnEmKg66o82ah74EIvmq > button > svg,
+.carousel .I8j65FBXdOY- > button > svg {
     display: none;
 }
 
