@@ -67,8 +67,9 @@
 /*
 & Your Personal Calendar
 */
-.home_page_body_ctn .personal_calendar_ctn ._326_uhqq2I-hJwNRSqIZK4 {
+.home_page_body_ctn .nHdn-Ea4zSg- {
     gap: 0;
+    margin: 0;
 }
 
 
@@ -79,14 +80,14 @@
 
 
 /** Header */
-.home_page_body_ctn .personal_calendar_ctn ._2su8lGbBoTlZdVmMWOxDR3 {
+.home_page_body_ctn .nHdn-Ea4zSg- ._37RLKwjtCwE- {
     padding: 12px;
     border-radius: var(--st-border-radius) var(--st-border-radius) 0 0;
     background-color: rgb(var(--st-color-2));
 }
 
 /*^ New tag */
-.home_page_body_ctn .personal_calendar_ctn ._2su8lGbBoTlZdVmMWOxDR3 .lX3GvxrkYaEqKJRpIhPsk {
+.home_page_body_ctn .nHdn-Ea4zSg- ._37RLKwjtCwE- .x8jWPgfdVoI- {
     align-items: center;
     padding: 0 6px;
         font-size: 13px;
@@ -95,7 +96,7 @@
 }
 
 /*^ Title */
-.home_page_body_ctn .personal_calendar_ctn ._2su8lGbBoTlZdVmMWOxDR3 ._3RqS6vEZhqX3_4AIeJFajW {
+.home_page_body_ctn .nHdn-Ea4zSg- ._37RLKwjtCwE- .IdjQXo6E9yc- {
     margin-bottom: 6px;
     font-size: 20px;
     font-weight: 700;
@@ -103,7 +104,7 @@
 }
 
 /*^ Desciption */
-.home_page_body_ctn .personal_calendar_ctn ._2su8lGbBoTlZdVmMWOxDR3 ._1qbTrTsvR9qbMi-Navsk-D {
+.home_page_body_ctn .nHdn-Ea4zSg- ._37RLKwjtCwE- .sGDLZ2AYREY- {
     font-size: 12px;
     font-weight: 400;
     line-height: 12px;
@@ -112,44 +113,44 @@
 
 
 /** Content */
-.home_page_body_ctn .personal_calendar_ctn ._2M3SnYGvMvplWUC8yGhowo {
+.home_page_body_ctn .nHdn-Ea4zSg- ._538FwVlPb0E- {
     padding: 0 12px 12px;
     border-radius: 0 0 var(--st-border-radius) var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
 
-.home_page_body_ctn .personal_calendar_ctn ._2M3SnYGvMvplWUC8yGhowo ._3J8-bW87K3pb8EpRNYq0JG {
+.home_page_body_ctn .nHdn-Ea4zSg- ._538FwVlPb0E- .RiCuzM-PsMk- {
     gap: 6px;
 }
 
 
 /** Card */
-.home_page_body_ctn .personal_calendar_ctn ._2VUpHDtxN8lR1LDahY_cI2>* {
+.home_page_body_ctn .nHdn-Ea4zSg- ._6KPsWUgnjok->* {
     margin: 0;
 }
 
-.home_page_body_ctn .personal_calendar_ctn ._3Cc2bMRML2lEkSyi2IAZ9G .tqaXEuWN2wV5_8lmSkMng {
+.home_page_body_ctn .nHdn-Ea4zSg- .maxz19gKOQc- {
     gap: 6px;
     padding: 12px;
     border-radius: var(--st-border-radius);
-    background: unset;
-    background-color: rgb(var(--st-color-3));
+    background: unset !important;
+    background-color: rgb(var(--st-color-3)) !important;
 }
 
 /*^ Games */
-.home_page_body_ctn .personal_calendar_ctn ._3Cc2bMRML2lEkSyi2IAZ9G ._2nBfmktG8nbBOFnhjq6OS5 {
+.home_page_body_ctn .nHdn-Ea4zSg- .maxz19gKOQc- .N83ri6QShHM- {
     gap: 6px;
     padding: 0;
 }
 
 /* Image */
-.home_page_body_ctn .personal_calendar_ctn ._3Cc2bMRML2lEkSyi2IAZ9G img,
-.home_page_body_ctn .personal_calendar_ctn ._3Cc2bMRML2lEkSyi2IAZ9G video {
+.home_page_body_ctn .nHdn-Ea4zSg- .maxz19gKOQc- img,
+.home_page_body_ctn .nHdn-Ea4zSg- .maxz19gKOQc- video {
     border-radius: var(--st-border-radius);
 }
 
 /*^ More */
-.home_page_body_ctn .personal_calendar_ctn ._3Cc2bMRML2lEkSyi2IAZ9G ._1wt5Ne6MrJfPVdFz5fGlop {
+.home_page_body_ctn .nHdn-Ea4zSg- .maxz19gKOQc- .rsPEubiF9HI- {
     padding: 4px 12px;
     color: #fff !important;
     border-radius: var(--st-border-radius);
