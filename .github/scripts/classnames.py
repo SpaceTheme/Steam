@@ -141,12 +141,15 @@ def renames(old, new):
 
 
 def web_renames(old, new):
-    """A class that vanished maps to the one new class with the same rules."""
+    """A class maps to the one new class with the same rules. It may still be in use:
+    Steam ships its sections one at a time, so old and new names run side by side for a while."""
     fresh = collections.defaultdict(list)
     for c in new.keys() - old.keys():
         fresh[new[c]].append(c)
     gone = collections.Counter(old[c] for c in old.keys() - new.keys())
-    return {c: fresh[old[c]][0] for c in old.keys() - new.keys() if len(fresh[old[c]]) == 1 and gone[old[c]] == 1}
+    kept = collections.Counter(old[c] for c in old.keys() & new.keys())
+    return {c: fresh[fp][0] for c, fp in old.items() if len(fresh[fp]) == 1
+            and (gone[fp] == 1 if c not in new else not gone[fp] and kept[fp] == 1)}
 
 
 def names(data):
@@ -171,34 +174,99 @@ def update(path, steamui, web):
     return found
 
 
+COMMENT = r'/\*.*?(?:\*/|\Z)'  # an unclosed comment runs to the end of the file
+TOKEN = re.compile(COMMENT + r'|"[^"]*"|\'[^\']*\'|[^()"\',/]+|.', re.S)
+
+
+def twin_selectors(text, mapping, current):
+    """Puts the renamed copy under each selector that uses an old class (`.old,` newline `.new`).
+    The old selector goes once one of its old classes is not in Steam's list anymore."""
+    nl = '\r\n' if '\r\n' in text else '\n'
+    stats = collections.Counter()
+
+    def rewrite(chunk):
+        if re.sub(COMMENT + r'|\s', '', chunk, flags=re.S).startswith('@'):  # @media, @font-face, ...
+            return chunk
+        parts, depth = [''], 0
+        for tok in TOKEN.findall(chunk):  # split at the commas outside :is(a, b) and "a,b"
+            depth += (tok == '(') - (tok == ')')
+            if tok == ',' and not depth:
+                parts.append('')
+            else:
+                parts[-1] += tok
+        split = [re.fullmatch(rf'((?:\s|{COMMENT})*)(.*?)(\s*)', p, re.S).groups() for p in parts]
+        cores = {core for _, core, _ in split}
+        out, carry = [], None
+
+        def emit(part):
+            nonlocal carry
+            out.append(part if carry is None else carry + part.lstrip())
+            carry = None
+
+        for i, (pre, core, post) in enumerate(split):
+            hits = [t for t in re.findall(r'[\w-]+', core) if t in mapping]
+            new = re.sub(r'[\w-]+', lambda t: mapping.get(t[0], t[0]), core)
+            dead = any(t not in current for t in hits)
+            if not hits or new in cores and not dead:  # nothing renamed, or the copy is there from an earlier PR
+                emit(pre + core + post)
+            elif new in cores:
+                carry = (carry or '') + pre  # keeps a comment in front of the dropped selector
+                if out and i == len(split) - 1:
+                    out[-1] += carry.rstrip() + post
+                stats.update((t, mapping[t], 'old removed') for t in hits)
+            elif dead:
+                cores.add(new)
+                emit(pre + new + post)
+                stats.update((t, mapping[t], 'replaced') for t in hits)
+            else:
+                cores.add(new)
+                emit(pre + core)
+                emit(nl + (pre.rpartition('\n')[2] if '\n' in pre else '') + new + post)
+                stats.update((t, mapping[t], 'added') for t in hits)
+        return ','.join(out) if out else chunk
+
+    # find the selector lists on a copy without comments and strings: they hold braces and semicolons too
+    masked = re.sub(COMMENT + r'|"[^"\n]*"|\'[^\'\n]*\'', lambda c: re.sub(r'\S', ' ', c[0]), text, flags=re.S)
+    out, last = [], 0
+    for m in re.finditer(r'(?:^|(?<=[{};]))[^{};]*(?=\{)', masked):
+        out += [text[last:m.start()], rewrite(text[m.start():m.end()])]
+        last = m.end()
+    return ''.join(out) + text[last:], stats
+
+
 def apply(root=REPO):
     data = json.loads((root / LIST).read_text())
     current, removed = names(data), set(data['removed'])
 
     def resolve(name):
-        seen = set()
-        while name not in current and name in data['renamed'] and name not in seen:
-            seen.add(name)
+        seen = {name}
+        while data['renamed'].get(name, name) not in seen:
             name = data['renamed'][name]
+            seen.add(name)
         return name if name in current else None
 
-    mapping = {old: new for old in data['renamed'] if old not in current and (new := resolve(old))}
-    changes, dead = [], collections.defaultdict(set)
+    mapping = {old: new for old in data['renamed'] if (new := resolve(old)) and new != old}
+    gone = {old: new for old, new in mapping.items() if old not in current}
+    changes, dead = collections.Counter(), collections.defaultdict(set)
     for f in sorted(root.rglob('*')):
         rel = f.relative_to(root)
         if f.suffix not in ('.css', '.js', '.json') or {'.git', '.github'} & set(rel.parts):
             continue
         text = f.read_bytes().decode()  # bytes keep CRLF files as they are
-        tokens = re.findall(r'[\w-]+', text)
-        hits = [t for t in tokens if t in mapping]
-        dead[rel] |= {t for t in tokens if t in removed and t not in mapping}
-        if hits:
-            f.write_bytes(re.sub(r'[\w-]+', lambda m: mapping.get(m[0], m[0]), text).encode())
-            changes += [(rel, old, mapping[old], hits.count(old)) for old in dict.fromkeys(hits)]
-    print('Steam renamed some of its class names. This PR swaps them in the theme files.\n')
-    print('| File | Old | New | Count |\n|---|---|---|---|')
-    for rel, old, new, n in changes:
-        print(f'| `{rel}` | `{old}` | `{new}` | {n} |')
+        new, stats = twin_selectors(text, mapping, current) if f.suffix == '.css' else (text, collections.Counter())
+        # scripts and CSS values can't list both names: there only names Steam dropped are swapped
+        stats.update((t, gone[t], 'replaced') for t in re.findall(r'[\w-]+', new) if t in gone)
+        new = re.sub(r'[\w-]+', lambda m: gone.get(m[0], m[0]), new)
+        dead[rel] |= {t for t in re.findall(r'[\w-]+', text) if t in removed and t not in mapping}
+        if new != text:
+            f.write_bytes(new.encode())
+        changes.update({(str(rel), *k): n for k, n in stats.items()})
+    print('Steam renamed some of its class names. This PR updates the theme files.\n')
+    print('Steam ships its sections one at a time. While an old class is still in the list, the new selector '
+          'is added under the old one. The old selector goes once its class is gone from the list.\n')
+    print('| File | Old | New | Change | Count |\n|---|---|---|---|---|')
+    for (rel, old, new, how), n in sorted(changes.items()):
+        print(f'| `{rel}` | `{old}` | `{new}` | {how} | {n} |')
     if any(dead.values()):
         print('\n**Removed by Steam with no clear replacement, fix these by hand:**\n')
         for rel, found in dead.items():
@@ -296,6 +364,23 @@ def test():
     web_old = fingerprints(['.w1aaaaaaaaa- .w2aaaaaaaaa-{color:red}.w2aaaaaaaaa-:hover{color:#fff}@media (max-width:9px){.w3aaaaaaaaa-{margin:0}}'])
     web_new = fingerprints(['.w1bbbbbbbbb- .w2bbbbbbbbb-{color:red}.w2aaaaaaaaa-:hover{color:#000}@media (max-width:9px){.w3bbbbbbbbb-{margin:1px}}'])
     assert web_renames(web_old, web_new) == {'w1aaaaaaaaa-': 'w1bbbbbbbbb-'}, web_renames(web_old, web_new)
+    # one section got the new name, the old one is still in use elsewhere
+    twin = fingerprints(['.t1aaaaaaaaa-{gap:1px}.t2aaaaaaaaa-{gap:2px}.t3aaaaaaaaa-{gap:2px}'])
+    assert web_renames(twin, fingerprints(['.t1aaaaaaaaa-,.t1bbbbbbbbb-{gap:1px}.t2aaaaaaaaa-,.t3aaaaaaaaa-,.t2bbbbbbbbb-{gap:2px}'])) == {'t1aaaaaaaaa-': 't1bbbbbbbbb-'}
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        (root / '.github').mkdir()
+        data = {'steamui': {}, 'web': {'t1aaaaaaaaa-': '1', 't1bbbbbbbbb-': '1', 't2bbbbbbbbb-': '2'}, 'removed': [],
+                'renamed': {'t1aaaaaaaaa-': 't1bbbbbbbbb-', 't2aaaaaaaaa-': 't2bbbbbbbbb-'}}
+        (root / LIST).write_text(json.dumps(data))
+        (root / 'b.css').write_text('/* c; { */\n.t1aaaaaaaaa- a:has(b, c),\n.x {}\n/* .t1aaaaaaaaa- {} */\n.t2aaaaaaaaa- { animation: t2aaaaaaaaa- }')
+        apply(root)
+        apply(root)  # the next run must not add the copy again
+        assert (root / 'b.css').read_text() == '/* c; { */\n.t1aaaaaaaaa- a:has(b, c),\n.t1bbbbbbbbb- a:has(b, c),\n.x {}\n/* .t1aaaaaaaaa- {} */\n.t2bbbbbbbbb- { animation: t2bbbbbbbbb- }'
+        del data['web']['t1aaaaaaaaa-']  # Steam is done with the old name
+        (root / LIST).write_text(json.dumps(data))
+        apply(root)
+        assert (root / 'b.css').read_text() == '/* c; { */\n.t1bbbbbbbbb- a:has(b, c),\n.x {}\n/* .t1bbbbbbbbb- {} */\n.t2bbbbbbbbb- { animation: t2bbbbbbbbb- }'
     with tempfile.TemporaryDirectory() as tmp:
         root = Path(tmp)
         (root / '.github').mkdir()
