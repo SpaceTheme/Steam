@@ -184,6 +184,12 @@ async function setupGamesHovers() {
         const gameItems = gamesContainer.querySelectorAll(itemSelector);
 
         gameItems.forEach(item => {
+            // Steam display status for the update/download icon in sidebar.css, the DOM only has it as text
+            let fiber = getFiber(item);
+            while (fiber && !fiber.memoizedProps?.item) fiber = fiber.return;
+            const status = fiber?.memoizedProps.item.display_status;
+            if (status !== undefined) item.dataset.stStatus = status;
+
             const itemText = item.querySelector('span');
             if (!itemText) return;
 

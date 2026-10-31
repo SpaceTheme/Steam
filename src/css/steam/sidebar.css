@@ -385,11 +385,13 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._1_yS5UP7el0aN4vntx3dx .wi0pDywRgOCxhG7OqQNaA) .
 }
 
 
-/** Update icon */
+/** Status icon */
 ._3x1HklzyDs4TEjACrRO2tB ._2-O4ZG0KrnSrzISHBKctFQ ._3uk3F1BmAJQR6rl1TPcaif {
     margin: 0;
     font-size: 0;
 }
+
+/*^ Play icon */
 ._3x1HklzyDs4TEjACrRO2tB ._2-O4ZG0KrnSrzISHBKctFQ ._3uk3F1BmAJQR6rl1TPcaif::after {
     content: "\f610";
     font-size: 16px;
@@ -402,17 +404,17 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._1_yS5UP7el0aN4vntx3dx .wi0pDywRgOCxhG7OqQNaA) .
     line-height: 1;
     -webkit-font-smoothing: antialiased;
 }
+
+/*^ Update icon */
 ._3x1HklzyDs4TEjACrRO2tB ._2-O4ZG0KrnSrzISHBKctFQ:has(.SVGIcon_ProgressCircle) ._3uk3F1BmAJQR6rl1TPcaif::after {
     content: "\f13e";
-    font-size: 16px;
     color: rgb(var(--st-blue));
-    font-family: FluentSystemIcons-Filled !important;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
+}
+
+/*^ Downloading icon */
+._3x1HklzyDs4TEjACrRO2tB ._2-O4ZG0KrnSrzISHBKctFQ:is([data-st-status="6"], [data-st-status="7"], [data-st-status="22"], [data-st-status="23"], [data-st-status="24"]) ._3uk3F1BmAJQR6rl1TPcaif::after {
+    content: "\f151";
+    color: rgb(var(--st-blue));
 }
 
 
