@@ -508,6 +508,16 @@
     display: none;
 }
 
+/* update, playbar, gamepage, library */
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX::before {
+    content: "\f13e" !important;
+    font-size: 22px;
+    color: #fff;
+}
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX>svg {
+    display: none;
+}
+
 /* pause, playbar, gamepage, library */
 ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Pause)::before {
     content: "\f5ac" !important;
