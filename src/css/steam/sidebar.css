@@ -414,6 +414,11 @@ body.QsvsRVwbsApgKt1MhM0fz:has(._1_yS5UP7el0aN4vntx3dx .wi0pDywRgOCxhG7OqQNaA) .
     line-height: 1;
     -webkit-font-smoothing: antialiased;
 }
+/*^ Download (Steam display status: 7 downloading, 22 paused, 23 queued, 24 required, 38 failed), set by libraryroot.custom.js */
+._3x1HklzyDs4TEjACrRO2tB ._2-O4ZG0KrnSrzISHBKctFQ:is([data-st-status="7"], [data-st-status="22"], [data-st-status="23"], [data-st-status="24"], [data-st-status="38"]) ._3uk3F1BmAJQR6rl1TPcaif::after {
+    content: "\f151";
+    color: rgb(var(--st-blue));
+}
 
 
 /*
