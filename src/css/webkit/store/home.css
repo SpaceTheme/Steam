@@ -42,9 +42,11 @@
 }
 
 
-.promo_link {
+.promo_link,
+.home_page_takeover_link {
     width: 100%;
     max-width: var(--st-store-max-width);
+    margin-bottom: 16px;
     margin-left: 50%;
     border-radius: var(--st-border-radius);
     transform: translateX(-50%);
