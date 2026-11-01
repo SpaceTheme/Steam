@@ -77,6 +77,7 @@ body .MillenniumDesktopSidebar {
     line-height: unset;
     color: #fff !important;
     background-color: rgb(var(--st-color-3)) !important;
+    box-shadow: unset !important;
 }
 .MillenniumDesktopSidebar .MillenniumDesktopSidebar_LibraryItemButton:hover {
     background-color: rgb(var(--st-color-4)) !important;
