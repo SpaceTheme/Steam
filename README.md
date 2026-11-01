@@ -9,19 +9,27 @@
 
 ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp)
 <details>
-    <summary>More images (10. Nov. 2025)</summary>
+    <summary>More images (1. Nov. 2026)</summary>
 
 |  Library home  |  Library gamepage  |
 |  :---:  |  :---:  |
 |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libHome.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libGamepage.webp)  |
+|  **Library Game News**  |  **Library Soundtrack**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libGameNews.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libSoundtrack.webp)  |
 |  **Store**  |  **Store Gamepage**  |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storePage.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeGamepage.webp)  |
-|  **Store Wishlist**  |  **Store Cart**  |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeWishlist.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeCart.webp)  |
-|  **Store News**  |  **Community**  |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeNews.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/communityPage.webp)  |
-|  **Friend list & Chat**  |    |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/friendAndChat.webp)  |    |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeHome.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeGamepage.webp)  |
+|  **Store Search**  |  **Store Cart**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeSearchPage.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeCart.webp)  |
+|  **Licenses & Key Activations**  |  **Downloads**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/licenseAndKeyActivations.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/download.webp)  |
+|  **Community Awards**  |  **Community Badges**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/communityAwards.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/communityBadges.webp)  |
+|  **Community Friends Who Played**  |  **Friend list & Chat**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/communityFriendsWhoPlayed.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/firendsAndChat.webp)  |
+|  **Friends Chat**  |  **Game Overlay**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/friendsChat.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/overlayHome.webp)  |
+|  **Millennium Settings**  |    |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/millenniumSettings.webp)  |    |
 </details>
 <details>
     <summary>More images (Concepts)</summary>
