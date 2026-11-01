@@ -801,12 +801,12 @@ body:not(:has(._1ijTaXJJA5YWl_fW2IxcaT)) ._3cykd-VfN_xBxf3Qxriccm {
 ._276E6ijBpjMA2_iTxNhhjc {
     margin: auto 6px;
     width: 4px;
-    height: 240px;
+    height: 100px;
     border-radius: var(--st-border-radius);
-    background-color: rgb(var(--st-accent-1));
+    background-color: rgb(var(--st-color-5));
     transition: all 0.2s ease-in-out;
 }
 ._276E6ijBpjMA2_iTxNhhjc:hover, ._276E6ijBpjMA2_iTxNhhjc:focus, ._276E6ijBpjMA2_iTxNhhjc:active {
-    height: 280px;
-    background-color: rgb(var(--st-accent-2)) !important;
+    height: 120px;
+    background-color: rgb(var(--st-accent-1)) !important;
 }
