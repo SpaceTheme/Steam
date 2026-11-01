@@ -186,6 +186,57 @@ body .MillenniumDesktopSidebar {
 }
 
 
+/** Plugin/Themes/Updates page */
+.MillenniumSettings .st-millennium-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    gap: 6px;
+    margin-top: 12px;
+}
+
+
+/*^ Cards */
+.MillenniumSettings .st-millennium-cards .eKmEXJCm_lgme24Fp_HWt {
+    margin: 0;
+    padding: 0;
+    background: unset;
+}
+
+.MillenniumSettings .st-millennium-cards .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG {
+    position: relative;
+    height: -webkit-fill-available;
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-color-2));
+}
+
+.MillenniumSettings .st-millennium-cards .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY,
+.MillenniumSettings .st-millennium-cards .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q {
+    position: unset !important;
+    background: unset !important;
+}
+
+/*^ Metrics pills */
+.MillenniumSettings .st-millennium-cards .eKmEXJCm_lgme24Fp_HWt ._2tALpM7z8naXJ35Pp5fNAG:has(.MillenniumPlugins_Metrics) {
+    padding-bottom: calc(32px + 6px);
+}
+
+.MillenniumSettings .st-millennium-cards .eKmEXJCm_lgme24Fp_HWt .MillenniumPlugins_Metrics {
+    position: absolute;
+    bottom: 12px;
+    width: -webkit-fill-available;
+    margin-right: 12px;
+}
+
+.MillenniumSettings .st-millennium-cards .eKmEXJCm_lgme24Fp_HWt .MillenniumPlugins_Metrics span {
+    width: -webkit-fill-available;
+    height: 32px;
+    padding: 0 12px;
+    border-radius: var(--st-border-radius);
+    color: #fff;
+    background-color: rgb(var(--st-color-3)) !important;
+}
+
+
 
 /*
 & Navbar
