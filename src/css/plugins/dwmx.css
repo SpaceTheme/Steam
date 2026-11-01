@@ -58,11 +58,18 @@
 }
 
 
-
 /*
 & Library Dropdown
 */
 body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
+    backdrop-filter: blur(4px) !important;
+}
+
+
+/*
+& Library shelf Dropdown
+*/
+.DesktopUI .DialogMenuPosition.visible:has(> ._DialogInputContainer) {
     backdrop-filter: blur(4px) !important;
 }
 
