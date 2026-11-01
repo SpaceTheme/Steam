@@ -60,6 +60,7 @@
     overflow: visible !important;
     min-width: unset !important;
     max-height: none !important;
+    margin: 0 !important;
     padding: 6px !important;
     border: none !important;
     border-radius: 0 !important;
