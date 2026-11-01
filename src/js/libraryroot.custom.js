@@ -136,6 +136,146 @@ syncWidthIfTargetHidden();
 
 
 
+// Sidebar collections: every collection header and its games get their own div.st-collection, in normal flow so spacing from CSS works.
+// Steam's list only renders the visible rows, absolutely positioned. Here every row keeps its place in the DOM, but only rows near the visible
+// area are real, the others are empty placeholders (div.Panel[role="gridcell"]) with the row's measured height, so row CSS lays them out the same.
+// Rendering every row would make each broad restyle (the theme's :has() rules, the mouse entering the sidebar) many times slower.
+function wrapSidebarCollections(gamesContainer) {
+    const React = window.opener?.SP_REACT;
+    let fiber = getFiber(gamesContainer);
+    while (fiber && !fiber.stateNode?.recomputeRowHeights) fiber = fiber.return;
+    const list = fiber?.stateNode;
+    while (fiber && !(fiber.stateNode && 'visibleRows' in fiber.stateNode)) fiber = fiber.return;
+    const gameList = fiber?.stateNode;
+    if (!React || !list || !gameList || Object.hasOwn(list, 'render')) return;
+
+    const rowKey = row => `${row.strCollectionId}/${row.bIsCollection ? '' : row.appOverview.appid}`;
+    let scroller = null;
+    let rows = [];
+    let range = [0, 50];
+    let cells = new Map();
+    let placeholders = new Map();
+    const heights = new Map();
+    const typeHeights = [26, 26]; // game, header: for rows that weren't real yet, Steam's row height until rows are measured
+    let frame = 0;
+
+    const setScroller = el => scroller = el;
+    const getRowElements = () => scroller?.querySelectorAll('.st-collection > *') ?? [];
+
+    list.render = function () {
+        const { width, height, rowRenderer, onScroll } = this.props;
+        rows = gameList.visibleRows;
+        const nextCells = new Map();
+        const nextPlaceholders = new Map();
+        const collections = [];
+        rows.forEach((row, index) => {
+            if (row.bIsCollection || !collections.length) collections.push({ key: row.strCollectionId, cells: [] });
+            const key = rowKey(row);
+
+            if (index < range[0] || index > range[1]) {
+                const rowHeight = heights.get(key) ?? typeHeights[row.bIsCollection ? 1 : 0];
+                let placeholder = placeholders.get(key);
+                if (placeholder?.props.style.height !== rowHeight) placeholder = React.createElement('div', { key, className: 'Panel', role: 'gridcell', style: { boxSizing: 'border-box', height: rowHeight } });
+                nextPlaceholders.set(key, placeholder);
+                collections.at(-1).cells.push(placeholder);
+                return;
+            }
+
+            // Steam keys rows by index, so collapsing a collection would remount every row below it. Keys per game keep them mounted,
+            // and a row's element is reused while everything Steam renders it from stays the same (the rows observe their game and the selection themselves).
+            // The index is left out: Steam's game row only uses it to select itself on click, so the click looks up the current index instead
+            const inputs = row.bIsCollection
+                ? [row.rgStrNames[0], row.nTotalCollectionSize, row.nFilteredSize, row.bIsCollapsed, gameList.props.bInGamepadUI]
+                : [row.appOverview, index + 1 === rows.length || rows[index + 1].bIsCollection, gameList.props.bInGamepadUI];
+            let cell = cells.get(key);
+            if (!cell || cell.inputs.some((input, i) => input !== inputs[i])) {
+                const element = rowRenderer({ key, index, style: {}, isScrolling: false, isVisible: true, parent: this });
+                const select = () => gameList.SelectIndex(gameList.visibleRows.findIndex(other => !other.bIsCollection && other.strCollectionId === row.strCollectionId && other.appOverview === row.appOverview));
+                const children = React.cloneElement(element.props.children, row.bIsCollection ? { key: 'row' } : { key: 'row', onClick: select });
+                // role like react-virtualized adds it, sidebar.css styles .Panel[role="gridcell"]
+                // bDisabled: no full name popup, long names scroll instead. It only opened in flow layout because Steam measures the row against its parent
+                cell = { inputs, element: React.cloneElement(element, { role: 'gridcell', bDisabled: true, children }) };
+            }
+            nextCells.set(key, cell);
+            collections.at(-1).cells.push(cell.element);
+        });
+        cells = nextCells;
+        placeholders = nextPlaceholders;
+
+        return React.createElement('div', {
+            ref: setScroller,
+            className: 'ReactVirtualized__Grid ReactVirtualized__List',
+            role: 'grid',
+            tabIndex: 0,
+            style: { width, height, overflowX: 'hidden', overflowY: 'auto' },
+            onScroll: ({ currentTarget: { clientHeight, scrollHeight, scrollTop } }) => {
+                onScroll({ clientHeight, scrollHeight, scrollTop });
+                frame ||= requestAnimationFrame(updateRange);
+            },
+        }, React.createElement('div', { className: 'ReactVirtualized__Grid__innerScrollContainer', role: 'row' },
+            collections.map(collection => React.createElement('div', { key: collection.key, className: 'st-collection' }, collection.cells))));
+    };
+
+    // Real rows: everything within a screen of the visible area, moved along once less than half a screen is left
+    const updateRange = () => {
+        cancelAnimationFrame(frame);
+        frame = 0;
+        const elements = getRowElements();
+        if (!elements.length) return;
+
+        const { top, bottom } = scroller.getBoundingClientRect();
+        const screen = scroller.clientHeight;
+        const indexAt = y => {
+            let low = 0;
+            let high = elements.length - 1;
+            while (low < high) {
+                const middle = (low + high) >> 1;
+                if (elements[middle].getBoundingClientRect().bottom > y) high = middle;
+                else low = middle + 1;
+            }
+            return low;
+        };
+        if (indexAt(top - screen / 2) >= range[0] && indexAt(bottom + screen / 2) <= range[1]) return;
+
+        range = [indexAt(top - screen), indexAt(bottom + screen)];
+        list.forceUpdate();
+    };
+
+    // After each render the real rows are measured for their placeholders
+    list.componentDidUpdate = () => {
+        const elements = getRowElements();
+        const previousTypeHeights = typeHeights.join();
+        for (let index = range[0]; index <= Math.min(range[1], elements.length - 1); index++) {
+            const rowHeight = elements[index].getBoundingClientRect().height;
+            heights.set(rowKey(rows[index]), rowHeight);
+            typeHeights[rows[index].bIsCollection ? 1 : 0] = rowHeight;
+        }
+        if (typeHeights.join() !== previousTypeHeights) list.forceUpdate();
+        updateRange();
+    };
+
+    // Same results as react-virtualized, but measured from the DOM (placeholders sit where their rows would)
+    list.getOffsetForRow = ({ alignment = 'auto', index }) => {
+        const row = getRowElements()[index];
+        if (!row) return 0;
+
+        const start = row.getBoundingClientRect().top - scroller.getBoundingClientRect().top + scroller.scrollTop;
+        const end = start + row.offsetHeight - scroller.clientHeight;
+        const offset = alignment === 'start' ? start
+            : alignment === 'end' ? end
+            : alignment === 'center' ? (start + end) / 2
+            : Math.min(Math.max(scroller.scrollTop, end), start);
+        return Math.max(0, Math.min(offset, scroller.scrollHeight - scroller.clientHeight));
+    };
+    list.scrollToPosition = top => scroller && (scroller.scrollTop = top);
+    list.scrollToRow = index => list.scrollToPosition(list.getOffsetForRow({ index }));
+    list.forceUpdateGrid = () => list.forceUpdate();
+
+    list.forceUpdate();
+}
+
+
+
 // Custom hover effect for game items
 async function setupGamesHovers() {
     const gamesContainerSelector = `${CssClassNames.Library.Games.Container} .ReactVirtualized__Grid__innerScrollContainer`;
@@ -149,7 +289,11 @@ async function setupGamesHovers() {
     let childObserver = null;
     let rafId = 0;
 
+    // Attributes only get written when they change: every style/attribute write makes the browser re-check the theme's
+    // body:has() rules, which restyles the icons of the whole game list
     const setHoverVariables = (item, overflow) => {
+        if (item.style.getPropertyValue('--st-game-overflow') === (overflow > navTextOffset ? `${overflow}px` : '')) return;
+
         if (overflow <= navTextOffset) {
             item.style.removeProperty('--st-game-overflow');
             item.style.removeProperty('--st-game-hover-duration');
@@ -162,12 +306,7 @@ async function setupGamesHovers() {
     };
 
     const getOverflowWidth = (item, itemText, separator) => {
-        if (!separator) {
-            return itemText.scrollWidth - itemText.clientWidth + navTextOffset;
-        }
-
-        itemText.style.setProperty('padding-right', `${separator.offsetWidth + 4}px`);
-        const widthContainer = item.querySelector(widthContainerSelector);
+        const widthContainer = separator && item.querySelector(widthContainerSelector);
         if (!widthContainer) {
             return itemText.scrollWidth - itemText.clientWidth + navTextOffset;
         }
@@ -181,30 +320,31 @@ async function setupGamesHovers() {
             return;
         }
 
-        const gameItems = gamesContainer.querySelectorAll(itemSelector);
-
-        gameItems.forEach(item => {
+        const games = [...gamesContainer.querySelectorAll(itemSelector)].map(item => {
             // Steam display status for the play/update/download icon in sidebar.css, the DOM only has it as text
             let fiber = getFiber(item);
             while (fiber && !fiber.memoizedProps?.item) fiber = fiber.return;
             const status = fiber?.memoizedProps.item.display_status;
-            if (status !== undefined) item.dataset.stStatus = status;
+            if (status !== undefined && item.dataset.stStatus !== String(status)) item.dataset.stStatus = status;
 
             const itemText = item.querySelector('span');
-            if (!itemText) return;
+            return itemText && { item, itemText, separator: itemText.querySelector(separatorSelector) };
+        }).filter(Boolean);
 
-            const separator = itemText.querySelector(separatorSelector);
-
-            if (!itemText.dataset.stHoverText) {
-                let text = itemText.innerText;
-                if (separator) text += ` ${separator.textContent}`;
-                itemText.dataset.stHoverText = text;
+        // Reads and writes are batched, mixing them makes the browser lay out the whole game list once per game
+        games.forEach(game => {
+            if (!game.itemText.dataset.stHoverText) {
+                game.hoverText = game.itemText.innerText;
+                if (game.separator) game.hoverText += ` ${game.separator.textContent}`;
             }
-
-            const widthDiff = getOverflowWidth(item, itemText, separator);
-            const overflow = Math.max(0, Math.ceil(widthDiff));
-            setHoverVariables(item, overflow);
+            if (game.separator) game.padding = `${game.separator.offsetWidth + 4}px`;
         });
+        games.forEach(({ itemText, hoverText, padding }) => {
+            if (hoverText) itemText.dataset.stHoverText = hoverText;
+            if (padding && itemText.style.paddingRight !== padding) itemText.style.setProperty('padding-right', padding);
+        });
+        games.forEach(game => game.overflow = Math.max(0, Math.ceil(getOverflowWidth(game.item, game.itemText, game.separator))));
+        games.forEach(({ item, overflow }) => setHoverVariables(item, overflow));
     };
 
     const scheduleHoverUpdate = () => {
@@ -233,7 +373,8 @@ async function setupGamesHovers() {
         disconnectContainerObservers();
 
         attrObserver = new MutationObserver(scheduleHoverUpdate);
-        attrObserver.observe(gamesContainer, { attributes: true, attributeFilter: ['style'] });
+        // The list's scroll container gets the new width/height when the sidebar is resized
+        attrObserver.observe(gamesContainer.parentElement, { attributes: true, attributeFilter: ['style'] });
 
         childObserver = new MutationObserver(scheduleHoverUpdate);
         childObserver.observe(gamesContainer, { childList: true, subtree: true });
@@ -241,7 +382,10 @@ async function setupGamesHovers() {
 
     const containerTracker = createContainerTracker(gamesContainerSelector, {
         onCleanup: disconnectContainerObservers,
-        onSetup: bindContainerObservers,
+        onSetup: () => {
+            wrapSidebarCollections(containerTracker.getContainer());
+            bindContainerObservers();
+        },
         onUpdate: scheduleHoverUpdate,
     });
 

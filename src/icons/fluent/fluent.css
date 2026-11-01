@@ -129,8 +129,15 @@
 /* Collection Dynamic, Sidebar */
 ._2sYIghGVXJr6tsQVvcryy8 .tool-tip-source::before {
     content: "\f02ea" !important;
-    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
     color: rgb(var(--st-accent-1));
+    border-radius: var(--st-border-radius);
+    background-color: rgb(var(--st-accent-1), .3);
 }
 ._2sYIghGVXJr6tsQVvcryy8 .tool-tip-source>svg {
     display: none;
