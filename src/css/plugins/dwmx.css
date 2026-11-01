@@ -72,6 +72,9 @@ body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
 .DesktopUI .DialogMenuPosition.visible:has(> ._DialogInputContainer) {
     backdrop-filter: blur(4px) !important;
 }
+html .DesktopUI .DialogMenuPosition.visible ._DialogInputContainer ._2oAiZidGyUxL-hfupFDQ2m {
+    color: #fff !important;
+}
 
 
 
