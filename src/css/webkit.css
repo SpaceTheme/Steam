@@ -684,7 +684,7 @@ html body.v6 .StoreMenuLoadingPlaceholder .PlaceholderInner {
 /*
 & Live tag
 */
-html body.v6 ._2R1rYdwKuMFLsEb4WvJYdD,
+html body.v6 .NSb2xMcNnPEMjPi1dr8KB,
 html body.v6 .broadcast_live_stream_icon {
     top: 6px;
     left: 6px;
@@ -704,12 +704,12 @@ html body.v6 .broadcast_live_stream_icon {
     box-shadow: unset;
 }
 
-html body.v6 .ds_flagged ._2R1rYdwKuMFLsEb4WvJYdD,
+html body.v6 .ds_flagged .NSb2xMcNnPEMjPi1dr8KB,
 html body.v6 .ds_flagged .broadcast_live_stream_icon {
     left: calc(6px + 26px + 6px);
 }
 
-html body.v6 ._2R1rYdwKuMFLsEb4WvJYdD::before,
+html body.v6 .NSb2xMcNnPEMjPi1dr8KB::before,
 html body.v6 .broadcast_live_stream_icon::before {
     content: "";
     display: flex;
