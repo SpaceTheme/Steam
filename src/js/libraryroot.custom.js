@@ -481,12 +481,24 @@ syncUserPanelWidth();
 
 
 // Create userpanel button container and move buttons
-(async () => {
-    await waitForElement(CssClassNames.Library.Container); // wait for game panel to load first
-    // Userpanel
-    const friendButton = await waitForElement(CssClassNames.UserPanel.FriendButton);
+// React remounts the userpanel and the bottom bar (e.g. during startup), which drops the moved buttons,
+// so this runs on every DOM change and only does work when something is missing.
+const buildUserPanel = () => {
+    const parent = document.querySelector(CssClassNames.UserPanel.Container);
+    if (!parent) return;
+
+    const existing = parent.querySelector('.userpanel-buttoncontainer');
+    if (existing) {
+        // The friends/family buttons live in Steam's bottom bar and come back there when it remounts
+        for (const selector of [CssClassNames.UserPanel.FriendButton, CssClassNames.UserPanel.FamilyButton]) {
+            const button = document.querySelector(selector);
+            if (button && button.parentElement !== existing) existing.appendChild(button);
+        }
+        return;
+    }
+
+    const friendButton = document.querySelector(CssClassNames.UserPanel.FriendButton);
     const familyButton = document.querySelector(CssClassNames.UserPanel.FamilyButton);
-    const parent = await waitForElement(CssClassNames.UserPanel.Container);
 
     const buttonContainer = document.createElement('div');
     buttonContainer.className = 'userpanel-buttoncontainer';
@@ -500,7 +512,9 @@ syncUserPanelWidth();
         buttonContainer.appendChild(button);
     });
 
-    buttonContainer.appendChild(friendButton);
+    if (friendButton) {
+        buttonContainer.appendChild(friendButton);
+    }
     if (familyButton) {
         buttonContainer.appendChild(familyButton);
     }
@@ -529,6 +543,13 @@ syncUserPanelWidth();
     buttonContainer.appendChild(settingsButton);
 
     parent.appendChild(buttonContainer);
+};
+
+(async () => {
+    await waitForElement(CssClassNames.Library.Container); // wait for game panel to load first
+
+    new MutationObserver(buildUserPanel).observe(document.body, { subtree: true, childList: true });
+    buildUserPanel();
 })();
 
 

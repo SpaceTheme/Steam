@@ -179,6 +179,9 @@
     content: "\f115" !important;
     font-size: 16px;
     color: #67707b;
+    /* Steam's bell is a div now, so the generic `> svg` font rule above no longer matches */
+    font-family: FluentSystemIcons-Filled !important;
+    line-height: 1;
 }
 ._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd::before {
     content: "\f11b" !important;
@@ -187,7 +190,8 @@
 ._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf:hover::before {
     color: #fff;
 }
-._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf>svg {
+._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf>svg,
+._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf>.Vy5kHbMfQZiqjJWvcWar7 {
     display: none;
 }
 
