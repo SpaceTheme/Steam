@@ -647,6 +647,9 @@ body:not(:has(._1ijTaXJJA5YWl_fW2IxcaT)) ._3cykd-VfN_xBxf3Qxriccm {
     border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-2));
 }
+._3mz8wQ6Q44B8P7pzPP4Iyw:has(.RGNMWtyj73_-WdhflrmuY[style*="display: none;"]) ._3cykd-VfN_xBxf3Qxriccm {
+    visibility: hidden;
+}
 ._3x1HklzyDs4TEjACrRO2tB:has(.yZ55NhARZGx1Awk2qs8pS) ._3cykd-VfN_xBxf3Qxriccm {
     margin: 6px 0 0;
 }
