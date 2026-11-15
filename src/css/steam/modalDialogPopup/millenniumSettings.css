@@ -21,12 +21,12 @@ body .MillenniumDesktopSidebar {
     top: 50%;
     left: 50%;
     height: 64vh;
-    margin: 16px 0;
     padding: 16px;
     border-radius: var(--st-border-radius);
     background-color: rgb(var(--st-color-1));
-    transform: translate(-50%, -50%);
-    transition: unset;
+    transform: unset;
+    inset: 0;
+    margin: auto;
 }
 
 
