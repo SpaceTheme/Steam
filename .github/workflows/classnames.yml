@@ -1,0 +1,25 @@
+name: Update Steam class names
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/classnames.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/classnames.py apply > "$RUNNER_TEMP/body.md"
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/classnames
+          delete-branch: true
+          title: Update Steam class names
+          commit-message: 'fix: update Steam class names'
+          body-path: ${{ runner.temp }}/body.md

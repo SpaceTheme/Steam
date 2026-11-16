@@ -20,6 +20,17 @@
 }
 
 
+/*
+& Gamecard download and copies pill
+*/
+.WYgDg9NyCcMIVuMyZ_NBC ._2GRcKrPZsMSF6glMPRMZei ._8YrRmy_c6O0FCxFT8gjqo,
+.WYgDg9NyCcMIVuMyZ_NBC ._2GRcKrPZsMSF6glMPRMZei ._3zxPLsbnU5LuorR0_EPCEC {
+    background-color: rgba(var(--st-color-1)) !important;
+    backdrop-filter: blur(4px) !important;
+}
+
+
+
 
 /*
 & Collection cards
@@ -44,4 +55,44 @@
 */
 #st-loading-div {
     background-color: rgba(10,10,10) !important;
+}
+
+
+/*
+& Library Dropdown
+*/
+body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
+    backdrop-filter: blur(4px) !important;
+}
+
+
+/*
+& Library shelf Dropdown
+*/
+.DesktopUI .DialogMenuPosition.visible:has(> ._DialogInputContainer) {
+    backdrop-filter: blur(4px) !important;
+}
+html .DesktopUI .DialogMenuPosition.visible ._DialogInputContainer ._2oAiZidGyUxL-hfupFDQ2m {
+    color: #fff !important;
+}
+
+
+
+/*
+& Library home game card hover game info
+*/
+._2_lmTz0tA4NOSle5WaO1PZ ._2sGn0cBsD44TjnUIh-lx9d {
+    backdrop-filter: blur(4px) !important;
+}
+._2_lmTz0tA4NOSle5WaO1PZ ._2sGn0cBsD44TjnUIh-lx9d ._1VGPO4xU5sgRK6DFt4t74O {
+    color: #fff !important;
+}
+
+
+
+/*
+& Millennium popup
+*/
+body .MillenniumDesktopSidebar {
+    backdrop-filter: blur(4px) !important;
 }

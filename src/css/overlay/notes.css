@@ -1,0 +1,26 @@
+.st-overlay-GameNotes .C9tvuqqEXGcrkcAtHrQ_R {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available !important;
+    margin: 0 12px;
+    padding: 12px !important;
+    border-radius: var(--st-border-radius);
+    background: unset;
+    background-color: rgb(var(--st-color-3));
+}
+
+.st-overlay-GameNotes ._3Sf_ShCtdfWp5P04k2cIgp {
+    margin: 30px 0 0;
+}
+
+
+/*
+& Title bar
+*/
+.st-overlay-GameNotes ._2rjVTGz8aLvqOdz5v2gq5C {
+    top: -30px;
+    font-size: 14px !important;
+    line-height: unset;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+}

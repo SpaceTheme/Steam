@@ -8,7 +8,8 @@ button span,
 .btn_small span,
 [class^="btn_"],
 [class^="btn_"] span,
-[role=button] {
+[role=button],
+.D8IENuW8Q7w- {
     border-radius: var(--st-border-radius) !important;
 }
 
@@ -19,7 +20,9 @@ body button.DialogButton {
 
 
 
-.btn_medium > span, input.btn_medium {
+.btn_medium > span,
+input.btn_medium,
+.D8IENuW8Q7w- {
     padding: 0 12px !important;
     font-size: 14px !important;
     font-weight: 600 !important;
@@ -67,4 +70,53 @@ body button.DialogButton {
 .btn_blue_steamui span {
     background: unset !important;
     background-color: unset !important;
+}
+
+
+
+
+/*
+& Buttons
+*/
+.D8IENuW8Q7w-:where(.ob-nIzzquk8-) {
+    color: #fff !important;
+}
+
+
+/*
+! Gray/Normal/Secondary
+*/
+:root [data-accent-color=dull] {
+    --color-accent-8: rgb(var(--st-color-4));
+    --color-accent-10: rgb(var(--st-color-4), .8);
+}
+:root:has(.BvATwcUCrt0->div[data-accent-color=dull]) {
+    --color-accent-8: rgb(var(--st-color-4));
+    --color-accent-10: rgb(var(--st-color-4), .8);
+}
+
+
+/*
+! Blue
+*/
+:root [data-accent-color=blue] {
+    --color-accent-8: rgb(var(--st-blue));
+    --color-accent-10: rgb(var(--st-blue-hover));
+}
+:root:has(.BvATwcUCrt0->div[data-accent-color=blue]) {
+    --color-accent-8: rgb(var(--st-blue));
+    --color-accent-10: rgb(var(--st-blue-hover));
+}
+
+
+/*
+! Green
+*/
+:root [data-accent-color=green] {
+    --color-accent-8: rgb(var(--st-green));
+    --color-accent-10: rgb(var(--st-green-hover));
+}
+:root:has(.BvATwcUCrt0->div[data-accent-color=green]) {
+    --color-accent-8: rgb(var(--st-green));
+    --color-accent-10: rgb(var(--st-green-hover));
 }

@@ -15,3 +15,16 @@
 .appPage.svelte-1dpbpco {
     margin: 0 !important;
 }
+
+
+/*
+& Price comparison
+*/
+.es_regional--always.svelte-3g3bhh {
+    float: left;
+    margin-top: 6px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: unset;
+    background-color: rgb(var(--st-color-1));
+}

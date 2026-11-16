@@ -1,7 +1,7 @@
 <div align="center">
 <h3><img height="76px" src="https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/logo.webp"></h3>
 
-[Community](https://discord.spacetheme.net) | [Support the Poject](https://kofi.spacetheme.net) | [Website](https://spacetheme.net)
+[Community](https://discord.spacetheme.net) | [Support the Project](https://kofi.spacetheme.net) | [Website](https://spacetheme.net)
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/SpaceTheme?style=for-the-badge&logo=github&labelColor=%23111111&color=%231e1e1e)
 <hr>
@@ -9,19 +9,27 @@
 
 ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp)
 <details>
-    <summary>More images (10. Nov. 2025)</summary>
+    <summary>More images (1. Nov. 2026)</summary>
 
 |  Library home  |  Library gamepage  |
 |  :---:  |  :---:  |
 |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libHome.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libGamepage.webp)  |
+|  **Library Game News**  |  **Library Soundtrack**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libGameNews.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libSoundtrack.webp)  |
 |  **Store**  |  **Store Gamepage**  |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storePage.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeGamepage.webp)  |
-|  **Store Wishlist**  |  **Store Cart**  |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeWishlist.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeCart.webp)  |
-|  **Store News**  |  **Community**  |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeNews.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/communityPage.webp)  |
-|  **Friend list & Chat**  |    |
-|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/friendAndChat.webp)  |    |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeHome.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeGamepage.webp)  |
+|  **Store Search**  |  **Store Cart**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeSearchPage.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeCart.webp)  |
+|  **Licenses & Key Activations**  |  **Downloads**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/licenseAndKeyActivations.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/download.webp)  |
+|  **Community Awards**  |  **Community Badges**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/communityAwards.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/communityBadges.webp)  |
+|  **Community Friends Who Played**  |  **Friend list & Chat**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/communityFriendsWhoPlayed.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/firendsAndChat.webp)  |
+|  **Friends Chat**  |  **Game Overlay**  |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/friendsChat.webp)  |  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/overlayHome.webp)  |
+|  **Millennium Settings**  |    |
+|  ![Preview](https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/millenniumSettings.webp)  |    |
 </details>
 <details>
     <summary>More images (Concepts)</summary>
@@ -34,7 +42,7 @@
 </details>
 
 ## Installation
-1. Download [Millennium](https://docs.steambrew.app/users/installing) and follow the provided instructions to install the patcher.
+1. Download [Millennium](https://docs.steambrew.app/users/getting-started/installation) and follow the provided instructions to install the patcher.
 1. Open the [Theme Page](https://steambrew.app/theme?id=zQndv1rI0FXLh3QTRgOL) and click the Copy Theme ID button.
 1. Navigate to the Theme tab in the Millennium settings and select "Install Theme" and paste the Theme ID.
 
@@ -47,127 +55,3 @@
 ## Fully supported plugins
 - [HLTB for Steam](https://steambrew.app/plugin?id=f685622bace6)
 - [Size on Disk](https://steambrew.app/plugin?id=e73371b61eef)
-
-## Roadmap
-<details>
-  <summary>Store</summary>
-  
-  - [ ] Home
-  - [ ] (WIP) Navbar
-  - [ ] Discovery
-  - [ ] (WIP) Pointshop
-  - [ ] Charts
-  - [ ] (WIP) Gamepage
-  - [ ] Bundle info
-  - [ ] Hardware page
-  - [ ] The Steam Awards page
-  - [ ] Steam Replay page
-  - [ ] Steam Labs page
-  - [ ] Tags page
-  - [ ] Community recommends page
-  - [ ] Interactive recommender page
-  - [ ] Among friends page
-  - [ ] Steam curators page
-  - [ ] Gift cards page
-  - [x] Cart
-  - [ ] Wishlist rework
-  - [ ] (WIP) Checkout
-  - [ ] Categories page
-  - [ ] Personal calendar
-  - [x] Search result list page
-  - [ ] Settings
-</details>
-<details>
-  <summary>Library</summary>
-
-  - [ ] (WIP) Collection page
-  - [ ] Gamepage rework
-</details>
-<details>
-  <summary>Community</summary>
-
-  - [ ] Home
-  - [ ] Gamepage
-    - [ ] Screenshots
-    - [ ] Artworks
-    - [ ] Guides
-    - [ ] News
-    - [ ] Reviews
-    - [ ] Videos
-    - [ ] Workshop
-      - [ ] Item page
-  - [ ] Discussions
-  - [ ] Workshop
-  - [ ] Market
-    - [ ] Home
-    - [ ] Item page
-  - [ ] Broadcast
-</details>
-<details>
-  <summary>User</summary>
-
-  - [ ] Profile
-  - [ ] Activity
-  - [ ] Friends
-  - [ ] Content (User's screenshots/artworks/videos/...)
-  - [x] Awards 
-  - [ ] (WIP) Badges
-  - [ ] Inventory
-  - [ ] Booster Pack Creator
-</details>
-<details>
-  <summary>Friends & Chat</summary>
-
-  - [x] Compact mode support
-  - [ ] Chat
-  - [ ] Group chat
-</details>
-<details>
-  <summary>Big Picture Mode</summary>
-
-  - [ ] Home
-  - [ ] Sidebar
-  - [ ] Gamepage
-  - [ ] Library
-  - [ ] Store
-  - [ ] Friends & Chat
-  - [ ] Media
-  - [ ] Downloads
-  - [ ] Settings
-</details>
-<details>
-  <summary>Overlay</summary>
-  
-  - [ ] Game Overview
-  - [ ] Achievements
-  - [ ] Notes
-  - [ ] Clock
-  - [ ] Guides
-  - [ ] Discussions
-  - [ ] Recordings & Screenshots
-  - [ ] Browser
-  - [ ] Controller Settings
-</details>
-<details>
-  <summary>Other</summary>
-
-  - [ ] (WIP) Notifications
-  - [ ] (WIP) Steam Settings
-  - [ ] (WIP) Inputs
-    - [ ] (WIP) Button
-    - [ ] Dropdown
-    - [ ] Search
-    - [ ] (WIP) Color
-    - [x] Emoji picker
-    - [ ] Checkbox
-      - [x] Checkbox Switch
-    - [ ] (WIP) Radio
-    - [x] Radiogroup
-    - [ ] (WIP) Range
-  - [ ] Recordings & Screenshots
-  - [x] Special Offers
-  - [ ] Game server window
-  - [ ] Players window
-  - [ ] Add non-steam game window
-  - [x] About Steam window
-</details>

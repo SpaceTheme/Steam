@@ -28,7 +28,13 @@ export const tryPromise = cb => {
     return Promise.resolve().then(cb);
 };
 
-export const createContainerTracker = (selector, { onCleanup, onSetup, onUpdate } = {}) => {
+export const getFiber = el => {
+    if (!el) return null;
+    const key = Object.keys(el).find(k => k.startsWith('__reactFiber'));
+    return key ? el[key] : null;
+};
+
+export const createContainerTracker =(selector, { onCleanup, onSetup, onUpdate } = {}) => {
     let container = null;
 
     const rebind = async () => {
@@ -54,4 +60,35 @@ export const createContainerTracker = (selector, { onCleanup, onSetup, onUpdate 
         getContainer: () => container,
         setContainer: (newContainer) => { container = newContainer; },
     };
+};
+
+export const CssClassNames = {
+    HtmlRoot: '.Rp8QOGJ2DypeDniMnRBhr',
+    WebkitRoot: '._1rDh5rXSFZJOqCa4UpnI4z',
+    MainBody: '.RGNMWtyj73_-WdhflrmuY',
+    RightPanel: '._3BFcmjAaMyP6GTPwc0VyWi',
+    Library: {
+        Body: '._9sPoVBFyE_vE87mnZJ5aB',
+        Container: '._3x1HklzyDs4TEjACrRO2tB',
+        Divider: '._276E6ijBpjMA2_iTxNhhjc',
+        Games: {
+            Container: '._1ijTaXJJA5YWl_fW2IxcaT',
+            Game: '._2-O4ZG0KrnSrzISHBKctFQ',
+            Separator: '._2RggXvVkWMDvvxFegjtKso',
+            Name: '._2SXJM0PeFEi3gbC7V3S5pE',
+        }
+    },
+    UserPanel: {
+        Container: '._3cykd-VfN_xBxf3Qxriccm',
+        Button: '._2Szzh5sKyGgnLUR870zbDE',
+        FriendButton: '._1TdaAqMFadi0UTqilrkelR',
+        FamilyButton: '._13vrqU6oOqmmxrsZSW5O39',
+    },
+    DownloadBar: '._1_yS5UP7el0aN4vntx3dx',
+    Overlay: {
+        Clock: '.vCykYvbW9JAoUuOZK3L8M',
+        Sidebar: '.fbu3l7kPiBeb3EKCjIb8n',
+        ActiveButton: '._1BXjK5v8XI_SEhGola5ftn',
+        PinnedButton: '._3EcEdRFCaMHk3xQ16qirtm._1dJ6yrpvLYTTBOt2IhFPua',
+    },
 };
